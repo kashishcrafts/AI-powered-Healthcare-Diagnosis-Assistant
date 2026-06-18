@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { TrendingUp, TrendingDown, Activity, Users, TriangleAlert as AlertTriangle, Brain, Download, Calendar, Clock, ListFilter as Filter, RefreshCw, ChartBar as BarChart3, ChartPie as PieChartIcon, ChartLine as LineChart, Zap, Shield, Database, Server } from "lucide-react";
+import { TrendingUp, TrendingDown, Activity, Users, TriangleAlert as AlertTriangle, Brain, Download, Calendar, Clock, RefreshCw, ChartBar as BarChart3, Zap, Shield, Database, Server } from "lucide-react";
 import api from "../services/api";
 import RiskChart from "../components/RiskChart";
 import DiseaseChart from "../components/DiseaseChart";

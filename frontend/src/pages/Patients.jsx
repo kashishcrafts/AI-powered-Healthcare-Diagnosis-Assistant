@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { Users, Search, ListFilter as Filter, ChevronRight, TriangleAlert as AlertTriangle, Activity, Download, Plus, ListSortAscending as SortAsc, ListSortDescending as SortDesc, LayoutGrid, List, RefreshCw } from "lucide-react";
+import { Users, Search, ListFilter as Filter, ChevronRight, TriangleAlert as AlertTriangle, Activity, Download, Plus, ArrowUpDown, LayoutGrid, List, RefreshCw } from "lucide-react";
 import api from "../services/api";
 import { cn, getRiskColor } from "../lib/utils";
 
@@ -242,7 +242,7 @@ function Patients() {
                     <div className="flex items-center gap-2">
                       Condition
                       {sortField === "disease" && (
-                        sortDirection === "asc" ? <SortAsc className="w-3 h-3" /> : <SortDesc className="w-3 h-3" />
+                        sortDirection === "asc" ? <ArrowUpDown className="w-3 h-3" /> : <ArrowUpDown className="w-3 h-3" />
                       )}
                     </div>
                   </th>
@@ -253,7 +253,7 @@ function Patients() {
                     <div className="flex items-center gap-2">
                       Risk Score
                       {sortField === "risk_score" && (
-                        sortDirection === "asc" ? <SortAsc className="w-3 h-3" /> : <SortDesc className="w-3 h-3" />
+                        sortDirection === "asc" ? <ArrowUpDown className="w-3 h-3" /> : <ArrowUpDown className="w-3 h-3" />
                       )}
                     </div>
                   </th>

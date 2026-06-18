@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { Calendar, Clock, User, Plus, Search, ChevronRight, Video, MapPin, Phone, CircleCheck as CheckCircle, Circle as XCircle, CircleAlert as AlertCircle, ListFilter as Filter, RefreshCw } from "lucide-react";
+import { Calendar, Clock, User, Plus, Search, ChevronRight, Video, MapPin, Phone, CircleCheck as CheckCircle, Circle as XCircle, CircleAlert as AlertCircle, RefreshCw } from "lucide-react";
 import api from "../services/api";
 import { cn } from "../lib/utils";
 

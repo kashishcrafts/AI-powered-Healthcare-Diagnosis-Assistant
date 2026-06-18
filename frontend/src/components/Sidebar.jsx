@@ -1,22 +1,6 @@
 import { useState, useEffect } from "react";
 import { NavLink, useLocation } from "react-router-dom";
-import {
-  LayoutDashboard,
-  Users,
-  Brain,
-  Calendar,
-  ChartBar,
-  Shield,
-  LogOut,
-  ChevronLeft,
-  ChevronRight,
-  HeartPulse,
-  FileText,
-  Settings,
-  Bell,
-  Activity,
-  Search
-} from "lucide-react";
+import { LayoutDashboard, Users, Brain, Calendar, ChartBar as BarChart3, Shield, LogOut, ChevronLeft, ChevronRight, HeartPulse, FileText, Settings, Bell, Activity, Search } from "lucide-react";
 import { cn } from "../lib/utils";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -24,7 +8,7 @@ const navItems = [
   { path: "/", label: "Dashboard", icon: LayoutDashboard, roles: ["admin", "doctor"], description: "Overview & Analytics" },
   { path: "/patients", label: "Patients", icon: Users, roles: ["admin", "doctor"], description: "Patient Management" },
   { path: "/ai-chat", label: "AI Assistant", icon: Brain, roles: ["admin", "doctor"], description: "AI Diagnosis Support" },
-  { path: "/analytics", label: "Analytics", icon: ChartBar, roles: ["admin"], description: "Advanced Analytics" },
+  { path: "/analytics", label: "Analytics", icon: BarChart3, roles: ["admin"], description: "Advanced Analytics" },
   { path: "/appointments", label: "Appointments", icon: Calendar, roles: ["doctor"], description: "Schedule Management" },
 ];
 
