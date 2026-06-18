@@ -1,0 +1,1001 @@
+patient_id,name,age,gender,height_cm,weight_kg,blood_group,symptom,condition,hemoglobin,blood_sugar,cholesterol,wbc_count,creatinine,systolic_bp,diastolic_bp,disease,height_m,BMI,BMI_Category,BloodSugar_Category,BP_Category,Risk_Score,Risk_Level
+1,Olivia Yu,88,Female,166,74,O-,"Dizziness, Chest Pain, Fever, Fatigue","Diabetes, Thyroid Disorder",16.2,285,194,9021,2.91,119,93,Diabetes,1.66,26.85,Overweight,Diabetes Risk,Normal,6,High Risk
+2,Jessica Becker,54,Female,179,49,O-,"Cough, Shortness of Breath, Body Pain","Asthma, Thyroid Disorder",13.0,245,227,9713,3.42,103,115,Diabetes,1.79,15.29,Underweight,Diabetes Risk,Normal,6,High Risk
+3,Eric Townsend,67,Male,183,91,A+,"Cough, Fever, Fatigue, Vomiting, Headache","nan, Liver Disease, Hypertension",13.4,278,180,4267,3.29,165,113,Diabetes,1.83,27.17,Overweight,Diabetes Risk,High Risk,9,Critical Risk
+4,Lisa Griffith,50,Male,186,103,O-,"Fever, Cough, Vomiting","Thyroid Disorder, Kidney Disease, nan",17.1,274,221,11966,3.26,99,108,Diabetes,1.86,29.77,Overweight,Diabetes Risk,Normal,6,High Risk
+5,Elizabeth Burke,33,Female,144,90,AB-,"Fatigue, Fever, Nausea, Body Pain, Vomiting","Diabetes, Liver Disease, Kidney Disease",13.4,109,270,13595,0.93,127,73,Healthy,1.44,43.4,Obese,Prediabetes,Elevated,2,Low Risk
+6,Martin Ferrell,68,Male,181,115,O-,"Dizziness, Nausea, Chest Pain, Fever",Hypertension,10.0,98,197,10944,2.07,121,94,Kidney Disease,1.81,35.1,Obese,Normal,Elevated,5,Medium Risk
+7,Courtney Ford,26,Male,142,118,B-,"Fatigue, Body Pain, Vomiting, Headache","Heart Disease, Kidney Disease",11.6,279,141,8127,0.71,159,116,Diabetes,1.42,58.52,Obese,Diabetes Risk,High Risk,7,High Risk
+8,Mark Rodriguez,77,Female,165,117,AB-,"Nausea, Fatigue, Dizziness, Headache","Liver Disease, Diabetes, nan",12.0,104,131,5142,2.28,90,113,Kidney Disease,1.65,42.98,Obese,Prediabetes,Normal,5,Medium Risk
+9,Mark Jones,1,Female,154,98,B+,"Vomiting, Dizziness","Thyroid Disorder, Kidney Disease",10.4,151,316,13344,2.24,156,101,Hypertension,1.54,41.32,Obese,Diabetes Risk,High Risk,9,Critical Risk
+10,Hannah Cruz,59,Male,168,94,AB+,"Body Pain, Cough, Vomiting","nan, Kidney Disease, Diabetes",9.6,231,215,5036,1.55,98,96,Diabetes,1.68,33.3,Obese,Diabetes Risk,Normal,7,High Risk
+11,Barbara Weiss,67,Female,166,104,O-,"Dizziness, Nausea, Fever",Kidney Disease,17.6,130,131,7729,1.37,163,92,Hypertension,1.66,37.74,Obese,Diabetes Risk,High Risk,7,High Risk
+12,Margaret Trujillo,43,Male,144,51,A-,"Body Pain, Fever, Dizziness",Thyroid Disorder,14.3,117,198,11490,0.96,115,62,Healthy,1.44,24.59,Normal,Prediabetes,Normal,0,Low Risk
+13,Ann Thompson,53,Male,169,112,O-,Vomiting,"Hypertension, Diabetes",13.6,300,257,7586,1.81,143,118,Diabetes,1.69,39.21,Obese,Diabetes Risk,High Risk,7,High Risk
+14,Yvette Bryan,83,Female,182,114,A+,"Dizziness, Body Pain, Chest Pain, Vomiting, Shortness of Breath","Thyroid Disorder, Asthma",14.4,130,204,12756,2.94,116,99,Kidney Disease,1.82,34.42,Obese,Diabetes Risk,Normal,7,High Risk
+15,Roger Stewart,12,Male,179,106,AB-,"Dizziness, Chest Pain, Shortness of Breath, Fever, Fatigue","Liver Disease, nan",11.3,102,348,4429,2.93,144,110,Hypertension,1.79,33.08,Obese,Prediabetes,High Risk,7,High Risk
+16,Dillon Yates,87,Female,141,80,O+,"Body Pain, Fatigue, Headache, Chest Pain, Fever","Heart Disease, Hypertension",9.5,86,251,8879,1.09,119,70,Anemia,1.41,40.24,Obese,Normal,Normal,4,Medium Risk
+17,Sandra Cook,25,Female,167,94,A-,"Dizziness, Headache","nan, Diabetes",9.4,284,128,4178,1.99,117,69,Diabetes,1.67,33.71,Obese,Diabetes Risk,Normal,7,High Risk
+18,Jason Barton,76,Female,171,109,O-,"Fever, Vomiting, Body Pain, Nausea, Chest Pain","Heart Disease, Liver Disease",14.1,180,337,4092,1.22,166,92,Hypertension,1.71,37.28,Obese,Diabetes Risk,High Risk,7,High Risk
+19,Lisa Jones,18,Female,173,78,A+,"Headache, Shortness of Breath, Cough","Asthma, Liver Disease",14.8,282,233,9382,3.34,141,88,Diabetes,1.73,26.06,Overweight,Diabetes Risk,High Risk,8,High Risk
+20,Brian Evans,42,Female,162,100,A-,Dizziness,"nan, Kidney Disease, Hypertension",11.6,137,209,8418,1.38,145,86,Hypertension,1.62,38.1,Obese,Diabetes Risk,High Risk,6,High Risk
+21,Robin Miller,4,Male,188,70,B+,"Fatigue, Chest Pain, Nausea, Vomiting","Thyroid Disorder, Heart Disease",14.5,243,149,14781,2.6,113,72,Diabetes,1.88,19.81,Normal,Diabetes Risk,Normal,6,High Risk
+22,Michael King,26,Female,144,79,B-,"Nausea, Fatigue","Heart Disease, nan, Hypertension",12.5,262,324,8030,1.93,95,92,Diabetes,1.44,38.1,Obese,Diabetes Risk,Normal,5,Medium Risk
+23,Trevor Walker,70,Male,176,120,A+,"Fatigue, Cough, Body Pain, Chest Pain","Thyroid Disorder, Diabetes",17.4,189,349,7862,2.48,153,87,Diabetes,1.76,38.74,Obese,Diabetes Risk,High Risk,9,Critical Risk
+24,Michael Torres,14,Male,188,67,B-,"Nausea, Fever",Hypertension,8.1,244,143,5583,2.81,160,120,Diabetes,1.88,18.96,Normal,Diabetes Risk,High Risk,10,Critical Risk
+25,Jennifer Hampton,69,Female,177,49,O+,"Cough, Fatigue, Vomiting, Headache, Chest Pain","nan, Liver Disease",11.0,208,275,8724,3.32,100,80,Diabetes,1.77,15.64,Underweight,Diabetes Risk,Normal,6,High Risk
+26,April Owens,1,Female,149,99,A+,"Chest Pain, Cough, Shortness of Breath","Asthma, Hypertension",10.2,221,163,7938,2.91,109,85,Diabetes,1.49,44.59,Obese,Diabetes Risk,Normal,8,High Risk
+27,Corey Norris,69,Male,142,115,AB-,"Shortness of Breath, Chest Pain, Cough, Fever, Body Pain",Thyroid Disorder,16.3,192,130,12901,0.66,114,86,Diabetes,1.42,57.03,Obese,Diabetes Risk,Normal,4,Medium Risk
+28,Kenneth Kane,45,Male,150,94,AB-,"Chest Pain, Cough, Vomiting, Headache","Diabetes, Hypertension, Liver Disease",14.4,209,290,11619,2.68,104,84,Diabetes,1.5,41.78,Obese,Diabetes Risk,Normal,8,High Risk
+29,Tina Watts,88,Male,159,60,B-,"Vomiting, Shortness of Breath, Nausea, Dizziness",,14.9,101,312,10182,2.5,126,111,Kidney Disease,1.59,23.73,Normal,Prediabetes,Elevated,3,Medium Risk
+30,Brittany Ayala,66,Male,186,67,O+,"Dizziness, Vomiting, Headache, Shortness of Breath",Heart Disease,13.0,227,153,5519,1.53,150,107,Diabetes,1.86,19.37,Normal,Diabetes Risk,High Risk,5,Medium Risk
+31,Mrs. Brandy Hernandez,59,Female,177,45,B-,"Fatigue, Body Pain, Cough, Shortness of Breath, Chest Pain",Hypertension,13.1,196,200,9479,2.04,146,100,Diabetes,1.77,14.36,Underweight,Diabetes Risk,High Risk,7,High Risk
+32,Jose Welch,23,Male,166,96,B-,Vomiting,"Liver Disease, nan, Heart Disease",17.8,182,189,11207,0.86,116,66,Diabetes,1.66,34.84,Obese,Diabetes Risk,Normal,4,Medium Risk
+33,Jessica Yates,3,Female,155,48,A-,"Cough, Nausea, Shortness of Breath, Body Pain",Thyroid Disorder,11.2,87,161,5690,2.21,104,64,Kidney Disease,1.55,19.98,Normal,Normal,Normal,3,Medium Risk
+34,Jonathan Contreras,11,Male,158,50,A+,"Fatigue, Headache",Diabetes,16.7,246,320,14592,1.18,128,93,Diabetes,1.58,20.03,Normal,Diabetes Risk,Elevated,3,Medium Risk
+35,Kimberly Miller,14,Male,184,91,A+,"Dizziness, Nausea, Body Pain, Chest Pain",Diabetes,15.6,261,131,5731,1.56,101,77,Diabetes,1.84,26.88,Overweight,Diabetes Risk,Normal,3,Medium Risk
+36,Christine Stokes,20,Female,171,63,AB-,Dizziness,"nan, Asthma, Thyroid Disorder",9.9,111,161,13407,1.72,100,65,Anemia,1.71,21.55,Normal,Prediabetes,Normal,2,Low Risk
+37,Linda Martinez,45,Female,175,43,O-,"Body Pain, Fatigue",Liver Disease,14.1,243,198,14190,1.47,156,102,Diabetes,1.75,14.04,Underweight,Diabetes Risk,High Risk,5,Medium Risk
+38,Terry Ortega,57,Male,168,89,B-,"Vomiting, Fatigue",Diabetes,12.7,206,334,12351,1.05,114,103,Diabetes,1.68,31.53,Obese,Diabetes Risk,Normal,5,Medium Risk
+39,Wayne Fleming,78,Female,171,113,A+,"Shortness of Breath, Chest Pain, Fever",Diabetes,9.4,219,276,5214,3.15,103,111,Diabetes,1.71,38.64,Obese,Diabetes Risk,Normal,10,Critical Risk
+40,Mr. Christopher Davis,87,Male,177,79,O-,"Body Pain, Headache, Cough, Fatigue, Nausea","nan, Thyroid Disorder, Diabetes",12.1,285,212,10467,2.53,97,72,Diabetes,1.77,25.22,Overweight,Diabetes Risk,Normal,6,High Risk
+41,Cynthia Wiley,58,Female,166,71,A-,"Fatigue, Fever, Cough",Hypertension,11.7,221,306,11419,2.39,159,66,Diabetes,1.66,25.77,Overweight,Diabetes Risk,High Risk,8,High Risk
+42,Isabella Smith,83,Male,142,101,O+,"Dizziness, Chest Pain, Body Pain, Nausea, Headache",,15.6,149,182,10148,2.22,146,98,Hypertension,1.42,50.09,Obese,Diabetes Risk,High Risk,9,Critical Risk
+43,Danielle Moore,88,Male,177,75,O+,"Body Pain, Vomiting, Chest Pain, Fatigue","Liver Disease, Diabetes",17.3,125,327,12468,1.62,148,82,Hypertension,1.77,23.94,Normal,Prediabetes,High Risk,2,Low Risk
+44,Jeremy Wiley,65,Female,176,44,B+,"Fever, Shortness of Breath, Vomiting, Dizziness, Body Pain",Liver Disease,10.1,240,214,14056,2.64,107,63,Diabetes,1.76,14.2,Underweight,Diabetes Risk,Normal,6,High Risk
+45,Jackson Coleman,56,Female,141,89,AB-,Body Pain,"Heart Disease, nan",9.2,86,172,11830,0.61,146,74,Hypertension,1.41,44.77,Obese,Normal,High Risk,6,High Risk
+46,Eric Howard,72,Male,155,116,AB+,"Headache, Shortness of Breath, Fever, Nausea",Hypertension,17.8,162,317,13003,3.25,92,102,Kidney Disease,1.55,48.28,Obese,Diabetes Risk,Normal,7,High Risk
+47,Randy Johnson,76,Male,163,111,B+,Nausea,"Thyroid Disorder, Hypertension",12.1,134,174,13277,2.94,147,79,Hypertension,1.63,41.78,Obese,Diabetes Risk,High Risk,9,Critical Risk
+48,Jay Wright,7,Female,163,59,B-,"Nausea, Chest Pain",Kidney Disease,14.0,278,166,10868,0.59,140,63,Diabetes,1.63,22.21,Normal,Diabetes Risk,High Risk,3,Medium Risk
+49,Anthony James,52,Female,187,77,AB-,Cough,Heart Disease,12.1,217,217,8228,1.73,164,65,Diabetes,1.87,22.02,Normal,Diabetes Risk,High Risk,6,High Risk
+50,James Snyder,64,Female,170,106,B-,"Vomiting, Body Pain, Fatigue, Headache","Thyroid Disorder, Asthma",13.8,258,187,4106,2.1,145,75,Diabetes,1.7,36.68,Obese,Diabetes Risk,High Risk,10,Critical Risk
+51,Eileen Allen,67,Male,161,88,B+,"Cough, Fever, Chest Pain, Headache","nan, Kidney Disease, Heart Disease",17.7,237,172,13077,1.1,142,118,Diabetes,1.61,33.95,Obese,Diabetes Risk,High Risk,7,High Risk
+52,Susan Kim,18,Male,160,46,AB-,"Dizziness, Fatigue","Asthma, Diabetes",15.8,145,345,12248,2.55,146,74,Hypertension,1.6,17.97,Underweight,Diabetes Risk,High Risk,7,High Risk
+53,Jocelyn Grant,53,Male,188,110,O+,"Chest Pain, Shortness of Breath, Fatigue, Vomiting","Hypertension, nan, Thyroid Disorder",10.3,77,206,14722,0.51,112,95,Healthy,1.88,31.12,Obese,Normal,Normal,2,Low Risk
+54,Stephanie Torres,31,Female,169,74,A-,"Shortness of Breath, Cough, Fatigue",Heart Disease,9.3,283,329,6672,1.11,95,110,Diabetes,1.69,25.91,Overweight,Diabetes Risk,Normal,5,Medium Risk
+55,April Bruce,3,Female,169,68,O-,"Shortness of Breath, Fatigue, Headache, Nausea, Body Pain","Kidney Disease, Diabetes, Hypertension",9.8,137,257,14006,1.03,150,117,Hypertension,1.69,23.81,Normal,Diabetes Risk,High Risk,6,High Risk
+56,Michael Blevins,74,Male,157,92,B+,"Vomiting, Fatigue, Chest Pain, Nausea","Liver Disease, Hypertension, Thyroid Disorder",8.7,264,135,5951,2.82,129,83,Diabetes,1.57,37.32,Obese,Diabetes Risk,Elevated,10,Critical Risk
+57,Tonya Melendez,29,Female,185,40,O+,Shortness of Breath,Kidney Disease,11.6,145,224,6253,1.33,107,76,Healthy,1.85,11.69,Underweight,Diabetes Risk,Normal,2,Low Risk
+58,David Rasmussen,78,Male,158,85,O-,"Body Pain, Vomiting, Headache, Nausea, Chest Pain","nan, Liver Disease, Hypertension",12.6,262,151,11746,3.36,157,69,Diabetes,1.58,34.05,Obese,Diabetes Risk,High Risk,10,Critical Risk
+59,Lisa Horton,52,Male,158,53,B+,Shortness of Breath,"Diabetes, Kidney Disease",10.8,233,255,8728,0.84,134,90,Diabetes,1.58,21.23,Normal,Diabetes Risk,Elevated,3,Medium Risk
+60,Laura Proctor,77,Female,168,50,AB+,"Vomiting, Fatigue","Liver Disease, Kidney Disease, nan",10.6,103,157,6231,2.82,180,101,Hypertension,1.68,17.72,Underweight,Prediabetes,High Risk,6,High Risk
+61,Mitchell Taylor,61,Male,187,72,B+,Dizziness,"Hypertension, Liver Disease, Heart Disease",17.8,195,248,10810,2.77,170,78,Diabetes,1.87,20.59,Normal,Diabetes Risk,High Risk,8,High Risk
+62,John Becker,82,Female,149,116,O+,Fatigue,,15.2,300,289,12978,2.37,128,92,Diabetes,1.49,52.25,Obese,Diabetes Risk,Elevated,8,High Risk
+63,William Willis,56,Male,159,55,A-,"Nausea, Headache, Body Pain","Asthma, Diabetes, nan",16.7,243,334,7941,0.79,116,76,Diabetes,1.59,21.76,Normal,Diabetes Risk,Normal,3,Medium Risk
+64,Melissa Wiley,56,Female,181,89,O-,"Chest Pain, Fever","Asthma, Diabetes, Kidney Disease",8.7,262,129,5738,1.48,111,90,Diabetes,1.81,27.17,Overweight,Diabetes Risk,Normal,5,Medium Risk
+65,Brad Bennett,57,Female,175,107,AB+,"Cough, Vomiting, Fever, Headache, Shortness of Breath","Diabetes, Hypertension",9.5,132,133,10146,2.07,159,69,Hypertension,1.75,34.94,Obese,Diabetes Risk,High Risk,11,Critical Risk
+66,Lisa Robertson DDS,48,Male,144,60,O-,"Cough, Chest Pain","Asthma, Kidney Disease, Liver Disease",10.8,98,152,7051,2.92,147,102,Hypertension,1.44,28.94,Overweight,Normal,High Risk,5,Medium Risk
+67,Gabriel Shaw,71,Female,161,42,O-,"Nausea, Body Pain, Headache","Heart Disease, nan, Kidney Disease",9.4,74,304,6386,1.72,118,78,Anemia,1.61,16.2,Underweight,Normal,Normal,2,Low Risk
+68,Michelle Robbins,68,Female,171,106,A-,"Headache, Fatigue, Vomiting","nan, Asthma",8.3,231,335,14435,3.01,154,70,Diabetes,1.71,36.25,Obese,Diabetes Risk,High Risk,12,Critical Risk
+69,Victor Ferguson,47,Female,142,62,B+,"Body Pain, Headache, Fever, Shortness of Breath, Vomiting","Diabetes, Liver Disease",15.9,223,160,13244,0.63,167,113,Diabetes,1.42,30.75,Obese,Diabetes Risk,High Risk,8,High Risk
+70,Benjamin Anderson,71,Female,176,105,O+,"Vomiting, Chest Pain, Fatigue","Diabetes, Asthma",14.7,222,314,14870,1.43,95,84,Diabetes,1.76,33.9,Obese,Diabetes Risk,Normal,5,Medium Risk
+71,Margaret Thomas,10,Male,143,74,A-,Vomiting,"Heart Disease, Kidney Disease",12.8,87,307,12441,1.63,128,70,Healthy,1.43,36.19,Obese,Normal,Elevated,2,Low Risk
+72,Alyssa Wagner,55,Female,167,96,B-,Fever,Heart Disease,8.3,198,250,12208,0.67,94,86,Diabetes,1.67,34.42,Obese,Diabetes Risk,Normal,6,High Risk
+73,Benjamin Banks,80,Male,171,86,AB+,"Cough, Fever, Body Pain, Shortness of Breath, Headache",Liver Disease,8.9,77,331,14144,1.68,166,115,Hypertension,1.71,29.41,Overweight,Normal,High Risk,5,Medium Risk
+74,Jonathan Gregory,83,Male,148,77,B+,Shortness of Breath,"Thyroid Disorder, nan",12.8,109,200,10117,0.63,131,64,Healthy,1.48,35.15,Obese,Prediabetes,Elevated,2,Low Risk
+75,Gina Abbott,26,Female,174,56,A-,"Chest Pain, Cough, Dizziness, Nausea, Vomiting","Hypertension, Liver Disease",17.8,205,283,8472,1.89,159,102,Diabetes,1.74,18.5,Normal,Diabetes Risk,High Risk,5,Medium Risk
+76,Amber Owens,24,Female,166,95,AB-,"Headache, Shortness of Breath, Chest Pain","Asthma, Liver Disease",10.2,249,260,7741,0.76,179,108,Diabetes,1.66,34.48,Obese,Diabetes Risk,High Risk,8,High Risk
+77,Carrie Hall,37,Female,178,73,O+,Cough,Asthma,13.3,107,340,10161,2.55,171,92,Hypertension,1.78,23.04,Normal,Prediabetes,High Risk,6,High Risk
+78,Jennifer Ball,62,Female,162,83,AB-,"Headache, Vomiting, Chest Pain",Hypertension,12.0,76,181,4793,0.65,136,73,Healthy,1.62,31.63,Obese,Normal,Elevated,2,Low Risk
+79,Paul Martinez,53,Female,169,84,AB+,"Fever, Shortness of Breath, Cough","Thyroid Disorder, nan, Asthma",14.1,73,220,8582,1.27,156,110,Hypertension,1.69,29.41,Overweight,Normal,High Risk,2,Low Risk
+80,Mary Johnson,77,Male,152,108,O-,"Nausea, Shortness of Breath",Hypertension,9.4,171,301,11519,1.28,169,82,Hypertension,1.52,46.75,Obese,Diabetes Risk,High Risk,9,Critical Risk
+81,Kyle Delgado,19,Male,166,95,O+,"Headache, Vomiting, Shortness of Breath, Fatigue, Dizziness",Kidney Disease,12.4,191,138,7333,0.73,101,116,Diabetes,1.66,34.48,Obese,Diabetes Risk,Normal,4,Medium Risk
+82,Jeremy Calhoun,17,Male,151,114,O+,"Cough, Fatigue, Body Pain, Headache, Dizziness",Thyroid Disorder,12.4,287,311,8647,2.73,136,94,Diabetes,1.51,50.0,Obese,Diabetes Risk,Elevated,8,High Risk
+83,Kevin Delgado,74,Male,162,63,AB-,"Headache, Shortness of Breath, Chest Pain, Vomiting","Liver Disease, Diabetes, nan",12.4,157,268,9261,3.44,95,105,Kidney Disease,1.62,24.01,Normal,Diabetes Risk,Normal,5,Medium Risk
+84,Carl Anderson,62,Male,186,48,AB-,"Nausea, Headache, Vomiting, Fever","Heart Disease, nan",9.7,79,181,10566,2.26,138,66,Anemia,1.86,13.87,Underweight,Normal,Elevated,5,Medium Risk
+85,Todd King,60,Male,184,75,B+,"Body Pain, Chest Pain, Dizziness",Kidney Disease,12.4,77,154,8638,2.24,153,86,Hypertension,1.84,22.15,Normal,Normal,High Risk,5,Medium Risk
+86,Lisa Lane,58,Female,152,84,B+,"Body Pain, Fatigue, Fever","Liver Disease, Hypertension",13.9,129,133,9951,2.89,131,82,Kidney Disease,1.52,36.36,Obese,Diabetes Risk,Elevated,7,High Risk
+87,Christopher Montgomery,47,Male,174,76,A+,"Shortness of Breath, Body Pain, Vomiting","Diabetes, Heart Disease",15.7,117,331,6217,2.41,132,98,Kidney Disease,1.74,25.1,Overweight,Prediabetes,Elevated,3,Medium Risk
+88,Rebekah Rose,35,Female,159,79,O-,"Vomiting, Fatigue, Cough","Kidney Disease, Hypertension",14.1,184,193,13279,2.17,149,116,Diabetes,1.59,31.25,Obese,Diabetes Risk,High Risk,9,Critical Risk
+89,Cory Morales,59,Female,152,109,B-,"Cough, Body Pain, Fatigue, Nausea","Hypertension, Thyroid Disorder",8.8,77,217,7047,3.3,124,118,Anemia,1.52,47.18,Obese,Normal,Elevated,7,High Risk
+90,Erica Farrell,1,Female,181,101,A-,"Nausea, Fever, Shortness of Breath, Fatigue","Hypertension, Liver Disease, nan",8.3,178,266,10063,2.8,180,92,Hypertension,1.81,30.83,Obese,Diabetes Risk,High Risk,12,Critical Risk
+91,Angela Forbes,85,Male,143,46,AB-,"Nausea, Chest Pain",Thyroid Disorder,11.6,261,301,12239,2.65,126,107,Diabetes,1.43,22.49,Normal,Diabetes Risk,Elevated,6,High Risk
+92,Morgan Johnson,13,Male,173,92,AB-,Headache,"Liver Disease, Heart Disease",15.1,162,272,10592,2.16,95,76,Kidney Disease,1.73,30.74,Obese,Diabetes Risk,Normal,7,High Risk
+93,Joseph Guzman,45,Male,140,82,AB-,Body Pain,"Heart Disease, Thyroid Disorder",11.2,206,202,8064,0.9,127,85,Diabetes,1.4,41.84,Obese,Diabetes Risk,Elevated,5,Medium Risk
+94,Douglas Moore,19,Male,148,74,B+,Cough,"Thyroid Disorder, nan, Diabetes",16.7,140,149,5389,1.56,123,62,Healthy,1.48,33.78,Obese,Diabetes Risk,Elevated,4,Medium Risk
+95,Carmen Young,23,Male,184,64,B+,Dizziness,"Heart Disease, Diabetes",15.0,164,210,8033,1.23,104,65,Healthy,1.84,18.9,Normal,Diabetes Risk,Normal,2,Low Risk
+96,John Nguyen,88,Male,178,107,AB-,"Headache, Body Pain, Shortness of Breath",Asthma,15.0,156,333,12667,1.94,151,87,Hypertension,1.78,33.77,Obese,Diabetes Risk,High Risk,6,High Risk
+97,Anna Smith,1,Male,171,64,B+,Cough,"Kidney Disease, Thyroid Disorder, nan",14.5,205,208,5725,2.41,120,65,Diabetes,1.71,21.89,Normal,Diabetes Risk,Elevated,6,High Risk
+98,Joan Johnson,70,Male,163,59,A+,"Nausea, Shortness of Breath",Heart Disease,13.2,152,139,13706,0.86,106,110,Healthy,1.63,22.21,Normal,Diabetes Risk,Normal,2,Low Risk
+99,Jon Diaz,75,Male,163,52,A+,"Body Pain, Fever, Cough, Chest Pain, Nausea","Thyroid Disorder, Hypertension, Liver Disease",10.7,208,161,13398,0.67,164,94,Diabetes,1.63,19.57,Normal,Diabetes Risk,High Risk,6,High Risk
+100,Andrew Phillips,10,Female,146,91,AB+,"Fever, Vomiting, Headache, Dizziness, Cough",Diabetes,10.7,267,166,9498,0.91,98,116,Diabetes,1.46,42.69,Obese,Diabetes Risk,Normal,5,Medium Risk
+101,Kevin Wright,67,Female,145,44,AB+,Cough,"Liver Disease, Hypertension",13.7,189,125,4660,3.38,179,119,Diabetes,1.45,20.93,Normal,Diabetes Risk,High Risk,8,High Risk
+102,Sara Hunter,39,Female,148,84,A+,"Shortness of Breath, Cough","nan, Liver Disease, Hypertension",14.3,106,206,7209,0.54,133,103,Healthy,1.48,38.35,Obese,Prediabetes,Elevated,2,Low Risk
+103,Kevin Johnson,23,Male,181,87,O+,"Cough, Fever",Hypertension,12.4,77,216,13126,3.12,102,93,Kidney Disease,1.81,26.56,Overweight,Normal,Normal,3,Medium Risk
+104,Stephanie Tucker,73,Female,147,70,A-,Fever,Kidney Disease,17.9,107,332,11483,2.44,136,98,Kidney Disease,1.47,32.39,Obese,Prediabetes,Elevated,5,Medium Risk
+105,Joseph Hayes,64,Male,167,50,O-,Vomiting,"Kidney Disease, nan",12.3,262,215,5664,2.44,153,95,Diabetes,1.67,17.93,Underweight,Diabetes Risk,High Risk,8,High Risk
+106,Sally Gomez,78,Male,156,114,B-,"Chest Pain, Fever",Thyroid Disorder,9.6,282,220,10961,1.15,169,61,Diabetes,1.56,46.84,Obese,Diabetes Risk,High Risk,10,Critical Risk
+107,Larry Ward,73,Male,148,47,O-,"Nausea, Vomiting, Fever, Fatigue, Headache","Diabetes, Hypertension, Asthma",9.2,93,260,4344,0.66,96,96,Anemia,1.48,21.46,Normal,Normal,Normal,2,Low Risk
+108,Mitchell Diaz,65,Female,181,51,O-,Body Pain,Diabetes,16.2,166,170,10063,1.14,173,70,Hypertension,1.81,15.57,Underweight,Diabetes Risk,High Risk,5,Medium Risk
+109,Stephen Gordon,29,Male,149,102,O+,Nausea,"Liver Disease, Hypertension, Asthma",8.2,184,277,9238,2.73,161,120,Diabetes,1.49,45.94,Obese,Diabetes Risk,High Risk,12,Critical Risk
+110,Zoe Knox,8,Male,178,49,A-,Vomiting,Kidney Disease,15.0,268,230,5985,2.48,106,97,Diabetes,1.78,15.47,Underweight,Diabetes Risk,Normal,6,High Risk
+111,Jessica Suarez,90,Female,178,56,B+,"Cough, Body Pain, Vomiting, Chest Pain","Kidney Disease, Liver Disease, Heart Disease",11.0,163,318,5257,1.39,128,116,Healthy,1.78,17.67,Underweight,Diabetes Risk,Elevated,2,Low Risk
+112,Lisa Norman,4,Female,176,88,B-,"Body Pain, Nausea, Cough","Heart Disease, Thyroid Disorder, Kidney Disease",17.1,211,176,7489,0.89,132,116,Diabetes,1.76,28.41,Overweight,Diabetes Risk,Elevated,3,Medium Risk
+113,Scott Brooks,54,Male,148,68,AB-,Body Pain,"Hypertension, Thyroid Disorder",12.0,296,229,13516,3.02,162,92,Diabetes,1.48,31.04,Obese,Diabetes Risk,High Risk,11,Critical Risk
+114,Christopher Jimenez,22,Male,183,56,A+,"Fatigue, Vomiting, Headache, Cough, Shortness of Breath","nan, Kidney Disease, Hypertension",11.1,152,244,6034,0.62,112,117,Healthy,1.83,16.72,Underweight,Diabetes Risk,Normal,2,Low Risk
+115,Robert Vang,4,Female,171,108,A-,"Body Pain, Fatigue, Nausea","Asthma, Thyroid Disorder, nan",13.5,292,235,12301,1.05,146,83,Diabetes,1.71,36.93,Obese,Diabetes Risk,High Risk,7,High Risk
+116,John Moody,81,Female,159,103,AB-,"Nausea, Dizziness, Chest Pain","Asthma, Liver Disease, Heart Disease",16.1,118,259,13306,1.69,90,105,Healthy,1.59,40.74,Obese,Prediabetes,Normal,2,Low Risk
+117,Kenneth Vazquez,41,Female,187,80,O-,Vomiting,"Kidney Disease, Thyroid Disorder, Heart Disease",12.7,92,165,12417,2.12,100,86,Kidney Disease,1.87,22.88,Normal,Normal,Normal,3,Medium Risk
+118,Heidi Vaughn,24,Male,171,93,A+,"Fever, Dizziness, Body Pain","Kidney Disease, Heart Disease, Hypertension",15.3,274,300,5577,0.94,106,77,Diabetes,1.71,31.8,Obese,Diabetes Risk,Normal,5,Medium Risk
+119,Darlene Rivera,76,Female,169,62,B+,"Nausea, Dizziness","Thyroid Disorder, Diabetes",11.3,75,165,6200,1.05,152,118,Hypertension,1.69,21.71,Normal,Normal,High Risk,2,Low Risk
+120,Krystal Zavala,50,Female,175,119,O-,"Fatigue, Dizziness, Nausea, Fever","Heart Disease, Kidney Disease, Liver Disease",8.6,144,282,11708,3.01,131,106,Anemia,1.75,38.86,Obese,Diabetes Risk,Elevated,9,Critical Risk
+121,Michael Duncan,69,Male,187,54,AB+,"Dizziness, Fatigue, Fever","Heart Disease, Hypertension, Asthma",16.4,164,196,14067,1.59,91,62,Healthy,1.87,15.44,Underweight,Diabetes Risk,Normal,2,Low Risk
+122,Cheryl White,28,Female,184,70,A+,"Body Pain, Fatigue, Dizziness","Asthma, Diabetes, Liver Disease",8.9,190,170,9947,2.28,99,77,Diabetes,1.84,20.68,Normal,Diabetes Risk,Normal,7,High Risk
+123,Joseph Hayes,30,Female,181,59,A-,"Fatigue, Vomiting, Nausea","Asthma, Heart Disease",8.7,300,218,4916,1.19,92,119,Diabetes,1.81,18.01,Underweight,Diabetes Risk,Normal,5,Medium Risk
+124,Bruce Lawson,83,Male,146,95,A+,"Shortness of Breath, Headache","Heart Disease, Liver Disease",17.1,271,237,12304,1.22,139,73,Diabetes,1.46,44.57,Obese,Diabetes Risk,Elevated,5,Medium Risk
+125,Amanda Wilson,81,Male,156,105,B-,Body Pain,"Thyroid Disorder, nan",12.1,204,255,5927,0.86,172,101,Diabetes,1.56,43.15,Obese,Diabetes Risk,High Risk,8,High Risk
+126,Jason Thornton,66,Female,140,69,AB-,Chest Pain,"Kidney Disease, nan",10.1,289,125,14175,1.78,116,102,Diabetes,1.4,35.2,Obese,Diabetes Risk,Normal,5,Medium Risk
+127,Gregory Porter,27,Male,163,103,AB+,"Cough, Body Pain, Nausea, Vomiting","Hypertension, Liver Disease, nan",12.0,286,270,13966,1.98,173,75,Diabetes,1.63,38.77,Obese,Diabetes Risk,High Risk,8,High Risk
+128,Thomas Michael,14,Female,141,53,O-,"Shortness of Breath, Fever, Nausea",,17.4,222,326,8257,0.57,118,67,Diabetes,1.41,26.66,Overweight,Diabetes Risk,Normal,3,Medium Risk
+129,Dr. Steven Long,19,Female,140,43,A-,"Nausea, Body Pain, Shortness of Breath, Dizziness",Liver Disease,11.7,209,159,7903,3.09,125,114,Diabetes,1.4,21.94,Normal,Diabetes Risk,Elevated,6,High Risk
+130,Kelly Webb,73,Male,146,75,A-,"Fever, Dizziness, Vomiting, Chest Pain","Thyroid Disorder, Liver Disease",13.3,129,167,6529,1.97,145,109,Hypertension,1.46,35.18,Obese,Diabetes Risk,High Risk,6,High Risk
+131,Brandon Lewis,49,Male,188,118,A+,"Vomiting, Headache, Shortness of Breath, Cough, Chest Pain","Hypertension, Thyroid Disorder, Heart Disease",17.4,184,323,12303,1.86,153,85,Diabetes,1.88,33.39,Obese,Diabetes Risk,High Risk,6,High Risk
+132,Christina Smith,49,Female,172,85,AB+,"Chest Pain, Fever, Fatigue","Hypertension, Liver Disease",15.2,271,317,14157,2.06,120,84,Diabetes,1.72,28.73,Overweight,Diabetes Risk,Elevated,6,High Risk
+133,Jacob Hayes,38,Male,170,93,O+,"Cough, Shortness of Breath","nan, Kidney Disease, Thyroid Disorder",8.1,118,219,4981,3.35,118,111,Anemia,1.7,32.18,Obese,Prediabetes,Normal,7,High Risk
+134,Lisa Garcia,23,Female,164,95,AB+,"Fever, Fatigue, Cough","Liver Disease, Hypertension, Kidney Disease",13.6,252,262,13875,3.27,177,67,Diabetes,1.64,35.32,Obese,Diabetes Risk,High Risk,11,Critical Risk
+135,Albert Pitts,87,Male,148,100,B+,Nausea,Thyroid Disorder,17.9,287,299,12838,2.75,166,95,Diabetes,1.48,45.65,Obese,Diabetes Risk,High Risk,11,Critical Risk
+136,Dylan Walker,12,Male,188,66,AB+,"Shortness of Breath, Vomiting","Kidney Disease, Thyroid Disorder",12.0,258,269,10964,2.21,118,108,Diabetes,1.88,18.67,Normal,Diabetes Risk,Normal,6,High Risk
+137,Anne Allen,71,Female,149,113,O-,"Shortness of Breath, Nausea, Fever, Dizziness","Kidney Disease, nan, Hypertension",8.2,249,139,4058,3.22,133,88,Diabetes,1.49,50.9,Obese,Diabetes Risk,Elevated,10,Critical Risk
+138,Adam Hill,72,Female,150,67,AB+,"Fatigue, Shortness of Breath, Fever, Dizziness",Kidney Disease,9.5,159,259,8393,1.74,130,94,Anemia,1.5,29.78,Overweight,Diabetes Risk,Elevated,4,Medium Risk
+139,Mike Brown,39,Male,190,80,O-,Fatigue,"nan, Liver Disease",15.0,300,200,10475,0.84,130,82,Diabetes,1.9,22.16,Normal,Diabetes Risk,Elevated,3,Medium Risk
+140,Dana Long,26,Male,183,62,B-,Nausea,"Asthma, Heart Disease, Diabetes",17.2,100,204,4750,0.59,157,92,Hypertension,1.83,18.51,Normal,Prediabetes,High Risk,2,Low Risk
+141,Marisa Jones,25,Male,164,48,B-,"Cough, Nausea, Fatigue, Vomiting","Heart Disease, Hypertension",16.7,276,143,8658,1.03,150,70,Diabetes,1.64,17.85,Underweight,Diabetes Risk,High Risk,5,Medium Risk
+142,Brent Douglas,76,Female,166,41,O-,"Body Pain, Headache, Dizziness, Fever","Kidney Disease, Heart Disease",17.9,138,299,11850,3.49,108,75,Kidney Disease,1.66,14.88,Underweight,Diabetes Risk,Normal,5,Medium Risk
+143,Trevor Carroll,53,Male,155,57,O+,Shortness of Breath,Liver Disease,15.2,144,246,8905,2.85,174,73,Hypertension,1.55,23.73,Normal,Diabetes Risk,High Risk,8,High Risk
+144,Brian Barrera,43,Male,166,118,AB+,"Body Pain, Fatigue, Chest Pain","Asthma, Liver Disease, Diabetes",8.3,72,349,5208,3.13,177,120,Hypertension,1.66,42.82,Obese,Normal,High Risk,10,Critical Risk
+145,Jason Grant,81,Male,149,88,A+,Dizziness,"Hypertension, Diabetes, Asthma",8.1,156,211,7199,0.73,99,115,Anemia,1.49,39.64,Obese,Diabetes Risk,Normal,6,High Risk
+146,Rebecca Harris,60,Male,168,98,A-,"Fever, Cough, Shortness of Breath, Nausea","nan, Heart Disease, Kidney Disease",8.1,213,313,10742,2.77,132,120,Diabetes,1.68,34.72,Obese,Diabetes Risk,Elevated,10,Critical Risk
+147,James Ibarra,7,Male,146,111,AB-,"Fatigue, Chest Pain","Diabetes, Asthma",8.4,127,121,13918,3.3,161,111,Hypertension,1.46,52.07,Obese,Diabetes Risk,High Risk,12,Critical Risk
+148,John Steele,86,Female,189,43,B+,"Body Pain, Fever, Dizziness, Headache, Shortness of Breath","Asthma, Hypertension",15.8,204,144,4848,2.41,170,63,Diabetes,1.89,12.04,Underweight,Diabetes Risk,High Risk,9,Critical Risk
+149,Joshua Perry,73,Male,189,103,O-,"Headache, Dizziness",Liver Disease,8.9,269,148,5940,1.52,143,105,Diabetes,1.89,28.83,Overweight,Diabetes Risk,High Risk,7,High Risk
+150,Jeff Gray,52,Female,154,99,O-,"Nausea, Headache, Vomiting, Fatigue, Cough","Kidney Disease, Heart Disease",10.4,261,167,12732,2.34,142,91,Diabetes,1.54,41.74,Obese,Diabetes Risk,High Risk,10,Critical Risk
+151,Connor Pena,36,Male,183,107,A+,"Vomiting, Dizziness, Fever","Asthma, Thyroid Disorder",10.3,294,338,10541,1.11,142,120,Diabetes,1.83,31.95,Obese,Diabetes Risk,High Risk,7,High Risk
+152,Jeffrey Lin,22,Male,156,112,A+,"Dizziness, Shortness of Breath, Fever",Heart Disease,12.0,211,174,6954,3.0,94,68,Diabetes,1.56,46.02,Obese,Diabetes Risk,Normal,8,High Risk
+153,William Hernandez Jr.,22,Male,142,55,AB-,"Dizziness, Chest Pain","Hypertension, Liver Disease",11.1,186,155,11876,3.31,133,89,Diabetes,1.42,27.28,Overweight,Diabetes Risk,Elevated,5,Medium Risk
+154,Eric Petersen,64,Female,166,62,A-,"Body Pain, Chest Pain, Fever, Fatigue",Diabetes,16.7,222,123,13033,2.47,145,60,Diabetes,1.66,22.5,Normal,Diabetes Risk,High Risk,8,High Risk
+155,David Moody,28,Female,175,55,AB-,"Vomiting, Body Pain, Fever, Cough, Fatigue","Heart Disease, nan, Thyroid Disorder",13.9,234,343,11608,0.79,140,95,Diabetes,1.75,17.96,Underweight,Diabetes Risk,High Risk,3,Medium Risk
+156,William Riley,89,Male,164,119,O+,Nausea,"Kidney Disease, Heart Disease, Asthma",10.3,178,210,12572,0.93,143,81,Hypertension,1.64,44.24,Obese,Diabetes Risk,High Risk,6,High Risk
+157,Melissa Hernandez,59,Male,161,88,AB+,"Nausea, Cough, Dizziness, Shortness of Breath",Hypertension,15.4,105,334,12596,1.93,128,95,Healthy,1.61,33.95,Obese,Prediabetes,Elevated,2,Low Risk
+158,Erik Bryan,81,Male,167,78,AB+,"Fatigue, Chest Pain, Nausea, Vomiting, Headache","nan, Diabetes",14.4,147,134,12924,1.56,132,114,Healthy,1.67,27.97,Overweight,Diabetes Risk,Elevated,2,Low Risk
+159,Michael Walker,50,Male,171,94,AB-,"Dizziness, Headache",Diabetes,13.5,152,334,5946,1.03,158,71,Hypertension,1.71,32.15,Obese,Diabetes Risk,High Risk,6,High Risk
+160,Veronica Schwartz,47,Female,172,76,O+,Vomiting,"Liver Disease, Thyroid Disorder, Kidney Disease",13.6,294,181,12631,3.12,95,73,Diabetes,1.72,25.69,Overweight,Diabetes Risk,Normal,6,High Risk
+161,Kimberly Oliver,79,Male,148,79,B+,"Cough, Nausea, Fever",Heart Disease,15.1,122,312,10066,2.98,95,91,Kidney Disease,1.48,36.07,Obese,Prediabetes,Normal,5,Medium Risk
+162,Yolanda Weber,15,Female,188,49,O+,"Headache, Nausea","Hypertension, Heart Disease",12.3,171,160,14925,0.96,179,116,Hypertension,1.88,13.86,Underweight,Diabetes Risk,High Risk,5,Medium Risk
+163,Dylan Tyler,54,Female,172,54,A+,"Vomiting, Headache, Cough",Liver Disease,12.6,297,163,10454,1.48,101,106,Diabetes,1.72,18.25,Underweight,Diabetes Risk,Normal,3,Medium Risk
+164,James Richards,86,Male,182,63,AB+,"Body Pain, Chest Pain, Vomiting, Cough","nan, Asthma, Liver Disease",8.1,188,281,13145,0.97,153,101,Diabetes,1.82,19.02,Normal,Diabetes Risk,High Risk,6,High Risk
+165,Raymond Owen,67,Female,164,60,O+,"Chest Pain, Headache, Fatigue","Heart Disease, Hypertension, Asthma",10.8,207,269,5012,2.34,146,103,Diabetes,1.64,22.31,Normal,Diabetes Risk,High Risk,8,High Risk
+166,Brandi Calderon,35,Female,189,79,B-,"Dizziness, Chest Pain, Nausea","Kidney Disease, Hypertension, Asthma",10.1,283,290,6892,1.3,137,103,Diabetes,1.89,22.12,Normal,Diabetes Risk,Elevated,3,Medium Risk
+167,Brittany Jensen,7,Female,167,72,B+,"Fever, Fatigue, Cough, Body Pain","nan, Thyroid Disorder, Diabetes",17.6,254,179,9253,3.26,108,84,Diabetes,1.67,25.82,Overweight,Diabetes Risk,Normal,6,High Risk
+168,Patricia Anderson,18,Female,156,110,AB+,"Headache, Vomiting","Asthma, Liver Disease",12.6,275,225,5681,1.66,176,96,Diabetes,1.56,45.2,Obese,Diabetes Risk,High Risk,8,High Risk
+169,Frances Mcintosh,81,Female,178,55,O-,"Body Pain, Dizziness, Headache, Nausea","Heart Disease, Thyroid Disorder",9.4,86,234,6768,1.13,136,86,Anemia,1.78,17.36,Underweight,Normal,Elevated,2,Low Risk
+170,Marissa Morris,76,Female,183,92,A+,Body Pain,"Hypertension, Thyroid Disorder",13.3,101,265,10197,2.82,107,110,Kidney Disease,1.83,27.47,Overweight,Prediabetes,Normal,3,Medium Risk
+171,Allison Wright,87,Male,142,91,B+,"Cough, Fever, Chest Pain, Shortness of Breath, Headache",Hypertension,11.0,176,322,10115,1.74,167,97,Hypertension,1.42,45.13,Obese,Diabetes Risk,High Risk,7,High Risk
+172,Luke Haley,64,Female,141,107,B+,"Cough, Shortness of Breath","nan, Thyroid Disorder",16.7,109,139,14719,0.97,158,84,Hypertension,1.41,53.82,Obese,Prediabetes,High Risk,4,Medium Risk
+173,Theresa Rice,50,Male,188,60,O-,"Fever, Dizziness, Fatigue, Nausea, Body Pain","Hypertension, Thyroid Disorder",15.9,199,121,8789,1.04,140,96,Diabetes,1.88,16.98,Underweight,Diabetes Risk,High Risk,2,Low Risk
+174,Jacqueline Rivers,75,Male,159,114,O-,"Nausea, Headache, Chest Pain, Dizziness, Fatigue","Asthma, nan",8.0,217,224,13769,2.38,154,108,Diabetes,1.59,45.09,Obese,Diabetes Risk,High Risk,12,Critical Risk
+175,Amanda Higgins,78,Female,171,93,B+,"Fever, Fatigue, Vomiting, Chest Pain, Body Pain","Thyroid Disorder, Hypertension",8.5,75,211,12688,2.05,176,77,Hypertension,1.71,31.8,Obese,Normal,High Risk,10,Critical Risk
+176,Joy Miller,67,Female,165,81,AB-,"Nausea, Shortness of Breath, Cough, Dizziness, Body Pain","nan, Hypertension, Diabetes",10.9,136,322,4279,2.01,94,78,Kidney Disease,1.65,29.75,Overweight,Diabetes Risk,Normal,5,Medium Risk
+177,Joseph Evans,84,Male,188,87,AB-,"Body Pain, Nausea, Fatigue, Headache, Cough",Asthma,17.4,169,179,10901,2.76,98,83,Kidney Disease,1.88,24.62,Normal,Diabetes Risk,Normal,5,Medium Risk
+178,Brian James,7,Female,189,113,A+,"Cough, Headache, Fever, Body Pain, Chest Pain",,17.2,284,276,14694,2.05,159,115,Diabetes,1.89,31.63,Obese,Diabetes Risk,High Risk,10,Critical Risk
+179,Derrick Smith,33,Male,168,43,A-,"Body Pain, Nausea, Dizziness","Thyroid Disorder, Hypertension",11.8,85,219,10728,2.31,147,80,Hypertension,1.68,15.24,Underweight,Normal,High Risk,5,Medium Risk
+180,Nancy Long,52,Female,181,105,B-,"Chest Pain, Vomiting, Body Pain",Thyroid Disorder,11.9,191,159,10858,3.39,118,83,Diabetes,1.81,32.05,Obese,Diabetes Risk,Normal,7,High Risk
+181,Erin Brooks,46,Male,153,98,AB+,"Nausea, Fever, Body Pain, Vomiting",Kidney Disease,8.1,90,208,4755,2.09,117,76,Anemia,1.53,41.86,Obese,Normal,Normal,7,High Risk
+182,Betty Stewart,35,Male,140,69,A-,Fever,Heart Disease,16.9,102,262,9287,2.9,177,107,Hypertension,1.4,35.2,Obese,Prediabetes,High Risk,8,High Risk
+183,Jason Stewart,75,Male,140,97,B+,"Cough, Vomiting","Diabetes, Kidney Disease",8.0,292,262,7892,1.02,139,90,Diabetes,1.4,49.49,Obese,Diabetes Risk,Elevated,7,High Risk
+184,Tara Carter,60,Female,184,107,O+,"Fatigue, Cough, Dizziness, Fever, Vomiting","Kidney Disease, Diabetes, nan",14.7,281,310,14113,3.14,110,98,Diabetes,1.84,31.6,Obese,Diabetes Risk,Normal,8,High Risk
+185,Kristen Robinson,51,Male,182,78,A+,"Cough, Shortness of Breath, Fatigue, Nausea","Liver Disease, Heart Disease, Asthma",14.9,264,263,13292,1.67,137,94,Diabetes,1.82,23.55,Normal,Diabetes Risk,Elevated,3,Medium Risk
+186,Mary Butler,15,Female,147,50,O+,"Dizziness, Headache, Vomiting",Diabetes,12.0,123,271,6042,0.88,162,102,Hypertension,1.47,23.14,Normal,Prediabetes,High Risk,3,Medium Risk
+187,Travis Chen,31,Female,163,43,A-,Fever,Diabetes,8.3,149,279,5633,3.31,114,91,Anemia,1.63,16.18,Underweight,Diabetes Risk,Normal,7,High Risk
+188,Anne Wang,68,Male,151,109,O-,Fatigue,"Hypertension, Heart Disease, Diabetes",8.8,282,131,5202,1.09,92,77,Diabetes,1.51,47.8,Obese,Diabetes Risk,Normal,7,High Risk
+189,Tamara Gill,27,Female,166,66,A-,Fever,"Thyroid Disorder, Hypertension, Heart Disease",17.4,139,188,12046,2.65,142,82,Hypertension,1.66,23.95,Normal,Diabetes Risk,High Risk,7,High Risk
+190,Mary Shaffer,14,Female,140,43,A-,Body Pain,,17.2,238,206,12419,1.61,115,70,Diabetes,1.4,21.94,Normal,Diabetes Risk,Normal,3,Medium Risk
+191,Julia Mcclain,35,Male,186,63,AB-,"Fatigue, Dizziness, Body Pain, Cough","Diabetes, Asthma, Kidney Disease",9.5,248,290,8288,1.46,137,76,Diabetes,1.86,18.21,Underweight,Diabetes Risk,Elevated,5,Medium Risk
+192,Shelby Hall,38,Female,165,41,A-,"Body Pain, Dizziness, Vomiting",Hypertension,12.1,163,239,4854,3.17,117,77,Kidney Disease,1.65,15.06,Underweight,Diabetes Risk,Normal,5,Medium Risk
+193,Richard Torres,16,Female,189,42,B+,"Nausea, Vomiting, Cough",,10.2,172,272,4089,1.69,122,114,Healthy,1.89,11.76,Underweight,Diabetes Risk,Elevated,2,Low Risk
+194,Patricia Li,66,Male,156,49,B-,Shortness of Breath,Thyroid Disorder,13.3,284,199,5524,2.32,148,101,Diabetes,1.56,20.13,Normal,Diabetes Risk,High Risk,8,High Risk
+195,Paula Cole,88,Female,155,95,O-,"Fatigue, Body Pain, Dizziness, Fever","Hypertension, Liver Disease",15.0,96,240,12243,3.08,103,67,Kidney Disease,1.55,39.54,Obese,Normal,Normal,5,Medium Risk
+196,Drew Payne,77,Female,144,45,AB+,Body Pain,"Heart Disease, Kidney Disease",12.0,226,249,6311,2.0,131,120,Diabetes,1.44,21.7,Normal,Diabetes Risk,Elevated,3,Medium Risk
+197,Cindy Thompson,20,Female,170,43,A-,"Body Pain, Fatigue, Shortness of Breath","Liver Disease, Asthma, Thyroid Disorder",17.1,282,166,12719,2.17,104,104,Diabetes,1.7,14.88,Underweight,Diabetes Risk,Normal,6,High Risk
+198,Gina Parks,63,Female,171,101,A+,"Nausea, Shortness of Breath, Headache, Chest Pain","Diabetes, Kidney Disease, Liver Disease",9.6,286,184,10854,1.68,169,84,Diabetes,1.71,34.54,Obese,Diabetes Risk,High Risk,10,Critical Risk
+199,Angel Wilson,26,Male,147,59,B-,Fatigue,,14.9,74,209,4879,2.09,145,64,Hypertension,1.47,27.3,Overweight,Normal,High Risk,5,Medium Risk
+200,Emily Palmer,52,Female,160,98,B-,"Shortness of Breath, Vomiting, Chest Pain, Fever","nan, Diabetes, Liver Disease",13.0,133,130,10009,0.51,137,63,Healthy,1.6,38.28,Obese,Diabetes Risk,Elevated,4,Medium Risk
+201,Jonathan Hart,59,Male,153,58,A-,"Chest Pain, Dizziness, Nausea, Fatigue","Thyroid Disorder, Asthma",9.0,110,309,14979,2.32,165,99,Hypertension,1.53,24.78,Normal,Prediabetes,High Risk,8,High Risk
+202,Nicole Martinez,40,Male,183,53,AB-,"Fever, Shortness of Breath, Nausea, Body Pain","Liver Disease, Heart Disease",17.6,242,312,11114,1.3,126,91,Diabetes,1.83,15.83,Underweight,Diabetes Risk,Elevated,3,Medium Risk
+203,Diana Robinson,14,Female,167,84,O+,"Shortness of Breath, Dizziness","nan, Thyroid Disorder, Kidney Disease",12.3,139,123,10198,1.99,92,87,Healthy,1.67,30.12,Obese,Diabetes Risk,Normal,4,Medium Risk
+204,Daniel Ramos,18,Female,166,103,B+,"Headache, Nausea, Shortness of Breath","Asthma, Liver Disease",8.5,142,124,7529,3.48,107,61,Anemia,1.66,37.38,Obese,Diabetes Risk,Normal,9,Critical Risk
+205,Erik Rodriguez,8,Female,154,41,B-,"Cough, Chest Pain, Shortness of Breath, Body Pain","Liver Disease, Hypertension",9.3,173,203,11779,3.44,153,78,Hypertension,1.54,17.29,Underweight,Diabetes Risk,High Risk,9,Critical Risk
+206,Brooke Thompson,45,Male,161,63,AB+,"Vomiting, Shortness of Breath",Hypertension,10.4,249,331,14987,1.71,150,83,Diabetes,1.61,24.3,Normal,Diabetes Risk,High Risk,5,Medium Risk
+207,Ashley Alvarez,37,Female,168,81,AB+,"Shortness of Breath, Nausea, Cough, Fever",,11.9,157,298,5346,3.03,96,83,Kidney Disease,1.68,28.7,Overweight,Diabetes Risk,Normal,5,Medium Risk
+208,Daniel Mccall,66,Male,146,46,O-,"Shortness of Breath, Chest Pain, Vomiting","Kidney Disease, Diabetes",10.6,70,156,7979,3.27,128,103,Kidney Disease,1.46,21.58,Normal,Normal,Elevated,3,Medium Risk
+209,Matthew Green,55,Male,160,70,A+,"Nausea, Body Pain","Liver Disease, Heart Disease",11.9,75,161,4398,1.9,107,68,Healthy,1.6,27.34,Overweight,Normal,Normal,0,Low Risk
+210,Theresa Preston,3,Male,147,67,B+,Shortness of Breath,"Kidney Disease, Thyroid Disorder, Heart Disease",14.3,170,271,13354,3.12,106,108,Kidney Disease,1.47,31.01,Obese,Diabetes Risk,Normal,7,High Risk
+211,Joseph Allen,38,Female,141,93,AB-,Dizziness,"Thyroid Disorder, Asthma, Kidney Disease",14.0,192,169,8389,2.25,122,66,Diabetes,1.41,46.78,Obese,Diabetes Risk,Elevated,7,High Risk
+212,Norman King,37,Male,172,66,A+,Cough,Asthma,12.3,100,250,9856,2.78,179,92,Hypertension,1.72,22.31,Normal,Prediabetes,High Risk,6,High Risk
+213,Andrea Whitehead,7,Male,187,61,B+,"Shortness of Breath, Dizziness, Fever, Vomiting, Body Pain","Liver Disease, Hypertension, Thyroid Disorder",8.7,188,158,13202,2.36,127,109,Diabetes,1.87,17.44,Underweight,Diabetes Risk,Elevated,7,High Risk
+214,Tamara Adams,43,Female,149,77,B+,"Fever, Body Pain, Chest Pain, Shortness of Breath","nan, Thyroid Disorder, Diabetes",16.9,113,301,12738,0.72,177,61,Hypertension,1.49,34.68,Obese,Prediabetes,High Risk,5,Medium Risk
+215,Frank Barajas,3,Female,190,101,B-,"Dizziness, Body Pain, Vomiting, Headache",Hypertension,11.5,91,242,5126,2.95,118,118,Kidney Disease,1.9,27.98,Overweight,Normal,Normal,3,Medium Risk
+216,Courtney Parker,70,Male,160,55,AB-,"Fatigue, Fever",Liver Disease,14.6,182,168,9670,0.99,100,61,Diabetes,1.6,21.48,Normal,Diabetes Risk,Normal,2,Low Risk
+217,Ellen Huffman,42,Male,152,92,B+,Fever,"Diabetes, Liver Disease",8.8,286,280,4942,3.36,90,102,Diabetes,1.52,39.82,Obese,Diabetes Risk,Normal,10,Critical Risk
+218,Lydia Thornton,51,Female,145,116,O+,"Body Pain, Dizziness, Shortness of Breath","Heart Disease, Thyroid Disorder, Diabetes",10.6,152,251,10129,0.71,129,109,Healthy,1.45,55.17,Obese,Diabetes Risk,Elevated,4,Medium Risk
+219,Joseph Reyes,76,Male,169,62,A+,Vomiting,Heart Disease,14.4,151,156,7131,2.39,176,83,Hypertension,1.69,21.71,Normal,Diabetes Risk,High Risk,8,High Risk
+220,Mark Johnston,50,Male,179,55,O+,"Chest Pain, Shortness of Breath, Body Pain, Fever, Vomiting","Hypertension, Thyroid Disorder",13.9,258,330,13344,1.93,149,112,Diabetes,1.79,17.17,Underweight,Diabetes Risk,High Risk,5,Medium Risk
+221,Johnny Hale,44,Male,188,77,AB-,"Chest Pain, Vomiting","Liver Disease, Thyroid Disorder",8.1,266,130,5677,2.66,141,64,Diabetes,1.88,21.79,Normal,Diabetes Risk,High Risk,10,Critical Risk
+222,Karen Hines,80,Female,158,87,B-,"Fever, Headache, Cough, Shortness of Breath","Hypertension, Liver Disease",15.1,204,182,12492,2.67,95,105,Diabetes,1.58,34.85,Obese,Diabetes Risk,Normal,8,High Risk
+223,Andrew Stone,54,Male,178,66,B+,"Cough, Vomiting",Heart Disease,12.9,81,282,9927,0.62,120,88,Healthy,1.78,20.83,Normal,Normal,Elevated,0,Low Risk
+224,Kaitlyn Blankenship,11,Female,182,79,AB-,"Nausea, Fever",Thyroid Disorder,14.4,222,326,11981,2.66,155,86,Diabetes,1.82,23.85,Normal,Diabetes Risk,High Risk,8,High Risk
+225,Amber Ballard,53,Male,147,63,A-,"Cough, Nausea, Shortness of Breath, Body Pain",Hypertension,9.2,245,199,13976,0.68,117,120,Diabetes,1.47,29.15,Overweight,Diabetes Risk,Normal,5,Medium Risk
+226,Brittney Miller,22,Female,145,120,AB+,"Cough, Body Pain, Shortness of Breath, Chest Pain, Fever","nan, Thyroid Disorder, Diabetes",10.7,182,131,7656,2.35,125,66,Diabetes,1.45,57.07,Obese,Diabetes Risk,Elevated,7,High Risk
+227,Christopher Freeman,59,Male,140,57,A+,"Cough, Vomiting, Nausea, Fatigue","nan, Thyroid Disorder",10.6,288,309,9041,0.56,140,81,Diabetes,1.4,29.08,Overweight,Diabetes Risk,High Risk,3,Medium Risk
+228,Ashley Boyd,47,Female,164,45,A-,"Body Pain, Headache, Shortness of Breath, Fever, Cough",Liver Disease,12.0,221,250,14930,2.56,173,117,Diabetes,1.64,16.73,Underweight,Diabetes Risk,High Risk,9,Critical Risk
+229,Pedro Smith DVM,4,Female,162,94,B-,"Cough, Body Pain, Vomiting, Fatigue",Liver Disease,10.4,143,177,5950,2.35,106,68,Kidney Disease,1.62,35.82,Obese,Diabetes Risk,Normal,7,High Risk
+230,Lindsey Ortiz,57,Male,178,94,B-,"Shortness of Breath, Headache, Nausea",Thyroid Disorder,10.3,156,187,12493,1.79,134,93,Healthy,1.78,29.67,Overweight,Diabetes Risk,Elevated,2,Low Risk
+231,Jennifer Rodriguez,68,Male,179,55,A-,"Nausea, Shortness of Breath, Headache, Chest Pain, Vomiting","Liver Disease, Thyroid Disorder",10.8,299,277,9096,3.03,136,96,Diabetes,1.79,17.17,Underweight,Diabetes Risk,Elevated,6,High Risk
+232,Kayla Hernandez DDS,86,Female,185,60,A-,"Cough, Vomiting","Diabetes, Liver Disease",15.8,236,320,6596,3.49,153,102,Diabetes,1.85,17.53,Underweight,Diabetes Risk,High Risk,8,High Risk
+233,Kelly Brown,48,Female,156,74,AB+,"Fever, Cough, Nausea","Thyroid Disorder, Diabetes",13.3,185,250,6217,3.32,134,97,Diabetes,1.56,30.41,Obese,Diabetes Risk,Elevated,7,High Risk
+234,Nicole Rivera,48,Male,169,45,AB-,"Vomiting, Shortness of Breath, Headache, Nausea, Chest Pain","Kidney Disease, Thyroid Disorder",17.5,133,247,12159,1.56,170,62,Hypertension,1.69,15.76,Underweight,Diabetes Risk,High Risk,5,Medium Risk
+235,Sheryl Allen,42,Male,153,56,AB-,"Dizziness, Shortness of Breath","Liver Disease, Heart Disease",13.5,210,183,10821,2.83,97,70,Diabetes,1.53,23.92,Normal,Diabetes Risk,Normal,6,High Risk
+236,Linda Young,68,Female,153,54,A-,"Headache, Vomiting","Hypertension, Thyroid Disorder, Asthma",15.8,138,201,8715,0.69,151,96,Hypertension,1.53,23.07,Normal,Diabetes Risk,High Risk,4,Medium Risk
+237,Colin Matthews III,23,Female,189,46,O-,"Nausea, Chest Pain","Heart Disease, Asthma, Thyroid Disorder",17.9,203,267,8151,2.52,143,65,Diabetes,1.89,12.88,Underweight,Diabetes Risk,High Risk,8,High Risk
+238,Sarah Frye,78,Male,142,59,B+,Shortness of Breath,"Kidney Disease, nan",11.7,245,184,8263,0.69,120,95,Diabetes,1.42,29.26,Overweight,Diabetes Risk,Elevated,3,Medium Risk
+239,Angela Austin,53,Male,175,104,AB-,"Chest Pain, Fever, Body Pain, Vomiting, Headache","nan, Kidney Disease, Asthma",13.1,76,312,5354,3.23,152,85,Hypertension,1.75,33.96,Obese,Normal,High Risk,7,High Risk
+240,Maria Rivas,39,Female,148,104,B-,Vomiting,Heart Disease,10.8,185,126,6822,0.7,179,68,Diabetes,1.48,47.48,Obese,Diabetes Risk,High Risk,7,High Risk
+241,Jon Bell,3,Male,148,60,AB-,"Fever, Chest Pain","Diabetes, Liver Disease, Asthma",16.8,286,304,9679,1.15,140,115,Diabetes,1.48,27.39,Overweight,Diabetes Risk,High Risk,3,Medium Risk
+242,Shawn Rogers,15,Female,179,100,O-,"Cough, Fever, Body Pain, Nausea, Shortness of Breath","Hypertension, Heart Disease",8.1,153,261,12580,0.54,126,77,Anemia,1.79,31.21,Obese,Diabetes Risk,Elevated,6,High Risk
+243,Gordon Klein,61,Female,149,81,B+,"Headache, Vomiting, Dizziness, Nausea, Fever",,14.2,267,128,9267,2.67,154,63,Diabetes,1.49,36.48,Obese,Diabetes Risk,High Risk,10,Critical Risk
+244,Roger Atkinson,33,Male,188,81,AB-,Dizziness,"Hypertension, nan",10.1,87,265,7874,2.69,146,101,Hypertension,1.88,22.92,Normal,Normal,High Risk,5,Medium Risk
+245,Robert Shields,84,Male,152,89,A+,"Headache, Shortness of Breath","Thyroid Disorder, Asthma, Heart Disease",13.0,130,133,11338,1.33,113,87,Healthy,1.52,38.52,Obese,Diabetes Risk,Normal,4,Medium Risk
+246,Debra Peters,74,Male,181,72,B-,"Dizziness, Body Pain, Chest Pain, Shortness of Breath, Cough",Kidney Disease,14.7,297,228,10882,0.93,149,76,Diabetes,1.81,21.98,Normal,Diabetes Risk,High Risk,5,Medium Risk
+247,Nathaniel Robertson,39,Male,150,45,A-,"Cough, Fever, Headache","nan, Kidney Disease, Liver Disease",15.1,270,180,5337,1.78,142,114,Diabetes,1.5,20.0,Normal,Diabetes Risk,High Risk,5,Medium Risk
+248,Rachel Golden,10,Female,166,61,AB-,Chest Pain,"Kidney Disease, Heart Disease",14.3,253,207,9544,2.38,131,76,Diabetes,1.66,22.14,Normal,Diabetes Risk,Elevated,6,High Risk
+249,Steven Murphy,87,Male,189,110,AB-,"Cough, Fever, Nausea, Body Pain, Dizziness","nan, Thyroid Disorder",17.6,213,161,5474,2.97,174,79,Diabetes,1.89,30.79,Obese,Diabetes Risk,High Risk,11,Critical Risk
+250,Kathryn Castro,68,Female,182,59,B-,"Body Pain, Headache",Asthma,15.2,98,291,5349,2.33,113,111,Kidney Disease,1.82,17.81,Underweight,Normal,Normal,3,Medium Risk
+251,Dennis Scott,49,Female,155,114,A-,"Cough, Body Pain","Kidney Disease, nan",16.9,237,132,11067,0.69,171,89,Diabetes,1.55,47.45,Obese,Diabetes Risk,High Risk,8,High Risk
+252,Hector Willis,9,Male,147,84,O-,Chest Pain,"Hypertension, Diabetes, Asthma",9.3,108,195,11666,1.99,171,86,Hypertension,1.47,38.87,Obese,Prediabetes,High Risk,7,High Risk
+253,Diana White,48,Male,164,70,AB-,"Fatigue, Fever, Cough, Vomiting, Nausea","Diabetes, nan",17.1,168,196,4996,2.55,156,79,Hypertension,1.64,26.03,Overweight,Diabetes Risk,High Risk,7,High Risk
+254,Brandy Diaz,6,Female,160,73,AB-,"Fever, Body Pain","Liver Disease, Kidney Disease, Diabetes",12.6,242,303,14901,2.54,131,92,Diabetes,1.6,28.52,Overweight,Diabetes Risk,Elevated,6,High Risk
+255,Keith Cuevas,48,Male,153,52,B+,"Shortness of Breath, Fever, Vomiting, Cough, Fatigue","Thyroid Disorder, Asthma",15.8,160,207,9077,2.44,170,86,Hypertension,1.53,22.21,Normal,Diabetes Risk,High Risk,8,High Risk
+256,Ashley Stafford,75,Female,156,81,A+,"Nausea, Body Pain, Headache, Shortness of Breath","Kidney Disease, Thyroid Disorder, Asthma",15.2,256,206,11117,0.6,163,118,Diabetes,1.56,33.28,Obese,Diabetes Risk,High Risk,8,High Risk
+257,Laura Moore,33,Male,157,80,B-,"Headache, Cough, Dizziness, Fever","Heart Disease, Kidney Disease",16.3,156,190,14296,3.39,171,89,Hypertension,1.57,32.46,Obese,Diabetes Risk,High Risk,10,Critical Risk
+258,Jacob Scott,52,Female,164,102,A+,"Chest Pain, Nausea, Body Pain","Liver Disease, Asthma",14.9,279,180,8538,1.23,124,112,Diabetes,1.64,37.92,Obese,Diabetes Risk,Elevated,5,Medium Risk
+259,Crystal Davis,67,Female,160,88,AB+,"Fatigue, Nausea, Body Pain, Cough, Chest Pain","Hypertension, Liver Disease, Diabetes",15.8,70,205,10171,1.34,95,63,Healthy,1.6,34.37,Obese,Normal,Normal,2,Low Risk
+260,Melissa Christensen,85,Female,187,41,AB+,"Fatigue, Cough, Fever, Vomiting",Asthma,15.2,240,302,4930,2.52,174,70,Diabetes,1.87,11.72,Underweight,Diabetes Risk,High Risk,9,Critical Risk
+261,Sherry Foster,27,Male,154,44,AB-,"Cough, Vomiting","Thyroid Disorder, Hypertension",12.4,181,127,14364,0.68,147,78,Diabetes,1.54,18.55,Normal,Diabetes Risk,High Risk,4,Medium Risk
+262,Alexandria Austin,29,Female,161,94,B+,"Dizziness, Nausea, Body Pain","Liver Disease, Heart Disease, Asthma",11.2,129,299,4884,3.34,144,78,Hypertension,1.61,36.26,Obese,Diabetes Risk,High Risk,9,Critical Risk
+263,Jeremy Tran,41,Male,142,58,B-,"Nausea, Dizziness",,8.8,208,276,7437,3.29,135,82,Diabetes,1.42,28.76,Overweight,Diabetes Risk,Elevated,8,High Risk
+264,Joshua Collins,88,Male,183,57,AB+,"Nausea, Chest Pain, Dizziness, Shortness of Breath, Fever","nan, Asthma",14.8,130,282,10615,2.14,114,112,Kidney Disease,1.83,17.02,Underweight,Diabetes Risk,Normal,5,Medium Risk
+265,Emily Barr,19,Female,186,91,B-,Nausea,"Kidney Disease, Thyroid Disorder",17.8,208,295,7424,2.75,106,88,Diabetes,1.86,26.3,Overweight,Diabetes Risk,Normal,6,High Risk
+266,Mark Rodriguez,1,Male,149,62,AB-,"Shortness of Breath, Vomiting, Nausea, Fever","Liver Disease, nan, Thyroid Disorder",17.2,217,199,4227,1.74,90,60,Diabetes,1.49,27.93,Overweight,Diabetes Risk,Normal,3,Medium Risk
+267,Mary Anderson,3,Female,176,48,A+,"Shortness of Breath, Body Pain","Heart Disease, Kidney Disease",8.4,278,183,14949,3.2,102,77,Diabetes,1.76,15.5,Underweight,Diabetes Risk,Normal,8,High Risk
+268,Vincent Thomas,30,Male,155,45,O-,"Nausea, Vomiting, Dizziness",Liver Disease,15.6,274,328,12751,1.24,114,116,Diabetes,1.55,18.73,Normal,Diabetes Risk,Normal,3,Medium Risk
+269,James Bailey,35,Male,142,78,B-,"Fever, Vomiting","Asthma, Heart Disease",11.0,111,126,10492,1.26,172,71,Hypertension,1.42,38.68,Obese,Prediabetes,High Risk,5,Medium Risk
+270,Mike Matthews,36,Female,186,76,A+,"Vomiting, Nausea, Fever, Cough","Thyroid Disorder, Kidney Disease, Asthma",11.8,146,346,12565,3.48,147,98,Hypertension,1.86,21.97,Normal,Diabetes Risk,High Risk,7,High Risk
+271,Anthony Thomas,64,Female,143,72,B-,"Nausea, Vomiting, Headache, Cough, Shortness of Breath","Liver Disease, Diabetes, nan",16.8,171,142,4973,0.87,133,104,Healthy,1.43,35.21,Obese,Diabetes Risk,Elevated,4,Medium Risk
+272,Christopher Brown,9,Female,188,112,AB+,"Cough, Vomiting","Asthma, Thyroid Disorder, Kidney Disease",13.3,113,341,12398,0.55,103,108,Healthy,1.88,31.69,Obese,Prediabetes,Normal,2,Low Risk
+273,Sharon Lee,90,Male,169,55,O+,"Fatigue, Shortness of Breath, Nausea, Body Pain","Thyroid Disorder, Diabetes, Kidney Disease",15.6,189,277,6637,1.57,137,76,Diabetes,1.69,19.26,Normal,Diabetes Risk,Elevated,2,Low Risk
+274,Melissa Alvarez,65,Female,153,86,O+,Shortness of Breath,Heart Disease,13.6,197,195,14961,1.25,103,78,Diabetes,1.53,36.74,Obese,Diabetes Risk,Normal,4,Medium Risk
+275,James Scott,69,Male,154,80,O-,"Chest Pain, Fatigue","Kidney Disease, nan, Diabetes",12.0,293,214,4225,0.99,108,99,Diabetes,1.54,33.73,Obese,Diabetes Risk,Normal,5,Medium Risk
+276,Jacqueline Meyer,48,Female,178,47,B-,"Dizziness, Nausea, Shortness of Breath","Heart Disease, Asthma",13.7,240,200,5186,3.42,129,94,Diabetes,1.78,14.83,Underweight,Diabetes Risk,Elevated,6,High Risk
+277,Carla Sawyer,14,Female,158,62,AB-,"Body Pain, Dizziness","Asthma, Heart Disease, Liver Disease",13.9,217,235,11879,0.93,96,69,Diabetes,1.58,24.84,Normal,Diabetes Risk,Normal,3,Medium Risk
+278,Mrs. Natalie Duran MD,36,Female,174,52,AB+,"Vomiting, Nausea, Chest Pain, Headache, Shortness of Breath","nan, Hypertension",14.8,115,161,7855,1.63,109,97,Healthy,1.74,17.18,Underweight,Prediabetes,Normal,0,Low Risk
+279,William Hernandez,51,Male,152,102,O+,"Vomiting, Fever, Dizziness","Diabetes, Thyroid Disorder",10.2,282,274,11046,2.73,114,100,Diabetes,1.52,44.15,Obese,Diabetes Risk,Normal,8,High Risk
+280,Linda Sandoval,79,Female,173,82,AB+,"Headache, Fatigue, Vomiting, Fever, Body Pain",Asthma,11.5,185,327,12877,1.81,172,105,Diabetes,1.73,27.4,Overweight,Diabetes Risk,High Risk,5,Medium Risk
+281,Jillian Bell,5,Male,189,102,B-,Dizziness,"Asthma, Hypertension, Heart Disease",16.2,77,251,14179,1.49,131,99,Healthy,1.89,28.55,Overweight,Normal,Elevated,0,Low Risk
+282,Jennifer Jackson,62,Male,145,108,AB-,"Chest Pain, Body Pain, Cough, Dizziness","Kidney Disease, Asthma",17.0,205,158,9479,1.83,114,86,Diabetes,1.45,51.37,Obese,Diabetes Risk,Normal,5,Medium Risk
+283,Suzanne Johnston,53,Male,175,54,A-,Fatigue,Thyroid Disorder,13.5,150,225,5147,2.76,163,80,Hypertension,1.75,17.63,Underweight,Diabetes Risk,High Risk,8,High Risk
+284,Karen Hall,41,Female,180,120,O+,"Body Pain, Chest Pain, Fever","Diabetes, Heart Disease, Kidney Disease",15.6,177,289,9452,1.94,125,62,Healthy,1.8,37.04,Obese,Diabetes Risk,Elevated,4,Medium Risk
+285,Cassandra Henderson,38,Male,140,70,O-,Dizziness,"nan, Hypertension",11.0,171,278,8662,3.14,121,107,Kidney Disease,1.4,35.71,Obese,Diabetes Risk,Elevated,7,High Risk
+286,Jennifer Ramos,30,Male,159,49,AB-,Vomiting,Hypertension,14.6,74,204,5507,1.34,159,90,Hypertension,1.59,19.38,Normal,Normal,High Risk,2,Low Risk
+287,Steven Campos,18,Male,188,40,A+,"Vomiting, Body Pain, Dizziness, Shortness of Breath","nan, Diabetes, Asthma",14.9,165,214,12641,1.58,100,87,Healthy,1.88,11.32,Underweight,Diabetes Risk,Normal,2,Low Risk
+288,Kerry Buck,56,Male,163,53,O-,"Shortness of Breath, Dizziness, Fatigue, Body Pain","Asthma, nan",15.3,94,179,5253,2.17,142,93,Hypertension,1.63,19.95,Normal,Normal,High Risk,5,Medium Risk
+289,Dr. James Hunter,48,Female,146,49,AB+,"Shortness of Breath, Body Pain, Nausea, Fever",Heart Disease,15.9,157,150,5714,2.88,176,79,Hypertension,1.46,22.99,Normal,Diabetes Risk,High Risk,8,High Risk
+290,James Howard,40,Female,160,47,A+,"Fever, Nausea","Liver Disease, Thyroid Disorder, nan",14.1,92,296,14784,0.76,127,99,Healthy,1.6,18.36,Underweight,Normal,Elevated,0,Low Risk
+291,Kristin Gutierrez,35,Male,157,58,O-,"Shortness of Breath, Cough",Hypertension,11.2,180,272,8947,2.37,164,95,Hypertension,1.57,23.53,Normal,Diabetes Risk,High Risk,8,High Risk
+292,Rachel Ortiz,9,Male,151,116,B-,"Fatigue, Fever, Vomiting, Headache, Cough",Thyroid Disorder,10.6,153,214,14394,1.85,129,90,Healthy,1.51,50.87,Obese,Diabetes Risk,Elevated,4,Medium Risk
+293,Tami Griffin,55,Male,186,101,B+,"Fever, Chest Pain",Liver Disease,10.9,129,337,4230,1.02,125,100,Healthy,1.86,29.19,Overweight,Diabetes Risk,Elevated,2,Low Risk
+294,Brian Wilson,24,Male,169,111,AB+,"Fever, Vomiting, Cough, Chest Pain, Headache","Asthma, nan, Hypertension",15.0,201,314,14039,3.27,179,93,Diabetes,1.69,38.86,Obese,Diabetes Risk,High Risk,11,Critical Risk
+295,Ariel Smith,88,Female,189,60,O+,"Body Pain, Vomiting",Thyroid Disorder,8.1,193,149,9307,2.0,180,77,Diabetes,1.89,16.8,Underweight,Diabetes Risk,High Risk,7,High Risk
+296,Evan Collins,2,Female,178,72,AB-,"Vomiting, Cough, Fatigue","Liver Disease, Heart Disease",13.3,118,245,7705,2.19,102,62,Kidney Disease,1.78,22.72,Normal,Prediabetes,Normal,3,Medium Risk
+297,Jon Mcmillan,51,Male,152,58,O-,"Body Pain, Vomiting, Fever, Fatigue",Diabetes,8.1,106,343,10148,3.25,141,80,Hypertension,1.52,25.1,Overweight,Prediabetes,High Risk,7,High Risk
+298,Shannon Vaughn,67,Female,159,47,O+,"Dizziness, Shortness of Breath, Body Pain","Diabetes, Hypertension, Liver Disease",11.0,76,238,4361,3.16,105,69,Kidney Disease,1.59,18.59,Normal,Normal,Normal,3,Medium Risk
+299,Ryan Allen,80,Male,155,94,O-,"Cough, Shortness of Breath","Liver Disease, Diabetes, Thyroid Disorder",10.4,223,170,5176,3.41,163,118,Diabetes,1.55,39.13,Obese,Diabetes Risk,High Risk,11,Critical Risk
+300,Kenneth Stewart,69,Female,144,105,AB-,Headache,"Diabetes, nan, Kidney Disease",17.5,79,309,10538,2.77,151,113,Hypertension,1.44,50.64,Obese,Normal,High Risk,7,High Risk
+301,Patrick Williams,9,Female,173,74,B+,"Fatigue, Vomiting, Cough",Kidney Disease,15.4,90,290,13084,0.52,142,88,Hypertension,1.73,24.73,Normal,Normal,High Risk,2,Low Risk
+302,Austin Rivas,81,Male,151,85,A-,"Body Pain, Fatigue, Vomiting, Chest Pain",Kidney Disease,10.2,186,306,6957,0.82,91,67,Diabetes,1.51,37.28,Obese,Diabetes Risk,Normal,4,Medium Risk
+303,Dana Edwards,60,Female,188,47,AB-,"Shortness of Breath, Vomiting, Fever",Asthma,8.4,256,348,13205,3.02,139,73,Diabetes,1.88,13.3,Underweight,Diabetes Risk,Elevated,8,High Risk
+304,Lauren Norris,19,Male,162,44,O+,"Headache, Chest Pain","nan, Thyroid Disorder, Heart Disease",11.6,145,212,7074,3.19,129,85,Kidney Disease,1.62,16.77,Underweight,Diabetes Risk,Elevated,5,Medium Risk
+305,Teresa Burton,46,Male,187,76,O+,"Shortness of Breath, Chest Pain, Headache","Kidney Disease, nan",13.9,167,199,11832,1.91,166,94,Hypertension,1.87,21.73,Normal,Diabetes Risk,High Risk,5,Medium Risk
+306,Donald King,20,Female,181,118,B+,Fatigue,"Hypertension, Kidney Disease, Asthma",15.5,153,145,5341,0.9,117,106,Healthy,1.81,36.02,Obese,Diabetes Risk,Normal,4,Medium Risk
+307,Joel Lee,78,Male,173,106,O+,"Body Pain, Vomiting, Shortness of Breath, Cough, Nausea","Liver Disease, Diabetes",13.1,252,120,7256,2.5,144,82,Diabetes,1.73,35.42,Obese,Diabetes Risk,High Risk,10,Critical Risk
+308,Jennifer Mullen,68,Female,157,60,AB+,Nausea,"Diabetes, Liver Disease",8.5,296,319,11498,2.39,133,119,Diabetes,1.57,24.34,Normal,Diabetes Risk,Elevated,8,High Risk
+309,Rachael Soto,31,Female,147,89,B-,"Cough, Headache, Fatigue, Dizziness",Kidney Disease,8.6,244,138,8991,1.05,172,91,Diabetes,1.47,41.19,Obese,Diabetes Risk,High Risk,10,Critical Risk
+310,Robert Wood,66,Male,165,53,AB-,Cough,"Hypertension, Asthma, Heart Disease",9.9,130,186,8473,1.62,159,109,Hypertension,1.65,19.47,Normal,Diabetes Risk,High Risk,6,High Risk
+311,Sandy Cross,76,Male,158,42,A+,"Fever, Chest Pain, Headache, Vomiting, Nausea","Liver Disease, Kidney Disease",14.1,223,185,6303,0.63,143,89,Diabetes,1.58,16.82,Underweight,Diabetes Risk,High Risk,5,Medium Risk
+312,Timothy Hawkins,23,Male,172,107,AB+,"Dizziness, Chest Pain, Body Pain","Thyroid Disorder, Hypertension",11.6,149,268,4808,1.11,139,89,Healthy,1.72,36.17,Obese,Diabetes Risk,Elevated,4,Medium Risk
+313,Maxwell Davis,2,Female,165,112,AB-,"Vomiting, Dizziness, Fever, Shortness of Breath, Nausea",Hypertension,15.1,289,212,8258,1.95,102,96,Diabetes,1.65,41.14,Obese,Diabetes Risk,Normal,5,Medium Risk
+314,Kayla Baxter,36,Female,169,97,A-,Headache,"nan, Kidney Disease, Thyroid Disorder",11.6,165,216,5622,2.59,132,77,Kidney Disease,1.69,33.96,Obese,Diabetes Risk,Elevated,7,High Risk
+315,Steve Graves,45,Male,175,71,O-,"Chest Pain, Fatigue, Fever, Headache, Vomiting",Liver Disease,12.8,124,199,11840,0.7,112,116,Healthy,1.75,23.18,Normal,Prediabetes,Normal,0,Low Risk
+316,Robert Thomas,25,Male,162,97,AB-,"Fatigue, Dizziness, Vomiting","nan, Asthma, Heart Disease",15.0,265,302,9506,2.69,104,94,Diabetes,1.62,36.96,Obese,Diabetes Risk,Normal,8,High Risk
+317,Laura White,76,Female,160,81,A-,"Cough, Body Pain, Nausea","Kidney Disease, Heart Disease",17.3,125,349,11554,1.04,123,98,Healthy,1.6,31.64,Obese,Prediabetes,Elevated,2,Low Risk
+318,Cindy Miller,12,Female,161,94,B+,Headache,Asthma,11.4,291,123,6831,0.51,150,102,Diabetes,1.61,36.26,Obese,Diabetes Risk,High Risk,7,High Risk
+319,Sharon Murray,1,Female,174,57,B+,"Chest Pain, Body Pain, Vomiting, Cough","nan, Heart Disease, Diabetes",8.3,186,347,11615,0.6,161,71,Diabetes,1.74,18.83,Normal,Diabetes Risk,High Risk,7,High Risk
+320,Brandi Phillips,83,Male,186,50,AB-,Shortness of Breath,"Asthma, Hypertension",14.5,106,248,11321,2.14,137,93,Kidney Disease,1.86,14.45,Underweight,Prediabetes,Elevated,3,Medium Risk
+321,Jessica Wallace,4,Male,175,75,B-,"Fatigue, Headache, Fever, Chest Pain, Vomiting",Heart Disease,14.4,160,259,12148,1.98,110,99,Healthy,1.75,24.49,Normal,Diabetes Risk,Normal,2,Low Risk
+322,Samantha Johnson,43,Female,146,88,O-,"Body Pain, Vomiting","Hypertension, Heart Disease",12.8,296,199,14015,0.87,171,72,Diabetes,1.46,41.28,Obese,Diabetes Risk,High Risk,8,High Risk
+323,Tammy Johnson,33,Female,165,79,O-,"Fever, Dizziness","Heart Disease, Hypertension",17.2,234,226,4275,1.41,142,116,Diabetes,1.65,29.02,Overweight,Diabetes Risk,High Risk,5,Medium Risk
+324,Martha Baker,35,Male,169,71,B+,Cough,"Hypertension, Asthma, nan",12.4,263,140,13318,3.14,101,116,Diabetes,1.69,24.86,Normal,Diabetes Risk,Normal,6,High Risk
+325,Wayne Jones,15,Female,150,81,A+,Chest Pain,"Asthma, nan",13.8,192,201,6327,1.36,145,64,Diabetes,1.5,36.0,Obese,Diabetes Risk,High Risk,6,High Risk
+326,Edward Reed,53,Male,189,107,A-,"Shortness of Breath, Vomiting, Fatigue, Cough","nan, Liver Disease",10.2,235,196,13307,1.47,131,101,Diabetes,1.89,29.95,Overweight,Diabetes Risk,Elevated,3,Medium Risk
+327,Robert Jones,15,Male,175,113,O+,Dizziness,Liver Disease,13.6,118,157,5402,0.89,178,74,Hypertension,1.75,36.9,Obese,Prediabetes,High Risk,5,Medium Risk
+328,Deanna Dean,74,Female,170,59,A+,"Chest Pain, Headache, Cough","Asthma, Hypertension, Heart Disease",16.0,239,157,5702,2.95,115,91,Diabetes,1.7,20.42,Normal,Diabetes Risk,Normal,6,High Risk
+329,Renee Blake,26,Female,150,50,A+,"Body Pain, Shortness of Breath","Heart Disease, nan, Liver Disease",12.2,113,288,14779,2.04,126,105,Kidney Disease,1.5,22.22,Normal,Prediabetes,Elevated,3,Medium Risk
+330,Lisa Holder,55,Male,180,57,A+,"Body Pain, Chest Pain","Kidney Disease, Liver Disease, Thyroid Disorder",17.6,229,273,10408,1.29,169,88,Diabetes,1.8,17.59,Underweight,Diabetes Risk,High Risk,6,High Risk
+331,Hunter Hammond,61,Male,147,43,B-,"Dizziness, Fatigue, Body Pain, Cough, Shortness of Breath","Heart Disease, nan, Thyroid Disorder",11.7,297,243,6947,1.07,143,100,Diabetes,1.47,19.9,Normal,Diabetes Risk,High Risk,5,Medium Risk
+332,Steven Nash,43,Male,165,100,AB+,"Dizziness, Fever, Shortness of Breath","Diabetes, Asthma, nan",11.5,173,318,9814,1.52,126,90,Healthy,1.65,36.73,Obese,Diabetes Risk,Elevated,4,Medium Risk
+333,John Bond,32,Female,175,46,A-,"Body Pain, Nausea, Vomiting, Headache, Fatigue","Diabetes, Thyroid Disorder, Kidney Disease",15.2,75,275,12887,0.86,169,92,Hypertension,1.75,15.02,Underweight,Normal,High Risk,3,Medium Risk
+334,John Ross,81,Male,171,119,O+,"Headache, Nausea, Body Pain, Shortness of Breath",Diabetes,14.6,221,137,9670,3.32,139,114,Diabetes,1.71,40.7,Obese,Diabetes Risk,Elevated,8,High Risk
+335,Courtney Brown,70,Male,158,43,B+,"Fever, Vomiting, Headache, Shortness of Breath","Asthma, Diabetes",9.0,80,259,11147,0.65,118,94,Anemia,1.58,17.22,Underweight,Normal,Normal,2,Low Risk
+336,Matthew Roberts,39,Female,161,61,O+,"Fatigue, Vomiting, Dizziness",Heart Disease,10.0,76,236,14930,2.0,113,60,Healthy,1.61,23.53,Normal,Normal,Normal,0,Low Risk
+337,Courtney Ewing,20,Male,190,114,AB+,Dizziness,"nan, Hypertension",16.7,157,218,12627,3.32,172,88,Hypertension,1.9,31.58,Obese,Diabetes Risk,High Risk,10,Critical Risk
+338,Molly Burnett,21,Female,180,55,AB+,"Body Pain, Shortness of Breath, Fatigue","Asthma, Diabetes",16.9,249,158,11972,2.05,160,84,Diabetes,1.8,16.98,Underweight,Diabetes Risk,High Risk,8,High Risk
+339,Mrs. Debra Warner,45,Male,146,109,O-,"Fever, Body Pain, Nausea, Shortness of Breath, Headache",Heart Disease,17.9,93,267,6593,0.55,154,110,Hypertension,1.46,51.14,Obese,Normal,High Risk,4,Medium Risk
+340,Jeffrey Jackson,12,Male,158,94,AB+,Nausea,"Kidney Disease, Diabetes",10.7,289,150,4785,1.32,161,100,Diabetes,1.58,37.65,Obese,Diabetes Risk,High Risk,8,High Risk
+341,Lori Wood,71,Female,154,89,A-,"Nausea, Vomiting",Liver Disease,8.9,210,326,13606,3.02,134,107,Diabetes,1.54,37.53,Obese,Diabetes Risk,Elevated,10,Critical Risk
+342,Kathleen White,37,Female,178,99,O+,"Dizziness, Fatigue","Thyroid Disorder, Asthma, Diabetes",16.3,141,244,9527,1.14,101,120,Healthy,1.78,31.25,Obese,Diabetes Risk,Normal,4,Medium Risk
+343,Jill Moore,72,Female,149,47,O-,"Cough, Vomiting, Chest Pain, Nausea, Headache","Asthma, Thyroid Disorder, Liver Disease",11.7,70,135,7519,2.77,151,118,Hypertension,1.49,21.17,Normal,Normal,High Risk,5,Medium Risk
+344,Alyssa Gay,78,Female,184,103,AB+,"Vomiting, Body Pain, Chest Pain",Liver Disease,17.7,90,309,6029,3.01,130,73,Kidney Disease,1.84,30.42,Obese,Normal,Elevated,5,Medium Risk
+345,Maria Ayala,37,Female,144,51,B+,Dizziness,"Liver Disease, Hypertension, Heart Disease",17.7,219,199,12011,2.89,150,76,Diabetes,1.44,24.59,Normal,Diabetes Risk,High Risk,8,High Risk
+346,Madison Dixon,75,Female,159,101,B+,"Chest Pain, Shortness of Breath, Fatigue, Headache",Hypertension,10.0,275,137,10191,1.89,178,114,Diabetes,1.59,39.95,Obese,Diabetes Risk,High Risk,8,High Risk
+347,Karen Wright,17,Female,165,110,AB+,"Cough, Chest Pain, Body Pain, Headache","Kidney Disease, Heart Disease, Diabetes",13.9,233,150,13171,1.69,164,112,Diabetes,1.65,40.4,Obese,Diabetes Risk,High Risk,8,High Risk
+348,Crystal Mccarthy,22,Male,180,98,O+,"Cough, Body Pain, Fatigue","Kidney Disease, Heart Disease, Liver Disease",9.5,143,122,8423,3.41,166,71,Hypertension,1.8,30.25,Obese,Diabetes Risk,High Risk,12,Critical Risk
+349,Laura Reyes,86,Female,185,107,O-,"Nausea, Chest Pain","Heart Disease, nan, Asthma",13.9,273,328,6963,3.09,129,90,Diabetes,1.85,31.26,Obese,Diabetes Risk,Elevated,8,High Risk
+350,Paula Barnett,23,Male,161,70,B-,"Shortness of Breath, Chest Pain, Fatigue, Nausea","Diabetes, Heart Disease, Kidney Disease",16.1,264,350,11555,3.21,175,105,Diabetes,1.61,27.01,Overweight,Diabetes Risk,High Risk,9,Critical Risk
+351,Michael Williams,25,Male,166,110,A+,"Chest Pain, Dizziness, Body Pain, Fatigue",Diabetes,8.1,249,289,14388,1.71,178,120,Diabetes,1.66,39.92,Obese,Diabetes Risk,High Risk,10,Critical Risk
+352,Scott Calderon,69,Male,159,107,A+,Shortness of Breath,"Thyroid Disorder, Diabetes, Liver Disease",9.0,172,207,13736,0.62,174,112,Hypertension,1.59,42.32,Obese,Diabetes Risk,High Risk,9,Critical Risk
+353,Jordan Norris,20,Male,156,115,AB+,"Dizziness, Nausea, Headache, Fever, Body Pain",,12.7,137,158,13225,1.45,180,64,Hypertension,1.56,47.26,Obese,Diabetes Risk,High Risk,7,High Risk
+354,Ashley Robinson,39,Male,185,115,A+,Chest Pain,"Diabetes, Hypertension, Asthma",8.3,76,256,6384,0.99,130,112,Anemia,1.85,33.6,Obese,Normal,Elevated,4,Medium Risk
+355,Kim Harris,64,Male,151,57,AB-,"Vomiting, Nausea, Headache, Dizziness","Hypertension, Diabetes",16.5,206,307,13684,1.49,120,120,Diabetes,1.51,25.0,Overweight,Diabetes Risk,Elevated,3,Medium Risk
+356,Elizabeth Garcia,82,Male,173,48,B+,"Body Pain, Shortness of Breath, Headache",Kidney Disease,10.2,91,344,9307,2.38,101,80,Kidney Disease,1.73,16.04,Underweight,Normal,Normal,3,Medium Risk
+357,Victoria Stevenson,82,Male,178,46,O-,"Fever, Dizziness, Shortness of Breath","Thyroid Disorder, Kidney Disease, Heart Disease",12.8,199,325,10460,1.5,103,89,Diabetes,1.78,14.52,Underweight,Diabetes Risk,Normal,2,Low Risk
+358,Rachel Fletcher,10,Male,188,118,A+,Vomiting,"Heart Disease, Hypertension",9.0,211,222,9553,1.77,110,104,Diabetes,1.88,33.39,Obese,Diabetes Risk,Normal,7,High Risk
+359,David Kane,41,Female,188,96,A-,"Fever, Headache","nan, Thyroid Disorder",11.5,169,304,6822,3.17,120,70,Kidney Disease,1.88,27.16,Overweight,Diabetes Risk,Elevated,5,Medium Risk
+360,Sheila Johnson,1,Female,160,66,A+,"Body Pain, Fatigue","Thyroid Disorder, Liver Disease",9.9,200,261,8354,0.86,108,114,Diabetes,1.6,25.78,Overweight,Diabetes Risk,Normal,4,Medium Risk
+361,Leah Sanchez,2,Female,179,93,B+,"Shortness of Breath, Headache, Nausea","Heart Disease, Hypertension, Thyroid Disorder",17.3,110,295,14100,3.19,127,112,Kidney Disease,1.79,29.03,Overweight,Prediabetes,Elevated,3,Medium Risk
+362,Amanda Curry,5,Female,151,41,AB+,"Headache, Cough, Dizziness","Liver Disease, Asthma",11.3,118,255,5647,0.88,136,89,Healthy,1.51,17.98,Underweight,Prediabetes,Elevated,0,Low Risk
+363,Jason Herman,39,Female,151,83,B+,"Nausea, Cough","Kidney Disease, Heart Disease",16.9,278,196,5592,3.2,166,115,Diabetes,1.51,36.4,Obese,Diabetes Risk,High Risk,11,Critical Risk
+364,Steven Adams PhD,75,Female,168,56,AB+,"Body Pain, Cough, Fever",Diabetes,13.9,215,159,6777,2.04,145,101,Diabetes,1.68,19.84,Normal,Diabetes Risk,High Risk,8,High Risk
+365,Joseph Erickson,3,Female,154,49,AB-,"Dizziness, Vomiting",Diabetes,13.9,170,294,11388,1.88,96,100,Healthy,1.54,20.66,Normal,Diabetes Risk,Normal,2,Low Risk
+366,Sarah Johnson,76,Male,169,82,B-,"Fatigue, Headache, Shortness of Breath","nan, Heart Disease, Kidney Disease",16.3,210,254,4913,1.49,107,99,Diabetes,1.69,28.71,Overweight,Diabetes Risk,Normal,3,Medium Risk
+367,Sydney Cobb,45,Female,190,115,AB+,Nausea,"Kidney Disease, Asthma, Diabetes",14.3,126,183,6537,0.9,146,94,Hypertension,1.9,31.86,Obese,Diabetes Risk,High Risk,4,Medium Risk
+368,Dawn Alexander,52,Female,144,82,B+,Headache,"Hypertension, Asthma",16.0,159,227,12926,0.75,97,91,Healthy,1.44,39.54,Obese,Diabetes Risk,Normal,4,Medium Risk
+369,James Peterson,50,Male,189,106,O-,"Fever, Nausea, Headache, Fatigue, Vomiting","Kidney Disease, nan, Diabetes",16.7,191,180,9013,1.12,179,94,Diabetes,1.89,29.67,Overweight,Diabetes Risk,High Risk,5,Medium Risk
+370,Thomas Hayden,62,Female,144,67,B-,"Vomiting, Fatigue","Diabetes, Hypertension",12.1,242,197,12286,1.74,176,70,Diabetes,1.44,32.31,Obese,Diabetes Risk,High Risk,8,High Risk
+371,Kenneth Carter,55,Male,184,51,A-,"Body Pain, Chest Pain",,11.2,295,244,9241,3.45,121,60,Diabetes,1.84,15.06,Underweight,Diabetes Risk,Elevated,6,High Risk
+372,Calvin Tate,56,Male,177,104,B-,"Nausea, Dizziness, Chest Pain, Headache, Shortness of Breath","Asthma, Kidney Disease",15.0,161,263,8233,3.23,108,87,Kidney Disease,1.77,33.2,Obese,Diabetes Risk,Normal,7,High Risk
+373,Kaitlyn Jordan,11,Female,151,46,O+,"Vomiting, Cough, Headache","nan, Diabetes",16.2,163,147,6813,1.08,137,104,Healthy,1.51,20.17,Normal,Diabetes Risk,Elevated,2,Low Risk
+374,Timothy Ferguson,59,Male,156,46,AB+,"Dizziness, Body Pain, Chest Pain, Cough, Headache","Heart Disease, Asthma",17.8,97,252,4791,3.5,144,69,Hypertension,1.56,18.9,Normal,Normal,High Risk,5,Medium Risk
+375,Melanie Mcfarland,31,Female,167,108,O-,"Headache, Fever, Vomiting, Fatigue, Body Pain","Diabetes, nan",15.6,89,312,6673,1.14,144,64,Hypertension,1.67,38.72,Obese,Normal,High Risk,4,Medium Risk
+376,Joshua Holden,17,Male,175,108,AB-,Nausea,"Kidney Disease, Liver Disease",12.6,245,201,9076,3.26,147,83,Diabetes,1.75,35.27,Obese,Diabetes Risk,High Risk,10,Critical Risk
+377,Christy Cox,49,Male,157,59,B+,Chest Pain,Thyroid Disorder,15.9,111,328,11611,0.55,148,119,Hypertension,1.57,23.94,Normal,Prediabetes,High Risk,2,Low Risk
+378,Adrian Houston,2,Male,159,96,B+,"Chest Pain, Shortness of Breath, Fatigue, Dizziness",,18.0,152,220,7509,1.33,150,110,Hypertension,1.59,37.97,Obese,Diabetes Risk,High Risk,6,High Risk
+379,Jennifer Flores,17,Female,173,110,B+,"Body Pain, Fatigue, Shortness of Breath, Cough, Headache","Asthma, Kidney Disease, nan",9.2,122,306,14288,0.7,151,113,Hypertension,1.73,36.75,Obese,Prediabetes,High Risk,6,High Risk
+380,Michael Briggs,45,Male,157,104,O+,"Fever, Chest Pain, Vomiting, Nausea","Asthma, Kidney Disease",17.3,270,171,13705,3.33,176,64,Diabetes,1.57,42.19,Obese,Diabetes Risk,High Risk,11,Critical Risk
+381,Valerie Stokes,8,Female,171,73,AB-,"Shortness of Breath, Nausea, Fever",Heart Disease,14.7,90,174,7945,2.33,95,114,Kidney Disease,1.71,24.96,Normal,Normal,Normal,3,Medium Risk
+382,Marcus Swanson,19,Male,170,74,AB+,"Fatigue, Shortness of Breath","Heart Disease, nan, Liver Disease",12.3,147,261,4689,1.57,96,88,Healthy,1.7,25.61,Overweight,Diabetes Risk,Normal,2,Low Risk
+383,Stephanie Maldonado,30,Female,149,118,B+,"Chest Pain, Cough, Dizziness, Shortness of Breath, Body Pain",Asthma,14.6,211,138,10008,0.58,127,87,Diabetes,1.49,53.15,Obese,Diabetes Risk,Elevated,5,Medium Risk
+384,Vanessa Thomas,16,Female,168,108,O-,"Headache, Chest Pain","Thyroid Disorder, Heart Disease, Asthma",15.8,168,244,5586,3.03,165,117,Hypertension,1.68,38.27,Obese,Diabetes Risk,High Risk,10,Critical Risk
+385,Jessica Santiago,69,Male,145,82,B-,"Dizziness, Headache, Chest Pain",Kidney Disease,8.1,290,320,13852,0.83,176,77,Diabetes,1.45,39.0,Obese,Diabetes Risk,High Risk,10,Critical Risk
+386,Steven Hodge,31,Female,144,114,A+,"Vomiting, Nausea, Cough","Liver Disease, Hypertension",14.0,82,232,9257,1.01,125,116,Healthy,1.44,54.98,Obese,Normal,Elevated,2,Low Risk
+387,Brent Stark,77,Female,164,48,O+,"Shortness of Breath, Dizziness, Nausea, Cough",Hypertension,11.4,295,265,4503,1.0,163,93,Diabetes,1.64,17.85,Underweight,Diabetes Risk,High Risk,6,High Risk
+388,Daniel Key,23,Male,141,58,A-,"Body Pain, Headache, Nausea",Asthma,17.6,207,246,6907,2.52,146,115,Diabetes,1.41,29.17,Overweight,Diabetes Risk,High Risk,8,High Risk
+389,Nicole Lopez,33,Male,154,62,A-,"Dizziness, Chest Pain, Vomiting","Kidney Disease, Liver Disease",17.5,91,144,5863,2.95,175,85,Hypertension,1.54,26.14,Overweight,Normal,High Risk,6,High Risk
+390,Mackenzie Bell,5,Male,184,49,A-,"Vomiting, Fatigue","Heart Disease, Thyroid Disorder",8.8,221,262,14833,2.62,124,114,Diabetes,1.84,14.47,Underweight,Diabetes Risk,Elevated,8,High Risk
+391,Debra Small,46,Male,141,100,O-,Body Pain,"Diabetes, Kidney Disease, Liver Disease",13.8,76,161,6250,1.36,165,91,Hypertension,1.41,50.3,Obese,Normal,High Risk,5,Medium Risk
+392,Kevin Carpenter,77,Female,171,80,O+,"Chest Pain, Cough, Vomiting, Headache, Nausea","Asthma, Heart Disease",17.6,204,329,13262,1.35,91,89,Diabetes,1.71,27.36,Overweight,Diabetes Risk,Normal,3,Medium Risk
+393,Gregory Hines,28,Female,158,44,B-,"Chest Pain, Body Pain, Cough","Hypertension, Diabetes, Thyroid Disorder",11.8,265,239,12247,2.6,180,100,Diabetes,1.58,17.63,Underweight,Diabetes Risk,High Risk,9,Critical Risk
+394,Monique Silva,51,Male,178,54,AB+,"Chest Pain, Vomiting, Shortness of Breath",Heart Disease,10.4,156,196,12303,2.3,128,69,Kidney Disease,1.78,17.04,Underweight,Diabetes Risk,Elevated,5,Medium Risk
+395,Kristi Ellis,79,Female,183,89,A-,"Cough, Nausea, Body Pain, Fatigue",Asthma,14.7,77,188,5732,1.86,107,78,Healthy,1.83,26.58,Overweight,Normal,Normal,0,Low Risk
+396,Nicole Roach,19,Male,152,76,AB+,"Fever, Dizziness, Cough","Heart Disease, Diabetes",13.6,78,255,5696,3.27,130,103,Kidney Disease,1.52,32.89,Obese,Normal,Elevated,5,Medium Risk
+397,Janet Jones,11,Male,157,46,B+,"Dizziness, Fatigue","Diabetes, Heart Disease, Hypertension",12.3,209,280,8358,1.16,146,63,Diabetes,1.57,18.66,Normal,Diabetes Risk,High Risk,5,Medium Risk
+398,Jeanette Miller,13,Female,181,88,A+,"Chest Pain, Fatigue, Nausea, Shortness of Breath","Heart Disease, Asthma",16.5,286,228,13033,1.77,103,68,Diabetes,1.81,26.86,Overweight,Diabetes Risk,Normal,3,Medium Risk
+399,Jerry Carpenter,78,Female,165,51,B-,"Dizziness, Body Pain, Headache",Hypertension,15.0,187,158,5756,2.01,110,67,Diabetes,1.65,18.73,Normal,Diabetes Risk,Normal,5,Medium Risk
+400,Adrienne Watson,72,Male,190,64,AB+,Nausea,Liver Disease,10.6,210,294,13941,1.15,128,71,Diabetes,1.9,17.73,Underweight,Diabetes Risk,Elevated,3,Medium Risk
+401,John Brown,19,Female,190,89,AB+,Vomiting,"Asthma, Liver Disease",17.3,245,337,7649,1.86,167,82,Diabetes,1.9,24.65,Normal,Diabetes Risk,High Risk,6,High Risk
+402,Jonathan Gonzalez,8,Female,155,78,O+,"Shortness of Breath, Fatigue, Body Pain","Liver Disease, Diabetes, Kidney Disease",12.1,149,198,7951,1.67,176,111,Hypertension,1.55,32.47,Obese,Diabetes Risk,High Risk,7,High Risk
+403,Benjamin Newton,13,Male,140,45,B-,"Dizziness, Body Pain",Kidney Disease,14.7,118,279,13592,0.68,152,70,Hypertension,1.4,22.96,Normal,Prediabetes,High Risk,2,Low Risk
+404,Phillip Ibarra,41,Male,143,68,A+,"Shortness of Breath, Dizziness",Heart Disease,9.3,165,299,13048,3.12,115,120,Anemia,1.43,33.25,Obese,Diabetes Risk,Normal,9,Critical Risk
+405,Jason Baxter,18,Female,154,72,O+,"Fatigue, Headache",Diabetes,8.0,135,215,13906,3.14,151,77,Hypertension,1.54,30.36,Obese,Diabetes Risk,High Risk,11,Critical Risk
+406,Debra Jennings,74,Female,144,85,B+,"Chest Pain, Dizziness","Diabetes, Asthma, Hypertension",10.3,269,142,14039,2.39,137,89,Diabetes,1.44,40.99,Obese,Diabetes Risk,Elevated,8,High Risk
+407,Rachel Diaz,71,Male,184,83,AB+,"Nausea, Fever, Chest Pain, Body Pain, Headache","Hypertension, Asthma, Heart Disease",13.6,270,186,13546,2.39,163,61,Diabetes,1.84,24.52,Normal,Diabetes Risk,High Risk,9,Critical Risk
+408,Victoria Savage,76,Male,164,54,O-,"Fever, Body Pain, Shortness of Breath, Headache, Chest Pain",Heart Disease,13.0,103,166,5862,2.03,122,67,Kidney Disease,1.64,20.08,Normal,Prediabetes,Elevated,3,Medium Risk
+409,Alejandro Lane,45,Female,190,80,A+,"Cough, Body Pain, Vomiting, Chest Pain",Heart Disease,10.4,240,226,11732,2.6,164,93,Diabetes,1.9,22.16,Normal,Diabetes Risk,High Risk,9,Critical Risk
+410,Jimmy Ramos,66,Male,147,57,B-,"Vomiting, Shortness of Breath, Dizziness, Fatigue, Body Pain","Thyroid Disorder, nan",12.2,197,314,11188,1.88,163,72,Diabetes,1.47,26.38,Overweight,Diabetes Risk,High Risk,5,Medium Risk
+411,George Lee,53,Female,159,87,AB-,"Cough, Nausea, Fatigue, Shortness of Breath","Kidney Disease, Hypertension",17.7,88,223,11720,0.74,153,117,Hypertension,1.59,34.41,Obese,Normal,High Risk,4,Medium Risk
+412,Matthew Collins,72,Male,172,113,AB+,Shortness of Breath,"Heart Disease, Liver Disease",9.2,94,224,11221,1.54,124,95,Anemia,1.72,38.2,Obese,Normal,Elevated,4,Medium Risk
+413,Charles Perez,10,Female,152,107,AB-,Shortness of Breath,Hypertension,8.6,236,287,14365,2.17,160,85,Diabetes,1.52,46.31,Obese,Diabetes Risk,High Risk,12,Critical Risk
+414,Phyllis Carney,77,Female,151,107,AB+,"Fatigue, Chest Pain, Fever, Dizziness, Shortness of Breath","Hypertension, Diabetes, nan",13.0,202,138,6156,3.42,148,90,Diabetes,1.51,46.93,Obese,Diabetes Risk,High Risk,10,Critical Risk
+415,Ralph Vasquez,5,Female,147,45,B-,"Body Pain, Chest Pain",Thyroid Disorder,12.0,154,131,11859,1.32,130,66,Healthy,1.47,20.82,Normal,Diabetes Risk,Elevated,2,Low Risk
+416,Lauren Burns,87,Female,165,117,A+,"Fever, Nausea, Fatigue",Asthma,8.7,72,318,4490,1.42,106,111,Anemia,1.65,42.98,Obese,Normal,Normal,4,Medium Risk
+417,Eric Little,21,Female,142,88,B-,Nausea,"Asthma, Diabetes",10.8,90,140,14275,0.77,122,112,Healthy,1.42,43.64,Obese,Normal,Elevated,2,Low Risk
+418,Lindsay Griffith,22,Female,163,80,B+,"Chest Pain, Headache, Body Pain, Nausea","Heart Disease, Asthma, Diabetes",15.4,153,301,6919,2.73,121,87,Kidney Disease,1.63,30.11,Obese,Diabetes Risk,Elevated,7,High Risk
+419,Colleen Butler,70,Male,164,43,B+,"Chest Pain, Headache","Heart Disease, Hypertension, Thyroid Disorder",14.1,222,169,12911,0.75,130,75,Diabetes,1.64,15.99,Underweight,Diabetes Risk,Elevated,3,Medium Risk
+420,Luis Newman,20,Female,166,52,O+,"Chest Pain, Shortness of Breath","Liver Disease, nan",16.5,173,186,9429,1.97,123,62,Healthy,1.66,18.87,Normal,Diabetes Risk,Elevated,2,Low Risk
+421,Jenny Russell,64,Female,158,110,O-,"Body Pain, Headache","Hypertension, Diabetes, Heart Disease",12.4,123,314,10827,2.97,110,70,Kidney Disease,1.58,44.06,Obese,Prediabetes,Normal,5,Medium Risk
+422,Rebecca Ward,90,Male,189,90,AB-,Cough,"Asthma, Heart Disease, Thyroid Disorder",13.8,238,250,5162,1.52,149,77,Diabetes,1.89,25.2,Overweight,Diabetes Risk,High Risk,5,Medium Risk
+423,Joyce Clements,16,Male,185,51,A+,"Body Pain, Cough, Fatigue, Headache, Nausea","Hypertension, Liver Disease",11.9,229,346,5088,2.92,106,63,Diabetes,1.85,14.9,Underweight,Diabetes Risk,Normal,6,High Risk
+424,Kyle Bishop,26,Male,185,70,AB+,"Shortness of Breath, Fever","Liver Disease, Asthma, nan",17.6,118,292,4747,2.62,112,99,Kidney Disease,1.85,20.45,Normal,Prediabetes,Normal,3,Medium Risk
+425,William Bryan,85,Female,141,85,AB-,"Shortness of Breath, Vomiting, Chest Pain",Heart Disease,11.3,257,243,7208,0.87,137,88,Diabetes,1.41,42.75,Obese,Diabetes Risk,Elevated,5,Medium Risk
+426,Nicholas Rodriguez,29,Female,172,90,A+,"Chest Pain, Fever, Vomiting","Diabetes, Hypertension",8.9,275,304,14065,1.22,100,63,Diabetes,1.72,30.42,Obese,Diabetes Risk,Normal,7,High Risk
+427,Jonathan Rodriguez,25,Male,161,97,B+,"Nausea, Headache","Hypertension, Diabetes, Liver Disease",14.3,143,146,12066,3.29,149,109,Hypertension,1.61,37.42,Obese,Diabetes Risk,High Risk,9,Critical Risk
+428,Michael Jackson,13,Male,170,61,O-,"Fever, Chest Pain, Headache, Shortness of Breath","nan, Diabetes",13.0,279,294,12090,0.87,139,106,Diabetes,1.7,21.11,Normal,Diabetes Risk,Elevated,3,Medium Risk
+429,Mark Perez,88,Female,162,115,A+,"Body Pain, Cough, Headache, Fever, Fatigue","Kidney Disease, Heart Disease, Liver Disease",13.0,196,278,4128,0.68,164,111,Diabetes,1.62,43.82,Obese,Diabetes Risk,High Risk,7,High Risk
+430,Nathaniel Taylor,31,Male,177,86,B-,"Fatigue, Headache, Vomiting",Hypertension,8.1,137,210,13469,1.73,163,75,Hypertension,1.77,27.45,Overweight,Diabetes Risk,High Risk,7,High Risk
+431,Christopher Brown Jr.,70,Female,146,76,A-,"Chest Pain, Fatigue, Shortness of Breath, Headache",Hypertension,11.6,283,310,7123,2.73,123,62,Diabetes,1.46,35.65,Obese,Diabetes Risk,Elevated,8,High Risk
+432,Kimberly Brown,6,Female,154,46,AB-,"Nausea, Cough, Chest Pain, Dizziness, Fever",Asthma,11.2,134,343,9736,2.89,148,113,Hypertension,1.54,19.4,Normal,Diabetes Risk,High Risk,7,High Risk
+433,Michael Gilbert,84,Female,140,90,AB-,"Chest Pain, Fever, Shortness of Breath, Fatigue","Kidney Disease, Hypertension, Liver Disease",16.6,224,186,4633,2.86,142,60,Diabetes,1.4,45.92,Obese,Diabetes Risk,High Risk,10,Critical Risk
+434,Michaela Bell,81,Male,147,74,A-,"Nausea, Dizziness, Fever, Fatigue","Kidney Disease, Hypertension, Diabetes",9.4,184,251,11744,3.33,152,81,Diabetes,1.47,34.24,Obese,Diabetes Risk,High Risk,11,Critical Risk
+435,Travis Ferguson,20,Female,142,64,A-,"Fever, Dizziness, Cough, Fatigue",Thyroid Disorder,9.6,177,193,9754,1.59,175,96,Hypertension,1.42,31.74,Obese,Diabetes Risk,High Risk,9,Critical Risk
+436,Zachary Mcdaniel,68,Male,142,48,AB+,"Vomiting, Dizziness",Thyroid Disorder,17.0,273,275,9408,2.52,168,120,Diabetes,1.42,23.8,Normal,Diabetes Risk,High Risk,9,Critical Risk
+437,Benjamin Johnson,43,Male,170,97,AB-,Cough,"Hypertension, Kidney Disease, Diabetes",12.1,75,148,4540,2.57,179,98,Hypertension,1.7,33.56,Obese,Normal,High Risk,8,High Risk
+438,Nathaniel Dunlap,22,Male,184,70,A-,"Fever, Vomiting, Fatigue, Headache, Body Pain",Kidney Disease,14.8,287,173,11763,1.85,160,86,Diabetes,1.84,20.68,Normal,Diabetes Risk,High Risk,5,Medium Risk
+439,Valerie Nguyen,84,Male,173,71,O-,"Fatigue, Shortness of Breath","Thyroid Disorder, nan, Hypertension",15.4,122,194,6136,1.46,144,73,Hypertension,1.73,23.72,Normal,Prediabetes,High Risk,2,Low Risk
+440,Sara Downs,16,Male,188,93,AB+,"Chest Pain, Fatigue","Diabetes, Thyroid Disorder, Kidney Disease",16.7,120,167,9433,2.83,157,92,Hypertension,1.88,26.31,Overweight,Prediabetes,High Risk,5,Medium Risk
+441,Pedro Arnold,69,Male,146,60,AB-,"Body Pain, Headache",,15.2,177,279,4542,0.72,160,70,Hypertension,1.46,28.15,Overweight,Diabetes Risk,High Risk,4,Medium Risk
+442,Amy Greer,39,Female,177,42,A+,"Nausea, Dizziness, Chest Pain",,12.1,221,300,12812,0.64,174,117,Diabetes,1.77,13.41,Underweight,Diabetes Risk,High Risk,6,High Risk
+443,Stephanie Jones,19,Male,144,103,AB+,"Shortness of Breath, Cough","Liver Disease, Thyroid Disorder, Diabetes",12.9,94,127,9657,2.98,132,107,Kidney Disease,1.44,49.67,Obese,Normal,Elevated,5,Medium Risk
+444,Lori Watson,70,Female,177,89,A-,Vomiting,"Liver Disease, Kidney Disease, nan",10.1,195,272,6113,1.36,165,66,Diabetes,1.77,28.41,Overweight,Diabetes Risk,High Risk,5,Medium Risk
+445,Shane Wilkerson,19,Male,169,56,O-,Fever,Diabetes,17.2,114,178,8019,1.98,124,61,Healthy,1.69,19.61,Normal,Prediabetes,Elevated,0,Low Risk
+446,Sarah Cox,23,Female,155,108,O+,"Chest Pain, Body Pain, Fever, Cough",Heart Disease,14.4,287,296,13618,3.26,161,104,Diabetes,1.55,44.95,Obese,Diabetes Risk,High Risk,11,Critical Risk
+447,Dawn Baker,9,Female,160,78,A-,"Fever, Headache, Body Pain, Shortness of Breath, Dizziness","Asthma, Hypertension",12.7,130,185,4248,2.43,175,92,Hypertension,1.6,30.47,Obese,Diabetes Risk,High Risk,10,Critical Risk
+448,Rebecca Santos,22,Male,147,118,AB+,"Dizziness, Fatigue, Body Pain, Shortness of Breath, Vomiting","Thyroid Disorder, Heart Disease, nan",13.1,234,288,5875,2.75,138,85,Diabetes,1.47,54.61,Obese,Diabetes Risk,Elevated,8,High Risk
+449,Matthew Chambers,83,Female,150,86,O-,"Fatigue, Fever, Body Pain, Headache, Dizziness","Heart Disease, Thyroid Disorder, Diabetes",14.4,108,178,5173,2.19,105,89,Kidney Disease,1.5,38.22,Obese,Prediabetes,Normal,5,Medium Risk
+450,Laura Hernandez,86,Male,178,107,O+,"Shortness of Breath, Cough",Liver Disease,8.4,224,258,14926,3.47,124,119,Diabetes,1.78,33.77,Obese,Diabetes Risk,Elevated,10,Critical Risk
+451,Brian Roberts,47,Male,154,89,B+,"Shortness of Breath, Headache, Nausea, Dizziness, Cough","Diabetes, nan",10.0,142,313,12279,1.33,107,62,Healthy,1.54,37.53,Obese,Diabetes Risk,Normal,4,Medium Risk
+452,Ashley Gillespie,46,Female,175,85,O+,"Fatigue, Headache, Body Pain","Thyroid Disorder, Asthma, Diabetes",11.8,88,214,12067,2.52,112,91,Kidney Disease,1.75,27.76,Overweight,Normal,Normal,3,Medium Risk
+453,Joshua Hernandez,1,Female,172,58,B-,"Fever, Nausea","Heart Disease, Hypertension",14.3,279,169,8330,1.48,135,102,Diabetes,1.72,19.61,Normal,Diabetes Risk,Elevated,3,Medium Risk
+454,Kathleen Moore,86,Male,154,97,AB-,"Dizziness, Body Pain, Vomiting, Shortness of Breath","Hypertension, Liver Disease",8.2,251,141,9913,1.67,105,110,Diabetes,1.54,40.9,Obese,Diabetes Risk,Normal,7,High Risk
+455,Seth Pena,22,Female,184,52,AB-,"Chest Pain, Vomiting, Dizziness, Shortness of Breath","Liver Disease, Heart Disease",8.6,265,130,11910,2.1,153,103,Diabetes,1.84,15.36,Underweight,Diabetes Risk,High Risk,10,Critical Risk
+456,Peter Bennett,76,Female,169,81,A-,"Fever, Dizziness, Vomiting, Nausea, Chest Pain",Liver Disease,8.1,243,309,10369,1.57,165,98,Diabetes,1.69,28.36,Overweight,Diabetes Risk,High Risk,8,High Risk
+457,Desiree Taylor,87,Female,164,68,A+,"Body Pain, Vomiting, Fever","Liver Disease, Hypertension, Thyroid Disorder",8.2,170,257,10760,2.68,157,94,Hypertension,1.64,25.28,Overweight,Diabetes Risk,High Risk,9,Critical Risk
+458,Zoe Guerra,79,Female,150,74,B+,"Nausea, Shortness of Breath, Fever",Thyroid Disorder,13.0,259,298,13706,0.99,169,108,Diabetes,1.5,32.89,Obese,Diabetes Risk,High Risk,8,High Risk
+459,John Hunter,10,Female,184,105,O+,"Dizziness, Headache, Nausea",Kidney Disease,17.9,152,228,10703,3.19,133,66,Kidney Disease,1.84,31.01,Obese,Diabetes Risk,Elevated,7,High Risk
+460,Rachael Santiago,44,Male,175,58,B-,"Chest Pain, Nausea, Cough, Body Pain, Vomiting","Thyroid Disorder, Hypertension, Asthma",13.7,73,252,6882,2.09,134,120,Kidney Disease,1.75,18.94,Normal,Normal,Elevated,3,Medium Risk
+461,Rose Watts,38,Female,179,106,O+,Headache,"Kidney Disease, Asthma, Thyroid Disorder",15.9,238,217,13470,1.99,167,83,Diabetes,1.79,33.08,Obese,Diabetes Risk,High Risk,8,High Risk
+462,Lisa Garcia,29,Female,140,113,B-,"Headache, Fever, Fatigue, Cough","Liver Disease, Heart Disease, Thyroid Disorder",13.1,233,322,10123,2.3,97,78,Diabetes,1.4,57.65,Obese,Diabetes Risk,Normal,8,High Risk
+463,Dawn Walker,79,Female,148,76,B+,"Cough, Dizziness, Headache, Vomiting, Body Pain","Heart Disease, Diabetes",9.7,201,268,6672,2.97,125,84,Diabetes,1.48,34.7,Obese,Diabetes Risk,Elevated,10,Critical Risk
+464,Laura Olson,42,Female,185,74,AB-,Chest Pain,,8.1,129,145,10812,2.13,171,118,Hypertension,1.85,21.62,Normal,Diabetes Risk,High Risk,10,Critical Risk
+465,Benjamin Miles,16,Female,189,104,O-,"Nausea, Headache, Dizziness, Cough, Vomiting",Heart Disease,12.3,196,161,4517,0.62,103,65,Diabetes,1.89,29.11,Overweight,Diabetes Risk,Normal,2,Low Risk
+466,Adam Acevedo,83,Female,185,89,O-,"Shortness of Breath, Fatigue","nan, Hypertension, Kidney Disease",11.9,192,341,14995,3.34,164,75,Diabetes,1.85,26.0,Overweight,Diabetes Risk,High Risk,8,High Risk
+467,Alexandra Schmidt,55,Male,152,58,A-,Chest Pain,"nan, Heart Disease, Thyroid Disorder",12.4,248,245,12216,1.67,143,96,Diabetes,1.52,25.1,Overweight,Diabetes Risk,High Risk,5,Medium Risk
+468,James Rivera,89,Female,180,71,AB+,"Chest Pain, Shortness of Breath, Cough, Headache",,14.8,120,293,7947,0.91,97,60,Healthy,1.8,21.91,Normal,Prediabetes,Normal,0,Low Risk
+469,Joseph Moore,17,Female,173,73,O+,Vomiting,"Heart Disease, Kidney Disease",10.1,137,264,11804,3.42,176,109,Hypertension,1.73,24.39,Normal,Diabetes Risk,High Risk,8,High Risk
+470,Paul Ward,49,Male,156,80,AB-,"Cough, Fever","nan, Kidney Disease",8.8,139,281,5128,2.47,157,65,Hypertension,1.56,32.87,Obese,Diabetes Risk,High Risk,11,Critical Risk
+471,Jason Erickson,52,Male,157,53,O-,"Fever, Fatigue, Cough, Shortness of Breath, Chest Pain",Hypertension,11.2,114,241,13638,0.92,141,83,Hypertension,1.57,21.5,Normal,Prediabetes,High Risk,2,Low Risk
+472,Alyssa Jackson,31,Female,148,111,O+,"Nausea, Vomiting",Asthma,9.8,139,290,14623,1.74,167,83,Hypertension,1.48,50.68,Obese,Diabetes Risk,High Risk,9,Critical Risk
+473,Joshua Stevens,31,Female,157,112,O-,"Chest Pain, Fatigue","Thyroid Disorder, Asthma, Heart Disease",14.9,226,262,6117,2.21,139,91,Diabetes,1.57,45.44,Obese,Diabetes Risk,Elevated,8,High Risk
+474,Eric Barker,51,Male,185,78,A+,"Vomiting, Fatigue, Fever, Dizziness","Heart Disease, Hypertension",16.4,156,215,11320,1.94,128,103,Healthy,1.85,22.79,Normal,Diabetes Risk,Elevated,2,Low Risk
+475,Wendy Stevens,6,Female,183,84,B-,"Fatigue, Vomiting","nan, Liver Disease",14.7,196,150,6082,2.55,122,111,Diabetes,1.83,25.08,Overweight,Diabetes Risk,Elevated,5,Medium Risk
+476,James Brown,13,Male,188,101,A+,"Fever, Nausea, Shortness of Breath, Cough, Vomiting",Asthma,17.0,103,298,4944,2.96,136,104,Kidney Disease,1.88,28.58,Overweight,Prediabetes,Elevated,3,Medium Risk
+477,Mrs. Kimberly Walker,80,Male,156,90,AB+,"Headache, Fever, Vomiting, Dizziness, Chest Pain","nan, Heart Disease",16.8,154,310,12098,0.93,156,65,Hypertension,1.56,36.98,Obese,Diabetes Risk,High Risk,6,High Risk
+478,Jennifer Oliver,35,Male,182,77,B+,"Vomiting, Chest Pain, Fever",Thyroid Disorder,12.0,178,329,9632,0.73,150,68,Hypertension,1.82,23.25,Normal,Diabetes Risk,High Risk,4,Medium Risk
+479,Kimberly Parker,5,Female,154,78,AB+,"Shortness of Breath, Fatigue, Headache, Chest Pain, Cough","Asthma, Diabetes",15.8,266,177,14780,1.89,102,80,Diabetes,1.54,32.89,Obese,Diabetes Risk,Normal,5,Medium Risk
+480,Jennifer Cuevas,52,Female,147,69,A-,"Body Pain, Fever, Headache, Dizziness","Diabetes, Asthma, nan",16.4,236,183,8777,0.75,173,63,Diabetes,1.47,31.93,Obese,Diabetes Risk,High Risk,8,High Risk
+481,Michael Arellano,28,Female,144,91,AB+,"Fever, Fatigue, Cough, Vomiting, Nausea",Liver Disease,8.6,75,241,6844,0.67,107,119,Anemia,1.44,43.89,Obese,Normal,Normal,4,Medium Risk
+482,Carol Singh,59,Female,162,81,O-,Vomiting,"Liver Disease, Thyroid Disorder, nan",16.6,116,248,14156,1.44,161,61,Hypertension,1.62,30.86,Obese,Prediabetes,High Risk,5,Medium Risk
+483,Tina Wilson,82,Male,189,44,B+,Fever,"Heart Disease, Hypertension",11.3,109,346,14007,3.18,180,116,Hypertension,1.89,12.32,Underweight,Prediabetes,High Risk,6,High Risk
+484,Alison Crane,61,Female,154,76,B-,"Nausea, Fatigue",Heart Disease,12.8,115,273,9162,2.83,110,62,Kidney Disease,1.54,32.05,Obese,Prediabetes,Normal,5,Medium Risk
+485,Samuel Brown,52,Male,145,63,A-,"Dizziness, Nausea, Headache, Cough","Liver Disease, Asthma, Hypertension",17.7,248,289,14350,1.94,119,106,Diabetes,1.45,29.96,Overweight,Diabetes Risk,Normal,3,Medium Risk
+486,Jeanette Burton,62,Male,142,91,O+,"Body Pain, Cough","Heart Disease, nan, Diabetes",13.8,192,153,9376,2.04,97,96,Diabetes,1.42,45.13,Obese,Diabetes Risk,Normal,7,High Risk
+487,Misty Flores,3,Male,159,63,O-,"Headache, Shortness of Breath, Nausea, Body Pain","nan, Thyroid Disorder, Liver Disease",16.7,198,333,14311,2.99,171,110,Diabetes,1.59,24.92,Normal,Diabetes Risk,High Risk,8,High Risk
+488,Sarah Alvarez,79,Male,151,62,B+,"Headache, Cough","Kidney Disease, Thyroid Disorder",11.6,292,132,4398,2.69,141,78,Diabetes,1.51,27.19,Overweight,Diabetes Risk,High Risk,8,High Risk
+489,John Santana,28,Female,178,45,A+,"Chest Pain, Dizziness, Nausea",Diabetes,11.1,256,135,9095,2.65,112,83,Diabetes,1.78,14.2,Underweight,Diabetes Risk,Normal,6,High Risk
+490,Mrs. Hannah Romero DVM,75,Male,140,70,A-,"Headache, Fatigue",Hypertension,8.2,195,271,14624,2.4,124,118,Diabetes,1.4,35.71,Obese,Diabetes Risk,Elevated,9,Critical Risk
+491,Katherine Farmer,62,Female,172,66,AB+,Body Pain,"nan, Heart Disease, Hypertension",14.4,135,241,10527,1.9,159,77,Hypertension,1.72,22.31,Normal,Diabetes Risk,High Risk,4,Medium Risk
+492,Christina Hart,43,Male,160,55,A-,"Body Pain, Cough, Nausea, Dizziness, Fever","Liver Disease, Diabetes",14.2,276,335,7381,0.95,124,100,Diabetes,1.6,21.48,Normal,Diabetes Risk,Elevated,3,Medium Risk
+493,Lisa Benjamin,32,Female,159,69,B+,Chest Pain,"Diabetes, nan",12.2,139,177,13237,1.29,164,118,Hypertension,1.59,27.29,Overweight,Diabetes Risk,High Risk,5,Medium Risk
+494,Wendy Wyatt,47,Female,182,55,O+,"Shortness of Breath, Dizziness","Thyroid Disorder, Hypertension",10.1,245,286,8883,1.11,134,117,Diabetes,1.82,16.6,Underweight,Diabetes Risk,Elevated,3,Medium Risk
+495,Cassandra Garrett,38,Male,160,58,B+,Vomiting,"Kidney Disease, Hypertension, Liver Disease",9.7,276,295,6699,2.37,141,119,Diabetes,1.6,22.66,Normal,Diabetes Risk,High Risk,10,Critical Risk
+496,Adam Graves,2,Female,165,84,A-,"Headache, Shortness of Breath, Vomiting","Heart Disease, Diabetes",17.3,204,282,5310,2.33,168,71,Diabetes,1.65,30.85,Obese,Diabetes Risk,High Risk,11,Critical Risk
+497,David Charles,48,Male,167,56,O-,"Cough, Fever, Vomiting","Hypertension, Thyroid Disorder, nan",9.6,109,136,14155,3.22,163,64,Hypertension,1.67,20.08,Normal,Prediabetes,High Risk,8,High Risk
+498,Gina Gibbs,32,Male,156,62,O+,Fever,Liver Disease,12.3,146,280,7787,1.82,110,66,Healthy,1.56,25.48,Overweight,Diabetes Risk,Normal,2,Low Risk
+499,John Campos,18,Female,181,92,B-,Chest Pain,"Kidney Disease, Liver Disease, Heart Disease",13.0,230,342,14572,1.37,134,70,Diabetes,1.81,28.08,Overweight,Diabetes Risk,Elevated,3,Medium Risk
+500,James Hernandez,34,Female,160,77,A-,"Vomiting, Nausea, Cough, Dizziness, Chest Pain",Liver Disease,11.8,177,143,10782,2.73,134,78,Kidney Disease,1.6,30.08,Obese,Diabetes Risk,Elevated,7,High Risk
+501,Erica Warner,9,Female,171,51,A-,Shortness of Breath,"nan, Hypertension",11.1,89,170,4342,3.17,144,60,Hypertension,1.71,17.44,Underweight,Normal,High Risk,5,Medium Risk
+502,Jose Rogers,57,Female,179,40,AB-,"Nausea, Cough, Dizziness, Headache, Vomiting","Asthma, Diabetes, Heart Disease",14.4,254,127,6771,0.72,152,119,Diabetes,1.79,12.48,Underweight,Diabetes Risk,High Risk,5,Medium Risk
+503,Morgan Kane,80,Male,168,110,O+,Chest Pain,"Asthma, Hypertension",10.4,170,171,6918,3.47,144,65,Hypertension,1.68,38.97,Obese,Diabetes Risk,High Risk,9,Critical Risk
+504,Aaron Foley,18,Male,169,48,AB+,"Headache, Cough, Shortness of Breath, Dizziness",Liver Disease,13.8,134,153,14137,1.25,160,65,Hypertension,1.69,16.81,Underweight,Diabetes Risk,High Risk,4,Medium Risk
+505,Jonathan Perry,25,Female,153,120,B-,"Dizziness, Body Pain, Fatigue, Shortness of Breath","nan, Heart Disease, Hypertension",9.5,197,134,4532,2.1,108,109,Diabetes,1.53,51.26,Obese,Diabetes Risk,Normal,9,Critical Risk
+506,Elizabeth Lee,86,Male,142,59,B+,Body Pain,"nan, Liver Disease",13.8,191,161,6899,2.15,119,114,Diabetes,1.42,29.26,Overweight,Diabetes Risk,Normal,5,Medium Risk
+507,Patricia Diaz,83,Female,150,47,AB-,Cough,"Hypertension, Thyroid Disorder, Liver Disease",16.0,244,258,5975,0.61,101,67,Diabetes,1.5,20.89,Normal,Diabetes Risk,Normal,3,Medium Risk
+508,Patricia Mann,1,Male,179,46,B+,"Body Pain, Dizziness, Fatigue",Asthma,15.8,99,136,5316,1.07,154,80,Hypertension,1.79,14.36,Underweight,Normal,High Risk,2,Low Risk
+509,Ashley Flores,1,Female,185,75,AB+,"Fatigue, Vomiting, Body Pain, Nausea","Hypertension, Liver Disease, Heart Disease",16.4,136,278,5979,2.89,90,67,Kidney Disease,1.85,21.91,Normal,Diabetes Risk,Normal,5,Medium Risk
+510,Casey Hernandez,80,Female,150,106,O-,"Cough, Fatigue, Nausea","Kidney Disease, Asthma",9.9,260,206,11283,1.68,174,79,Diabetes,1.5,47.11,Obese,Diabetes Risk,High Risk,10,Critical Risk
+511,Daniel Thompson,7,Female,162,56,A+,"Chest Pain, Vomiting, Shortness of Breath, Headache, Fever",,9.6,219,282,5516,2.3,174,99,Diabetes,1.62,21.34,Normal,Diabetes Risk,High Risk,11,Critical Risk
+512,Michael Flores,72,Female,149,67,O-,"Dizziness, Fatigue, Chest Pain","Kidney Disease, Diabetes",13.2,136,294,7747,1.94,136,90,Healthy,1.49,30.18,Obese,Diabetes Risk,Elevated,4,Medium Risk
+513,Shannon Ward,6,Male,168,77,AB-,"Cough, Headache, Nausea, Fever","Asthma, Liver Disease, Kidney Disease",11.5,285,345,6878,1.82,166,64,Diabetes,1.68,27.28,Overweight,Diabetes Risk,High Risk,6,High Risk
+514,Andrew Campbell,30,Female,167,110,B-,"Cough, Fever, Chest Pain, Fatigue","Liver Disease, Hypertension",9.2,121,198,5789,2.9,160,88,Hypertension,1.67,39.44,Obese,Prediabetes,High Risk,9,Critical Risk
+515,Douglas Moses,63,Female,152,65,O-,Dizziness,Asthma,12.7,106,155,11598,1.43,142,95,Hypertension,1.52,28.13,Overweight,Prediabetes,High Risk,2,Low Risk
+516,Tyler Anderson,40,Female,149,99,B+,"Shortness of Breath, Dizziness, Nausea, Cough","Liver Disease, Thyroid Disorder",10.9,168,283,11971,3.33,102,89,Kidney Disease,1.49,44.59,Obese,Diabetes Risk,Normal,7,High Risk
+517,Kayla Oconnell,84,Female,164,93,A+,"Vomiting, Headache, Shortness of Breath, Body Pain, Cough",Heart Disease,13.6,271,136,7008,0.82,91,79,Diabetes,1.64,34.58,Obese,Diabetes Risk,Normal,5,Medium Risk
+518,Jim Anderson,42,Female,145,41,AB-,"Body Pain, Fatigue, Shortness of Breath","Thyroid Disorder, Heart Disease, Asthma",15.2,185,237,12392,2.98,173,86,Diabetes,1.45,19.5,Normal,Diabetes Risk,High Risk,8,High Risk
+519,Sydney Wells,27,Female,177,45,A-,"Fever, Chest Pain, Nausea, Vomiting, Body Pain","Thyroid Disorder, Liver Disease",8.7,258,326,4069,1.81,153,82,Diabetes,1.77,14.36,Underweight,Diabetes Risk,High Risk,7,High Risk
+520,Julia Pitts,47,Female,180,74,O+,Headache,"Asthma, Diabetes, Liver Disease",12.8,85,196,5035,3.1,167,73,Hypertension,1.8,22.84,Normal,Normal,High Risk,6,High Risk
+521,Sue Flores,2,Male,150,106,A-,"Chest Pain, Cough, Fever",Thyroid Disorder,9.8,299,288,12318,1.71,141,116,Diabetes,1.5,47.11,Obese,Diabetes Risk,High Risk,9,Critical Risk
+522,Dawn Ferguson,66,Male,169,45,O+,"Shortness of Breath, Nausea, Chest Pain, Fatigue","Heart Disease, Liver Disease, Kidney Disease",11.4,239,231,14447,2.99,114,108,Diabetes,1.69,15.76,Underweight,Diabetes Risk,Normal,6,High Risk
+523,Teresa Butler,89,Male,143,117,A+,"Headache, Body Pain, Fever, Fatigue, Vomiting",Kidney Disease,10.0,215,220,9746,2.27,92,79,Diabetes,1.43,57.22,Obese,Diabetes Risk,Normal,8,High Risk
+524,Amy Guerra,3,Male,177,87,B-,"Nausea, Dizziness, Chest Pain, Headache, Shortness of Breath","Diabetes, Liver Disease, Hypertension",15.5,74,325,12563,2.0,156,118,Hypertension,1.77,27.77,Overweight,Normal,High Risk,2,Low Risk
+525,Krista Berry,73,Female,176,100,B+,"Chest Pain, Fatigue, Cough, Shortness of Breath",Hypertension,9.8,225,184,5259,2.5,94,84,Diabetes,1.76,32.28,Obese,Diabetes Risk,Normal,10,Critical Risk
+526,Eugene Clark,16,Male,164,120,B+,Dizziness,"Asthma, Kidney Disease, Heart Disease",15.7,265,142,11272,2.91,111,111,Diabetes,1.64,44.62,Obese,Diabetes Risk,Normal,8,High Risk
+527,Richard Goodman,80,Male,177,67,O-,"Vomiting, Shortness of Breath, Cough, Nausea, Body Pain","Heart Disease, Thyroid Disorder",9.9,79,282,4884,1.68,146,103,Hypertension,1.77,21.39,Normal,Normal,High Risk,4,Medium Risk
+528,Valerie Taylor,64,Female,187,104,AB-,"Body Pain, Cough, Fever","Hypertension, nan",14.7,175,175,12208,2.93,102,103,Kidney Disease,1.87,29.74,Overweight,Diabetes Risk,Normal,5,Medium Risk
+529,Derrick Garcia,28,Female,142,45,B+,"Chest Pain, Cough, Nausea, Shortness of Breath","Hypertension, Heart Disease",17.3,270,258,6340,0.81,139,79,Diabetes,1.42,22.32,Normal,Diabetes Risk,Elevated,3,Medium Risk
+530,Jacob Henry,60,Female,168,120,AB-,"Cough, Fatigue, Vomiting, Nausea",Thyroid Disorder,8.0,132,189,14796,2.7,123,112,Anemia,1.68,42.52,Obese,Diabetes Risk,Elevated,9,Critical Risk
+531,Charles Smith,9,Female,146,76,B-,Cough,"Heart Disease, Diabetes, Hypertension",16.7,110,161,9100,3.04,113,67,Kidney Disease,1.46,35.65,Obese,Prediabetes,Normal,5,Medium Risk
+532,Jasmine Johnson,26,Male,185,57,B-,Vomiting,"Liver Disease, Diabetes, Asthma",15.1,187,210,10274,0.9,109,113,Diabetes,1.85,16.65,Underweight,Diabetes Risk,Normal,2,Low Risk
+533,Jenna Wood,78,Female,168,68,A+,"Body Pain, Fatigue","Liver Disease, Thyroid Disorder",12.2,180,187,7074,3.33,162,88,Hypertension,1.68,24.09,Normal,Diabetes Risk,High Risk,8,High Risk
+534,Erin Miller,75,Female,150,45,A+,"Chest Pain, Dizziness","Thyroid Disorder, Liver Disease, Asthma",14.2,232,129,6854,0.57,99,99,Diabetes,1.5,20.0,Normal,Diabetes Risk,Normal,3,Medium Risk
+535,Stephanie Roberts,2,Male,153,80,B+,"Fatigue, Fever, Nausea, Cough, Body Pain","Kidney Disease, Thyroid Disorder",17.9,198,287,9468,1.17,104,115,Diabetes,1.53,34.17,Obese,Diabetes Risk,Normal,4,Medium Risk
+536,Rebecca Webb,42,Male,151,71,AB-,"Dizziness, Cough, Fever, Chest Pain","Diabetes, Thyroid Disorder",17.3,277,280,7671,2.14,106,76,Diabetes,1.51,31.14,Obese,Diabetes Risk,Normal,8,High Risk
+537,Francisco Cohen,8,Male,159,113,A+,"Dizziness, Vomiting","Thyroid Disorder, Heart Disease, Hypertension",10.9,228,135,7673,1.34,173,84,Diabetes,1.59,44.7,Obese,Diabetes Risk,High Risk,8,High Risk
+538,Ryan Johnson,77,Female,179,77,B-,"Dizziness, Chest Pain","Heart Disease, Asthma, Diabetes",14.7,195,181,7274,1.66,107,94,Diabetes,1.79,24.03,Normal,Diabetes Risk,Normal,2,Low Risk
+539,Monica Williamson,90,Female,163,63,B+,"Shortness of Breath, Dizziness, Fever, Cough",Asthma,11.7,228,236,4819,2.07,155,114,Diabetes,1.63,23.71,Normal,Diabetes Risk,High Risk,8,High Risk
+540,Melissa Hanna,22,Male,179,49,O+,Body Pain,"Asthma, Liver Disease, Kidney Disease",13.7,90,128,6848,0.92,143,95,Hypertension,1.79,15.29,Underweight,Normal,High Risk,2,Low Risk
+541,Robert Smith,74,Female,171,106,A+,"Cough, Chest Pain, Fatigue, Fever",Hypertension,10.6,119,308,7722,1.18,112,80,Healthy,1.71,36.25,Obese,Prediabetes,Normal,2,Low Risk
+542,Nancy Ibarra,86,Female,186,98,AB+,"Dizziness, Body Pain, Shortness of Breath",Asthma,8.8,169,151,8859,1.63,106,104,Anemia,1.86,28.33,Overweight,Diabetes Risk,Normal,4,Medium Risk
+543,Jared Grant,11,Male,144,92,B+,"Shortness of Breath, Fatigue, Chest Pain, Cough","nan, Liver Disease",9.7,138,203,4995,3.01,96,108,Anemia,1.44,44.37,Obese,Diabetes Risk,Normal,9,Critical Risk
+544,Scott Turner,40,Female,165,70,B-,"Nausea, Fever, Dizziness",Heart Disease,13.7,109,154,11117,1.38,149,115,Hypertension,1.65,25.71,Overweight,Prediabetes,High Risk,2,Low Risk
+545,Matthew Nguyen,68,Female,148,87,AB-,"Headache, Chest Pain","Heart Disease, Asthma, Liver Disease",12.4,99,294,10114,1.12,141,108,Hypertension,1.48,39.72,Obese,Normal,High Risk,4,Medium Risk
+546,Kenneth Hunter,50,Male,182,73,A+,"Body Pain, Shortness of Breath, Chest Pain",Diabetes,12.9,273,321,6395,3.44,96,98,Diabetes,1.82,22.04,Normal,Diabetes Risk,Normal,6,High Risk
+547,John Rivas,17,Female,146,91,AB+,"Fever, Body Pain, Chest Pain, Cough",,17.8,153,190,6471,3.28,164,112,Hypertension,1.46,42.69,Obese,Diabetes Risk,High Risk,10,Critical Risk
+548,Dana Carter,25,Female,185,88,O+,"Cough, Fever, Body Pain","Kidney Disease, Heart Disease, nan",9.2,161,309,4451,1.3,150,120,Hypertension,1.85,25.71,Overweight,Diabetes Risk,High Risk,6,High Risk
+549,David Castillo,59,Female,146,57,O+,"Headache, Fever, Cough, Shortness of Breath, Fatigue",Hypertension,8.9,156,341,6743,2.23,117,67,Anemia,1.46,26.74,Overweight,Diabetes Risk,Normal,7,High Risk
+550,Jimmy Fox,57,Male,186,70,A+,"Nausea, Body Pain",Asthma,9.3,242,129,5638,0.91,111,77,Diabetes,1.86,20.23,Normal,Diabetes Risk,Normal,5,Medium Risk
+551,Juan Roach,27,Male,180,84,AB-,Chest Pain,"nan, Heart Disease",17.0,112,154,13343,1.3,108,90,Healthy,1.8,25.93,Overweight,Prediabetes,Normal,0,Low Risk
+552,Christine Stewart,48,Male,182,111,A+,"Cough, Dizziness","nan, Heart Disease",16.2,140,144,8946,3.38,114,87,Kidney Disease,1.82,33.51,Obese,Diabetes Risk,Normal,7,High Risk
+553,Gabriel Brown,50,Male,142,63,A-,Chest Pain,"Asthma, Diabetes",13.7,129,209,13171,2.89,108,118,Kidney Disease,1.42,31.24,Obese,Diabetes Risk,Normal,7,High Risk
+554,Zachary Noble,31,Female,165,40,B+,"Fever, Chest Pain, Cough",Kidney Disease,14.7,155,184,10156,2.04,176,73,Hypertension,1.65,14.69,Underweight,Diabetes Risk,High Risk,8,High Risk
+555,April Montgomery,63,Male,143,51,O-,"Nausea, Vomiting, Dizziness, Cough, Body Pain",Asthma,14.5,209,148,7533,1.65,104,62,Diabetes,1.43,24.94,Normal,Diabetes Risk,Normal,3,Medium Risk
+556,Ashley Huff,37,Female,174,103,AB-,Body Pain,"Asthma, Liver Disease, Hypertension",12.9,87,318,11769,0.52,161,110,Hypertension,1.74,34.02,Obese,Normal,High Risk,5,Medium Risk
+557,Sara Morgan DVM,25,Female,179,86,B-,Cough,"Hypertension, Diabetes, Kidney Disease",9.0,87,189,10812,1.4,93,79,Anemia,1.79,26.84,Overweight,Normal,Normal,2,Low Risk
+558,Philip Ross,27,Female,180,56,A+,"Shortness of Breath, Cough, Dizziness, Fatigue, Headache","Diabetes, nan, Liver Disease",10.5,228,122,11542,1.24,157,79,Diabetes,1.8,17.28,Underweight,Diabetes Risk,High Risk,5,Medium Risk
+559,Michael Hamilton,48,Male,155,98,AB-,Fever,"Thyroid Disorder, Asthma",17.8,120,340,7490,1.33,156,107,Hypertension,1.55,40.79,Obese,Prediabetes,High Risk,4,Medium Risk
+560,Alyssa Nielsen,51,Female,187,44,B-,"Chest Pain, Body Pain, Dizziness, Headache, Shortness of Breath",Asthma,9.3,220,132,10742,1.56,166,116,Diabetes,1.87,12.58,Underweight,Diabetes Risk,High Risk,8,High Risk
+561,Phyllis Richard,88,Female,140,113,B-,Shortness of Breath,"Thyroid Disorder, Hypertension, Liver Disease",11.0,152,255,7959,3.4,144,63,Hypertension,1.4,57.65,Obese,Diabetes Risk,High Risk,9,Critical Risk
+562,Jeffrey White,54,Female,173,49,B+,"Cough, Headache, Nausea","Kidney Disease, Thyroid Disorder, nan",17.4,214,214,4265,1.22,108,114,Diabetes,1.73,16.37,Underweight,Diabetes Risk,Normal,3,Medium Risk
+563,Anna Parks,15,Female,158,52,B+,"Shortness of Breath, Chest Pain, Dizziness","Kidney Disease, Diabetes",15.4,207,250,14379,3.2,99,64,Diabetes,1.58,20.83,Normal,Diabetes Risk,Normal,6,High Risk
+564,Wendy Rodriguez,20,Female,161,43,O-,Vomiting,"Thyroid Disorder, Diabetes, Hypertension",8.4,155,192,8339,0.99,140,72,Anemia,1.61,16.59,Underweight,Diabetes Risk,High Risk,4,Medium Risk
+565,April Carter,71,Male,141,79,O+,"Nausea, Vomiting, Body Pain, Shortness of Breath, Fever","Heart Disease, Thyroid Disorder",12.0,243,171,10944,1.47,103,61,Diabetes,1.41,39.74,Obese,Diabetes Risk,Normal,5,Medium Risk
+566,Gregg Pennington,49,Female,184,42,O-,"Vomiting, Dizziness",Liver Disease,15.3,249,147,14044,3.14,173,100,Diabetes,1.84,12.41,Underweight,Diabetes Risk,High Risk,9,Critical Risk
+567,Kimberly Carter,17,Male,142,81,A-,"Body Pain, Chest Pain, Fatigue, Fever","Diabetes, Thyroid Disorder, Heart Disease",14.2,140,124,7408,1.23,172,116,Hypertension,1.42,40.17,Obese,Diabetes Risk,High Risk,7,High Risk
+568,Jerome Vaughn,48,Male,140,98,O+,"Fever, Dizziness, Fatigue, Body Pain, Nausea","Thyroid Disorder, Kidney Disease",16.3,175,137,12868,2.91,104,84,Kidney Disease,1.4,50.0,Obese,Diabetes Risk,Normal,7,High Risk
+569,Douglas Dixon,55,Female,176,51,O-,"Dizziness, Cough, Vomiting",Hypertension,17.3,83,222,9395,2.09,168,66,Hypertension,1.76,16.46,Underweight,Normal,High Risk,6,High Risk
+570,Lauren Robinson,4,Male,155,107,O-,"Body Pain, Fatigue, Headache","Hypertension, Liver Disease",8.7,270,298,13974,3.5,180,78,Diabetes,1.55,44.54,Obese,Diabetes Risk,High Risk,13,Critical Risk
+571,Michael Spence,86,Female,158,111,AB+,"Cough, Body Pain, Headache, Vomiting","Liver Disease, Heart Disease, Thyroid Disorder",15.7,198,127,13401,1.4,142,74,Diabetes,1.58,44.46,Obese,Diabetes Risk,High Risk,6,High Risk
+572,Christine Snow,44,Female,174,63,AB+,Body Pain,"Diabetes, Asthma",16.2,174,296,10899,0.95,145,67,Hypertension,1.74,20.81,Normal,Diabetes Risk,High Risk,4,Medium Risk
+573,Courtney Arnold,66,Male,175,93,A-,"Fever, Cough, Nausea","Liver Disease, nan, Kidney Disease",15.7,194,156,4497,3.06,153,97,Diabetes,1.75,30.37,Obese,Diabetes Risk,High Risk,9,Critical Risk
+574,Paul King,76,Male,179,95,A-,Body Pain,Hypertension,11.8,120,251,11249,2.01,180,120,Hypertension,1.79,29.65,Overweight,Prediabetes,High Risk,6,High Risk
+575,John Mccullough,61,Female,152,79,AB+,"Cough, Shortness of Breath","Thyroid Disorder, Kidney Disease, Heart Disease",12.0,289,196,13164,2.16,117,72,Diabetes,1.52,34.19,Obese,Diabetes Risk,Normal,8,High Risk
+576,Michael Vargas,2,Female,142,114,O-,"Dizziness, Fever, Chest Pain","nan, Hypertension",8.5,190,182,5819,1.72,163,64,Diabetes,1.42,56.54,Obese,Diabetes Risk,High Risk,9,Critical Risk
+577,Shannon Armstrong,34,Female,179,111,AB+,"Cough, Dizziness, Shortness of Breath",Asthma,16.9,292,318,12986,1.63,167,109,Diabetes,1.79,34.64,Obese,Diabetes Risk,High Risk,8,High Risk
+578,Kelly Gutierrez,77,Female,165,90,AB+,"Headache, Vomiting, Dizziness, Shortness of Breath","Kidney Disease, Hypertension, Diabetes",11.2,162,197,8046,2.25,133,62,Kidney Disease,1.65,33.06,Obese,Diabetes Risk,Elevated,7,High Risk
+579,Stephanie Burnett,13,Female,144,88,O-,"Shortness of Breath, Body Pain, Nausea, Fatigue","Heart Disease, Diabetes",17.6,130,123,5076,1.59,155,81,Hypertension,1.44,42.44,Obese,Diabetes Risk,High Risk,6,High Risk
+580,Kristen Becker,4,Male,153,108,O+,"Dizziness, Fever, Body Pain, Chest Pain","Hypertension, Heart Disease, Liver Disease",14.5,104,253,5352,3.19,143,91,Hypertension,1.53,46.14,Obese,Prediabetes,High Risk,7,High Risk
+581,Marissa Bailey,72,Female,190,76,O-,"Nausea, Headache, Chest Pain, Body Pain, Fatigue",Hypertension,15.3,221,153,14251,1.55,97,60,Diabetes,1.9,21.05,Normal,Diabetes Risk,Normal,3,Medium Risk
+582,Claudia Wright,73,Female,170,97,O+,"Body Pain, Dizziness, Chest Pain, Fever, Vomiting","Hypertension, nan",10.5,279,207,9239,2.15,136,112,Diabetes,1.7,33.56,Obese,Diabetes Risk,Elevated,8,High Risk
+583,Kimberly Pierce,65,Female,180,77,B-,Dizziness,"Kidney Disease, Heart Disease, Diabetes",13.4,154,261,14162,0.58,95,84,Healthy,1.8,23.77,Normal,Diabetes Risk,Normal,2,Low Risk
+584,Gary Sanchez,79,Female,157,111,AB-,"Chest Pain, Headache","Diabetes, Heart Disease, Liver Disease",10.5,291,347,7786,1.92,99,102,Diabetes,1.57,45.03,Obese,Diabetes Risk,Normal,5,Medium Risk
+585,Tonya Ortiz,85,Male,152,92,B-,"Vomiting, Headache","Diabetes, Heart Disease, Thyroid Disorder",15.5,274,282,9609,2.52,164,61,Diabetes,1.52,39.82,Obese,Diabetes Risk,High Risk,11,Critical Risk
+586,James Brown,87,Female,163,63,AB-,"Fatigue, Headache, Fever, Vomiting, Nausea","Heart Disease, Kidney Disease",8.9,270,249,5299,2.94,167,87,Diabetes,1.63,23.71,Normal,Diabetes Risk,High Risk,11,Critical Risk
+587,Tammy Castillo,66,Male,190,114,AB+,Nausea,"Heart Disease, Liver Disease, Asthma",17.0,73,272,13338,0.52,141,83,Hypertension,1.9,31.58,Obese,Normal,High Risk,4,Medium Risk
+588,Brian Brown,50,Male,187,44,A-,"Fever, Fatigue, Dizziness, Headache","Kidney Disease, Heart Disease",10.2,165,257,13140,2.68,107,82,Kidney Disease,1.87,12.58,Underweight,Diabetes Risk,Normal,5,Medium Risk
+589,David Kennedy,54,Female,180,57,A-,"Chest Pain, Dizziness, Fatigue","Diabetes, nan",15.8,151,212,7035,2.08,168,70,Hypertension,1.8,17.59,Underweight,Diabetes Risk,High Risk,8,High Risk
+590,Mark Cabrera,77,Male,181,50,B-,Nausea,"Asthma, Diabetes",8.4,202,135,12976,2.18,111,98,Diabetes,1.81,15.26,Underweight,Diabetes Risk,Normal,8,High Risk
+591,Donald Thomas,79,Female,186,78,O-,"Body Pain, Vomiting, Fever, Nausea","Thyroid Disorder, Asthma, Diabetes",11.6,216,299,4210,2.9,170,120,Diabetes,1.86,22.55,Normal,Diabetes Risk,High Risk,9,Critical Risk
+592,Lisa Stevens,52,Female,179,89,O+,"Headache, Body Pain","Asthma, Heart Disease",8.5,135,187,10861,2.72,90,76,Anemia,1.79,27.78,Overweight,Diabetes Risk,Normal,7,High Risk
+593,Russell Saunders,17,Male,144,47,B-,Cough,"Kidney Disease, nan, Liver Disease",12.1,146,291,7608,0.52,158,62,Hypertension,1.44,22.67,Normal,Diabetes Risk,High Risk,4,Medium Risk
+594,Charles Cooper,35,Male,163,48,A-,"Shortness of Breath, Cough","Hypertension, Thyroid Disorder",16.3,193,256,11209,3.29,170,79,Diabetes,1.63,18.07,Underweight,Diabetes Risk,High Risk,8,High Risk
+595,Olivia Olson,82,Female,158,55,AB+,"Headache, Vomiting, Nausea, Shortness of Breath","Diabetes, Hypertension",17.1,209,233,10905,1.97,114,103,Diabetes,1.58,22.03,Normal,Diabetes Risk,Normal,3,Medium Risk
+596,Cesar Santiago,70,Female,179,49,A+,"Dizziness, Nausea, Body Pain, Headache, Fever","Hypertension, Liver Disease, Kidney Disease",10.3,191,123,13376,2.02,113,95,Diabetes,1.79,15.29,Underweight,Diabetes Risk,Normal,5,Medium Risk
+597,Sean Proctor,33,Female,179,106,A-,Dizziness,"Hypertension, Thyroid Disorder, Asthma",14.6,182,163,10376,1.81,135,120,Diabetes,1.79,33.08,Obese,Diabetes Risk,Elevated,4,Medium Risk
+598,Rachel Mcclure,48,Male,145,72,B-,Chest Pain,Asthma,12.9,73,259,4980,2.95,103,64,Kidney Disease,1.45,34.24,Obese,Normal,Normal,5,Medium Risk
+599,Philip Johnson,62,Female,183,109,B+,"Fever, Cough, Shortness of Breath","nan, Hypertension, Kidney Disease",15.9,128,348,12927,3.06,171,109,Hypertension,1.83,32.55,Obese,Diabetes Risk,High Risk,10,Critical Risk
+600,Samuel Spears,33,Male,181,112,O-,"Shortness of Breath, Nausea, Cough, Fatigue, Body Pain","nan, Hypertension",12.9,193,192,12611,0.94,113,80,Diabetes,1.81,34.19,Obese,Diabetes Risk,Normal,4,Medium Risk
+601,Anthony Hansen,24,Male,148,95,A-,"Dizziness, Vomiting, Nausea, Body Pain","nan, Thyroid Disorder",10.7,183,120,8220,1.86,113,107,Diabetes,1.48,43.37,Obese,Diabetes Risk,Normal,4,Medium Risk
+602,Benjamin Barker,71,Male,185,58,AB+,"Vomiting, Cough, Headache",Kidney Disease,17.6,124,312,14956,1.85,134,71,Healthy,1.85,16.95,Underweight,Prediabetes,Elevated,0,Low Risk
+603,Jessica Hall,51,Male,166,65,B-,Vomiting,"Kidney Disease, nan",9.1,224,327,11265,2.23,117,112,Diabetes,1.66,23.59,Normal,Diabetes Risk,Normal,8,High Risk
+604,Christopher Chen,19,Male,143,57,A-,Chest Pain,"Asthma, Liver Disease, Hypertension",10.8,240,340,12827,0.56,90,103,Diabetes,1.43,27.87,Overweight,Diabetes Risk,Normal,3,Medium Risk
+605,Shannon Gibson,55,Female,147,53,O-,Body Pain,Hypertension,9.8,178,141,6379,3.42,93,112,Anemia,1.47,24.53,Normal,Diabetes Risk,Normal,7,High Risk
+606,Sarah Juarez,27,Female,180,88,AB+,"Dizziness, Vomiting, Nausea, Cough, Fatigue","Thyroid Disorder, Hypertension",10.4,223,140,8857,1.59,176,83,Diabetes,1.8,27.16,Overweight,Diabetes Risk,High Risk,6,High Risk
+607,Christopher Murphy,78,Female,142,82,B-,"Cough, Shortness of Breath, Fatigue","Thyroid Disorder, Diabetes, Liver Disease",17.5,97,298,13078,1.33,171,117,Hypertension,1.42,40.67,Obese,Normal,High Risk,5,Medium Risk
+608,Alexandra Jones,76,Female,184,58,O+,"Body Pain, Nausea, Fatigue, Dizziness",,16.4,187,172,7059,0.85,153,105,Diabetes,1.84,17.13,Underweight,Diabetes Risk,High Risk,4,Medium Risk
+609,Hannah Burton,54,Male,163,112,O+,"Fatigue, Headache, Nausea, Chest Pain, Shortness of Breath","Thyroid Disorder, Asthma",17.3,117,221,14921,2.96,140,111,Kidney Disease,1.63,42.15,Obese,Prediabetes,High Risk,5,Medium Risk
+610,Rhonda Hill,11,Female,169,55,B-,"Body Pain, Cough, Chest Pain","Diabetes, Heart Disease, Asthma",9.2,167,298,10389,2.57,134,73,Anemia,1.69,19.26,Normal,Diabetes Risk,Elevated,7,High Risk
+611,James Phillips,33,Male,161,71,AB-,"Headache, Chest Pain","Kidney Disease, nan",12.3,96,300,7798,2.72,166,108,Hypertension,1.61,27.39,Overweight,Normal,High Risk,6,High Risk
+612,Julian Wheeler,83,Female,180,59,A-,"Fatigue, Vomiting, Chest Pain",Kidney Disease,13.5,209,195,10858,0.9,104,117,Diabetes,1.8,18.21,Underweight,Diabetes Risk,Normal,3,Medium Risk
+613,Robert Leon,90,Male,170,116,O+,"Cough, Headache, Nausea",Diabetes,17.8,281,155,8749,3.0,97,60,Diabetes,1.7,40.14,Obese,Diabetes Risk,Normal,8,High Risk
+614,Megan Perry,6,Male,173,61,O+,"Chest Pain, Body Pain, Shortness of Breath",,17.0,252,222,14079,1.44,118,77,Diabetes,1.73,20.38,Normal,Diabetes Risk,Normal,3,Medium Risk
+615,Chad Jefferson,41,Female,190,75,A-,Shortness of Breath,"Thyroid Disorder, Liver Disease",13.7,92,210,13486,1.01,162,77,Hypertension,1.9,20.78,Normal,Normal,High Risk,3,Medium Risk
+616,Nancy Peters,55,Female,185,40,A+,"Fatigue, Chest Pain, Fever, Vomiting",Diabetes,11.4,178,267,14152,2.49,135,81,Kidney Disease,1.85,11.69,Underweight,Diabetes Risk,Elevated,5,Medium Risk
+617,John Marks,54,Male,185,90,A-,"Chest Pain, Fever, Vomiting, Cough, Headache","Diabetes, Heart Disease",12.9,153,251,10584,0.67,91,94,Healthy,1.85,26.3,Overweight,Diabetes Risk,Normal,2,Low Risk
+618,Terri Valenzuela,89,Male,170,104,B+,"Fatigue, Body Pain, Chest Pain, Cough","Thyroid Disorder, Hypertension",13.9,76,124,11804,3.02,131,84,Kidney Disease,1.7,35.99,Obese,Normal,Elevated,5,Medium Risk
+619,Lisa Avery,70,Male,160,73,B+,"Dizziness, Shortness of Breath, Vomiting","Diabetes, Liver Disease, nan",15.8,264,298,13308,1.56,155,116,Diabetes,1.6,28.52,Overweight,Diabetes Risk,High Risk,5,Medium Risk
+620,Cindy Wolfe,47,Male,169,97,A+,"Fever, Chest Pain, Headache, Dizziness, Shortness of Breath","Diabetes, Kidney Disease",14.9,80,292,14453,1.95,104,90,Healthy,1.69,33.96,Obese,Normal,Normal,2,Low Risk
+621,Jonathon Sanders,44,Male,145,50,O-,Vomiting,"Liver Disease, Asthma",8.9,146,271,9264,3.0,117,100,Anemia,1.45,23.78,Normal,Diabetes Risk,Normal,7,High Risk
+622,Robin Robbins MD,47,Male,164,40,A+,"Shortness of Breath, Chest Pain, Headache","Asthma, Hypertension, Kidney Disease",16.8,260,140,8280,2.65,149,97,Diabetes,1.64,14.87,Underweight,Diabetes Risk,High Risk,8,High Risk
+623,Jeffrey Archer,9,Male,150,80,O-,Dizziness,"Heart Disease, Thyroid Disorder",8.6,295,323,8100,3.04,100,114,Diabetes,1.5,35.56,Obese,Diabetes Risk,Normal,10,Critical Risk
+624,Daniel Edwards,89,Male,165,103,O-,"Shortness of Breath, Fatigue",Asthma,17.5,88,218,4818,1.53,136,112,Healthy,1.65,37.83,Obese,Normal,Elevated,2,Low Risk
+625,Justin Riddle,46,Male,145,44,B-,"Shortness of Breath, Nausea, Body Pain, Dizziness","Asthma, Kidney Disease",17.7,173,285,4025,1.66,166,91,Hypertension,1.45,20.93,Normal,Diabetes Risk,High Risk,5,Medium Risk
+626,Emily Wood,31,Female,162,111,A+,"Vomiting, Cough, Headache, Nausea, Dizziness",Kidney Disease,14.5,246,264,14744,1.89,100,75,Diabetes,1.62,42.3,Obese,Diabetes Risk,Normal,5,Medium Risk
+627,Arthur Gray,79,Female,184,65,B-,"Cough, Headache",Asthma,16.3,179,196,6739,2.24,177,67,Hypertension,1.84,19.2,Normal,Diabetes Risk,High Risk,8,High Risk
+628,Jenna Spencer,81,Male,158,74,O+,"Fatigue, Shortness of Breath, Body Pain, Fever","Heart Disease, Hypertension",12.0,126,289,13835,1.95,127,86,Healthy,1.58,29.64,Overweight,Diabetes Risk,Elevated,0,Low Risk
+629,Kathy Dillon,31,Male,184,45,AB-,Headache,"Thyroid Disorder, Kidney Disease",15.7,184,131,9323,1.19,125,76,Diabetes,1.84,13.29,Underweight,Diabetes Risk,Elevated,2,Low Risk
+630,Beverly Coleman,75,Female,145,90,AB-,"Body Pain, Shortness of Breath","Hypertension, nan, Diabetes",17.6,126,270,13816,2.06,144,91,Hypertension,1.45,42.81,Obese,Diabetes Risk,High Risk,7,High Risk
+631,Mason Calhoun,81,Male,147,100,AB+,Fatigue,Asthma,14.7,215,266,8086,1.91,163,64,Diabetes,1.47,46.28,Obese,Diabetes Risk,High Risk,8,High Risk
+632,Matthew Nguyen,53,Male,169,62,O+,"Body Pain, Fatigue, Fever","Asthma, nan, Thyroid Disorder",13.9,229,137,14340,3.07,127,69,Diabetes,1.69,21.71,Normal,Diabetes Risk,Elevated,6,High Risk
+633,Jeremy Stark,66,Female,162,88,AB-,"Nausea, Shortness of Breath, Vomiting, Body Pain","Liver Disease, Asthma",16.1,109,140,4141,2.5,103,76,Kidney Disease,1.62,33.53,Obese,Prediabetes,Normal,5,Medium Risk
+634,Kyle Rivera,90,Female,150,42,A+,Body Pain,,11.7,200,235,11600,2.03,100,92,Diabetes,1.5,18.67,Normal,Diabetes Risk,Normal,5,Medium Risk
+635,Charles Taylor,46,Female,185,67,O-,"Nausea, Dizziness","Thyroid Disorder, Liver Disease, nan",11.6,221,271,14971,3.36,123,119,Diabetes,1.85,19.58,Normal,Diabetes Risk,Elevated,6,High Risk
+636,Austin Butler,47,Male,153,120,A+,"Dizziness, Vomiting, Shortness of Breath, Body Pain","Diabetes, Heart Disease",13.3,137,200,7807,1.43,162,72,Hypertension,1.53,51.26,Obese,Diabetes Risk,High Risk,7,High Risk
+637,Kimberly Bryant,8,Female,168,56,B-,"Body Pain, Fever",Kidney Disease,11.5,84,249,4080,2.8,130,96,Kidney Disease,1.68,19.84,Normal,Normal,Elevated,3,Medium Risk
+638,Joshua Valencia,25,Male,142,87,AB-,"Chest Pain, Dizziness, Shortness of Breath","Thyroid Disorder, Asthma",10.4,80,286,4292,3.13,154,99,Hypertension,1.42,43.15,Obese,Normal,High Risk,7,High Risk
+639,Christopher Miles,56,Male,140,86,AB+,"Cough, Nausea, Fatigue, Headache","Hypertension, nan",16.8,191,240,5507,2.34,131,63,Diabetes,1.4,43.88,Obese,Diabetes Risk,Elevated,7,High Risk
+640,Michelle Bush,87,Female,161,58,B-,"Body Pain, Headache, Fatigue",Thyroid Disorder,9.0,97,179,7954,1.65,113,64,Anemia,1.61,22.38,Normal,Normal,Normal,2,Low Risk
+641,Dr. Michelle Ware,42,Male,174,49,B-,Body Pain,"nan, Heart Disease",13.8,182,170,8883,2.09,127,94,Diabetes,1.74,16.18,Underweight,Diabetes Risk,Elevated,5,Medium Risk
+642,Erin Nelson,58,Male,182,48,AB-,"Body Pain, Shortness of Breath, Cough, Chest Pain, Fever",Asthma,17.9,97,214,12999,2.97,179,115,Hypertension,1.82,14.49,Underweight,Normal,High Risk,6,High Risk
+643,Dawn Moore,57,Female,184,58,A-,"Cough, Headache, Fatigue, Chest Pain","Liver Disease, Thyroid Disorder, Hypertension",16.2,99,208,5001,1.1,174,117,Hypertension,1.84,17.13,Underweight,Normal,High Risk,3,Medium Risk
+644,Chelsea Gordon,25,Male,148,101,O+,"Shortness of Breath, Nausea","Thyroid Disorder, Hypertension, Kidney Disease",12.2,175,340,10195,1.55,132,82,Healthy,1.48,46.11,Obese,Diabetes Risk,Elevated,4,Medium Risk
+645,Curtis Combs,23,Male,168,102,A+,"Body Pain, Nausea","Heart Disease, Liver Disease, Thyroid Disorder",12.2,148,323,5439,1.63,153,100,Hypertension,1.68,36.14,Obese,Diabetes Risk,High Risk,6,High Risk
+646,Antonio Hays,21,Male,147,69,A-,Cough,"Thyroid Disorder, Asthma",12.5,271,272,7100,0.61,135,72,Diabetes,1.47,31.93,Obese,Diabetes Risk,Elevated,5,Medium Risk
+647,Christopher Wong,61,Female,186,118,A+,"Fatigue, Headache","Kidney Disease, nan, Diabetes",15.9,200,195,13125,1.56,149,62,Diabetes,1.86,34.11,Obese,Diabetes Risk,High Risk,6,High Risk
+648,Brandon Thompson,14,Female,159,59,B-,Fatigue,Asthma,15.5,253,289,6145,2.45,174,108,Diabetes,1.59,23.34,Normal,Diabetes Risk,High Risk,9,Critical Risk
+649,Jennifer Alvarez,25,Female,169,118,O-,"Cough, Body Pain, Fatigue, Shortness of Breath, Vomiting","Thyroid Disorder, Liver Disease",11.6,210,245,9570,2.56,151,88,Diabetes,1.69,41.32,Obese,Diabetes Risk,High Risk,10,Critical Risk
+650,Michelle Santos,57,Male,188,41,B+,"Vomiting, Body Pain, Dizziness, Fatigue, Headache",Liver Disease,9.4,215,212,4698,2.66,94,113,Diabetes,1.88,11.6,Underweight,Diabetes Risk,Normal,8,High Risk
+651,Sarah Montes,73,Female,185,70,B+,"Cough, Vomiting","Diabetes, Kidney Disease",14.8,84,232,8947,1.63,136,113,Healthy,1.85,20.45,Normal,Normal,Elevated,0,Low Risk
+652,Dylan Simon,4,Female,165,112,B-,"Dizziness, Body Pain","Heart Disease, Asthma",14.0,118,241,7292,1.8,133,108,Healthy,1.65,41.14,Obese,Prediabetes,Elevated,2,Low Risk
+653,Christopher Hudson,17,Male,140,93,A+,"Shortness of Breath, Chest Pain, Vomiting","Kidney Disease, Liver Disease",17.6,264,243,6199,1.21,159,74,Diabetes,1.4,47.45,Obese,Diabetes Risk,High Risk,7,High Risk
+654,Andrew Mcintosh,88,Male,148,94,AB-,Vomiting,"Liver Disease, Asthma, Kidney Disease",10.5,300,258,4974,1.29,149,70,Diabetes,1.48,42.91,Obese,Diabetes Risk,High Risk,7,High Risk
+655,Alexis Davis,59,Female,145,108,O+,"Nausea, Vomiting, Fatigue, Dizziness, Shortness of Breath",Diabetes,8.6,228,181,5795,1.53,161,64,Diabetes,1.45,51.37,Obese,Diabetes Risk,High Risk,10,Critical Risk
+656,Morgan Swanson,30,Female,145,60,A+,Cough,Diabetes,13.5,97,341,12205,1.11,162,93,Hypertension,1.45,28.54,Overweight,Normal,High Risk,3,Medium Risk
+657,Carl Castro,32,Female,184,49,AB+,"Dizziness, Vomiting, Fever","Thyroid Disorder, Hypertension",9.5,251,333,10294,1.46,174,63,Diabetes,1.84,14.47,Underweight,Diabetes Risk,High Risk,8,High Risk
+658,Patrick Poole,52,Female,151,44,O-,"Dizziness, Cough, Headache, Fever, Fatigue",Heart Disease,13.4,234,220,14273,3.03,119,104,Diabetes,1.51,19.3,Normal,Diabetes Risk,Normal,6,High Risk
+659,Ryan Miranda,12,Male,156,74,O-,"Cough, Nausea, Fatigue, Shortness of Breath, Vomiting","Hypertension, Diabetes, Thyroid Disorder",14.8,270,208,11811,3.33,130,93,Diabetes,1.56,30.41,Obese,Diabetes Risk,Elevated,8,High Risk
+660,Dana Patterson MD,41,Female,186,78,AB+,"Headache, Chest Pain, Fatigue, Fever","Thyroid Disorder, nan",17.9,216,172,7121,2.29,177,87,Diabetes,1.86,22.55,Normal,Diabetes Risk,High Risk,9,Critical Risk
+661,Jacob Dickson,19,Female,185,112,A-,"Vomiting, Cough","nan, Liver Disease, Kidney Disease",15.9,300,328,10018,2.86,107,60,Diabetes,1.85,32.72,Obese,Diabetes Risk,Normal,8,High Risk
+662,Jennifer Young,56,Male,178,120,AB+,"Vomiting, Cough, Headache, Chest Pain","Thyroid Disorder, Heart Disease, Diabetes",10.0,238,176,14378,2.87,104,92,Diabetes,1.78,37.87,Obese,Diabetes Risk,Normal,8,High Risk
+663,Michael Bradley,24,Male,149,67,AB+,"Fatigue, Body Pain, Dizziness, Nausea, Fever","Hypertension, Kidney Disease, Diabetes",14.3,204,292,9094,3.37,149,79,Diabetes,1.49,30.18,Obese,Diabetes Risk,High Risk,10,Critical Risk
+664,Anthony Fletcher,49,Male,166,60,B+,"Shortness of Breath, Dizziness, Nausea, Headache, Vomiting",Hypertension,17.1,138,330,14577,0.63,107,116,Healthy,1.66,21.77,Normal,Diabetes Risk,Normal,2,Low Risk
+665,Valerie Benson,1,Female,141,99,O+,"Fatigue, Fever","Heart Disease, Asthma",15.4,234,342,12615,0.56,159,70,Diabetes,1.41,49.8,Obese,Diabetes Risk,High Risk,7,High Risk
+666,Derek Ryan,21,Female,162,104,AB+,"Chest Pain, Dizziness, Nausea, Headache, Fever","Thyroid Disorder, Kidney Disease, Liver Disease",11.3,229,348,13381,2.09,179,113,Diabetes,1.62,39.63,Obese,Diabetes Risk,High Risk,11,Critical Risk
+667,Christine Johnson,50,Male,161,104,A-,"Body Pain, Cough, Headache, Chest Pain, Shortness of Breath","Diabetes, Hypertension",16.8,218,255,7964,1.92,95,100,Diabetes,1.61,40.12,Obese,Diabetes Risk,Normal,5,Medium Risk
+668,Jason Macdonald,62,Male,141,74,B+,"Body Pain, Fever, Headache, Shortness of Breath","Heart Disease, Liver Disease",8.6,200,182,8494,2.45,105,116,Diabetes,1.41,37.22,Obese,Diabetes Risk,Normal,9,Critical Risk
+669,Travis Schmidt,56,Female,186,118,A+,"Fever, Chest Pain, Nausea, Body Pain, Vomiting","Thyroid Disorder, Heart Disease, Hypertension",8.7,181,137,10983,2.05,167,78,Diabetes,1.86,34.11,Obese,Diabetes Risk,High Risk,12,Critical Risk
+670,Dr. Emily Williams,50,Female,146,88,B+,Fever,Asthma,11.8,168,334,9724,1.39,100,115,Healthy,1.46,41.28,Obese,Diabetes Risk,Normal,4,Medium Risk
+671,Jeffrey Preston,67,Male,164,91,AB-,"Fatigue, Fever","Thyroid Disorder, Diabetes, Heart Disease",16.3,266,185,9095,1.68,175,115,Diabetes,1.64,33.83,Obese,Diabetes Risk,High Risk,8,High Risk
+672,Timothy Collins,68,Female,143,99,B+,"Vomiting, Cough, Headache","Heart Disease, Diabetes",8.8,276,309,14217,1.41,131,101,Diabetes,1.43,48.41,Obese,Diabetes Risk,Elevated,7,High Risk
+673,Morgan Willis,38,Female,155,67,B-,"Dizziness, Chest Pain, Fatigue, Shortness of Breath, Vomiting","Thyroid Disorder, Liver Disease, Asthma",10.4,127,221,8906,0.85,165,61,Hypertension,1.55,27.89,Overweight,Diabetes Risk,High Risk,5,Medium Risk
+674,Steven Love,88,Male,178,100,A-,"Body Pain, Dizziness, Headache, Fatigue, Shortness of Breath","nan, Kidney Disease",9.6,125,304,12560,0.6,178,104,Hypertension,1.78,31.56,Obese,Prediabetes,High Risk,7,High Risk
+675,Shawn Bradley DVM,58,Female,154,98,A-,"Nausea, Fatigue, Chest Pain, Dizziness","Diabetes, Thyroid Disorder, Liver Disease",8.1,156,308,12488,1.92,96,60,Anemia,1.54,41.32,Obese,Diabetes Risk,Normal,6,High Risk
+676,Anthony Fitzgerald,53,Male,182,66,O+,"Shortness of Breath, Fever",,13.3,134,283,14984,0.99,114,74,Healthy,1.82,19.93,Normal,Diabetes Risk,Normal,2,Low Risk
+677,Tammy Blackwell,80,Male,161,98,A+,"Dizziness, Fever","nan, Kidney Disease",12.9,219,249,11110,0.62,167,100,Diabetes,1.61,37.81,Obese,Diabetes Risk,High Risk,8,High Risk
+678,Paul Johnson,69,Male,170,63,B+,"Vomiting, Headache, Body Pain, Dizziness, Nausea","nan, Hypertension, Heart Disease",14.8,165,135,5614,3.35,121,103,Kidney Disease,1.7,21.8,Normal,Diabetes Risk,Elevated,5,Medium Risk
+679,Tanya Knight,26,Female,179,51,B-,"Dizziness, Vomiting","Asthma, Diabetes, Liver Disease",11.3,264,178,10454,1.4,136,116,Diabetes,1.79,15.92,Underweight,Diabetes Risk,Elevated,3,Medium Risk
+680,Corey Miller,36,Female,166,51,O+,"Headache, Vomiting, Cough","Asthma, Diabetes",11.3,117,225,4283,1.28,164,117,Hypertension,1.66,18.51,Normal,Prediabetes,High Risk,3,Medium Risk
+681,Alexander Gonzales,32,Male,149,84,A-,"Vomiting, Body Pain, Shortness of Breath, Nausea, Headache",Liver Disease,11.7,80,172,13871,1.89,166,89,Hypertension,1.49,37.84,Obese,Normal,High Risk,5,Medium Risk
+682,Anthony Jacobs,1,Male,190,48,O+,"Shortness of Breath, Dizziness, Chest Pain",Liver Disease,16.5,178,148,11724,2.55,91,100,Kidney Disease,1.9,13.3,Underweight,Diabetes Risk,Normal,5,Medium Risk
+683,Becky Jones,9,Male,149,78,O+,"Shortness of Breath, Headache, Vomiting, Fever, Fatigue",Heart Disease,12.2,79,312,13827,2.0,133,77,Healthy,1.49,35.13,Obese,Normal,Elevated,2,Low Risk
+684,Mr. Larry Moore,26,Female,170,58,A+,"Cough, Chest Pain","nan, Asthma, Diabetes",11.2,77,177,12138,2.68,136,108,Kidney Disease,1.7,20.07,Normal,Normal,Elevated,3,Medium Risk
+685,Kevin West,42,Female,164,40,AB+,"Fever, Nausea, Chest Pain, Dizziness, Fatigue","Heart Disease, Kidney Disease",17.5,299,346,9667,1.77,157,106,Diabetes,1.64,14.87,Underweight,Diabetes Risk,High Risk,5,Medium Risk
+686,Laura Garza,6,Male,164,90,AB-,"Body Pain, Fatigue, Chest Pain","Asthma, Thyroid Disorder",15.7,268,127,6444,0.63,144,113,Diabetes,1.64,33.46,Obese,Diabetes Risk,High Risk,7,High Risk
+687,Daniel Taylor,46,Male,178,54,B+,"Chest Pain, Fever, Shortness of Breath, Nausea","Thyroid Disorder, Asthma, Hypertension",14.5,164,233,8551,1.12,97,106,Healthy,1.78,17.04,Underweight,Diabetes Risk,Normal,2,Low Risk
+688,Misty Jones,66,Male,185,79,AB+,"Fatigue, Chest Pain, Dizziness, Shortness of Breath",Thyroid Disorder,10.7,119,320,4948,1.85,175,63,Hypertension,1.85,23.08,Normal,Prediabetes,High Risk,3,Medium Risk
+689,Anthony Miller,37,Female,149,83,B+,"Fatigue, Fever",Heart Disease,8.8,168,160,5629,2.92,144,98,Hypertension,1.49,37.39,Obese,Diabetes Risk,High Risk,11,Critical Risk
+690,Lynn Singh,73,Female,189,114,O+,"Dizziness, Chest Pain",Heart Disease,8.4,88,335,8233,3.16,159,76,Hypertension,1.89,31.91,Obese,Normal,High Risk,9,Critical Risk
+691,Sue Hall,1,Female,158,89,A+,"Fatigue, Headache, Cough","Asthma, Thyroid Disorder, Diabetes",11.3,160,265,11303,0.54,171,73,Hypertension,1.58,35.65,Obese,Diabetes Risk,High Risk,7,High Risk
+692,Douglas Tucker,4,Male,140,108,O+,"Fatigue, Cough","Kidney Disease, Thyroid Disorder",17.0,115,213,5663,2.53,127,103,Kidney Disease,1.4,55.1,Obese,Prediabetes,Elevated,5,Medium Risk
+693,Elizabeth Phillips,2,Male,189,83,O+,"Body Pain, Fever, Nausea, Chest Pain","Diabetes, Liver Disease, Heart Disease",14.2,264,329,9735,3.43,92,96,Diabetes,1.89,23.24,Normal,Diabetes Risk,Normal,6,High Risk
+694,Jenna Harrell,73,Female,178,94,B+,"Cough, Vomiting",Kidney Disease,16.5,158,302,14900,3.14,140,88,Kidney Disease,1.78,29.67,Overweight,Diabetes Risk,High Risk,5,Medium Risk
+695,Stephanie Hughes,23,Female,151,41,B-,"Cough, Vomiting, Dizziness, Fever, Headache",Thyroid Disorder,17.5,88,341,11250,1.77,106,80,Healthy,1.51,17.98,Underweight,Normal,Normal,0,Low Risk
+696,Katrina Parker,11,Female,187,118,A+,"Headache, Chest Pain","Thyroid Disorder, Asthma",9.0,277,334,14663,0.94,124,87,Diabetes,1.87,33.74,Obese,Diabetes Risk,Elevated,7,High Risk
+697,Alexander Carroll,40,Female,140,54,AB+,Fever,"Hypertension, Diabetes, Kidney Disease",17.7,224,299,6250,0.96,123,108,Diabetes,1.4,27.55,Overweight,Diabetes Risk,Elevated,3,Medium Risk
+698,Timothy Wall,48,Male,152,40,O-,"Dizziness, Headache, Fatigue, Chest Pain, Nausea","nan, Heart Disease, Asthma",9.5,244,167,5432,1.06,103,111,Diabetes,1.52,17.31,Underweight,Diabetes Risk,Normal,5,Medium Risk
+699,Amanda Martin,63,Male,173,51,AB-,Dizziness,"Asthma, Hypertension, nan",10.7,280,314,6450,2.06,162,73,Diabetes,1.73,17.04,Underweight,Diabetes Risk,High Risk,9,Critical Risk
+700,Shannon Guerrero,18,Female,148,108,AB-,"Headache, Dizziness","nan, Liver Disease",13.1,147,143,8393,2.28,96,70,Kidney Disease,1.48,49.31,Obese,Diabetes Risk,Normal,7,High Risk
+701,Samantha Morris,83,Male,165,116,A+,"Dizziness, Body Pain, Shortness of Breath, Chest Pain, Headache","Kidney Disease, Asthma, Heart Disease",17.7,298,339,7086,3.38,166,78,Diabetes,1.65,42.61,Obese,Diabetes Risk,High Risk,11,Critical Risk
+702,Mark Martin,46,Male,167,102,O-,"Headache, Nausea, Fever, Fatigue","Heart Disease, Thyroid Disorder",14.7,213,281,13572,0.77,95,84,Diabetes,1.67,36.57,Obese,Diabetes Risk,Normal,5,Medium Risk
+703,Belinda Harris,27,Female,173,71,A+,Dizziness,Diabetes,13.5,196,337,7032,3.17,129,109,Diabetes,1.73,23.72,Normal,Diabetes Risk,Elevated,5,Medium Risk
+704,Christina Flores,89,Female,184,67,A-,"Nausea, Fatigue, Chest Pain, Body Pain","Asthma, Diabetes, Hypertension",15.8,250,141,13011,1.73,145,67,Diabetes,1.84,19.79,Normal,Diabetes Risk,High Risk,5,Medium Risk
+705,Antonio Coffey,86,Male,187,119,A+,"Nausea, Chest Pain",Diabetes,9.3,211,129,6518,2.97,132,95,Diabetes,1.87,34.03,Obese,Diabetes Risk,Elevated,10,Critical Risk
+706,Russell Boyd,3,Female,185,120,O+,Chest Pain,"Heart Disease, Diabetes, Hypertension",9.4,191,208,9845,3.32,110,114,Diabetes,1.85,35.06,Obese,Diabetes Risk,Normal,9,Critical Risk
+707,Louis Owens,32,Female,171,63,A-,"Shortness of Breath, Dizziness, Chest Pain",Liver Disease,15.3,272,301,13932,1.78,125,105,Diabetes,1.71,21.55,Normal,Diabetes Risk,Elevated,3,Medium Risk
+708,James Thomas,51,Female,189,118,B-,"Body Pain, Fever, Chest Pain","nan, Kidney Disease, Thyroid Disorder",17.6,278,146,9337,0.98,95,79,Diabetes,1.89,33.03,Obese,Diabetes Risk,Normal,5,Medium Risk
+709,Margaret Nelson,15,Male,165,60,A-,"Vomiting, Dizziness, Fatigue, Headache, Fever","nan, Hypertension, Heart Disease",17.0,202,219,13208,1.08,179,67,Diabetes,1.65,22.04,Normal,Diabetes Risk,High Risk,6,High Risk
+710,Kaitlyn Rios,67,Male,152,92,A+,"Dizziness, Shortness of Breath, Cough, Fever","nan, Heart Disease",14.5,223,128,5095,1.35,129,80,Diabetes,1.52,39.82,Obese,Diabetes Risk,Elevated,5,Medium Risk
+711,David Morris,11,Male,183,77,A+,"Dizziness, Headache","Asthma, Heart Disease, Thyroid Disorder",9.3,215,152,4970,3.26,114,92,Diabetes,1.83,22.99,Normal,Diabetes Risk,Normal,8,High Risk
+712,Kimberly Turner,87,Female,179,104,A-,"Dizziness, Shortness of Breath","Kidney Disease, Asthma",10.2,225,213,4433,2.34,146,88,Diabetes,1.79,32.46,Obese,Diabetes Risk,High Risk,10,Critical Risk
+713,Charles Rowe,12,Male,163,41,O+,"Fever, Fatigue, Headache, Shortness of Breath, Nausea","Heart Disease, Thyroid Disorder",17.4,72,270,6783,0.97,137,112,Healthy,1.63,15.43,Underweight,Normal,Elevated,0,Low Risk
+714,Martha King,40,Female,179,118,O-,"Vomiting, Chest Pain, Fatigue",Heart Disease,10.1,106,170,5322,0.59,103,109,Healthy,1.79,36.83,Obese,Prediabetes,Normal,2,Low Risk
+715,Andrea Garcia,45,Male,140,101,B+,"Headache, Shortness of Breath, Body Pain, Nausea",Heart Disease,15.9,106,170,11251,3.28,148,70,Hypertension,1.4,51.53,Obese,Prediabetes,High Risk,7,High Risk
+716,Colleen Maxwell,24,Female,181,93,AB-,"Chest Pain, Body Pain, Dizziness, Shortness of Breath, Cough","nan, Kidney Disease, Heart Disease",9.4,280,236,11043,1.14,106,89,Diabetes,1.81,28.39,Overweight,Diabetes Risk,Normal,5,Medium Risk
+717,Shannon Morris DVM,18,Male,182,118,O-,"Headache, Body Pain","Diabetes, Kidney Disease, Heart Disease",8.4,293,233,13689,2.8,169,107,Diabetes,1.82,35.62,Obese,Diabetes Risk,High Risk,13,Critical Risk
+718,Christopher Wilkerson,82,Male,140,103,O+,Cough,Liver Disease,14.5,110,297,4151,3.21,105,100,Kidney Disease,1.4,52.55,Obese,Prediabetes,Normal,5,Medium Risk
+719,Paul Barker,75,Female,158,83,O+,"Headache, Fever, Vomiting, Body Pain","Kidney Disease, Hypertension, Heart Disease",9.2,262,246,8559,1.38,156,116,Diabetes,1.58,33.25,Obese,Diabetes Risk,High Risk,9,Critical Risk
+720,Raymond Hanson,86,Male,169,92,B+,Body Pain,"nan, Thyroid Disorder",17.2,155,124,11225,3.36,122,86,Kidney Disease,1.69,32.21,Obese,Diabetes Risk,Elevated,7,High Risk
+721,Philip Salazar,87,Male,152,111,O-,"Nausea, Headache, Body Pain, Vomiting, Cough","Hypertension, Liver Disease, Asthma",12.1,228,135,8563,2.87,163,105,Diabetes,1.52,48.04,Obese,Diabetes Risk,High Risk,11,Critical Risk
+722,Kenneth Gonzalez,11,Male,179,83,O+,"Dizziness, Shortness of Breath, Chest Pain","Hypertension, Kidney Disease, Diabetes",9.6,177,338,10428,1.86,112,80,Anemia,1.79,25.9,Overweight,Diabetes Risk,Normal,4,Medium Risk
+723,Joseph Mata,82,Male,173,104,B-,"Vomiting, Cough, Chest Pain, Fatigue",,13.8,279,274,7330,2.49,152,92,Diabetes,1.73,34.75,Obese,Diabetes Risk,High Risk,10,Critical Risk
+724,Tim Moore,35,Male,169,68,A-,Chest Pain,"Kidney Disease, Heart Disease",10.0,93,155,8969,2.9,123,75,Kidney Disease,1.69,23.81,Normal,Normal,Elevated,3,Medium Risk
+725,Kimberly Riggs,39,Female,175,97,AB-,Chest Pain,"Thyroid Disorder, Kidney Disease, nan",17.9,200,256,7426,2.97,120,69,Diabetes,1.75,31.67,Obese,Diabetes Risk,Elevated,7,High Risk
+726,George Harvey,2,Female,187,85,A+,"Fatigue, Cough, Dizziness","Diabetes, Hypertension",17.0,101,133,4027,2.47,106,61,Kidney Disease,1.87,24.31,Normal,Prediabetes,Normal,3,Medium Risk
+727,Kenneth Allen,55,Male,170,96,O+,"Headache, Dizziness","Liver Disease, Asthma",16.4,119,231,4104,3.36,168,98,Hypertension,1.7,33.22,Obese,Prediabetes,High Risk,8,High Risk
+728,Jennifer White,48,Female,156,99,O-,"Dizziness, Nausea, Vomiting, Cough, Headache","Liver Disease, Heart Disease",8.2,260,274,5008,2.67,141,106,Diabetes,1.56,40.68,Obese,Diabetes Risk,High Risk,12,Critical Risk
+729,Karl Olson,31,Female,169,56,AB-,"Headache, Cough, Shortness of Breath, Vomiting",Hypertension,9.7,200,153,4011,0.8,153,110,Diabetes,1.69,19.61,Normal,Diabetes Risk,High Risk,6,High Risk
+730,Paul Rice,7,Male,167,57,A-,Vomiting,"Hypertension, Liver Disease",16.1,113,348,14989,1.03,109,78,Healthy,1.67,20.44,Normal,Prediabetes,Normal,0,Low Risk
+731,Timothy Smith,17,Female,190,89,B-,"Shortness of Breath, Cough","Liver Disease, Hypertension",15.5,165,211,13896,3.08,154,70,Hypertension,1.9,24.65,Normal,Diabetes Risk,High Risk,7,High Risk
+732,Donna Woods,58,Male,145,105,B-,Chest Pain,"Heart Disease, Kidney Disease, nan",8.3,270,168,4991,2.24,137,70,Diabetes,1.45,49.94,Obese,Diabetes Risk,Elevated,10,Critical Risk
+733,Isabella Wilson,41,Male,188,82,B+,"Headache, Shortness of Breath, Chest Pain","Hypertension, Kidney Disease, nan",8.6,253,192,12111,3.17,156,104,Diabetes,1.88,23.2,Normal,Diabetes Risk,High Risk,10,Critical Risk
+734,Pamela Scott,88,Female,155,114,AB-,"Vomiting, Cough, Shortness of Breath, Fever","Kidney Disease, nan",16.2,201,163,4812,1.13,118,84,Diabetes,1.55,47.45,Obese,Diabetes Risk,Normal,5,Medium Risk
+735,Jessica Stevens,60,Female,140,43,A+,"Shortness of Breath, Headache, Cough, Nausea","Kidney Disease, Thyroid Disorder, Liver Disease",10.8,132,328,9642,1.14,95,82,Healthy,1.4,21.94,Normal,Diabetes Risk,Normal,2,Low Risk
+736,Valerie Gallegos,54,Female,146,60,A+,"Fever, Vomiting, Chest Pain, Fatigue, Body Pain","Hypertension, Liver Disease",10.4,176,143,10922,0.63,93,76,Healthy,1.46,28.15,Overweight,Diabetes Risk,Normal,2,Low Risk
+737,Eric Guerrero,25,Female,147,108,A-,"Body Pain, Fatigue","nan, Diabetes",15.8,260,298,11302,1.21,99,63,Diabetes,1.47,49.98,Obese,Diabetes Risk,Normal,5,Medium Risk
+738,Bryan Morgan,27,Female,150,73,A+,Headache,"Kidney Disease, nan, Asthma",8.4,72,203,11058,1.83,128,102,Anemia,1.5,32.44,Obese,Normal,Elevated,4,Medium Risk
+739,Dr. Victoria Henderson,9,Male,173,90,A+,"Shortness of Breath, Fever, Body Pain","Diabetes, Thyroid Disorder, Hypertension",8.3,72,302,11212,1.41,106,110,Anemia,1.73,30.07,Obese,Normal,Normal,4,Medium Risk
+740,Mark Smith,74,Female,153,103,B+,"Fatigue, Vomiting, Headache","Kidney Disease, Thyroid Disorder",15.5,298,187,9026,1.58,105,114,Diabetes,1.53,44.0,Obese,Diabetes Risk,Normal,5,Medium Risk
+741,Donald Smith,71,Female,159,115,A-,"Cough, Fever, Dizziness","Thyroid Disorder, Hypertension, Liver Disease",17.9,77,241,8196,0.81,93,79,Healthy,1.59,45.49,Obese,Normal,Normal,2,Low Risk
+742,Angela Salas,86,Male,190,49,B-,Fatigue,Asthma,8.1,230,162,8213,1.47,168,96,Diabetes,1.9,13.57,Underweight,Diabetes Risk,High Risk,8,High Risk
+743,Emily Hines,68,Male,161,46,AB+,"Shortness of Breath, Vomiting, Fever","Heart Disease, Thyroid Disorder, Hypertension",15.6,112,171,8838,1.6,118,104,Healthy,1.61,17.75,Underweight,Prediabetes,Normal,0,Low Risk
+744,Alan Perry,18,Female,151,89,O+,"Body Pain, Nausea, Dizziness","Heart Disease, Diabetes, Asthma",12.6,166,240,8468,1.65,152,104,Hypertension,1.51,39.03,Obese,Diabetes Risk,High Risk,6,High Risk
+745,Paul Weaver,44,Female,190,78,A-,"Chest Pain, Fatigue, Body Pain","nan, Hypertension, Asthma",13.2,212,198,14790,0.84,117,62,Diabetes,1.9,21.61,Normal,Diabetes Risk,Normal,3,Medium Risk
+746,Alison Thomas,86,Female,142,52,A+,Vomiting,"Diabetes, Asthma, Hypertension",9.9,137,276,6017,1.03,101,115,Anemia,1.42,25.79,Overweight,Diabetes Risk,Normal,4,Medium Risk
+747,Hannah Richardson,1,Female,151,100,A+,"Headache, Dizziness, Shortness of Breath","Kidney Disease, Hypertension",15.7,290,175,10434,1.12,164,110,Diabetes,1.51,43.86,Obese,Diabetes Risk,High Risk,8,High Risk
+748,Randall Gamble,15,Female,149,67,AB-,"Body Pain, Cough, Shortness of Breath",Liver Disease,10.7,217,133,13079,1.19,119,70,Diabetes,1.49,30.18,Obese,Diabetes Risk,Normal,5,Medium Risk
+749,Jeremy Stephenson,88,Female,179,70,B+,Chest Pain,"Kidney Disease, nan, Thyroid Disorder",8.4,154,144,5890,2.22,109,111,Anemia,1.79,21.85,Normal,Diabetes Risk,Normal,7,High Risk
+750,James Cannon,41,Male,163,108,O+,"Nausea, Fever","Heart Disease, Liver Disease, Diabetes",13.5,85,305,7757,1.6,177,109,Hypertension,1.63,40.65,Obese,Normal,High Risk,5,Medium Risk
+751,Phillip Long,50,Male,152,114,AB-,"Cough, Shortness of Breath, Headache",,16.6,145,243,5305,1.99,128,88,Healthy,1.52,49.34,Obese,Diabetes Risk,Elevated,4,Medium Risk
+752,Crystal Griffin,34,Female,179,66,O+,Shortness of Breath,"Hypertension, nan",13.8,74,161,4994,0.81,132,116,Healthy,1.79,20.6,Normal,Normal,Elevated,0,Low Risk
+753,Vernon Schroeder,35,Female,170,60,B+,"Fever, Dizziness, Vomiting, Fatigue","nan, Kidney Disease",12.5,122,339,10227,1.39,117,81,Healthy,1.7,20.76,Normal,Prediabetes,Normal,0,Low Risk
+754,Kaitlyn Aguirre,14,Female,150,108,AB-,"Body Pain, Fatigue, Cough","nan, Hypertension, Thyroid Disorder",9.1,191,325,11104,2.17,176,88,Diabetes,1.5,48.0,Obese,Diabetes Risk,High Risk,12,Critical Risk
+755,Sean Miranda,13,Female,171,60,A-,Vomiting,"Kidney Disease, Thyroid Disorder",11.8,281,331,8885,2.04,130,87,Diabetes,1.71,20.52,Normal,Diabetes Risk,Elevated,6,High Risk
+756,Philip Jones,39,Female,151,93,AB-,"Cough, Vomiting",Hypertension,10.5,287,157,12384,3.12,150,91,Diabetes,1.51,40.79,Obese,Diabetes Risk,High Risk,10,Critical Risk
+757,Wesley Rodriguez,72,Male,140,40,A-,"Dizziness, Vomiting",Thyroid Disorder,15.2,166,303,8680,2.26,117,65,Kidney Disease,1.4,20.41,Normal,Diabetes Risk,Normal,5,Medium Risk
+758,David Reyes,51,Female,142,65,B+,"Body Pain, Headache, Nausea, Vomiting, Cough","Thyroid Disorder, Diabetes",15.4,78,307,12188,2.91,171,93,Hypertension,1.42,32.24,Obese,Normal,High Risk,8,High Risk
+759,Tammy Hernandez,86,Female,171,94,B-,"Headache, Nausea, Fatigue","Liver Disease, Kidney Disease",12.2,251,250,7701,1.14,173,95,Diabetes,1.71,32.15,Obese,Diabetes Risk,High Risk,8,High Risk
+760,Mary Price,89,Male,143,60,B+,Fever,"Hypertension, Thyroid Disorder",14.7,93,135,12230,1.38,111,109,Healthy,1.43,29.34,Overweight,Normal,Normal,0,Low Risk
+761,Rachel Miller,29,Male,173,44,B-,"Headache, Cough, Fatigue, Vomiting",Hypertension,17.5,145,286,12962,1.48,137,100,Healthy,1.73,14.7,Underweight,Diabetes Risk,Elevated,2,Low Risk
+762,Garrett Hanson,52,Female,181,105,O-,"Shortness of Breath, Fever",Kidney Disease,13.3,292,122,12180,1.36,166,69,Diabetes,1.81,32.05,Obese,Diabetes Risk,High Risk,8,High Risk
+763,Jessica Kim,28,Male,186,54,AB-,Cough,"nan, Diabetes, Hypertension",8.3,221,265,13298,0.96,105,111,Diabetes,1.86,15.61,Underweight,Diabetes Risk,Normal,5,Medium Risk
+764,Sharon Vincent,40,Male,151,42,AB+,Chest Pain,"Kidney Disease, Diabetes",16.2,212,246,6789,3.44,167,119,Diabetes,1.51,18.42,Underweight,Diabetes Risk,High Risk,9,Critical Risk
+765,James Reese,16,Female,162,56,O+,"Fatigue, Headache, Chest Pain, Nausea","Asthma, Liver Disease, Thyroid Disorder",9.3,290,277,12939,2.88,116,89,Diabetes,1.62,21.34,Normal,Diabetes Risk,Normal,8,High Risk
+766,Johnny Mueller,76,Female,180,57,A-,Headache,"nan, Kidney Disease, Hypertension",15.2,122,280,13849,1.25,118,107,Healthy,1.8,17.59,Underweight,Prediabetes,Normal,0,Low Risk
+767,Ashley Chen,32,Female,188,48,B+,"Nausea, Body Pain, Vomiting, Dizziness","Hypertension, Heart Disease",13.5,277,226,14361,1.46,100,116,Diabetes,1.88,13.58,Underweight,Diabetes Risk,Normal,3,Medium Risk
+768,Cody Li,29,Female,160,96,B+,"Fatigue, Dizziness, Body Pain","Kidney Disease, Thyroid Disorder, Hypertension",10.5,70,295,13446,2.22,126,70,Kidney Disease,1.6,37.5,Obese,Normal,Elevated,5,Medium Risk
+769,Cheryl Kelly,9,Male,175,55,AB-,"Fatigue, Chest Pain, Dizziness","Kidney Disease, Asthma, Hypertension",10.2,229,126,8450,2.19,141,115,Diabetes,1.75,17.96,Underweight,Diabetes Risk,High Risk,8,High Risk
+770,Raymond Little,3,Female,173,46,O-,"Cough, Dizziness, Fatigue, Shortness of Breath","Kidney Disease, Asthma",13.0,106,342,9432,0.97,126,101,Healthy,1.73,15.37,Underweight,Prediabetes,Elevated,0,Low Risk
+771,Paige Parker,15,Female,143,112,A+,"Headache, Dizziness, Shortness of Breath","Hypertension, Liver Disease",15.2,77,195,8694,2.18,164,107,Hypertension,1.43,54.77,Obese,Normal,High Risk,8,High Risk
+772,Sharon Decker,63,Female,158,115,AB+,Body Pain,Liver Disease,12.5,282,171,9229,0.88,154,120,Diabetes,1.58,46.07,Obese,Diabetes Risk,High Risk,7,High Risk
+773,Christina Payne,58,Female,190,117,AB-,"Shortness of Breath, Cough, Vomiting",,8.5,141,169,8283,2.98,129,109,Anemia,1.9,32.41,Obese,Diabetes Risk,Elevated,9,Critical Risk
+774,Christina Smith,4,Female,141,113,AB-,Dizziness,Thyroid Disorder,14.3,150,270,12934,0.74,173,103,Hypertension,1.41,56.84,Obese,Diabetes Risk,High Risk,7,High Risk
+775,Crystal Lane MD,64,Female,154,104,O+,"Cough, Vomiting","Heart Disease, nan, Thyroid Disorder",10.7,135,332,8439,3.13,157,119,Hypertension,1.54,43.85,Obese,Diabetes Risk,High Risk,9,Critical Risk
+776,Sean Gregory,49,Female,163,101,AB-,"Headache, Shortness of Breath, Dizziness, Nausea, Cough",Thyroid Disorder,14.5,133,263,5846,1.81,161,108,Hypertension,1.63,38.01,Obese,Diabetes Risk,High Risk,7,High Risk
+777,Hector Floyd,78,Male,181,61,B+,"Cough, Chest Pain, Shortness of Breath, Dizziness","Heart Disease, Kidney Disease, Thyroid Disorder",14.9,98,192,13107,2.22,149,102,Hypertension,1.81,18.62,Normal,Normal,High Risk,5,Medium Risk
+778,Michael Higgins,84,Male,175,71,AB-,"Vomiting, Dizziness","nan, Asthma, Liver Disease",15.1,294,120,5170,1.22,171,96,Diabetes,1.75,23.18,Normal,Diabetes Risk,High Risk,6,High Risk
+779,John Mora,85,Female,163,77,A-,"Cough, Nausea","Asthma, Thyroid Disorder, nan",12.3,135,300,9172,0.56,145,120,Hypertension,1.63,28.98,Overweight,Diabetes Risk,High Risk,4,Medium Risk
+780,Alyssa Patel,63,Male,143,75,O-,Cough,"Thyroid Disorder, Kidney Disease",11.6,180,230,8388,3.29,122,90,Kidney Disease,1.43,36.68,Obese,Diabetes Risk,Elevated,7,High Risk
+781,Mark Shepard,2,Male,161,88,AB-,"Body Pain, Dizziness","nan, Liver Disease, Heart Disease",15.1,287,197,7953,3.34,148,82,Diabetes,1.61,33.95,Obese,Diabetes Risk,High Risk,10,Critical Risk
+782,Andrew Sanchez,58,Male,156,82,B-,"Chest Pain, Fatigue","nan, Diabetes",10.8,149,287,9974,2.47,173,116,Hypertension,1.56,33.69,Obese,Diabetes Risk,High Risk,10,Critical Risk
+783,Adam Cooper,65,Male,169,104,A-,"Chest Pain, Body Pain, Cough","Hypertension, Asthma, Diabetes",14.6,136,269,10886,1.42,165,100,Hypertension,1.69,36.41,Obese,Diabetes Risk,High Risk,7,High Risk
+784,Shawn Page MD,45,Female,145,99,B-,"Fatigue, Chest Pain, Shortness of Breath, Nausea, Dizziness",Diabetes,15.8,256,249,8235,1.4,101,85,Diabetes,1.45,47.09,Obese,Diabetes Risk,Normal,5,Medium Risk
+785,Joshua Mcgrath,67,Male,150,80,B+,"Shortness of Breath, Fever, Vomiting",Hypertension,10.2,271,246,12666,1.03,120,102,Diabetes,1.5,35.56,Obese,Diabetes Risk,Elevated,5,Medium Risk
+786,Barry Hubbard,84,Female,164,95,O-,Dizziness,"Hypertension, Kidney Disease",9.3,255,342,9999,3.21,180,70,Diabetes,1.64,35.32,Obese,Diabetes Risk,High Risk,13,Critical Risk
+787,John Tran,42,Female,144,114,O-,"Dizziness, Chest Pain",,9.4,229,160,10635,2.27,152,86,Diabetes,1.44,54.98,Obese,Diabetes Risk,High Risk,12,Critical Risk
+788,Jessica Lopez,1,Female,181,116,O-,"Vomiting, Cough, Headache, Shortness of Breath, Dizziness","Kidney Disease, Hypertension",8.8,142,152,10092,0.91,123,83,Anemia,1.81,35.41,Obese,Diabetes Risk,Elevated,6,High Risk
+789,Robert Park,5,Female,140,57,A+,"Shortness of Breath, Nausea, Body Pain","Hypertension, Heart Disease, nan",15.9,228,158,12973,2.84,143,89,Diabetes,1.4,29.08,Overweight,Diabetes Risk,High Risk,8,High Risk
+790,John Hammond,44,Male,171,88,O-,"Headache, Nausea, Chest Pain, Body Pain","Thyroid Disorder, nan, Kidney Disease",11.0,156,179,8736,2.71,105,117,Kidney Disease,1.71,30.09,Obese,Diabetes Risk,Normal,7,High Risk
+791,Susan Rose,18,Female,173,100,O+,"Fever, Nausea",Hypertension,11.1,221,169,6285,3.48,125,95,Diabetes,1.73,33.41,Obese,Diabetes Risk,Elevated,8,High Risk
+792,Jordan Ford,75,Male,179,110,O-,"Nausea, Headache, Fever, Body Pain, Fatigue",Thyroid Disorder,9.7,239,269,13481,2.73,97,113,Diabetes,1.79,34.33,Obese,Diabetes Risk,Normal,10,Critical Risk
+793,Kelly Palmer,38,Female,178,72,A-,"Shortness of Breath, Body Pain, Dizziness, Nausea","Liver Disease, Heart Disease, Hypertension",16.5,138,173,6778,2.71,91,108,Kidney Disease,1.78,22.72,Normal,Diabetes Risk,Normal,5,Medium Risk
+794,Karen Harris,33,Female,187,60,O+,Vomiting,"Liver Disease, nan, Kidney Disease",10.5,72,256,8995,1.1,111,95,Healthy,1.87,17.16,Underweight,Normal,Normal,0,Low Risk
+795,Kathryn Diaz,44,Male,179,62,B-,"Nausea, Vomiting","Heart Disease, Thyroid Disorder, Diabetes",14.4,259,316,11062,1.79,91,101,Diabetes,1.79,19.35,Normal,Diabetes Risk,Normal,3,Medium Risk
+796,Luke Warner,82,Female,151,107,O+,"Nausea, Vomiting","Thyroid Disorder, nan, Diabetes",11.9,245,291,12895,0.62,178,112,Diabetes,1.51,46.93,Obese,Diabetes Risk,High Risk,8,High Risk
+797,Gabriella Jones,20,Male,160,111,AB-,"Fatigue, Headache, Body Pain, Fever","Diabetes, Kidney Disease",13.0,84,133,5243,2.48,149,81,Hypertension,1.6,43.36,Obese,Normal,High Risk,7,High Risk
+798,Daniel Johnson,41,Male,153,77,O+,"Chest Pain, Body Pain, Vomiting","Asthma, Heart Disease, Thyroid Disorder",16.2,265,310,9774,1.6,170,65,Diabetes,1.53,32.89,Obese,Diabetes Risk,High Risk,8,High Risk
+799,Carolyn Harris,42,Male,167,96,A-,"Nausea, Fever",Thyroid Disorder,13.9,153,342,11459,2.4,179,97,Hypertension,1.67,34.42,Obese,Diabetes Risk,High Risk,10,Critical Risk
+800,Erica Roberts,29,Male,160,106,O+,"Fatigue, Cough, Shortness of Breath, Nausea",Thyroid Disorder,10.4,288,152,9402,1.74,154,84,Diabetes,1.6,41.41,Obese,Diabetes Risk,High Risk,7,High Risk
+801,Omar Padilla,59,Female,174,77,O-,"Fever, Shortness of Breath",Diabetes,13.5,253,229,5387,0.73,163,93,Diabetes,1.74,25.43,Overweight,Diabetes Risk,High Risk,6,High Risk
+802,Cheryl Russell,71,Female,169,43,AB+,"Vomiting, Shortness of Breath","Kidney Disease, Asthma",14.5,110,176,7415,1.29,180,91,Hypertension,1.69,15.06,Underweight,Prediabetes,High Risk,3,Medium Risk
+803,Morgan Foster,6,Male,190,47,AB-,"Nausea, Dizziness, Vomiting",,8.8,108,142,6594,3.15,109,107,Anemia,1.9,13.02,Underweight,Prediabetes,Normal,5,Medium Risk
+804,David Murphy,55,Female,155,41,AB-,"Vomiting, Fatigue, Headache, Chest Pain",Hypertension,17.2,250,183,9480,1.07,169,80,Diabetes,1.55,17.07,Underweight,Diabetes Risk,High Risk,6,High Risk
+805,Andrea King,74,Male,156,80,A+,Chest Pain,Kidney Disease,15.0,206,154,10452,1.45,152,101,Diabetes,1.56,32.87,Obese,Diabetes Risk,High Risk,7,High Risk
+806,Brittany Gregory,51,Female,161,88,AB+,"Vomiting, Cough","Asthma, Diabetes, Thyroid Disorder",12.9,163,158,13155,2.87,138,61,Kidney Disease,1.61,33.95,Obese,Diabetes Risk,Elevated,7,High Risk
+807,Maria Wilson,76,Male,187,93,A+,"Vomiting, Headache","nan, Asthma",9.4,211,328,10936,2.64,109,106,Diabetes,1.87,26.59,Overweight,Diabetes Risk,Normal,8,High Risk
+808,Wanda Roberts,10,Male,159,115,AB-,"Fever, Dizziness, Nausea, Cough, Chest Pain","Liver Disease, Diabetes, Asthma",14.1,240,141,5251,1.01,107,68,Diabetes,1.59,45.49,Obese,Diabetes Risk,Normal,5,Medium Risk
+809,Jamie Ross,36,Female,174,56,A-,Nausea,"Heart Disease, Thyroid Disorder",11.7,219,288,12111,2.62,142,105,Diabetes,1.74,18.5,Normal,Diabetes Risk,High Risk,8,High Risk
+810,Stephanie Perez,35,Female,140,40,AB+,Body Pain,"Diabetes, Heart Disease",9.0,151,265,11202,1.41,107,113,Anemia,1.4,20.41,Normal,Diabetes Risk,Normal,4,Medium Risk
+811,Carol Noble,9,Male,183,102,B-,"Body Pain, Shortness of Breath, Fever, Dizziness","Liver Disease, Diabetes",11.7,251,197,5634,3.15,134,106,Diabetes,1.83,30.46,Obese,Diabetes Risk,Elevated,8,High Risk
+812,Glenda Weber,15,Female,158,113,AB-,"Cough, Chest Pain, Fever, Body Pain",Asthma,8.7,212,299,5412,1.97,108,105,Diabetes,1.58,45.27,Obese,Diabetes Risk,Normal,7,High Risk
+813,Amanda Moore,74,Female,149,53,AB+,"Shortness of Breath, Fever, Body Pain","Kidney Disease, Heart Disease, Diabetes",10.8,109,301,10054,2.04,123,103,Kidney Disease,1.49,23.87,Normal,Prediabetes,Elevated,3,Medium Risk
+814,Joshua Cox,15,Female,179,60,A-,Vomiting,"Liver Disease, nan, Thyroid Disorder",14.1,95,173,12629,3.16,166,84,Hypertension,1.79,18.73,Normal,Normal,High Risk,6,High Risk
+815,Paul Lambert,29,Male,190,106,B-,"Nausea, Headache","Thyroid Disorder, Asthma",11.5,74,340,7951,1.08,108,107,Healthy,1.9,29.36,Overweight,Normal,Normal,0,Low Risk
+816,Duane Reynolds,4,Female,173,86,B-,"Cough, Chest Pain, Vomiting","Diabetes, nan, Hypertension",12.8,170,162,8304,0.67,139,107,Healthy,1.73,28.73,Overweight,Diabetes Risk,Elevated,2,Low Risk
+817,James Flores,33,Female,180,72,B+,"Body Pain, Dizziness, Vomiting",,8.3,130,197,7393,2.58,142,94,Hypertension,1.8,22.22,Normal,Diabetes Risk,High Risk,9,Critical Risk
+818,Tony Johnson,50,Male,158,120,A-,"Vomiting, Chest Pain, Shortness of Breath, Headache",Diabetes,9.0,157,139,8210,2.08,115,68,Anemia,1.58,48.07,Obese,Diabetes Risk,Normal,9,Critical Risk
+819,Patrick Holloway,81,Male,149,107,AB+,"Shortness of Breath, Headache, Fatigue, Chest Pain","Diabetes, Hypertension, nan",11.2,89,148,9830,1.98,133,116,Healthy,1.49,48.2,Obese,Normal,Elevated,2,Low Risk
+820,Cheryl Gibson,10,Male,153,111,O-,"Dizziness, Body Pain, Headache, Nausea","Diabetes, nan, Thyroid Disorder",13.4,241,225,6297,1.93,138,95,Diabetes,1.53,47.42,Obese,Diabetes Risk,Elevated,5,Medium Risk
+821,Nicole Robertson,64,Female,169,85,B-,"Shortness of Breath, Cough, Dizziness","Asthma, Diabetes, Kidney Disease",15.5,127,325,4976,1.03,90,106,Healthy,1.69,29.76,Overweight,Diabetes Risk,Normal,2,Low Risk
+822,Dustin Martinez,21,Male,156,99,A-,"Headache, Fever, Body Pain, Dizziness",,11.5,228,168,10527,0.86,118,109,Diabetes,1.56,40.68,Obese,Diabetes Risk,Normal,5,Medium Risk
+823,Mitchell Moran,58,Male,162,110,A+,Shortness of Breath,"Asthma, Liver Disease",16.0,273,227,13895,1.75,141,84,Diabetes,1.62,41.91,Obese,Diabetes Risk,High Risk,7,High Risk
+824,Nichole Perry,72,Female,181,80,O-,"Vomiting, Shortness of Breath",Diabetes,11.7,199,268,5053,1.54,170,60,Diabetes,1.81,24.42,Normal,Diabetes Risk,High Risk,5,Medium Risk
+825,Diana Fisher,34,Female,180,68,A+,"Dizziness, Headache","Diabetes, Kidney Disease, Liver Disease",14.7,300,243,11763,1.61,166,96,Diabetes,1.8,20.99,Normal,Diabetes Risk,High Risk,6,High Risk
+826,Julia Jackson,69,Male,156,103,B+,"Chest Pain, Vomiting, Nausea, Body Pain","Kidney Disease, Diabetes, Hypertension",14.2,263,288,5054,1.77,101,76,Diabetes,1.56,42.32,Obese,Diabetes Risk,Normal,5,Medium Risk
+827,Anna Mcdonald,54,Female,143,46,AB-,"Dizziness, Body Pain, Fatigue, Nausea, Fever","Liver Disease, Thyroid Disorder",14.2,107,252,7658,3.43,151,106,Hypertension,1.43,22.49,Normal,Prediabetes,High Risk,5,Medium Risk
+828,Joseph Garcia,19,Female,165,106,AB+,"Fever, Headache, Chest Pain, Fatigue, Dizziness",Hypertension,15.9,167,219,7819,1.38,156,120,Hypertension,1.65,38.93,Obese,Diabetes Risk,High Risk,6,High Risk
+829,Kenneth Clarke,24,Female,190,104,AB+,Body Pain,Hypertension,18.0,181,301,10952,0.67,156,90,Diabetes,1.9,28.81,Overweight,Diabetes Risk,High Risk,4,Medium Risk
+830,Mr. David Andrews MD,70,Female,174,65,O-,"Chest Pain, Cough, Headache, Nausea, Vomiting","Diabetes, Kidney Disease",9.3,107,198,5536,1.99,175,76,Hypertension,1.74,21.47,Normal,Prediabetes,High Risk,5,Medium Risk
+831,Kathryn Gonzales,27,Female,161,85,AB+,"Nausea, Cough, Fatigue, Dizziness","Thyroid Disorder, nan",9.2,113,303,13081,1.91,177,72,Hypertension,1.61,32.79,Obese,Prediabetes,High Risk,7,High Risk
+832,Meghan Lowe,85,Female,179,95,AB-,"Body Pain, Fatigue, Cough","Hypertension, Heart Disease",11.1,128,264,14994,2.65,171,87,Hypertension,1.79,29.65,Overweight,Diabetes Risk,High Risk,8,High Risk
+833,Zachary Haynes,30,Female,164,42,O+,"Cough, Shortness of Breath","Diabetes, nan",14.1,138,220,6174,3.2,131,97,Kidney Disease,1.64,15.62,Underweight,Diabetes Risk,Elevated,5,Medium Risk
+834,Jeffery Thompson,4,Male,187,115,B-,"Shortness of Breath, Fever, Dizziness, Cough, Nausea","Hypertension, Diabetes, nan",14.7,217,330,5272,3.18,125,81,Diabetes,1.87,32.89,Obese,Diabetes Risk,Elevated,8,High Risk
+835,Brenda Baker,83,Male,164,41,O-,"Fever, Headache, Body Pain, Chest Pain","Thyroid Disorder, Liver Disease, Heart Disease",13.4,242,241,4009,2.99,137,68,Diabetes,1.64,15.24,Underweight,Diabetes Risk,Elevated,6,High Risk
+836,Sara Jensen,54,Female,143,82,O+,Fatigue,"Kidney Disease, Hypertension, Liver Disease",17.8,221,166,7103,1.66,172,107,Diabetes,1.43,40.1,Obese,Diabetes Risk,High Risk,8,High Risk
+837,Patricia Nolan,31,Male,149,106,B+,"Body Pain, Cough","Diabetes, Liver Disease, Thyroid Disorder",12.5,82,337,14635,0.7,161,75,Hypertension,1.49,47.75,Obese,Normal,High Risk,5,Medium Risk
+838,Adam White,71,Female,185,67,A-,Chest Pain,"Hypertension, Diabetes, Thyroid Disorder",13.8,163,342,7960,3.36,174,109,Hypertension,1.85,19.58,Normal,Diabetes Risk,High Risk,8,High Risk
+839,Daniel Zuniga,50,Male,143,52,A+,"Shortness of Breath, Headache, Fever, Nausea","Liver Disease, Thyroid Disorder",12.4,279,163,14095,0.99,108,117,Diabetes,1.43,25.43,Overweight,Diabetes Risk,Normal,3,Medium Risk
+840,Joel Conley,55,Male,153,98,B-,Dizziness,Kidney Disease,14.0,73,133,4706,2.35,129,103,Kidney Disease,1.53,41.86,Obese,Normal,Elevated,5,Medium Risk
+841,Jessica Graves,31,Female,183,111,A-,"Vomiting, Chest Pain, Fever, Headache, Body Pain",Asthma,8.0,93,175,8814,0.64,121,96,Anemia,1.83,33.15,Obese,Normal,Elevated,4,Medium Risk
+842,Jessica Richardson,16,Male,145,106,A+,Body Pain,"Kidney Disease, Hypertension",11.8,121,235,13191,1.32,128,72,Healthy,1.45,50.42,Obese,Prediabetes,Elevated,2,Low Risk
+843,Michael Jones,18,Male,153,67,A+,"Cough, Chest Pain, Fever, Body Pain","Kidney Disease, Liver Disease",8.7,123,152,9620,2.49,131,89,Anemia,1.53,28.62,Overweight,Prediabetes,Elevated,5,Medium Risk
+844,Denise Roberts,7,Female,157,91,AB-,"Cough, Nausea, Chest Pain, Fatigue, Fever","nan, Kidney Disease",14.6,86,179,12687,2.97,97,66,Kidney Disease,1.57,36.92,Obese,Normal,Normal,5,Medium Risk
+845,Marissa Martin,81,Female,174,67,B+,"Nausea, Body Pain, Headache, Vomiting, Fatigue",Hypertension,16.9,276,148,8388,1.34,113,65,Diabetes,1.74,22.13,Normal,Diabetes Risk,Normal,3,Medium Risk
+846,Michelle Davies,6,Female,170,45,B+,Nausea,"Asthma, Diabetes, Kidney Disease",17.2,152,297,5792,3.11,144,111,Hypertension,1.7,15.57,Underweight,Diabetes Risk,High Risk,7,High Risk
+847,Patricia Cortez,49,Female,188,40,AB-,"Dizziness, Chest Pain, Cough, Vomiting, Body Pain",Thyroid Disorder,15.5,131,261,10769,2.28,94,120,Kidney Disease,1.88,11.32,Underweight,Diabetes Risk,Normal,5,Medium Risk
+848,Mark Williams,12,Female,189,119,B+,"Chest Pain, Body Pain, Fever","Hypertension, Kidney Disease, nan",12.8,222,137,5012,1.25,123,69,Diabetes,1.89,33.31,Obese,Diabetes Risk,Elevated,5,Medium Risk
+849,James Hendrix,9,Female,160,63,A+,"Vomiting, Fatigue","Hypertension, Asthma, Diabetes",13.8,179,305,4104,2.52,91,110,Kidney Disease,1.6,24.61,Normal,Diabetes Risk,Normal,5,Medium Risk
+850,Raymond Mcintyre,37,Male,174,99,O-,"Nausea, Shortness of Breath","Kidney Disease, nan, Thyroid Disorder",10.0,256,121,9761,1.66,135,90,Diabetes,1.74,32.7,Obese,Diabetes Risk,Elevated,5,Medium Risk
+851,Nicole Morrison,36,Male,156,76,A+,"Cough, Nausea","Diabetes, Thyroid Disorder, Asthma",13.9,115,250,12240,3.44,116,108,Kidney Disease,1.56,31.23,Obese,Prediabetes,Normal,5,Medium Risk
+852,Anne Saunders DDS,31,Female,181,44,A+,Fatigue,Asthma,10.7,208,134,7205,0.88,113,80,Diabetes,1.81,13.43,Underweight,Diabetes Risk,Normal,3,Medium Risk
+853,Stacy Rhodes,44,Female,166,110,B-,"Vomiting, Nausea, Fatigue, Fever, Body Pain","Asthma, Diabetes",16.8,165,147,8536,1.21,162,81,Hypertension,1.66,39.92,Obese,Diabetes Risk,High Risk,7,High Risk
+854,Christina Morrison,32,Male,169,81,B-,"Body Pain, Fatigue, Dizziness, Chest Pain, Headache","Thyroid Disorder, Kidney Disease, Hypertension",16.2,281,265,14595,1.36,99,103,Diabetes,1.69,28.36,Overweight,Diabetes Risk,Normal,3,Medium Risk
+855,Dan Klein,13,Male,171,76,AB-,"Fever, Dizziness, Shortness of Breath","Asthma, Thyroid Disorder, Heart Disease",12.3,222,323,9043,2.54,141,85,Diabetes,1.71,25.99,Overweight,Diabetes Risk,High Risk,8,High Risk
+856,Alicia Murphy,86,Female,145,73,B+,"Cough, Shortness of Breath, Nausea, Fever, Dizziness",,11.4,85,164,10314,3.32,118,69,Kidney Disease,1.45,34.72,Obese,Normal,Normal,5,Medium Risk
+857,Jeffrey Carney,29,Female,158,56,B+,"Fatigue, Dizziness, Vomiting, Nausea, Headache","Thyroid Disorder, Kidney Disease, Asthma",15.9,238,341,8055,2.27,177,73,Diabetes,1.58,22.43,Normal,Diabetes Risk,High Risk,9,Critical Risk
+858,Ryan Carr,28,Male,189,44,B-,"Vomiting, Dizziness, Nausea, Body Pain, Cough",Asthma,8.4,205,258,8528,1.86,94,106,Diabetes,1.89,12.32,Underweight,Diabetes Risk,Normal,5,Medium Risk
+859,Margaret Jensen,87,Female,150,94,B+,"Cough, Body Pain, Fatigue, Chest Pain","Diabetes, nan",14.5,293,171,14847,1.57,115,98,Diabetes,1.5,41.78,Obese,Diabetes Risk,Normal,5,Medium Risk
+860,Tammy Henson,56,Female,183,115,O-,"Body Pain, Headache, Nausea, Shortness of Breath, Dizziness","nan, Heart Disease, Liver Disease",16.9,119,202,7051,1.73,117,120,Healthy,1.83,34.34,Obese,Prediabetes,Normal,2,Low Risk
+861,Amanda Sanchez,12,Female,180,118,AB+,"Vomiting, Nausea, Headache, Fatigue","Kidney Disease, Thyroid Disorder",13.5,152,313,10481,3.12,116,81,Kidney Disease,1.8,36.42,Obese,Diabetes Risk,Normal,7,High Risk
+862,Thomas Cox,74,Male,181,111,AB+,Fever,"Heart Disease, Asthma, Kidney Disease",8.8,238,340,11779,0.78,122,92,Diabetes,1.81,33.88,Obese,Diabetes Risk,Elevated,7,High Risk
+863,Maria Clayton,32,Female,155,55,B+,"Dizziness, Nausea, Fever, Body Pain, Shortness of Breath",Liver Disease,17.4,250,264,13618,1.87,136,101,Diabetes,1.55,22.89,Normal,Diabetes Risk,Elevated,3,Medium Risk
+864,Robert Clark,77,Male,150,97,B-,"Headache, Cough, Vomiting",Hypertension,17.8,128,215,6919,0.87,120,73,Healthy,1.5,43.11,Obese,Diabetes Risk,Elevated,4,Medium Risk
+865,Elizabeth Hanna,51,Male,158,119,AB+,"Fatigue, Chest Pain, Cough","Thyroid Disorder, Heart Disease",14.8,81,330,13436,3.35,159,105,Hypertension,1.58,47.67,Obese,Normal,High Risk,7,High Risk
+866,Jessica Gross,53,Male,187,66,A+,"Shortness of Breath, Fatigue, Dizziness, Cough, Vomiting","Kidney Disease, Hypertension, Heart Disease",11.6,230,204,14697,0.62,90,90,Diabetes,1.87,18.87,Normal,Diabetes Risk,Normal,3,Medium Risk
+867,Nathaniel Richard,39,Male,142,96,AB+,"Vomiting, Nausea, Headache, Body Pain, Shortness of Breath",Liver Disease,15.8,275,235,4001,1.62,91,105,Diabetes,1.42,47.61,Obese,Diabetes Risk,Normal,5,Medium Risk
+868,Kyle Schmitt,32,Male,170,103,AB+,"Vomiting, Nausea, Dizziness, Headache","Kidney Disease, Thyroid Disorder",11.5,189,175,13264,1.13,96,115,Diabetes,1.7,35.64,Obese,Diabetes Risk,Normal,4,Medium Risk
+869,Samantha Wilson,10,Female,152,58,AB+,"Fatigue, Chest Pain, Vomiting","Diabetes, Heart Disease, Kidney Disease",17.0,92,195,11476,3.21,137,69,Kidney Disease,1.52,25.1,Overweight,Normal,Elevated,3,Medium Risk
+870,Nichole Stanley,22,Male,160,98,O+,"Cough, Body Pain",Heart Disease,13.7,257,328,11730,3.09,147,66,Diabetes,1.6,38.28,Obese,Diabetes Risk,High Risk,10,Critical Risk
+871,Stephanie Miller DDS,27,Female,174,43,B+,"Headache, Nausea, Vomiting, Fatigue","Liver Disease, Asthma, Hypertension",10.5,128,292,4929,0.54,169,120,Hypertension,1.74,14.2,Underweight,Diabetes Risk,High Risk,5,Medium Risk
+872,Derek George,51,Female,157,61,A-,Dizziness,Hypertension,9.0,229,257,7884,1.79,134,101,Diabetes,1.57,24.75,Normal,Diabetes Risk,Elevated,5,Medium Risk
+873,Kyle Hall,74,Male,140,105,O+,"Headache, Dizziness, Nausea","Asthma, Hypertension, Liver Disease",16.0,150,152,14286,1.11,177,109,Hypertension,1.4,53.57,Obese,Diabetes Risk,High Risk,7,High Risk
+874,Daniel Smith,45,Male,174,104,B+,"Fatigue, Vomiting, Dizziness",Diabetes,15.5,243,143,12040,2.74,118,73,Diabetes,1.74,34.35,Obese,Diabetes Risk,Normal,8,High Risk
+875,Matthew Pierce,87,Female,151,42,O+,"Fatigue, Fever, Shortness of Breath, Vomiting, Dizziness","Thyroid Disorder, Kidney Disease",8.3,183,239,11546,1.28,178,99,Diabetes,1.51,18.42,Underweight,Diabetes Risk,High Risk,7,High Risk
+876,Michelle Gonzalez DDS,70,Male,149,93,AB-,"Cough, Nausea, Fatigue, Headache, Dizziness","Hypertension, Thyroid Disorder, Heart Disease",13.7,291,228,5552,3.43,91,100,Diabetes,1.49,41.89,Obese,Diabetes Risk,Normal,8,High Risk
+877,Jonathan Williams,51,Female,143,66,A+,"Shortness of Breath, Vomiting, Fatigue, Cough, Body Pain",Thyroid Disorder,17.4,293,246,6294,2.95,174,74,Diabetes,1.43,32.28,Obese,Diabetes Risk,High Risk,11,Critical Risk
+878,Whitney Gonzalez,78,Male,175,73,A+,"Headache, Cough, Chest Pain","Thyroid Disorder, nan",9.2,204,239,11194,2.99,180,119,Diabetes,1.75,23.84,Normal,Diabetes Risk,High Risk,11,Critical Risk
+879,Bethany Ross,1,Female,149,70,A+,Nausea,"Diabetes, Kidney Disease, Asthma",8.4,100,279,13755,1.47,96,87,Anemia,1.49,31.53,Obese,Prediabetes,Normal,4,Medium Risk
+880,Travis Beck,14,Female,190,103,A+,"Nausea, Dizziness, Chest Pain, Vomiting, Cough","Thyroid Disorder, nan",15.8,271,172,11946,2.41,164,69,Diabetes,1.9,28.53,Overweight,Diabetes Risk,High Risk,9,Critical Risk
+881,Julie Atkinson,28,Male,155,69,B-,"Chest Pain, Vomiting, Cough, Dizziness, Headache",Heart Disease,15.2,273,319,7404,2.32,103,80,Diabetes,1.55,28.72,Overweight,Diabetes Risk,Normal,6,High Risk
+882,Robin Watkins,37,Female,162,86,B+,"Vomiting, Dizziness","Kidney Disease, nan, Liver Disease",12.8,184,305,12117,1.24,140,70,Diabetes,1.62,32.77,Obese,Diabetes Risk,High Risk,4,Medium Risk
+883,Hannah Neal,89,Female,142,52,B+,"Cough, Fatigue",Heart Disease,13.1,95,177,7661,3.13,108,115,Kidney Disease,1.42,25.79,Overweight,Normal,Normal,3,Medium Risk
+884,Brian Smith,8,Male,171,109,O-,"Shortness of Breath, Dizziness, Nausea, Fever, Chest Pain","Asthma, Hypertension",14.1,86,140,13704,2.41,174,107,Hypertension,1.71,37.28,Obese,Normal,High Risk,8,High Risk
+885,Eric Jackson,22,Male,171,45,AB+,"Chest Pain, Cough","Kidney Disease, Hypertension, Liver Disease",14.0,219,201,5711,1.5,111,110,Diabetes,1.71,15.39,Underweight,Diabetes Risk,Normal,3,Medium Risk
+886,Brendan Hill,67,Female,142,83,A+,"Body Pain, Vomiting, Dizziness","Hypertension, Kidney Disease",10.9,167,183,10440,1.06,108,74,Healthy,1.42,41.16,Obese,Diabetes Risk,Normal,4,Medium Risk
+887,Jason Johnson,27,Male,183,63,AB-,"Nausea, Vomiting, Chest Pain, Fever",Hypertension,13.8,290,208,9540,2.51,125,87,Diabetes,1.83,18.81,Normal,Diabetes Risk,Elevated,6,High Risk
+888,Marcus Holland,82,Female,188,112,B+,Headache,"nan, Kidney Disease, Liver Disease",15.3,295,247,4746,2.13,139,107,Diabetes,1.88,31.69,Obese,Diabetes Risk,Elevated,8,High Risk
+889,Dillon Davis,51,Male,152,49,O-,"Headache, Chest Pain, Vomiting","Thyroid Disorder, Hypertension, Heart Disease",12.4,97,152,12579,1.18,147,95,Hypertension,1.52,21.21,Normal,Normal,High Risk,2,Low Risk
+890,Adam Davenport,58,Female,143,93,AB-,"Shortness of Breath, Headache","Asthma, Kidney Disease",10.3,215,199,4493,1.02,113,94,Diabetes,1.43,45.48,Obese,Diabetes Risk,Normal,5,Medium Risk
+891,Kristina Glenn,41,Female,140,55,O+,Nausea,Hypertension,15.1,189,248,4572,2.81,90,79,Diabetes,1.4,28.06,Overweight,Diabetes Risk,Normal,5,Medium Risk
+892,Brandon Harvey,35,Female,177,78,B-,Dizziness,"Liver Disease, Diabetes",11.5,231,186,4243,1.4,128,100,Diabetes,1.77,24.9,Normal,Diabetes Risk,Elevated,3,Medium Risk
+893,Joshua Adams,51,Male,185,79,A+,"Body Pain, Nausea, Chest Pain","Liver Disease, Asthma, Thyroid Disorder",11.8,95,205,11586,2.7,114,103,Kidney Disease,1.85,23.08,Normal,Normal,Normal,3,Medium Risk
+894,Mallory Morton,52,Female,182,88,A+,"Fatigue, Dizziness, Fever, Nausea, Headache",,11.0,176,194,13836,2.5,144,115,Hypertension,1.82,26.57,Overweight,Diabetes Risk,High Risk,7,High Risk
+895,Tammy Mcdaniel,21,Male,152,89,A-,Fatigue,,14.9,288,347,10771,2.11,167,64,Diabetes,1.52,38.52,Obese,Diabetes Risk,High Risk,11,Critical Risk
+896,Alyssa Santiago,45,Male,184,68,AB-,"Chest Pain, Fever, Cough","Thyroid Disorder, nan",16.3,185,146,14584,1.58,126,69,Diabetes,1.84,20.09,Normal,Diabetes Risk,Elevated,2,Low Risk
+897,Jamie Gamble,86,Male,143,73,B-,Vomiting,"Kidney Disease, Diabetes, Thyroid Disorder",14.6,200,148,13841,1.5,166,110,Diabetes,1.43,35.7,Obese,Diabetes Risk,High Risk,7,High Risk
+898,Stacy Mason,53,Male,155,87,B+,Fever,Heart Disease,12.6,251,180,10682,2.89,141,104,Diabetes,1.55,36.21,Obese,Diabetes Risk,High Risk,10,Critical Risk
+899,Elizabeth Romero,84,Female,190,69,A-,Dizziness,"Heart Disease, Asthma, Diabetes",11.4,182,151,10275,2.21,162,85,Diabetes,1.9,19.11,Normal,Diabetes Risk,High Risk,8,High Risk
+900,Charles Owens,12,Female,171,59,O-,"Nausea, Vomiting, Fatigue","nan, Liver Disease",12.4,110,276,12011,2.13,115,70,Kidney Disease,1.71,20.18,Normal,Prediabetes,Normal,3,Medium Risk
+901,Gabriella Maynard,14,Male,157,53,A-,"Fever, Shortness of Breath, Chest Pain, Dizziness, Cough","nan, Heart Disease",17.5,297,162,4534,1.36,138,108,Diabetes,1.57,21.5,Normal,Diabetes Risk,Elevated,3,Medium Risk
+902,Andrea Fuentes,2,Female,173,46,O-,"Fatigue, Dizziness","nan, Liver Disease, Hypertension",15.7,183,215,5779,3.49,179,114,Diabetes,1.73,15.37,Underweight,Diabetes Risk,High Risk,8,High Risk
+903,Mark Odonnell PhD,52,Male,178,71,O-,"Dizziness, Nausea, Fatigue, Shortness of Breath, Headache","Diabetes, Asthma, Kidney Disease",16.7,212,212,14493,2.73,93,63,Diabetes,1.78,22.41,Normal,Diabetes Risk,Normal,6,High Risk
+904,Nicholas Sanford,3,Male,170,109,O+,"Dizziness, Nausea, Chest Pain, Cough","Hypertension, Kidney Disease",10.7,180,317,10365,2.69,178,102,Hypertension,1.7,37.72,Obese,Diabetes Risk,High Risk,10,Critical Risk
+905,Mr. Pedro Fuller MD,66,Male,145,43,O-,"Vomiting, Cough, Fatigue","nan, Asthma, Diabetes",9.1,132,219,11181,1.23,118,89,Anemia,1.45,20.45,Normal,Diabetes Risk,Normal,4,Medium Risk
+906,Shannon Peters,45,Female,143,40,A-,"Body Pain, Nausea","Asthma, Thyroid Disorder",17.9,225,285,10956,1.1,180,100,Diabetes,1.43,19.56,Normal,Diabetes Risk,High Risk,6,High Risk
+907,Christian Wiggins,86,Female,156,55,B+,"Cough, Chest Pain, Fever, Shortness of Breath, Headache","Kidney Disease, Thyroid Disorder",15.4,299,312,4805,2.25,143,81,Diabetes,1.56,22.6,Normal,Diabetes Risk,High Risk,8,High Risk
+908,Carolyn Freeman,17,Female,161,91,A+,"Nausea, Body Pain, Headache","Diabetes, Kidney Disease, Liver Disease",15.5,120,148,13165,1.84,136,61,Healthy,1.61,35.11,Obese,Prediabetes,Elevated,2,Low Risk
+909,Christopher Rice,40,Female,179,50,O+,"Cough, Chest Pain, Headache, Body Pain","Liver Disease, Heart Disease",16.7,75,133,6212,2.75,102,86,Kidney Disease,1.79,15.61,Underweight,Normal,Normal,3,Medium Risk
+910,Terri Huffman,44,Male,171,80,AB+,Cough,"Kidney Disease, Thyroid Disorder, Asthma",16.7,133,160,11214,1.38,143,79,Hypertension,1.71,27.36,Overweight,Diabetes Risk,High Risk,4,Medium Risk
+911,Curtis Herrera,70,Male,161,102,AB+,Chest Pain,Liver Disease,10.6,287,171,6587,3.26,101,102,Diabetes,1.61,39.35,Obese,Diabetes Risk,Normal,8,High Risk
+912,Matthew Simmons,77,Male,155,120,B+,"Chest Pain, Shortness of Breath, Vomiting, Fatigue, Body Pain","nan, Kidney Disease",13.5,212,156,10661,2.55,174,79,Diabetes,1.55,49.95,Obese,Diabetes Risk,High Risk,11,Critical Risk
+913,Molly Price,90,Male,170,40,A-,"Headache, Fever, Dizziness",Thyroid Disorder,9.6,212,238,10854,2.11,164,71,Diabetes,1.7,13.84,Underweight,Diabetes Risk,High Risk,11,Critical Risk
+914,Mary Lopez,24,Male,172,93,B+,"Headache, Chest Pain, Fatigue","Hypertension, Asthma, Heart Disease",15.5,158,340,8067,2.0,99,64,Healthy,1.72,31.44,Obese,Diabetes Risk,Normal,4,Medium Risk
+915,Nina Lawson,84,Male,181,88,AB+,"Cough, Fatigue, Dizziness, Chest Pain","Heart Disease, nan, Diabetes",8.5,89,217,14378,2.31,128,119,Anemia,1.81,26.86,Overweight,Normal,Elevated,5,Medium Risk
+916,Patrick Reed,19,Female,152,101,A-,"Dizziness, Cough, Fever, Body Pain","Liver Disease, Hypertension",12.0,155,346,14866,2.38,165,79,Hypertension,1.52,43.72,Obese,Diabetes Risk,High Risk,10,Critical Risk
+917,Kathy Perkins,26,Male,174,47,A-,"Headache, Vomiting, Fatigue, Shortness of Breath, Body Pain","nan, Heart Disease",13.5,232,249,6668,2.62,144,118,Diabetes,1.74,15.52,Underweight,Diabetes Risk,High Risk,8,High Risk
+918,Matthew Leon,41,Female,171,88,O-,"Nausea, Dizziness, Body Pain, Fever, Chest Pain","Asthma, Liver Disease",8.5,76,280,13469,2.01,107,66,Anemia,1.71,30.09,Obese,Normal,Normal,7,High Risk
+919,Madison Robles,69,Male,142,45,AB-,"Nausea, Headache, Fever","Diabetes, Hypertension",14.7,179,251,7365,2.85,172,92,Hypertension,1.42,22.32,Normal,Diabetes Risk,High Risk,8,High Risk
+920,Kimberly Brown,44,Female,180,95,B+,"Shortness of Breath, Chest Pain, Fever","Kidney Disease, nan",10.8,292,217,4403,1.74,141,72,Diabetes,1.8,29.32,Overweight,Diabetes Risk,High Risk,5,Medium Risk
+921,Justin Smith,19,Female,155,99,B-,Shortness of Breath,"Asthma, Liver Disease",17.4,131,189,14272,2.27,121,106,Kidney Disease,1.55,41.21,Obese,Diabetes Risk,Elevated,7,High Risk
+922,Kevin Graham,84,Male,155,112,O+,Cough,"Diabetes, Liver Disease, nan",10.0,236,125,14521,2.07,94,69,Diabetes,1.55,46.62,Obese,Diabetes Risk,Normal,8,High Risk
+923,Mary Cox,15,Female,143,118,O+,Fatigue,"Hypertension, Asthma",10.8,228,308,14381,1.56,94,69,Diabetes,1.43,57.7,Obese,Diabetes Risk,Normal,5,Medium Risk
+924,Isaiah Ford,47,Male,149,77,A+,"Dizziness, Headache, Fever, Fatigue","Diabetes, Thyroid Disorder",8.3,126,335,8130,2.71,128,75,Anemia,1.49,34.68,Obese,Diabetes Risk,Elevated,7,High Risk
+925,Todd Gilmore,10,Male,140,106,O+,"Dizziness, Headache, Cough","Kidney Disease, nan",10.5,144,311,8199,2.37,118,79,Kidney Disease,1.4,54.08,Obese,Diabetes Risk,Normal,7,High Risk
+926,Leslie Barnett,65,Female,178,111,B+,"Cough, Headache, Fever","Diabetes, Thyroid Disorder",12.5,219,313,5345,1.01,90,61,Diabetes,1.78,35.03,Obese,Diabetes Risk,Normal,5,Medium Risk
+927,Yvonne Morton,48,Male,150,62,AB+,"Fever, Vomiting, Fatigue","Liver Disease, Asthma",16.1,274,303,10452,1.86,174,85,Diabetes,1.5,27.56,Overweight,Diabetes Risk,High Risk,6,High Risk
+928,Robert Moreno,66,Male,155,52,B-,"Headache, Fever, Fatigue, Vomiting, Shortness of Breath","Hypertension, Thyroid Disorder, Diabetes",16.0,133,281,11309,2.13,170,107,Hypertension,1.55,21.64,Normal,Diabetes Risk,High Risk,8,High Risk
+929,Michael Williams,2,Male,163,94,O-,"Dizziness, Fever, Headache, Body Pain, Chest Pain","Hypertension, Thyroid Disorder",14.0,258,251,6654,3.06,153,94,Diabetes,1.63,35.38,Obese,Diabetes Risk,High Risk,10,Critical Risk
+930,Lauren Brown,41,Male,164,94,A-,"Headache, Cough, Nausea, Vomiting",Kidney Disease,15.7,243,164,13932,1.76,91,76,Diabetes,1.64,34.95,Obese,Diabetes Risk,Normal,5,Medium Risk
+931,Jon Barnes,41,Female,173,105,AB+,"Chest Pain, Shortness of Breath, Body Pain, Fatigue, Vomiting",,11.4,193,311,5288,0.96,142,76,Diabetes,1.73,35.08,Obese,Diabetes Risk,High Risk,6,High Risk
+932,Kimberly Cobb,28,Female,188,72,A+,"Chest Pain, Body Pain","Thyroid Disorder, Liver Disease",12.9,104,174,11453,0.62,108,112,Healthy,1.88,20.37,Normal,Prediabetes,Normal,0,Low Risk
+933,James Pham,6,Female,143,57,B-,Fatigue,Asthma,13.0,76,267,5903,2.11,94,60,Kidney Disease,1.43,27.87,Overweight,Normal,Normal,3,Medium Risk
+934,Mary Dickerson,89,Female,175,80,AB+,"Fatigue, Shortness of Breath",Kidney Disease,16.6,261,250,14483,2.19,92,90,Diabetes,1.75,26.12,Overweight,Diabetes Risk,Normal,6,High Risk
+935,Amy Chan,1,Male,158,112,A+,"Body Pain, Nausea",Diabetes,12.8,251,134,10232,0.69,154,72,Diabetes,1.58,44.86,Obese,Diabetes Risk,High Risk,7,High Risk
+936,Courtney Hart,54,Female,152,86,B+,"Nausea, Vomiting, Fatigue, Headache, Shortness of Breath",Asthma,8.0,144,148,10421,1.48,103,74,Anemia,1.52,37.22,Obese,Diabetes Risk,Normal,6,High Risk
+937,Kerry Chapman,55,Female,153,45,O-,"Dizziness, Nausea, Shortness of Breath, Fever","Kidney Disease, Asthma",17.4,167,292,11334,1.45,174,104,Hypertension,1.53,19.22,Normal,Diabetes Risk,High Risk,5,Medium Risk
+938,Tyler Martinez,73,Female,176,60,B-,"Chest Pain, Body Pain, Nausea, Cough, Headache","Kidney Disease, Thyroid Disorder, Asthma",14.2,191,228,6308,2.35,143,99,Diabetes,1.76,19.37,Normal,Diabetes Risk,High Risk,7,High Risk
+939,Robin Young,8,Male,162,97,A+,"Headache, Shortness of Breath",Diabetes,17.1,129,224,8816,3.16,146,108,Hypertension,1.62,36.96,Obese,Diabetes Risk,High Risk,9,Critical Risk
+940,Lisa Cobb,79,Male,175,40,O-,"Fatigue, Shortness of Breath, Body Pain, Vomiting, Fever","Diabetes, Liver Disease, Asthma",12.2,232,321,9827,1.75,92,69,Diabetes,1.75,13.06,Underweight,Diabetes Risk,Normal,3,Medium Risk
+941,Scott Huff,78,Female,144,84,A+,"Chest Pain, Headache","Thyroid Disorder, Hypertension, nan",15.3,198,260,8692,2.42,172,75,Diabetes,1.44,40.51,Obese,Diabetes Risk,High Risk,10,Critical Risk
+942,Katrina Shelton,24,Male,152,58,B+,"Fatigue, Shortness of Breath, Body Pain, Chest Pain, Headache","Kidney Disease, Hypertension, Asthma",13.9,261,200,5474,2.29,176,75,Diabetes,1.52,25.1,Overweight,Diabetes Risk,High Risk,9,Critical Risk
+943,Dennis Austin,75,Male,179,90,B-,"Chest Pain, Body Pain, Vomiting","Hypertension, Liver Disease, nan",17.4,175,275,14619,1.81,111,102,Healthy,1.79,28.09,Overweight,Diabetes Risk,Normal,2,Low Risk
+944,Jamie Bell,63,Male,182,81,B+,"Cough, Headache, Vomiting","Asthma, Liver Disease, nan",14.6,75,270,12506,0.67,114,109,Healthy,1.82,24.45,Normal,Normal,Normal,0,Low Risk
+945,Jeremy James,81,Female,155,116,A-,"Fatigue, Nausea, Fever",Diabetes,11.3,206,306,8052,3.0,103,101,Diabetes,1.55,48.28,Obese,Diabetes Risk,Normal,8,High Risk
+946,Michael Taylor,70,Female,158,40,B-,"Fatigue, Vomiting, Headache, Body Pain",Diabetes,12.1,211,217,8743,1.93,160,93,Diabetes,1.58,16.02,Underweight,Diabetes Risk,High Risk,5,Medium Risk
+947,Miss Gina Phillips DDS,70,Male,162,94,B+,"Dizziness, Chest Pain","Asthma, Kidney Disease",14.4,191,176,8977,2.31,159,82,Diabetes,1.62,35.82,Obese,Diabetes Risk,High Risk,9,Critical Risk
+948,Andrew Johnson,19,Female,180,98,B+,"Cough, Dizziness",Diabetes,8.8,147,228,7185,1.02,99,78,Anemia,1.8,30.25,Obese,Diabetes Risk,Normal,6,High Risk
+949,Mr. Kevin Barajas,60,Female,175,62,O-,"Shortness of Breath, Chest Pain","Hypertension, Asthma, Diabetes",11.4,94,289,9834,0.98,103,120,Healthy,1.75,20.24,Normal,Normal,Normal,0,Low Risk
+950,Michelle Winters,44,Male,168,76,B+,"Nausea, Cough, Dizziness, Shortness of Breath, Fatigue","Heart Disease, Hypertension, Liver Disease",8.5,272,169,12395,0.95,116,92,Diabetes,1.68,26.93,Overweight,Diabetes Risk,Normal,5,Medium Risk
+951,Carolyn Wilson,71,Male,186,110,A-,"Headache, Vomiting, Cough","Thyroid Disorder, Diabetes",12.3,93,336,8780,2.88,147,117,Hypertension,1.86,31.8,Obese,Normal,High Risk,7,High Risk
+952,Micheal Sanders,81,Male,144,51,O+,"Dizziness, Cough, Nausea, Fatigue, Shortness of Breath",Thyroid Disorder,13.2,279,154,6339,3.1,138,91,Diabetes,1.44,24.59,Normal,Diabetes Risk,Elevated,6,High Risk
+953,Cindy Butler,31,Female,176,120,A+,"Shortness of Breath, Nausea, Dizziness","Thyroid Disorder, Hypertension",15.7,251,203,8458,2.83,151,67,Diabetes,1.76,38.74,Obese,Diabetes Risk,High Risk,10,Critical Risk
+954,Travis Williams,77,Female,145,73,A+,"Chest Pain, Fatigue, Fever, Dizziness","Asthma, Thyroid Disorder",12.0,267,309,12948,2.85,150,83,Diabetes,1.45,34.72,Obese,Diabetes Risk,High Risk,10,Critical Risk
+955,Jason Houston,28,Female,140,118,AB+,"Shortness of Breath, Headache","Thyroid Disorder, Kidney Disease, Diabetes",15.7,226,240,14042,2.92,156,81,Diabetes,1.4,60.2,Obese,Diabetes Risk,High Risk,10,Critical Risk
+956,Kimberly Shelton,83,Female,161,51,B+,"Nausea, Fatigue, Fever",Hypertension,13.6,196,271,5709,1.35,121,119,Diabetes,1.61,19.68,Normal,Diabetes Risk,Elevated,2,Low Risk
+957,Taylor Mack,79,Female,178,113,O+,"Shortness of Breath, Vomiting, Fever, Chest Pain, Cough",Heart Disease,16.7,166,124,11464,0.85,165,85,Hypertension,1.78,35.66,Obese,Diabetes Risk,High Risk,7,High Risk
+958,Alice Garcia,63,Male,141,117,O+,Fever,"Thyroid Disorder, Liver Disease, Asthma",17.7,114,200,7175,3.33,167,73,Hypertension,1.41,58.85,Obese,Prediabetes,High Risk,8,High Risk
+959,Tammy Harper,51,Male,179,62,B+,"Nausea, Cough, Dizziness, Body Pain, Vomiting","Thyroid Disorder, Kidney Disease",13.5,265,168,9226,1.1,90,73,Diabetes,1.79,19.35,Normal,Diabetes Risk,Normal,3,Medium Risk
+960,Sharon Levy,84,Female,162,120,A+,"Dizziness, Body Pain, Fever","Asthma, nan",13.2,181,304,12048,2.61,176,66,Diabetes,1.62,45.72,Obese,Diabetes Risk,High Risk,10,Critical Risk
+961,Wayne Henderson,1,Male,150,120,B+,"Shortness of Breath, Body Pain","Kidney Disease, Asthma",9.0,122,281,7771,1.78,164,73,Hypertension,1.5,53.33,Obese,Prediabetes,High Risk,7,High Risk
+962,David Murillo,10,Male,184,61,A-,"Fever, Body Pain, Nausea, Shortness of Breath",Hypertension,11.1,92,345,12356,3.19,152,90,Hypertension,1.84,18.02,Underweight,Normal,High Risk,5,Medium Risk
+963,Mary Ferguson,41,Male,154,68,A-,"Dizziness, Vomiting, Cough","Diabetes, Hypertension, Asthma",11.9,248,145,5515,3.44,97,89,Diabetes,1.54,28.67,Overweight,Diabetes Risk,Normal,6,High Risk
+964,Amy Peterson,81,Female,141,89,O-,"Nausea, Headache, Chest Pain, Cough, Vomiting","Asthma, Liver Disease, Hypertension",8.3,168,209,14670,2.85,129,99,Anemia,1.41,44.77,Obese,Diabetes Risk,Elevated,9,Critical Risk
+965,Brianna Bowen,75,Female,168,103,AB-,"Vomiting, Headache, Cough",,13.0,174,291,4638,1.21,128,104,Healthy,1.68,36.49,Obese,Diabetes Risk,Elevated,4,Medium Risk
+966,Anthony Meadows,10,Female,156,104,A-,"Chest Pain, Shortness of Breath, Vomiting, Dizziness, Cough",Hypertension,11.5,290,342,11624,1.83,131,92,Diabetes,1.56,42.74,Obese,Diabetes Risk,Elevated,5,Medium Risk
+967,Lauren Logan,83,Male,187,111,B+,"Nausea, Fever, Body Pain, Vomiting","Liver Disease, Kidney Disease",11.3,132,245,7628,1.81,160,73,Hypertension,1.87,31.74,Obese,Diabetes Risk,High Risk,6,High Risk
+968,Thomas Wade,57,Male,177,112,B+,"Headache, Fever, Shortness of Breath, Vomiting, Cough",Diabetes,17.1,287,204,9305,3.26,124,76,Diabetes,1.77,35.75,Obese,Diabetes Risk,Elevated,8,High Risk
+969,Lisa Boone,74,Male,186,112,O+,"Headache, Body Pain, Cough","Liver Disease, nan",12.7,83,252,9559,2.17,144,97,Hypertension,1.86,32.37,Obese,Normal,High Risk,7,High Risk
+970,Dustin Davis,80,Male,173,97,O+,"Shortness of Breath, Fatigue","Heart Disease, Kidney Disease",15.3,175,209,9910,1.69,99,110,Healthy,1.73,32.41,Obese,Diabetes Risk,Normal,4,Medium Risk
+971,Virginia Myers,41,Female,176,81,AB+,"Chest Pain, Headache, Dizziness, Shortness of Breath","Heart Disease, Asthma, Diabetes",10.2,235,317,5634,2.36,135,107,Diabetes,1.76,26.15,Overweight,Diabetes Risk,Elevated,6,High Risk
+972,Anthony Hardy,67,Female,146,51,A-,"Fever, Body Pain, Vomiting, Cough, Shortness of Breath",Heart Disease,8.4,292,120,4840,1.07,118,77,Diabetes,1.46,23.93,Normal,Diabetes Risk,Normal,5,Medium Risk
+973,Christine Bray,14,Female,147,102,A-,"Fatigue, Body Pain","Asthma, Kidney Disease, Heart Disease",14.3,251,206,9042,2.38,153,119,Diabetes,1.47,47.2,Obese,Diabetes Risk,High Risk,10,Critical Risk
+974,Sarah Moon,76,Female,163,79,O+,"Cough, Dizziness, Fatigue, Chest Pain","Heart Disease, nan, Asthma",15.4,177,265,4142,1.52,164,92,Hypertension,1.63,29.73,Overweight,Diabetes Risk,High Risk,5,Medium Risk
+975,Robert Bass,43,Male,158,96,A+,Dizziness,"Diabetes, Liver Disease",12.8,283,234,8578,1.2,102,97,Diabetes,1.58,38.46,Obese,Diabetes Risk,Normal,5,Medium Risk
+976,Timothy Hernandez,74,Female,160,55,O+,"Fever, Dizziness, Vomiting, Cough, Body Pain","nan, Heart Disease, Hypertension",9.6,274,266,14661,0.63,90,116,Diabetes,1.6,21.48,Normal,Diabetes Risk,Normal,5,Medium Risk
+977,Brent Reed,29,Male,178,110,AB+,"Fatigue, Vomiting, Cough, Headache, Nausea","Diabetes, Hypertension, Thyroid Disorder",13.5,232,208,10097,2.69,111,87,Diabetes,1.78,34.72,Obese,Diabetes Risk,Normal,8,High Risk
+978,Timothy Cooper,82,Female,181,51,A+,"Shortness of Breath, Chest Pain, Fatigue",Kidney Disease,8.1,240,302,13258,2.51,180,89,Diabetes,1.81,15.57,Underweight,Diabetes Risk,High Risk,11,Critical Risk
+979,Jennifer Giles,37,Male,146,68,O+,"Fever, Chest Pain",Asthma,8.4,288,190,9042,1.36,135,68,Diabetes,1.46,31.9,Obese,Diabetes Risk,Elevated,7,High Risk
+980,Larry Walker,30,Male,170,99,AB-,"Fatigue, Shortness of Breath, Vomiting","Heart Disease, Kidney Disease, Hypertension",15.1,136,280,11766,1.55,144,112,Hypertension,1.7,34.26,Obese,Diabetes Risk,High Risk,6,High Risk
+981,Jessica Burgess,36,Male,143,110,B+,"Shortness of Breath, Chest Pain, Nausea, Vomiting","Thyroid Disorder, Asthma, Liver Disease",14.5,217,308,8671,2.93,136,104,Diabetes,1.43,53.79,Obese,Diabetes Risk,Elevated,8,High Risk
+982,Nancy Rodriguez,90,Female,173,55,AB+,Dizziness,"Heart Disease, Kidney Disease",13.9,287,223,9067,2.35,157,63,Diabetes,1.73,18.38,Underweight,Diabetes Risk,High Risk,8,High Risk
+983,James Huff,17,Female,146,82,O-,"Headache, Fatigue, Fever, Chest Pain, Dizziness",Asthma,11.1,210,154,13423,2.64,127,71,Diabetes,1.46,38.47,Obese,Diabetes Risk,Elevated,8,High Risk
+984,Gary Jackson,64,Female,179,79,AB+,Body Pain,"Kidney Disease, Diabetes",11.2,139,243,14357,2.37,143,68,Hypertension,1.79,24.66,Normal,Diabetes Risk,High Risk,7,High Risk
+985,Wanda Nelson,65,Male,178,79,O-,"Fatigue, Body Pain","Kidney Disease, Asthma",11.4,188,167,4100,0.89,100,80,Diabetes,1.78,24.93,Normal,Diabetes Risk,Normal,2,Low Risk
+986,Taylor Avery,24,Male,164,71,B+,"Shortness of Breath, Chest Pain, Cough, Vomiting",Diabetes,17.0,115,129,7272,0.66,106,110,Healthy,1.64,26.4,Overweight,Prediabetes,Normal,0,Low Risk
+987,Terry Barnes,90,Male,145,62,B-,"Fever, Cough","Kidney Disease, Hypertension, Heart Disease",13.8,258,265,12179,2.95,144,94,Diabetes,1.45,29.49,Overweight,Diabetes Risk,High Risk,8,High Risk
+988,Maria Davis,22,Female,168,45,O-,"Shortness of Breath, Cough","nan, Asthma",15.6,214,169,10794,3.36,135,96,Diabetes,1.68,15.94,Underweight,Diabetes Risk,Elevated,6,High Risk
+989,Anthony Riley,46,Male,170,92,B-,Fatigue,"Hypertension, Liver Disease, Kidney Disease",15.5,90,232,9072,2.4,139,100,Kidney Disease,1.7,31.83,Obese,Normal,Elevated,5,Medium Risk
+990,Abigail Palmer,73,Male,185,117,O+,"Headache, Fatigue, Chest Pain, Nausea, Fever","Thyroid Disorder, Heart Disease",14.6,284,346,10340,2.59,150,72,Diabetes,1.85,34.19,Obese,Diabetes Risk,High Risk,10,Critical Risk
+991,Derek Campos,39,Male,142,71,B-,"Dizziness, Cough, Shortness of Breath, Fatigue, Fever","Thyroid Disorder, nan",12.1,258,295,5693,0.53,129,96,Diabetes,1.42,35.21,Obese,Diabetes Risk,Elevated,5,Medium Risk
+992,Xavier Phillips,43,Male,167,111,AB-,"Headache, Fatigue, Body Pain, Shortness of Breath, Cough",,9.8,103,246,7176,2.29,144,60,Hypertension,1.67,39.8,Obese,Prediabetes,High Risk,9,Critical Risk
+993,Mason Hernandez,1,Female,173,52,AB-,Chest Pain,"Asthma, Diabetes, Kidney Disease",15.7,158,252,10940,1.29,169,92,Hypertension,1.73,17.37,Underweight,Diabetes Risk,High Risk,5,Medium Risk
+994,Nicole Fowler,15,Male,181,89,B+,"Cough, Fatigue, Dizziness, Nausea, Headache","Kidney Disease, Liver Disease",17.9,120,178,9727,2.34,130,115,Kidney Disease,1.81,27.17,Overweight,Prediabetes,Elevated,3,Medium Risk
+995,Sherry Suarez,32,Male,163,103,AB-,"Chest Pain, Nausea",Heart Disease,17.6,149,220,6142,2.76,140,71,Kidney Disease,1.63,38.77,Obese,Diabetes Risk,High Risk,7,High Risk
+996,Christopher Lee,64,Female,169,71,B-,"Chest Pain, Vomiting, Dizziness, Shortness of Breath","Thyroid Disorder, Hypertension",10.2,254,205,12698,0.68,133,95,Diabetes,1.69,24.86,Normal,Diabetes Risk,Elevated,3,Medium Risk
+997,William Johnson,6,Female,164,65,A-,"Cough, Body Pain","Asthma, Liver Disease",12.7,261,336,6528,0.57,132,95,Diabetes,1.64,24.17,Normal,Diabetes Risk,Elevated,3,Medium Risk
+998,Brandon Kelly,35,Male,156,54,A+,"Shortness of Breath, Cough, Nausea",Liver Disease,12.5,248,200,8255,1.23,143,119,Diabetes,1.56,22.19,Normal,Diabetes Risk,High Risk,5,Medium Risk
+999,Brandon Stokes,69,Female,188,83,AB+,"Shortness of Breath, Fatigue","Heart Disease, nan",15.7,273,278,4993,2.17,158,111,Diabetes,1.88,23.48,Normal,Diabetes Risk,High Risk,8,High Risk
+1000,Joshua Berger,8,Male,190,59,AB+,"Chest Pain, Cough, Headache, Shortness of Breath, Vomiting","Diabetes, Asthma, Heart Disease",15.7,145,149,5983,3.04,170,74,Hypertension,1.9,16.34,Underweight,Diabetes Risk,High Risk,8,High Risk

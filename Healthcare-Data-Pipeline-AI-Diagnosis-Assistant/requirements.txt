@@ -1,0 +1,8 @@
+pandas
+numpy
+faker
+fastapi
+uvicorn
+sqlalchemy
+reportlab
+python-multipart

@@ -1,0 +1,2998 @@
+patient_id,symptom,severity
+1,Dizziness,3
+1,Chest Pain,5
+1,Fever,7
+1,Fatigue,9
+2,Cough,4
+2,Shortness of Breath,2
+2,Body Pain,3
+3,Cough,1
+3,Fever,5
+3,Fatigue,7
+3,Vomiting,3
+3,Headache,8
+4,Fever,4
+4,Cough,2
+4,Vomiting,4
+5,Fatigue,5
+5,Fever,8
+5,Nausea,6
+5,Body Pain,2
+5,Vomiting,3
+6,Dizziness,3
+6,Nausea,7
+6,Chest Pain,3
+6,Fever,6
+7,Fatigue,3
+7,Body Pain,6
+7,Vomiting,5
+7,Headache,7
+8,Nausea,3
+8,Fatigue,10
+8,Dizziness,8
+8,Headache,5
+9,Vomiting,6
+9,Dizziness,5
+10,Body Pain,10
+10,Cough,10
+10,Vomiting,1
+11,Dizziness,10
+11,Nausea,6
+11,Fever,9
+12,Body Pain,7
+12,Fever,6
+12,Dizziness,3
+13,Vomiting,5
+14,Dizziness,3
+14,Body Pain,3
+14,Chest Pain,9
+14,Vomiting,2
+14,Shortness of Breath,3
+15,Dizziness,7
+15,Chest Pain,1
+15,Shortness of Breath,2
+15,Fever,6
+15,Fatigue,5
+16,Body Pain,10
+16,Fatigue,9
+16,Headache,2
+16,Chest Pain,3
+16,Fever,4
+17,Dizziness,8
+17,Headache,3
+18,Fever,8
+18,Vomiting,1
+18,Body Pain,4
+18,Nausea,3
+18,Chest Pain,2
+19,Headache,3
+19,Shortness of Breath,2
+19,Cough,8
+20,Dizziness,3
+21,Fatigue,2
+21,Chest Pain,9
+21,Nausea,9
+21,Vomiting,7
+22,Nausea,1
+22,Fatigue,7
+23,Fatigue,3
+23,Cough,10
+23,Body Pain,8
+23,Chest Pain,2
+24,Nausea,6
+24,Fever,5
+25,Cough,9
+25,Fatigue,2
+25,Vomiting,9
+25,Headache,9
+25,Chest Pain,1
+26,Chest Pain,1
+26,Cough,9
+26,Shortness of Breath,1
+27,Shortness of Breath,8
+27,Chest Pain,8
+27,Cough,7
+27,Fever,8
+27,Body Pain,9
+28,Chest Pain,6
+28,Cough,7
+28,Vomiting,3
+28,Headache,9
+29,Vomiting,3
+29,Shortness of Breath,7
+29,Nausea,10
+29,Dizziness,3
+30,Dizziness,2
+30,Vomiting,9
+30,Headache,2
+30,Shortness of Breath,2
+31,Fatigue,10
+31,Body Pain,9
+31,Cough,4
+31,Shortness of Breath,6
+31,Chest Pain,3
+32,Vomiting,8
+33,Cough,8
+33,Nausea,6
+33,Shortness of Breath,1
+33,Body Pain,7
+34,Fatigue,9
+34,Headache,7
+35,Dizziness,7
+35,Nausea,9
+35,Body Pain,6
+35,Chest Pain,9
+36,Dizziness,1
+37,Body Pain,2
+37,Fatigue,1
+38,Vomiting,2
+38,Fatigue,3
+39,Shortness of Breath,10
+39,Chest Pain,10
+39,Fever,4
+40,Body Pain,4
+40,Headache,10
+40,Cough,9
+40,Fatigue,5
+40,Nausea,2
+41,Fatigue,10
+41,Fever,5
+41,Cough,1
+42,Dizziness,2
+42,Chest Pain,2
+42,Body Pain,10
+42,Nausea,10
+42,Headache,8
+43,Body Pain,9
+43,Vomiting,10
+43,Chest Pain,4
+43,Fatigue,4
+44,Fever,2
+44,Shortness of Breath,5
+44,Vomiting,9
+44,Dizziness,9
+44,Body Pain,9
+45,Body Pain,5
+46,Headache,8
+46,Shortness of Breath,1
+46,Fever,10
+46,Nausea,6
+47,Nausea,7
+48,Nausea,4
+48,Chest Pain,7
+49,Cough,10
+50,Vomiting,1
+50,Body Pain,2
+50,Fatigue,10
+50,Headache,5
+51,Cough,1
+51,Fever,3
+51,Chest Pain,7
+51,Headache,2
+52,Dizziness,7
+52,Fatigue,6
+53,Chest Pain,2
+53,Shortness of Breath,4
+53,Fatigue,4
+53,Vomiting,9
+54,Shortness of Breath,9
+54,Cough,10
+54,Fatigue,10
+55,Shortness of Breath,4
+55,Fatigue,2
+55,Headache,6
+55,Nausea,9
+55,Body Pain,10
+56,Vomiting,7
+56,Fatigue,9
+56,Chest Pain,4
+56,Nausea,4
+57,Shortness of Breath,4
+58,Body Pain,3
+58,Vomiting,8
+58,Headache,9
+58,Nausea,1
+58,Chest Pain,2
+59,Shortness of Breath,5
+60,Vomiting,5
+60,Fatigue,10
+61,Dizziness,1
+62,Fatigue,10
+63,Nausea,5
+63,Headache,2
+63,Body Pain,5
+64,Chest Pain,1
+64,Fever,8
+65,Cough,3
+65,Vomiting,8
+65,Fever,8
+65,Headache,4
+65,Shortness of Breath,7
+66,Cough,3
+66,Chest Pain,6
+67,Nausea,7
+67,Body Pain,8
+67,Headache,3
+68,Headache,4
+68,Fatigue,2
+68,Vomiting,4
+69,Body Pain,10
+69,Headache,2
+69,Fever,7
+69,Shortness of Breath,1
+69,Vomiting,3
+70,Vomiting,3
+70,Chest Pain,8
+70,Fatigue,10
+71,Vomiting,3
+72,Fever,8
+73,Cough,9
+73,Fever,3
+73,Body Pain,7
+73,Shortness of Breath,4
+73,Headache,9
+74,Shortness of Breath,1
+75,Chest Pain,7
+75,Cough,9
+75,Dizziness,6
+75,Nausea,9
+75,Vomiting,8
+76,Headache,4
+76,Shortness of Breath,2
+76,Chest Pain,7
+77,Cough,6
+78,Headache,9
+78,Vomiting,4
+78,Chest Pain,1
+79,Fever,4
+79,Shortness of Breath,9
+79,Cough,6
+80,Nausea,3
+80,Shortness of Breath,2
+81,Headache,10
+81,Vomiting,8
+81,Shortness of Breath,5
+81,Fatigue,7
+81,Dizziness,7
+82,Cough,7
+82,Fatigue,10
+82,Body Pain,10
+82,Headache,10
+82,Dizziness,5
+83,Headache,5
+83,Shortness of Breath,3
+83,Chest Pain,7
+83,Vomiting,9
+84,Nausea,4
+84,Headache,6
+84,Vomiting,6
+84,Fever,5
+85,Body Pain,5
+85,Chest Pain,1
+85,Dizziness,8
+86,Body Pain,3
+86,Fatigue,9
+86,Fever,3
+87,Shortness of Breath,5
+87,Body Pain,4
+87,Vomiting,2
+88,Vomiting,10
+88,Fatigue,10
+88,Cough,8
+89,Cough,4
+89,Body Pain,3
+89,Fatigue,6
+89,Nausea,10
+90,Nausea,8
+90,Fever,10
+90,Shortness of Breath,5
+90,Fatigue,9
+91,Nausea,5
+91,Chest Pain,6
+92,Headache,9
+93,Body Pain,2
+94,Cough,2
+95,Dizziness,7
+96,Headache,9
+96,Body Pain,4
+96,Shortness of Breath,4
+97,Cough,6
+98,Nausea,3
+98,Shortness of Breath,3
+99,Body Pain,8
+99,Fever,10
+99,Cough,3
+99,Chest Pain,7
+99,Nausea,9
+100,Fever,9
+100,Vomiting,9
+100,Headache,2
+100,Dizziness,6
+100,Cough,6
+101,Cough,7
+102,Shortness of Breath,10
+102,Cough,3
+103,Cough,7
+103,Fever,7
+104,Fever,3
+105,Vomiting,6
+106,Chest Pain,9
+106,Fever,6
+107,Nausea,10
+107,Vomiting,6
+107,Fever,1
+107,Fatigue,3
+107,Headache,3
+108,Body Pain,1
+109,Nausea,8
+110,Vomiting,2
+111,Cough,9
+111,Body Pain,8
+111,Vomiting,9
+111,Chest Pain,4
+112,Body Pain,3
+112,Nausea,5
+112,Cough,1
+113,Body Pain,6
+114,Fatigue,4
+114,Vomiting,8
+114,Headache,2
+114,Cough,7
+114,Shortness of Breath,6
+115,Body Pain,6
+115,Fatigue,8
+115,Nausea,8
+116,Nausea,1
+116,Dizziness,3
+116,Chest Pain,6
+117,Vomiting,9
+118,Fever,7
+118,Dizziness,10
+118,Body Pain,5
+119,Nausea,7
+119,Dizziness,7
+120,Fatigue,8
+120,Dizziness,2
+120,Nausea,8
+120,Fever,3
+121,Dizziness,2
+121,Fatigue,10
+121,Fever,9
+122,Body Pain,5
+122,Fatigue,10
+122,Dizziness,6
+123,Fatigue,9
+123,Vomiting,2
+123,Nausea,7
+124,Shortness of Breath,8
+124,Headache,10
+125,Body Pain,10
+126,Chest Pain,9
+127,Cough,10
+127,Body Pain,1
+127,Nausea,2
+127,Vomiting,7
+128,Shortness of Breath,6
+128,Fever,6
+128,Nausea,1
+129,Nausea,9
+129,Body Pain,7
+129,Shortness of Breath,5
+129,Dizziness,3
+130,Fever,7
+130,Dizziness,3
+130,Vomiting,3
+130,Chest Pain,7
+131,Vomiting,2
+131,Headache,4
+131,Shortness of Breath,2
+131,Cough,7
+131,Chest Pain,2
+132,Chest Pain,5
+132,Fever,6
+132,Fatigue,10
+133,Cough,8
+133,Shortness of Breath,3
+134,Fever,8
+134,Fatigue,8
+134,Cough,8
+135,Nausea,10
+136,Shortness of Breath,10
+136,Vomiting,1
+137,Shortness of Breath,5
+137,Nausea,10
+137,Fever,10
+137,Dizziness,1
+138,Fatigue,3
+138,Shortness of Breath,3
+138,Fever,4
+138,Dizziness,2
+139,Fatigue,2
+140,Nausea,2
+141,Cough,2
+141,Nausea,3
+141,Fatigue,2
+141,Vomiting,4
+142,Body Pain,3
+142,Headache,4
+142,Dizziness,2
+142,Fever,3
+143,Shortness of Breath,5
+144,Body Pain,1
+144,Fatigue,1
+144,Chest Pain,4
+145,Dizziness,5
+146,Fever,3
+146,Cough,6
+146,Shortness of Breath,5
+146,Nausea,2
+147,Fatigue,10
+147,Chest Pain,8
+148,Body Pain,8
+148,Fever,1
+148,Dizziness,4
+148,Headache,8
+148,Shortness of Breath,5
+149,Headache,1
+149,Dizziness,2
+150,Nausea,8
+150,Headache,7
+150,Vomiting,2
+150,Fatigue,8
+150,Cough,9
+151,Vomiting,2
+151,Dizziness,5
+151,Fever,1
+152,Dizziness,8
+152,Shortness of Breath,4
+152,Fever,4
+153,Dizziness,10
+153,Chest Pain,7
+154,Body Pain,1
+154,Chest Pain,4
+154,Fever,8
+154,Fatigue,2
+155,Vomiting,1
+155,Body Pain,7
+155,Fever,9
+155,Cough,10
+155,Fatigue,4
+156,Nausea,6
+157,Nausea,9
+157,Cough,4
+157,Dizziness,8
+157,Shortness of Breath,5
+158,Fatigue,1
+158,Chest Pain,3
+158,Nausea,10
+158,Vomiting,8
+158,Headache,6
+159,Dizziness,9
+159,Headache,2
+160,Vomiting,6
+161,Cough,8
+161,Nausea,6
+161,Fever,4
+162,Headache,3
+162,Nausea,10
+163,Vomiting,8
+163,Headache,6
+163,Cough,8
+164,Body Pain,3
+164,Chest Pain,9
+164,Vomiting,6
+164,Cough,8
+165,Chest Pain,3
+165,Headache,1
+165,Fatigue,7
+166,Dizziness,2
+166,Chest Pain,1
+166,Nausea,6
+167,Fever,6
+167,Fatigue,8
+167,Cough,2
+167,Body Pain,8
+168,Headache,2
+168,Vomiting,6
+169,Body Pain,6
+169,Dizziness,7
+169,Headache,2
+169,Nausea,4
+170,Body Pain,2
+171,Cough,4
+171,Fever,1
+171,Chest Pain,5
+171,Shortness of Breath,3
+171,Headache,9
+172,Cough,4
+172,Shortness of Breath,4
+173,Fever,1
+173,Dizziness,10
+173,Fatigue,7
+173,Nausea,8
+173,Body Pain,8
+174,Nausea,7
+174,Headache,2
+174,Chest Pain,10
+174,Dizziness,5
+174,Fatigue,10
+175,Fever,7
+175,Fatigue,6
+175,Vomiting,4
+175,Chest Pain,8
+175,Body Pain,2
+176,Nausea,7
+176,Shortness of Breath,8
+176,Cough,3
+176,Dizziness,1
+176,Body Pain,6
+177,Body Pain,4
+177,Nausea,4
+177,Fatigue,6
+177,Headache,3
+177,Cough,6
+178,Cough,6
+178,Headache,1
+178,Fever,10
+178,Body Pain,1
+178,Chest Pain,6
+179,Body Pain,1
+179,Nausea,2
+179,Dizziness,3
+180,Chest Pain,4
+180,Vomiting,7
+180,Body Pain,7
+181,Nausea,2
+181,Fever,9
+181,Body Pain,1
+181,Vomiting,4
+182,Fever,6
+183,Cough,7
+183,Vomiting,9
+184,Fatigue,2
+184,Cough,6
+184,Dizziness,7
+184,Fever,8
+184,Vomiting,10
+185,Cough,10
+185,Shortness of Breath,4
+185,Fatigue,8
+185,Nausea,2
+186,Dizziness,5
+186,Headache,4
+186,Vomiting,1
+187,Fever,10
+188,Fatigue,1
+189,Fever,9
+190,Body Pain,6
+191,Fatigue,6
+191,Dizziness,1
+191,Body Pain,9
+191,Cough,8
+192,Body Pain,9
+192,Dizziness,1
+192,Vomiting,1
+193,Nausea,1
+193,Vomiting,3
+193,Cough,1
+194,Shortness of Breath,6
+195,Fatigue,8
+195,Body Pain,2
+195,Dizziness,7
+195,Fever,6
+196,Body Pain,3
+197,Body Pain,8
+197,Fatigue,6
+197,Shortness of Breath,6
+198,Nausea,4
+198,Shortness of Breath,10
+198,Headache,9
+198,Chest Pain,10
+199,Fatigue,4
+200,Shortness of Breath,10
+200,Vomiting,6
+200,Chest Pain,6
+200,Fever,7
+201,Chest Pain,7
+201,Dizziness,6
+201,Nausea,6
+201,Fatigue,5
+202,Fever,9
+202,Shortness of Breath,7
+202,Nausea,3
+202,Body Pain,6
+203,Shortness of Breath,3
+203,Dizziness,8
+204,Headache,2
+204,Nausea,2
+204,Shortness of Breath,8
+205,Cough,10
+205,Chest Pain,2
+205,Shortness of Breath,8
+205,Body Pain,6
+206,Vomiting,9
+206,Shortness of Breath,7
+207,Shortness of Breath,8
+207,Nausea,9
+207,Cough,1
+207,Fever,2
+208,Shortness of Breath,1
+208,Chest Pain,1
+208,Vomiting,8
+209,Nausea,1
+209,Body Pain,6
+210,Shortness of Breath,9
+211,Dizziness,6
+212,Cough,9
+213,Shortness of Breath,4
+213,Dizziness,8
+213,Fever,3
+213,Vomiting,8
+213,Body Pain,2
+214,Fever,2
+214,Body Pain,2
+214,Chest Pain,9
+214,Shortness of Breath,8
+215,Dizziness,7
+215,Body Pain,5
+215,Vomiting,1
+215,Headache,4
+216,Fatigue,8
+216,Fever,4
+217,Fever,4
+218,Body Pain,10
+218,Dizziness,8
+218,Shortness of Breath,4
+219,Vomiting,4
+220,Chest Pain,4
+220,Shortness of Breath,7
+220,Body Pain,2
+220,Fever,1
+220,Vomiting,8
+221,Chest Pain,2
+221,Vomiting,5
+222,Fever,5
+222,Headache,4
+222,Cough,6
+222,Shortness of Breath,1
+223,Cough,9
+223,Vomiting,10
+224,Nausea,2
+224,Fever,7
+225,Cough,7
+225,Nausea,9
+225,Shortness of Breath,1
+225,Body Pain,6
+226,Cough,3
+226,Body Pain,7
+226,Shortness of Breath,3
+226,Chest Pain,1
+226,Fever,9
+227,Cough,6
+227,Vomiting,10
+227,Nausea,1
+227,Fatigue,9
+228,Body Pain,9
+228,Headache,6
+228,Shortness of Breath,1
+228,Fever,9
+228,Cough,3
+229,Cough,1
+229,Body Pain,4
+229,Vomiting,7
+229,Fatigue,4
+230,Shortness of Breath,3
+230,Headache,6
+230,Nausea,2
+231,Nausea,6
+231,Shortness of Breath,2
+231,Headache,6
+231,Chest Pain,6
+231,Vomiting,4
+232,Cough,3
+232,Vomiting,8
+233,Fever,2
+233,Cough,1
+233,Nausea,10
+234,Vomiting,5
+234,Shortness of Breath,10
+234,Headache,3
+234,Nausea,10
+234,Chest Pain,9
+235,Dizziness,3
+235,Shortness of Breath,10
+236,Headache,1
+236,Vomiting,7
+237,Nausea,2
+237,Chest Pain,7
+238,Shortness of Breath,9
+239,Chest Pain,3
+239,Fever,2
+239,Body Pain,10
+239,Vomiting,5
+239,Headache,1
+240,Vomiting,6
+241,Fever,4
+241,Chest Pain,2
+242,Cough,1
+242,Fever,6
+242,Body Pain,5
+242,Nausea,10
+242,Shortness of Breath,4
+243,Headache,8
+243,Vomiting,3
+243,Dizziness,6
+243,Nausea,7
+243,Fever,5
+244,Dizziness,5
+245,Headache,7
+245,Shortness of Breath,7
+246,Dizziness,1
+246,Body Pain,6
+246,Chest Pain,4
+246,Shortness of Breath,7
+246,Cough,2
+247,Cough,9
+247,Fever,3
+247,Headache,9
+248,Chest Pain,5
+249,Cough,8
+249,Fever,3
+249,Nausea,6
+249,Body Pain,5
+249,Dizziness,2
+250,Body Pain,9
+250,Headache,1
+251,Cough,5
+251,Body Pain,4
+252,Chest Pain,1
+253,Fatigue,10
+253,Fever,5
+253,Cough,8
+253,Vomiting,9
+253,Nausea,8
+254,Fever,8
+254,Body Pain,8
+255,Shortness of Breath,7
+255,Fever,7
+255,Vomiting,2
+255,Cough,10
+255,Fatigue,9
+256,Nausea,4
+256,Body Pain,6
+256,Headache,6
+256,Shortness of Breath,6
+257,Headache,1
+257,Cough,8
+257,Dizziness,5
+257,Fever,9
+258,Chest Pain,8
+258,Nausea,6
+258,Body Pain,9
+259,Fatigue,4
+259,Nausea,5
+259,Body Pain,10
+259,Cough,2
+259,Chest Pain,1
+260,Fatigue,7
+260,Cough,6
+260,Fever,6
+260,Vomiting,7
+261,Cough,8
+261,Vomiting,2
+262,Dizziness,10
+262,Nausea,8
+262,Body Pain,6
+263,Nausea,9
+263,Dizziness,2
+264,Nausea,1
+264,Chest Pain,8
+264,Dizziness,7
+264,Shortness of Breath,9
+264,Fever,6
+265,Nausea,7
+266,Shortness of Breath,4
+266,Vomiting,9
+266,Nausea,4
+266,Fever,2
+267,Shortness of Breath,5
+267,Body Pain,6
+268,Nausea,6
+268,Vomiting,3
+268,Dizziness,10
+269,Fever,4
+269,Vomiting,10
+270,Vomiting,5
+270,Nausea,8
+270,Fever,5
+270,Cough,7
+271,Nausea,2
+271,Vomiting,1
+271,Headache,9
+271,Cough,7
+271,Shortness of Breath,3
+272,Cough,5
+272,Vomiting,2
+273,Fatigue,10
+273,Shortness of Breath,1
+273,Nausea,8
+273,Body Pain,6
+274,Shortness of Breath,4
+275,Chest Pain,9
+275,Fatigue,9
+276,Dizziness,6
+276,Nausea,2
+276,Shortness of Breath,5
+277,Body Pain,7
+277,Dizziness,6
+278,Vomiting,7
+278,Nausea,2
+278,Chest Pain,1
+278,Headache,10
+278,Shortness of Breath,7
+279,Vomiting,2
+279,Fever,2
+279,Dizziness,4
+280,Headache,2
+280,Fatigue,2
+280,Vomiting,6
+280,Fever,2
+280,Body Pain,3
+281,Dizziness,4
+282,Chest Pain,9
+282,Body Pain,8
+282,Cough,8
+282,Dizziness,8
+283,Fatigue,3
+284,Body Pain,9
+284,Chest Pain,6
+284,Fever,6
+285,Dizziness,1
+286,Vomiting,3
+287,Vomiting,5
+287,Body Pain,6
+287,Dizziness,7
+287,Shortness of Breath,8
+288,Shortness of Breath,9
+288,Dizziness,1
+288,Fatigue,10
+288,Body Pain,7
+289,Shortness of Breath,6
+289,Body Pain,10
+289,Nausea,3
+289,Fever,6
+290,Fever,4
+290,Nausea,6
+291,Shortness of Breath,2
+291,Cough,5
+292,Fatigue,9
+292,Fever,10
+292,Vomiting,1
+292,Headache,2
+292,Cough,8
+293,Fever,1
+293,Chest Pain,6
+294,Fever,7
+294,Vomiting,2
+294,Cough,7
+294,Chest Pain,2
+294,Headache,6
+295,Body Pain,1
+295,Vomiting,5
+296,Vomiting,5
+296,Cough,9
+296,Fatigue,7
+297,Body Pain,8
+297,Vomiting,4
+297,Fever,10
+297,Fatigue,4
+298,Dizziness,5
+298,Shortness of Breath,2
+298,Body Pain,5
+299,Cough,10
+299,Shortness of Breath,10
+300,Headache,2
+301,Fatigue,8
+301,Vomiting,8
+301,Cough,4
+302,Body Pain,4
+302,Fatigue,7
+302,Vomiting,7
+302,Chest Pain,4
+303,Shortness of Breath,9
+303,Vomiting,2
+303,Fever,3
+304,Headache,8
+304,Chest Pain,6
+305,Shortness of Breath,4
+305,Chest Pain,9
+305,Headache,4
+306,Fatigue,5
+307,Body Pain,1
+307,Vomiting,5
+307,Shortness of Breath,7
+307,Cough,9
+307,Nausea,5
+308,Nausea,10
+309,Cough,5
+309,Headache,8
+309,Fatigue,2
+309,Dizziness,9
+310,Cough,9
+311,Fever,2
+311,Chest Pain,7
+311,Headache,4
+311,Vomiting,2
+311,Nausea,3
+312,Dizziness,7
+312,Chest Pain,8
+312,Body Pain,2
+313,Vomiting,4
+313,Dizziness,1
+313,Fever,1
+313,Shortness of Breath,8
+313,Nausea,3
+314,Headache,5
+315,Chest Pain,6
+315,Fatigue,4
+315,Fever,3
+315,Headache,2
+315,Vomiting,5
+316,Fatigue,7
+316,Dizziness,2
+316,Vomiting,9
+317,Cough,2
+317,Body Pain,2
+317,Nausea,2
+318,Headache,6
+319,Chest Pain,3
+319,Body Pain,6
+319,Vomiting,2
+319,Cough,5
+320,Shortness of Breath,8
+321,Fatigue,5
+321,Headache,8
+321,Fever,2
+321,Chest Pain,4
+321,Vomiting,9
+322,Body Pain,10
+322,Vomiting,3
+323,Fever,3
+323,Dizziness,4
+324,Cough,2
+325,Chest Pain,1
+326,Shortness of Breath,9
+326,Vomiting,5
+326,Fatigue,6
+326,Cough,9
+327,Dizziness,10
+328,Chest Pain,6
+328,Headache,10
+328,Cough,2
+329,Body Pain,3
+329,Shortness of Breath,2
+330,Body Pain,7
+330,Chest Pain,8
+331,Dizziness,3
+331,Fatigue,5
+331,Body Pain,4
+331,Cough,6
+331,Shortness of Breath,2
+332,Dizziness,6
+332,Fever,4
+332,Shortness of Breath,10
+333,Body Pain,9
+333,Nausea,6
+333,Vomiting,2
+333,Headache,3
+333,Fatigue,1
+334,Headache,8
+334,Nausea,9
+334,Body Pain,10
+334,Shortness of Breath,10
+335,Fever,1
+335,Vomiting,8
+335,Headache,3
+335,Shortness of Breath,8
+336,Fatigue,1
+336,Vomiting,7
+336,Dizziness,1
+337,Dizziness,7
+338,Body Pain,10
+338,Shortness of Breath,2
+338,Fatigue,5
+339,Fever,5
+339,Body Pain,3
+339,Nausea,1
+339,Shortness of Breath,7
+339,Headache,10
+340,Nausea,7
+341,Nausea,3
+341,Vomiting,10
+342,Dizziness,9
+342,Fatigue,1
+343,Cough,2
+343,Vomiting,8
+343,Chest Pain,4
+343,Nausea,4
+343,Headache,8
+344,Vomiting,4
+344,Body Pain,4
+344,Chest Pain,6
+345,Dizziness,8
+346,Chest Pain,1
+346,Shortness of Breath,5
+346,Fatigue,2
+346,Headache,8
+347,Cough,8
+347,Chest Pain,1
+347,Body Pain,5
+347,Headache,10
+348,Cough,1
+348,Body Pain,10
+348,Fatigue,8
+349,Nausea,4
+349,Chest Pain,8
+350,Shortness of Breath,6
+350,Chest Pain,10
+350,Fatigue,9
+350,Nausea,10
+351,Chest Pain,5
+351,Dizziness,7
+351,Body Pain,9
+351,Fatigue,8
+352,Shortness of Breath,10
+353,Dizziness,10
+353,Nausea,6
+353,Headache,6
+353,Fever,3
+353,Body Pain,2
+354,Chest Pain,6
+355,Vomiting,5
+355,Nausea,6
+355,Headache,6
+355,Dizziness,6
+356,Body Pain,5
+356,Shortness of Breath,1
+356,Headache,3
+357,Fever,7
+357,Dizziness,8
+357,Shortness of Breath,10
+358,Vomiting,3
+359,Fever,3
+359,Headache,9
+360,Body Pain,6
+360,Fatigue,8
+361,Shortness of Breath,1
+361,Headache,2
+361,Nausea,4
+362,Headache,9
+362,Cough,8
+362,Dizziness,7
+363,Nausea,4
+363,Cough,5
+364,Body Pain,8
+364,Cough,2
+364,Fever,10
+365,Dizziness,10
+365,Vomiting,10
+366,Fatigue,10
+366,Headache,5
+366,Shortness of Breath,4
+367,Nausea,4
+368,Headache,9
+369,Fever,4
+369,Nausea,9
+369,Headache,5
+369,Fatigue,9
+369,Vomiting,1
+370,Vomiting,4
+370,Fatigue,10
+371,Body Pain,1
+371,Chest Pain,9
+372,Nausea,2
+372,Dizziness,1
+372,Chest Pain,3
+372,Headache,3
+372,Shortness of Breath,2
+373,Vomiting,9
+373,Cough,7
+373,Headache,7
+374,Dizziness,1
+374,Body Pain,10
+374,Chest Pain,7
+374,Cough,1
+374,Headache,7
+375,Headache,4
+375,Fever,9
+375,Vomiting,2
+375,Fatigue,5
+375,Body Pain,4
+376,Nausea,9
+377,Chest Pain,9
+378,Chest Pain,9
+378,Shortness of Breath,10
+378,Fatigue,9
+378,Dizziness,4
+379,Body Pain,3
+379,Fatigue,4
+379,Shortness of Breath,10
+379,Cough,8
+379,Headache,4
+380,Fever,9
+380,Chest Pain,10
+380,Vomiting,6
+380,Nausea,3
+381,Shortness of Breath,3
+381,Nausea,2
+381,Fever,9
+382,Fatigue,4
+382,Shortness of Breath,9
+383,Chest Pain,5
+383,Cough,10
+383,Dizziness,7
+383,Shortness of Breath,10
+383,Body Pain,4
+384,Headache,2
+384,Chest Pain,6
+385,Dizziness,1
+385,Headache,5
+385,Chest Pain,8
+386,Vomiting,2
+386,Nausea,2
+386,Cough,6
+387,Shortness of Breath,2
+387,Dizziness,3
+387,Nausea,9
+387,Cough,2
+388,Body Pain,7
+388,Headache,9
+388,Nausea,10
+389,Dizziness,2
+389,Chest Pain,10
+389,Vomiting,5
+390,Vomiting,8
+390,Fatigue,10
+391,Body Pain,4
+392,Chest Pain,5
+392,Cough,4
+392,Vomiting,5
+392,Headache,3
+392,Nausea,7
+393,Chest Pain,2
+393,Body Pain,7
+393,Cough,3
+394,Chest Pain,5
+394,Vomiting,6
+394,Shortness of Breath,9
+395,Cough,8
+395,Nausea,6
+395,Body Pain,10
+395,Fatigue,5
+396,Fever,6
+396,Dizziness,9
+396,Cough,10
+397,Dizziness,6
+397,Fatigue,1
+398,Chest Pain,3
+398,Fatigue,6
+398,Nausea,9
+398,Shortness of Breath,2
+399,Dizziness,4
+399,Body Pain,8
+399,Headache,5
+400,Nausea,10
+401,Vomiting,4
+402,Shortness of Breath,8
+402,Fatigue,4
+402,Body Pain,5
+403,Dizziness,1
+403,Body Pain,5
+404,Shortness of Breath,5
+404,Dizziness,8
+405,Fatigue,5
+405,Headache,7
+406,Chest Pain,7
+406,Dizziness,8
+407,Nausea,6
+407,Fever,4
+407,Chest Pain,1
+407,Body Pain,5
+407,Headache,7
+408,Fever,5
+408,Body Pain,5
+408,Shortness of Breath,4
+408,Headache,1
+408,Chest Pain,1
+409,Cough,9
+409,Body Pain,9
+409,Vomiting,5
+409,Chest Pain,2
+410,Vomiting,6
+410,Shortness of Breath,2
+410,Dizziness,3
+410,Fatigue,10
+410,Body Pain,4
+411,Cough,9
+411,Nausea,4
+411,Fatigue,10
+411,Shortness of Breath,3
+412,Shortness of Breath,4
+413,Shortness of Breath,6
+414,Fatigue,7
+414,Chest Pain,3
+414,Fever,6
+414,Dizziness,8
+414,Shortness of Breath,1
+415,Body Pain,7
+415,Chest Pain,8
+416,Fever,9
+416,Nausea,7
+416,Fatigue,9
+417,Nausea,9
+418,Chest Pain,6
+418,Headache,3
+418,Body Pain,1
+418,Nausea,4
+419,Chest Pain,6
+419,Headache,8
+420,Chest Pain,8
+420,Shortness of Breath,6
+421,Body Pain,4
+421,Headache,2
+422,Cough,5
+423,Body Pain,9
+423,Cough,9
+423,Fatigue,10
+423,Headache,1
+423,Nausea,8
+424,Shortness of Breath,4
+424,Fever,7
+425,Shortness of Breath,3
+425,Vomiting,7
+425,Chest Pain,9
+426,Chest Pain,1
+426,Fever,1
+426,Vomiting,8
+427,Nausea,6
+427,Headache,7
+428,Fever,1
+428,Chest Pain,8
+428,Headache,1
+428,Shortness of Breath,10
+429,Body Pain,4
+429,Cough,8
+429,Headache,9
+429,Fever,1
+429,Fatigue,9
+430,Fatigue,7
+430,Headache,3
+430,Vomiting,6
+431,Chest Pain,9
+431,Fatigue,6
+431,Shortness of Breath,2
+431,Headache,10
+432,Nausea,3
+432,Cough,10
+432,Chest Pain,2
+432,Dizziness,1
+432,Fever,4
+433,Chest Pain,9
+433,Fever,6
+433,Shortness of Breath,1
+433,Fatigue,9
+434,Nausea,7
+434,Dizziness,7
+434,Fever,8
+434,Fatigue,1
+435,Fever,10
+435,Dizziness,7
+435,Cough,1
+435,Fatigue,9
+436,Vomiting,9
+436,Dizziness,10
+437,Cough,7
+438,Fever,4
+438,Vomiting,3
+438,Fatigue,1
+438,Headache,9
+438,Body Pain,5
+439,Fatigue,1
+439,Shortness of Breath,10
+440,Chest Pain,6
+440,Fatigue,8
+441,Body Pain,6
+441,Headache,5
+442,Nausea,4
+442,Dizziness,8
+442,Chest Pain,7
+443,Shortness of Breath,10
+443,Cough,9
+444,Vomiting,5
+445,Fever,3
+446,Chest Pain,5
+446,Body Pain,8
+446,Fever,9
+446,Cough,5
+447,Fever,9
+447,Headache,6
+447,Body Pain,4
+447,Shortness of Breath,4
+447,Dizziness,9
+448,Dizziness,7
+448,Fatigue,1
+448,Body Pain,1
+448,Shortness of Breath,4
+448,Vomiting,2
+449,Fatigue,3
+449,Fever,3
+449,Body Pain,1
+449,Headache,1
+449,Dizziness,2
+450,Shortness of Breath,9
+450,Cough,9
+451,Shortness of Breath,2
+451,Headache,8
+451,Nausea,5
+451,Dizziness,8
+451,Cough,5
+452,Fatigue,4
+452,Headache,2
+452,Body Pain,2
+453,Fever,2
+453,Nausea,5
+454,Dizziness,5
+454,Body Pain,9
+454,Vomiting,1
+454,Shortness of Breath,5
+455,Chest Pain,10
+455,Vomiting,1
+455,Dizziness,8
+455,Shortness of Breath,1
+456,Fever,8
+456,Dizziness,2
+456,Vomiting,1
+456,Nausea,1
+456,Chest Pain,8
+457,Body Pain,2
+457,Vomiting,1
+457,Fever,4
+458,Nausea,9
+458,Shortness of Breath,1
+458,Fever,8
+459,Dizziness,1
+459,Headache,8
+459,Nausea,9
+460,Chest Pain,3
+460,Nausea,4
+460,Cough,9
+460,Body Pain,5
+460,Vomiting,1
+461,Headache,10
+462,Headache,7
+462,Fever,5
+462,Fatigue,6
+462,Cough,5
+463,Cough,2
+463,Dizziness,8
+463,Headache,1
+463,Vomiting,7
+463,Body Pain,7
+464,Chest Pain,8
+465,Nausea,7
+465,Headache,9
+465,Dizziness,8
+465,Cough,10
+465,Vomiting,4
+466,Shortness of Breath,4
+466,Fatigue,3
+467,Chest Pain,8
+468,Chest Pain,4
+468,Shortness of Breath,4
+468,Cough,3
+468,Headache,10
+469,Vomiting,1
+470,Cough,2
+470,Fever,7
+471,Fever,9
+471,Fatigue,10
+471,Cough,2
+471,Shortness of Breath,3
+471,Chest Pain,10
+472,Nausea,9
+472,Vomiting,3
+473,Chest Pain,9
+473,Fatigue,9
+474,Vomiting,1
+474,Fatigue,6
+474,Fever,2
+474,Dizziness,6
+475,Fatigue,7
+475,Vomiting,3
+476,Fever,7
+476,Nausea,4
+476,Shortness of Breath,1
+476,Cough,8
+476,Vomiting,3
+477,Headache,8
+477,Fever,5
+477,Vomiting,6
+477,Dizziness,4
+477,Chest Pain,1
+478,Vomiting,2
+478,Chest Pain,2
+478,Fever,2
+479,Shortness of Breath,8
+479,Fatigue,2
+479,Headache,10
+479,Chest Pain,1
+479,Cough,3
+480,Body Pain,6
+480,Fever,2
+480,Headache,8
+480,Dizziness,2
+481,Fever,9
+481,Fatigue,3
+481,Cough,1
+481,Vomiting,10
+481,Nausea,10
+482,Vomiting,9
+483,Fever,7
+484,Nausea,10
+484,Fatigue,5
+485,Dizziness,10
+485,Nausea,2
+485,Headache,8
+485,Cough,7
+486,Body Pain,7
+486,Cough,10
+487,Headache,3
+487,Shortness of Breath,6
+487,Nausea,9
+487,Body Pain,3
+488,Headache,4
+488,Cough,10
+489,Chest Pain,8
+489,Dizziness,1
+489,Nausea,7
+490,Headache,4
+490,Fatigue,3
+491,Body Pain,2
+492,Body Pain,1
+492,Cough,9
+492,Nausea,4
+492,Dizziness,6
+492,Fever,4
+493,Chest Pain,2
+494,Shortness of Breath,3
+494,Dizziness,5
+495,Vomiting,6
+496,Headache,7
+496,Shortness of Breath,8
+496,Vomiting,7
+497,Cough,7
+497,Fever,2
+497,Vomiting,8
+498,Fever,10
+499,Chest Pain,10
+500,Vomiting,1
+500,Nausea,10
+500,Cough,10
+500,Dizziness,9
+500,Chest Pain,9
+501,Shortness of Breath,7
+502,Nausea,6
+502,Cough,8
+502,Dizziness,5
+502,Headache,3
+502,Vomiting,4
+503,Chest Pain,1
+504,Headache,10
+504,Cough,5
+504,Shortness of Breath,2
+504,Dizziness,1
+505,Dizziness,4
+505,Body Pain,6
+505,Fatigue,1
+505,Shortness of Breath,8
+506,Body Pain,7
+507,Cough,1
+508,Body Pain,10
+508,Dizziness,2
+508,Fatigue,5
+509,Fatigue,2
+509,Vomiting,9
+509,Body Pain,2
+509,Nausea,7
+510,Cough,2
+510,Fatigue,9
+510,Nausea,8
+511,Chest Pain,9
+511,Vomiting,10
+511,Shortness of Breath,3
+511,Headache,3
+511,Fever,8
+512,Dizziness,3
+512,Fatigue,4
+512,Chest Pain,8
+513,Cough,8
+513,Headache,9
+513,Nausea,2
+513,Fever,10
+514,Cough,10
+514,Fever,3
+514,Chest Pain,9
+514,Fatigue,8
+515,Dizziness,8
+516,Shortness of Breath,3
+516,Dizziness,6
+516,Nausea,4
+516,Cough,9
+517,Vomiting,7
+517,Headache,7
+517,Shortness of Breath,4
+517,Body Pain,7
+517,Cough,1
+518,Body Pain,10
+518,Fatigue,9
+518,Shortness of Breath,2
+519,Fever,3
+519,Chest Pain,9
+519,Nausea,8
+519,Vomiting,7
+519,Body Pain,7
+520,Headache,2
+521,Chest Pain,5
+521,Cough,1
+521,Fever,9
+522,Shortness of Breath,8
+522,Nausea,1
+522,Chest Pain,10
+522,Fatigue,1
+523,Headache,5
+523,Body Pain,2
+523,Fever,9
+523,Fatigue,5
+523,Vomiting,6
+524,Nausea,6
+524,Dizziness,4
+524,Chest Pain,4
+524,Headache,10
+524,Shortness of Breath,4
+525,Chest Pain,3
+525,Fatigue,4
+525,Cough,7
+525,Shortness of Breath,8
+526,Dizziness,9
+527,Vomiting,6
+527,Shortness of Breath,4
+527,Cough,10
+527,Nausea,9
+527,Body Pain,9
+528,Body Pain,2
+528,Cough,9
+528,Fever,4
+529,Chest Pain,9
+529,Cough,10
+529,Nausea,1
+529,Shortness of Breath,8
+530,Cough,7
+530,Fatigue,2
+530,Vomiting,6
+530,Nausea,2
+531,Cough,10
+532,Vomiting,3
+533,Body Pain,9
+533,Fatigue,10
+534,Chest Pain,5
+534,Dizziness,9
+535,Fatigue,7
+535,Fever,5
+535,Nausea,5
+535,Cough,7
+535,Body Pain,6
+536,Dizziness,1
+536,Cough,5
+536,Fever,4
+536,Chest Pain,6
+537,Dizziness,3
+537,Vomiting,2
+538,Dizziness,6
+538,Chest Pain,4
+539,Shortness of Breath,9
+539,Dizziness,5
+539,Fever,4
+539,Cough,2
+540,Body Pain,5
+541,Cough,2
+541,Chest Pain,9
+541,Fatigue,1
+541,Fever,7
+542,Dizziness,6
+542,Body Pain,4
+542,Shortness of Breath,9
+543,Shortness of Breath,10
+543,Fatigue,3
+543,Chest Pain,2
+543,Cough,8
+544,Nausea,7
+544,Fever,5
+544,Dizziness,5
+545,Headache,9
+545,Chest Pain,4
+546,Body Pain,3
+546,Shortness of Breath,1
+546,Chest Pain,3
+547,Fever,10
+547,Body Pain,9
+547,Chest Pain,6
+547,Cough,9
+548,Cough,8
+548,Fever,6
+548,Body Pain,10
+549,Headache,2
+549,Fever,10
+549,Cough,5
+549,Shortness of Breath,1
+549,Fatigue,7
+550,Nausea,7
+550,Body Pain,8
+551,Chest Pain,2
+552,Cough,10
+552,Dizziness,7
+553,Chest Pain,7
+554,Fever,5
+554,Chest Pain,10
+554,Cough,9
+555,Nausea,1
+555,Vomiting,2
+555,Dizziness,2
+555,Cough,5
+555,Body Pain,2
+556,Body Pain,4
+557,Cough,2
+558,Shortness of Breath,6
+558,Cough,10
+558,Dizziness,4
+558,Fatigue,1
+558,Headache,8
+559,Fever,3
+560,Chest Pain,9
+560,Body Pain,4
+560,Dizziness,6
+560,Headache,4
+560,Shortness of Breath,9
+561,Shortness of Breath,4
+562,Cough,3
+562,Headache,4
+562,Nausea,4
+563,Shortness of Breath,3
+563,Chest Pain,8
+563,Dizziness,6
+564,Vomiting,3
+565,Nausea,1
+565,Vomiting,4
+565,Body Pain,8
+565,Shortness of Breath,7
+565,Fever,6
+566,Vomiting,2
+566,Dizziness,1
+567,Body Pain,8
+567,Chest Pain,4
+567,Fatigue,1
+567,Fever,3
+568,Fever,7
+568,Dizziness,4
+568,Fatigue,2
+568,Body Pain,6
+568,Nausea,6
+569,Dizziness,1
+569,Cough,8
+569,Vomiting,10
+570,Body Pain,10
+570,Fatigue,10
+570,Headache,1
+571,Cough,3
+571,Body Pain,7
+571,Headache,7
+571,Vomiting,2
+572,Body Pain,6
+573,Fever,7
+573,Cough,6
+573,Nausea,4
+574,Body Pain,5
+575,Cough,10
+575,Shortness of Breath,9
+576,Dizziness,9
+576,Fever,7
+576,Chest Pain,10
+577,Cough,7
+577,Dizziness,7
+577,Shortness of Breath,4
+578,Headache,7
+578,Vomiting,1
+578,Dizziness,4
+578,Shortness of Breath,7
+579,Shortness of Breath,6
+579,Body Pain,4
+579,Nausea,4
+579,Fatigue,3
+580,Dizziness,8
+580,Fever,2
+580,Body Pain,5
+580,Chest Pain,9
+581,Nausea,2
+581,Headache,6
+581,Chest Pain,1
+581,Body Pain,1
+581,Fatigue,9
+582,Body Pain,5
+582,Dizziness,3
+582,Chest Pain,9
+582,Fever,1
+582,Vomiting,3
+583,Dizziness,2
+584,Chest Pain,3
+584,Headache,7
+585,Vomiting,3
+585,Headache,8
+586,Fatigue,4
+586,Headache,8
+586,Fever,3
+586,Vomiting,5
+586,Nausea,10
+587,Nausea,10
+588,Fever,2
+588,Fatigue,3
+588,Dizziness,5
+588,Headache,8
+589,Chest Pain,3
+589,Dizziness,8
+589,Fatigue,3
+590,Nausea,10
+591,Body Pain,3
+591,Vomiting,7
+591,Fever,6
+591,Nausea,10
+592,Headache,2
+592,Body Pain,1
+593,Cough,10
+594,Shortness of Breath,2
+594,Cough,1
+595,Headache,5
+595,Vomiting,5
+595,Nausea,9
+595,Shortness of Breath,9
+596,Dizziness,6
+596,Nausea,7
+596,Body Pain,7
+596,Headache,3
+596,Fever,5
+597,Dizziness,1
+598,Chest Pain,10
+599,Fever,7
+599,Cough,4
+599,Shortness of Breath,5
+600,Shortness of Breath,2
+600,Nausea,4
+600,Cough,10
+600,Fatigue,2
+600,Body Pain,3
+601,Dizziness,8
+601,Vomiting,3
+601,Nausea,7
+601,Body Pain,10
+602,Vomiting,4
+602,Cough,2
+602,Headache,7
+603,Vomiting,7
+604,Chest Pain,5
+605,Body Pain,2
+606,Dizziness,1
+606,Vomiting,3
+606,Nausea,8
+606,Cough,4
+606,Fatigue,6
+607,Cough,7
+607,Shortness of Breath,4
+607,Fatigue,4
+608,Body Pain,5
+608,Nausea,9
+608,Fatigue,7
+608,Dizziness,10
+609,Fatigue,5
+609,Headache,1
+609,Nausea,1
+609,Chest Pain,7
+609,Shortness of Breath,7
+610,Body Pain,6
+610,Cough,3
+610,Chest Pain,3
+611,Headache,1
+611,Chest Pain,5
+612,Fatigue,8
+612,Vomiting,2
+612,Chest Pain,9
+613,Cough,8
+613,Headache,7
+613,Nausea,1
+614,Chest Pain,2
+614,Body Pain,1
+614,Shortness of Breath,8
+615,Shortness of Breath,1
+616,Fatigue,4
+616,Chest Pain,5
+616,Fever,5
+616,Vomiting,1
+617,Chest Pain,8
+617,Fever,7
+617,Vomiting,1
+617,Cough,10
+617,Headache,7
+618,Fatigue,1
+618,Body Pain,6
+618,Chest Pain,6
+618,Cough,3
+619,Dizziness,8
+619,Shortness of Breath,9
+619,Vomiting,5
+620,Fever,10
+620,Chest Pain,2
+620,Headache,7
+620,Dizziness,9
+620,Shortness of Breath,1
+621,Vomiting,7
+622,Shortness of Breath,4
+622,Chest Pain,3
+622,Headache,2
+623,Dizziness,7
+624,Shortness of Breath,7
+624,Fatigue,10
+625,Shortness of Breath,9
+625,Nausea,5
+625,Body Pain,1
+625,Dizziness,8
+626,Vomiting,1
+626,Cough,2
+626,Headache,4
+626,Nausea,9
+626,Dizziness,5
+627,Cough,8
+627,Headache,10
+628,Fatigue,1
+628,Shortness of Breath,8
+628,Body Pain,3
+628,Fever,5
+629,Headache,9
+630,Body Pain,5
+630,Shortness of Breath,5
+631,Fatigue,6
+632,Body Pain,1
+632,Fatigue,9
+632,Fever,5
+633,Nausea,8
+633,Shortness of Breath,2
+633,Vomiting,4
+633,Body Pain,5
+634,Body Pain,1
+635,Nausea,9
+635,Dizziness,7
+636,Dizziness,6
+636,Vomiting,9
+636,Shortness of Breath,5
+636,Body Pain,1
+637,Body Pain,4
+637,Fever,3
+638,Chest Pain,5
+638,Dizziness,4
+638,Shortness of Breath,9
+639,Cough,3
+639,Nausea,4
+639,Fatigue,1
+639,Headache,6
+640,Body Pain,10
+640,Headache,2
+640,Fatigue,5
+641,Body Pain,2
+642,Body Pain,6
+642,Shortness of Breath,6
+642,Cough,4
+642,Chest Pain,10
+642,Fever,10
+643,Cough,5
+643,Headache,8
+643,Fatigue,4
+643,Chest Pain,2
+644,Shortness of Breath,10
+644,Nausea,7
+645,Body Pain,6
+645,Nausea,2
+646,Cough,6
+647,Fatigue,7
+647,Headache,6
+648,Fatigue,2
+649,Cough,3
+649,Body Pain,9
+649,Fatigue,5
+649,Shortness of Breath,10
+649,Vomiting,4
+650,Vomiting,1
+650,Body Pain,10
+650,Dizziness,8
+650,Fatigue,5
+650,Headache,6
+651,Cough,3
+651,Vomiting,4
+652,Dizziness,2
+652,Body Pain,7
+653,Shortness of Breath,7
+653,Chest Pain,1
+653,Vomiting,5
+654,Vomiting,10
+655,Nausea,1
+655,Vomiting,3
+655,Fatigue,1
+655,Dizziness,8
+655,Shortness of Breath,1
+656,Cough,9
+657,Dizziness,10
+657,Vomiting,10
+657,Fever,7
+658,Dizziness,3
+658,Cough,3
+658,Headache,5
+658,Fever,3
+658,Fatigue,7
+659,Cough,4
+659,Nausea,8
+659,Fatigue,4
+659,Shortness of Breath,6
+659,Vomiting,6
+660,Headache,3
+660,Chest Pain,1
+660,Fatigue,4
+660,Fever,5
+661,Vomiting,7
+661,Cough,5
+662,Vomiting,1
+662,Cough,1
+662,Headache,3
+662,Chest Pain,10
+663,Fatigue,10
+663,Body Pain,9
+663,Dizziness,7
+663,Nausea,8
+663,Fever,1
+664,Shortness of Breath,2
+664,Dizziness,8
+664,Nausea,7
+664,Headache,6
+664,Vomiting,1
+665,Fatigue,6
+665,Fever,3
+666,Chest Pain,9
+666,Dizziness,8
+666,Nausea,3
+666,Headache,3
+666,Fever,9
+667,Body Pain,10
+667,Cough,7
+667,Headache,2
+667,Chest Pain,8
+667,Shortness of Breath,9
+668,Body Pain,10
+668,Fever,5
+668,Headache,5
+668,Shortness of Breath,2
+669,Fever,10
+669,Chest Pain,10
+669,Nausea,5
+669,Body Pain,8
+669,Vomiting,9
+670,Fever,7
+671,Fatigue,2
+671,Fever,10
+672,Vomiting,2
+672,Cough,10
+672,Headache,7
+673,Dizziness,2
+673,Chest Pain,9
+673,Fatigue,8
+673,Shortness of Breath,6
+673,Vomiting,5
+674,Body Pain,4
+674,Dizziness,3
+674,Headache,7
+674,Fatigue,8
+674,Shortness of Breath,4
+675,Nausea,10
+675,Fatigue,8
+675,Chest Pain,9
+675,Dizziness,3
+676,Shortness of Breath,9
+676,Fever,7
+677,Dizziness,5
+677,Fever,5
+678,Vomiting,2
+678,Headache,2
+678,Body Pain,9
+678,Dizziness,8
+678,Nausea,9
+679,Dizziness,3
+679,Vomiting,2
+680,Headache,9
+680,Vomiting,6
+680,Cough,5
+681,Vomiting,6
+681,Body Pain,1
+681,Shortness of Breath,1
+681,Nausea,4
+681,Headache,9
+682,Shortness of Breath,7
+682,Dizziness,10
+682,Chest Pain,5
+683,Shortness of Breath,10
+683,Headache,5
+683,Vomiting,2
+683,Fever,7
+683,Fatigue,5
+684,Cough,3
+684,Chest Pain,6
+685,Fever,2
+685,Nausea,8
+685,Chest Pain,10
+685,Dizziness,5
+685,Fatigue,5
+686,Body Pain,4
+686,Fatigue,1
+686,Chest Pain,1
+687,Chest Pain,7
+687,Fever,1
+687,Shortness of Breath,7
+687,Nausea,2
+688,Fatigue,3
+688,Chest Pain,6
+688,Dizziness,7
+688,Shortness of Breath,8
+689,Fatigue,8
+689,Fever,6
+690,Dizziness,10
+690,Chest Pain,10
+691,Fatigue,1
+691,Headache,2
+691,Cough,5
+692,Fatigue,10
+692,Cough,8
+693,Body Pain,2
+693,Fever,8
+693,Nausea,7
+693,Chest Pain,5
+694,Cough,7
+694,Vomiting,7
+695,Cough,1
+695,Vomiting,8
+695,Dizziness,10
+695,Fever,2
+695,Headache,3
+696,Headache,1
+696,Chest Pain,5
+697,Fever,4
+698,Dizziness,7
+698,Headache,8
+698,Fatigue,3
+698,Chest Pain,7
+698,Nausea,2
+699,Dizziness,3
+700,Headache,2
+700,Dizziness,7
+701,Dizziness,1
+701,Body Pain,8
+701,Shortness of Breath,5
+701,Chest Pain,5
+701,Headache,1
+702,Headache,4
+702,Nausea,4
+702,Fever,10
+702,Fatigue,9
+703,Dizziness,1
+704,Nausea,4
+704,Fatigue,2
+704,Chest Pain,4
+704,Body Pain,8
+705,Nausea,1
+705,Chest Pain,1
+706,Chest Pain,7
+707,Shortness of Breath,7
+707,Dizziness,6
+707,Chest Pain,3
+708,Body Pain,3
+708,Fever,2
+708,Chest Pain,7
+709,Vomiting,5
+709,Dizziness,5
+709,Fatigue,1
+709,Headache,10
+709,Fever,9
+710,Dizziness,3
+710,Shortness of Breath,5
+710,Cough,8
+710,Fever,10
+711,Dizziness,6
+711,Headache,1
+712,Dizziness,3
+712,Shortness of Breath,7
+713,Fever,4
+713,Fatigue,10
+713,Headache,5
+713,Shortness of Breath,6
+713,Nausea,4
+714,Vomiting,5
+714,Chest Pain,6
+714,Fatigue,6
+715,Headache,1
+715,Shortness of Breath,3
+715,Body Pain,1
+715,Nausea,7
+716,Chest Pain,9
+716,Body Pain,5
+716,Dizziness,2
+716,Shortness of Breath,9
+716,Cough,4
+717,Headache,8
+717,Body Pain,6
+718,Cough,9
+719,Headache,7
+719,Fever,8
+719,Vomiting,6
+719,Body Pain,1
+720,Body Pain,6
+721,Nausea,8
+721,Headache,2
+721,Body Pain,6
+721,Vomiting,9
+721,Cough,1
+722,Dizziness,8
+722,Shortness of Breath,2
+722,Chest Pain,9
+723,Vomiting,1
+723,Cough,6
+723,Chest Pain,8
+723,Fatigue,8
+724,Chest Pain,8
+725,Chest Pain,4
+726,Fatigue,7
+726,Cough,1
+726,Dizziness,10
+727,Headache,5
+727,Dizziness,9
+728,Dizziness,7
+728,Nausea,10
+728,Vomiting,8
+728,Cough,3
+728,Headache,3
+729,Headache,10
+729,Cough,3
+729,Shortness of Breath,10
+729,Vomiting,1
+730,Vomiting,2
+731,Shortness of Breath,10
+731,Cough,3
+732,Chest Pain,10
+733,Headache,4
+733,Shortness of Breath,1
+733,Chest Pain,3
+734,Vomiting,5
+734,Cough,5
+734,Shortness of Breath,2
+734,Fever,3
+735,Shortness of Breath,6
+735,Headache,6
+735,Cough,1
+735,Nausea,2
+736,Fever,1
+736,Vomiting,9
+736,Chest Pain,8
+736,Fatigue,10
+736,Body Pain,6
+737,Body Pain,10
+737,Fatigue,8
+738,Headache,3
+739,Shortness of Breath,8
+739,Fever,5
+739,Body Pain,1
+740,Fatigue,3
+740,Vomiting,7
+740,Headache,10
+741,Cough,1
+741,Fever,3
+741,Dizziness,7
+742,Fatigue,5
+743,Shortness of Breath,9
+743,Vomiting,8
+743,Fever,10
+744,Body Pain,8
+744,Nausea,6
+744,Dizziness,4
+745,Chest Pain,5
+745,Fatigue,4
+745,Body Pain,1
+746,Vomiting,8
+747,Headache,4
+747,Dizziness,6
+747,Shortness of Breath,7
+748,Body Pain,1
+748,Cough,6
+748,Shortness of Breath,1
+749,Chest Pain,8
+750,Nausea,3
+750,Fever,2
+751,Cough,2
+751,Shortness of Breath,10
+751,Headache,2
+752,Shortness of Breath,8
+753,Fever,8
+753,Dizziness,3
+753,Vomiting,7
+753,Fatigue,9
+754,Body Pain,2
+754,Fatigue,4
+754,Cough,9
+755,Vomiting,10
+756,Cough,10
+756,Vomiting,8
+757,Dizziness,7
+757,Vomiting,6
+758,Body Pain,2
+758,Headache,2
+758,Nausea,7
+758,Vomiting,9
+758,Cough,3
+759,Headache,6
+759,Nausea,9
+759,Fatigue,5
+760,Fever,3
+761,Headache,1
+761,Cough,5
+761,Fatigue,9
+761,Vomiting,8
+762,Shortness of Breath,6
+762,Fever,9
+763,Cough,4
+764,Chest Pain,10
+765,Fatigue,1
+765,Headache,7
+765,Chest Pain,3
+765,Nausea,5
+766,Headache,10
+767,Nausea,2
+767,Body Pain,3
+767,Vomiting,4
+767,Dizziness,9
+768,Fatigue,9
+768,Dizziness,1
+768,Body Pain,7
+769,Fatigue,1
+769,Chest Pain,6
+769,Dizziness,4
+770,Cough,6
+770,Dizziness,10
+770,Fatigue,7
+770,Shortness of Breath,2
+771,Headache,4
+771,Dizziness,5
+771,Shortness of Breath,6
+772,Body Pain,5
+773,Shortness of Breath,10
+773,Cough,4
+773,Vomiting,5
+774,Dizziness,9
+775,Cough,1
+775,Vomiting,5
+776,Headache,1
+776,Shortness of Breath,5
+776,Dizziness,10
+776,Nausea,5
+776,Cough,8
+777,Cough,1
+777,Chest Pain,10
+777,Shortness of Breath,7
+777,Dizziness,3
+778,Vomiting,3
+778,Dizziness,8
+779,Cough,5
+779,Nausea,7
+780,Cough,9
+781,Body Pain,6
+781,Dizziness,6
+782,Chest Pain,5
+782,Fatigue,3
+783,Chest Pain,3
+783,Body Pain,5
+783,Cough,7
+784,Fatigue,6
+784,Chest Pain,2
+784,Shortness of Breath,5
+784,Nausea,5
+784,Dizziness,10
+785,Shortness of Breath,5
+785,Fever,4
+785,Vomiting,4
+786,Dizziness,8
+787,Dizziness,4
+787,Chest Pain,9
+788,Vomiting,6
+788,Cough,10
+788,Headache,9
+788,Shortness of Breath,2
+788,Dizziness,1
+789,Shortness of Breath,1
+789,Nausea,1
+789,Body Pain,2
+790,Headache,9
+790,Nausea,10
+790,Chest Pain,4
+790,Body Pain,1
+791,Fever,8
+791,Nausea,10
+792,Nausea,1
+792,Headache,3
+792,Fever,10
+792,Body Pain,1
+792,Fatigue,1
+793,Shortness of Breath,1
+793,Body Pain,9
+793,Dizziness,4
+793,Nausea,5
+794,Vomiting,9
+795,Nausea,9
+795,Vomiting,10
+796,Nausea,1
+796,Vomiting,1
+797,Fatigue,1
+797,Headache,1
+797,Body Pain,8
+797,Fever,5
+798,Chest Pain,5
+798,Body Pain,3
+798,Vomiting,10
+799,Nausea,8
+799,Fever,7
+800,Fatigue,9
+800,Cough,6
+800,Shortness of Breath,2
+800,Nausea,10
+801,Fever,9
+801,Shortness of Breath,2
+802,Vomiting,5
+802,Shortness of Breath,5
+803,Nausea,3
+803,Dizziness,7
+803,Vomiting,3
+804,Vomiting,7
+804,Fatigue,7
+804,Headache,7
+804,Chest Pain,2
+805,Chest Pain,9
+806,Vomiting,1
+806,Cough,6
+807,Vomiting,7
+807,Headache,5
+808,Fever,7
+808,Dizziness,1
+808,Nausea,9
+808,Cough,9
+808,Chest Pain,8
+809,Nausea,5
+810,Body Pain,9
+811,Body Pain,10
+811,Shortness of Breath,1
+811,Fever,9
+811,Dizziness,4
+812,Cough,3
+812,Chest Pain,1
+812,Fever,1
+812,Body Pain,3
+813,Shortness of Breath,4
+813,Fever,6
+813,Body Pain,8
+814,Vomiting,3
+815,Nausea,9
+815,Headache,6
+816,Cough,10
+816,Chest Pain,4
+816,Vomiting,10
+817,Body Pain,10
+817,Dizziness,3
+817,Vomiting,8
+818,Vomiting,10
+818,Chest Pain,6
+818,Shortness of Breath,3
+818,Headache,9
+819,Shortness of Breath,10
+819,Headache,9
+819,Fatigue,2
+819,Chest Pain,2
+820,Dizziness,1
+820,Body Pain,3
+820,Headache,1
+820,Nausea,6
+821,Shortness of Breath,4
+821,Cough,6
+821,Dizziness,8
+822,Headache,5
+822,Fever,10
+822,Body Pain,8
+822,Dizziness,4
+823,Shortness of Breath,8
+824,Vomiting,2
+824,Shortness of Breath,2
+825,Dizziness,2
+825,Headache,5
+826,Chest Pain,8
+826,Vomiting,8
+826,Nausea,6
+826,Body Pain,8
+827,Dizziness,4
+827,Body Pain,5
+827,Fatigue,9
+827,Nausea,10
+827,Fever,7
+828,Fever,7
+828,Headache,6
+828,Chest Pain,10
+828,Fatigue,7
+828,Dizziness,2
+829,Body Pain,1
+830,Chest Pain,7
+830,Cough,8
+830,Headache,6
+830,Nausea,4
+830,Vomiting,8
+831,Nausea,5
+831,Cough,9
+831,Fatigue,4
+831,Dizziness,3
+832,Body Pain,9
+832,Fatigue,9
+832,Cough,3
+833,Cough,7
+833,Shortness of Breath,8
+834,Shortness of Breath,8
+834,Fever,7
+834,Dizziness,8
+834,Cough,6
+834,Nausea,4
+835,Fever,8
+835,Headache,8
+835,Body Pain,4
+835,Chest Pain,3
+836,Fatigue,8
+837,Body Pain,2
+837,Cough,8
+838,Chest Pain,3
+839,Shortness of Breath,2
+839,Headache,7
+839,Fever,9
+839,Nausea,1
+840,Dizziness,6
+841,Vomiting,2
+841,Chest Pain,6
+841,Fever,4
+841,Headache,1
+841,Body Pain,10
+842,Body Pain,4
+843,Cough,3
+843,Chest Pain,9
+843,Fever,10
+843,Body Pain,6
+844,Cough,7
+844,Nausea,3
+844,Chest Pain,7
+844,Fatigue,6
+844,Fever,3
+845,Nausea,3
+845,Body Pain,8
+845,Headache,5
+845,Vomiting,8
+845,Fatigue,4
+846,Nausea,10
+847,Dizziness,8
+847,Chest Pain,6
+847,Cough,3
+847,Vomiting,9
+847,Body Pain,6
+848,Chest Pain,10
+848,Body Pain,10
+848,Fever,6
+849,Vomiting,8
+849,Fatigue,7
+850,Nausea,6
+850,Shortness of Breath,5
+851,Cough,1
+851,Nausea,2
+852,Fatigue,2
+853,Vomiting,3
+853,Nausea,3
+853,Fatigue,8
+853,Fever,7
+853,Body Pain,7
+854,Body Pain,3
+854,Fatigue,8
+854,Dizziness,6
+854,Chest Pain,4
+854,Headache,4
+855,Fever,10
+855,Dizziness,1
+855,Shortness of Breath,8
+856,Cough,3
+856,Shortness of Breath,3
+856,Nausea,6
+856,Fever,5
+856,Dizziness,4
+857,Fatigue,2
+857,Dizziness,7
+857,Vomiting,4
+857,Nausea,6
+857,Headache,8
+858,Vomiting,5
+858,Dizziness,5
+858,Nausea,5
+858,Body Pain,2
+858,Cough,1
+859,Cough,6
+859,Body Pain,9
+859,Fatigue,7
+859,Chest Pain,3
+860,Body Pain,1
+860,Headache,5
+860,Nausea,10
+860,Shortness of Breath,9
+860,Dizziness,3
+861,Vomiting,6
+861,Nausea,7
+861,Headache,8
+861,Fatigue,3
+862,Fever,10
+863,Dizziness,1
+863,Nausea,10
+863,Fever,9
+863,Body Pain,1
+863,Shortness of Breath,4
+864,Headache,2
+864,Cough,4
+864,Vomiting,6
+865,Fatigue,8
+865,Chest Pain,10
+865,Cough,7
+866,Shortness of Breath,3
+866,Fatigue,4
+866,Dizziness,1
+866,Cough,2
+866,Vomiting,9
+867,Vomiting,8
+867,Nausea,2
+867,Headache,2
+867,Body Pain,7
+867,Shortness of Breath,6
+868,Vomiting,6
+868,Nausea,9
+868,Dizziness,3
+868,Headache,2
+869,Fatigue,1
+869,Chest Pain,2
+869,Vomiting,5
+870,Cough,4
+870,Body Pain,6
+871,Headache,6
+871,Nausea,5
+871,Vomiting,2
+871,Fatigue,2
+872,Dizziness,3
+873,Headache,3
+873,Dizziness,3
+873,Nausea,10
+874,Fatigue,8
+874,Vomiting,4
+874,Dizziness,3
+875,Fatigue,9
+875,Fever,1
+875,Shortness of Breath,5
+875,Vomiting,3
+875,Dizziness,4
+876,Cough,7
+876,Nausea,10
+876,Fatigue,7
+876,Headache,10
+876,Dizziness,5
+877,Shortness of Breath,6
+877,Vomiting,4
+877,Fatigue,6
+877,Cough,4
+877,Body Pain,3
+878,Headache,2
+878,Cough,10
+878,Chest Pain,10
+879,Nausea,8
+880,Nausea,2
+880,Dizziness,5
+880,Chest Pain,2
+880,Vomiting,8
+880,Cough,4
+881,Chest Pain,10
+881,Vomiting,2
+881,Cough,7
+881,Dizziness,9
+881,Headache,10
+882,Vomiting,6
+882,Dizziness,9
+883,Cough,10
+883,Fatigue,6
+884,Shortness of Breath,3
+884,Dizziness,6
+884,Nausea,4
+884,Fever,2
+884,Chest Pain,3
+885,Chest Pain,3
+885,Cough,6
+886,Body Pain,4
+886,Vomiting,1
+886,Dizziness,4
+887,Nausea,3
+887,Vomiting,5
+887,Chest Pain,5
+887,Fever,4
+888,Headache,1
+889,Headache,3
+889,Chest Pain,5
+889,Vomiting,8
+890,Shortness of Breath,3
+890,Headache,9
+891,Nausea,4
+892,Dizziness,3
+893,Body Pain,4
+893,Nausea,5
+893,Chest Pain,8
+894,Fatigue,1
+894,Dizziness,7
+894,Fever,5
+894,Nausea,3
+894,Headache,5
+895,Fatigue,2
+896,Chest Pain,9
+896,Fever,5
+896,Cough,1
+897,Vomiting,3
+898,Fever,8
+899,Dizziness,2
+900,Nausea,10
+900,Vomiting,10
+900,Fatigue,9
+901,Fever,2
+901,Shortness of Breath,6
+901,Chest Pain,10
+901,Dizziness,4
+901,Cough,9
+902,Fatigue,10
+902,Dizziness,8
+903,Dizziness,10
+903,Nausea,8
+903,Fatigue,3
+903,Shortness of Breath,8
+903,Headache,1
+904,Dizziness,1
+904,Nausea,10
+904,Chest Pain,9
+904,Cough,10
+905,Vomiting,1
+905,Cough,1
+905,Fatigue,10
+906,Body Pain,1
+906,Nausea,4
+907,Cough,1
+907,Chest Pain,10
+907,Fever,7
+907,Shortness of Breath,3
+907,Headache,6
+908,Nausea,8
+908,Body Pain,3
+908,Headache,5
+909,Cough,2
+909,Chest Pain,4
+909,Headache,2
+909,Body Pain,3
+910,Cough,7
+911,Chest Pain,1
+912,Chest Pain,6
+912,Shortness of Breath,4
+912,Vomiting,5
+912,Fatigue,7
+912,Body Pain,8
+913,Headache,5
+913,Fever,6
+913,Dizziness,2
+914,Headache,3
+914,Chest Pain,7
+914,Fatigue,7
+915,Cough,4
+915,Fatigue,1
+915,Dizziness,2
+915,Chest Pain,10
+916,Dizziness,5
+916,Cough,8
+916,Fever,7
+916,Body Pain,4
+917,Headache,8
+917,Vomiting,5
+917,Fatigue,4
+917,Shortness of Breath,2
+917,Body Pain,8
+918,Nausea,1
+918,Dizziness,8
+918,Body Pain,8
+918,Fever,9
+918,Chest Pain,10
+919,Nausea,4
+919,Headache,2
+919,Fever,1
+920,Shortness of Breath,8
+920,Chest Pain,3
+920,Fever,9
+921,Shortness of Breath,4
+922,Cough,1
+923,Fatigue,4
+924,Dizziness,1
+924,Headache,10
+924,Fever,4
+924,Fatigue,3
+925,Dizziness,6
+925,Headache,2
+925,Cough,5
+926,Cough,4
+926,Headache,1
+926,Fever,10
+927,Fever,4
+927,Vomiting,2
+927,Fatigue,2
+928,Headache,8
+928,Fever,5
+928,Fatigue,2
+928,Vomiting,4
+928,Shortness of Breath,7
+929,Dizziness,4
+929,Fever,9
+929,Headache,4
+929,Body Pain,7
+929,Chest Pain,7
+930,Headache,6
+930,Cough,8
+930,Nausea,8
+930,Vomiting,7
+931,Chest Pain,6
+931,Shortness of Breath,3
+931,Body Pain,4
+931,Fatigue,10
+931,Vomiting,4
+932,Chest Pain,8
+932,Body Pain,8
+933,Fatigue,10
+934,Fatigue,4
+934,Shortness of Breath,2
+935,Body Pain,2
+935,Nausea,9
+936,Nausea,4
+936,Vomiting,9
+936,Fatigue,10
+936,Headache,6
+936,Shortness of Breath,6
+937,Dizziness,2
+937,Nausea,7
+937,Shortness of Breath,3
+937,Fever,10
+938,Chest Pain,10
+938,Body Pain,3
+938,Nausea,6
+938,Cough,5
+938,Headache,10
+939,Headache,1
+939,Shortness of Breath,4
+940,Fatigue,3
+940,Shortness of Breath,10
+940,Body Pain,8
+940,Vomiting,9
+940,Fever,2
+941,Chest Pain,1
+941,Headache,9
+942,Fatigue,9
+942,Shortness of Breath,9
+942,Body Pain,9
+942,Chest Pain,5
+942,Headache,3
+943,Chest Pain,8
+943,Body Pain,9
+943,Vomiting,2
+944,Cough,8
+944,Headache,4
+944,Vomiting,3
+945,Fatigue,4
+945,Nausea,5
+945,Fever,5
+946,Fatigue,2
+946,Vomiting,4
+946,Headache,3
+946,Body Pain,4
+947,Dizziness,4
+947,Chest Pain,2
+948,Cough,3
+948,Dizziness,9
+949,Shortness of Breath,3
+949,Chest Pain,6
+950,Nausea,3
+950,Cough,3
+950,Dizziness,1
+950,Shortness of Breath,5
+950,Fatigue,4
+951,Headache,2
+951,Vomiting,8
+951,Cough,4
+952,Dizziness,1
+952,Cough,2
+952,Nausea,3
+952,Fatigue,1
+952,Shortness of Breath,9
+953,Shortness of Breath,6
+953,Nausea,10
+953,Dizziness,1
+954,Chest Pain,1
+954,Fatigue,10
+954,Fever,6
+954,Dizziness,6
+955,Shortness of Breath,9
+955,Headache,9
+956,Nausea,3
+956,Fatigue,7
+956,Fever,7
+957,Shortness of Breath,5
+957,Vomiting,6
+957,Fever,9
+957,Chest Pain,5
+957,Cough,10
+958,Fever,2
+959,Nausea,3
+959,Cough,1
+959,Dizziness,9
+959,Body Pain,1
+959,Vomiting,8
+960,Dizziness,3
+960,Body Pain,8
+960,Fever,3
+961,Shortness of Breath,5
+961,Body Pain,10
+962,Fever,1
+962,Body Pain,5
+962,Nausea,8
+962,Shortness of Breath,6
+963,Dizziness,8
+963,Vomiting,10
+963,Cough,1
+964,Nausea,10
+964,Headache,6
+964,Chest Pain,8
+964,Cough,9
+964,Vomiting,10
+965,Vomiting,9
+965,Headache,5
+965,Cough,3
+966,Chest Pain,10
+966,Shortness of Breath,5
+966,Vomiting,5
+966,Dizziness,10
+966,Cough,4
+967,Nausea,5
+967,Fever,7
+967,Body Pain,3
+967,Vomiting,10
+968,Headache,10
+968,Fever,7
+968,Shortness of Breath,6
+968,Vomiting,4
+968,Cough,6
+969,Headache,6
+969,Body Pain,3
+969,Cough,10
+970,Shortness of Breath,4
+970,Fatigue,5
+971,Chest Pain,1
+971,Headache,4
+971,Dizziness,4
+971,Shortness of Breath,9
+972,Fever,7
+972,Body Pain,9
+972,Vomiting,9
+972,Cough,10
+972,Shortness of Breath,3
+973,Fatigue,2
+973,Body Pain,8
+974,Cough,8
+974,Dizziness,2
+974,Fatigue,7
+974,Chest Pain,1
+975,Dizziness,7
+976,Fever,4
+976,Dizziness,6
+976,Vomiting,3
+976,Cough,4
+976,Body Pain,3
+977,Fatigue,7
+977,Vomiting,3
+977,Cough,10
+977,Headache,6
+977,Nausea,7
+978,Shortness of Breath,2
+978,Chest Pain,3
+978,Fatigue,2
+979,Fever,6
+979,Chest Pain,7
+980,Fatigue,5
+980,Shortness of Breath,6
+980,Vomiting,6
+981,Shortness of Breath,10
+981,Chest Pain,4
+981,Nausea,10
+981,Vomiting,5
+982,Dizziness,9
+983,Headache,6
+983,Fatigue,2
+983,Fever,10
+983,Chest Pain,5
+983,Dizziness,9
+984,Body Pain,10
+985,Fatigue,10
+985,Body Pain,5
+986,Shortness of Breath,10
+986,Chest Pain,10
+986,Cough,8
+986,Vomiting,9
+987,Fever,4
+987,Cough,10
+988,Shortness of Breath,3
+988,Cough,5
+989,Fatigue,3
+990,Headache,3
+990,Fatigue,7
+990,Chest Pain,8
+990,Nausea,7
+990,Fever,4
+991,Dizziness,2
+991,Cough,3
+991,Shortness of Breath,9
+991,Fatigue,1
+991,Fever,1
+992,Headache,4
+992,Fatigue,9
+992,Body Pain,6
+992,Shortness of Breath,4
+992,Cough,10
+993,Chest Pain,6
+994,Cough,10
+994,Fatigue,5
+994,Dizziness,8
+994,Nausea,10
+994,Headache,8
+995,Chest Pain,10
+995,Nausea,5
+996,Chest Pain,6
+996,Vomiting,1
+996,Dizziness,6
+996,Shortness of Breath,8
+997,Cough,4
+997,Body Pain,3
+998,Shortness of Breath,1
+998,Cough,4
+998,Nausea,3
+999,Shortness of Breath,2
+999,Fatigue,4
+1000,Chest Pain,4
+1000,Cough,5
+1000,Headache,4
+1000,Shortness of Breath,10
+1000,Vomiting,7

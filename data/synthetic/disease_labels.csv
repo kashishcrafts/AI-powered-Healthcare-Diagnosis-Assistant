@@ -1,0 +1,1001 @@
+patient_id,disease
+1.0,Diabetes
+2.0,Diabetes
+3.0,Diabetes
+4.0,Diabetes
+5.0,Healthy
+6.0,Kidney Disease
+7.0,Diabetes
+8.0,Kidney Disease
+9.0,Hypertension
+10.0,Diabetes
+11.0,Hypertension
+12.0,Healthy
+13.0,Diabetes
+14.0,Kidney Disease
+15.0,Hypertension
+16.0,Anemia
+17.0,Diabetes
+18.0,Hypertension
+19.0,Diabetes
+20.0,Hypertension
+21.0,Diabetes
+22.0,Diabetes
+23.0,Diabetes
+24.0,Diabetes
+25.0,Diabetes
+26.0,Diabetes
+27.0,Diabetes
+28.0,Diabetes
+29.0,Kidney Disease
+30.0,Diabetes
+31.0,Diabetes
+32.0,Diabetes
+33.0,Kidney Disease
+34.0,Diabetes
+35.0,Diabetes
+36.0,Anemia
+37.0,Diabetes
+38.0,Diabetes
+39.0,Diabetes
+40.0,Diabetes
+41.0,Diabetes
+42.0,Hypertension
+43.0,Hypertension
+44.0,Diabetes
+45.0,Hypertension
+46.0,Kidney Disease
+47.0,Hypertension
+48.0,Diabetes
+49.0,Diabetes
+50.0,Diabetes
+51.0,Diabetes
+52.0,Hypertension
+53.0,Healthy
+54.0,Diabetes
+55.0,Hypertension
+56.0,Diabetes
+57.0,Healthy
+58.0,Diabetes
+59.0,Diabetes
+60.0,Hypertension
+61.0,Diabetes
+62.0,Diabetes
+63.0,Diabetes
+64.0,Diabetes
+65.0,Hypertension
+66.0,Hypertension
+67.0,Anemia
+68.0,Diabetes
+69.0,Diabetes
+70.0,Diabetes
+71.0,Healthy
+72.0,Diabetes
+73.0,Hypertension
+74.0,Healthy
+75.0,Diabetes
+76.0,Diabetes
+77.0,Hypertension
+78.0,Healthy
+79.0,Hypertension
+80.0,Hypertension
+81.0,Diabetes
+82.0,Diabetes
+83.0,Kidney Disease
+84.0,Anemia
+85.0,Hypertension
+86.0,Kidney Disease
+87.0,Kidney Disease
+88.0,Diabetes
+89.0,Anemia
+90.0,Hypertension
+91.0,Diabetes
+92.0,Kidney Disease
+93.0,Diabetes
+94.0,Healthy
+95.0,Healthy
+96.0,Hypertension
+97.0,Diabetes
+98.0,Healthy
+99.0,Diabetes
+100.0,Diabetes
+101.0,Diabetes
+102.0,Healthy
+103.0,Kidney Disease
+104.0,Kidney Disease
+105.0,Diabetes
+106.0,Diabetes
+107.0,Anemia
+108.0,Hypertension
+109.0,Diabetes
+110.0,Diabetes
+111.0,Healthy
+112.0,Diabetes
+113.0,Diabetes
+114.0,Healthy
+115.0,Diabetes
+116.0,Healthy
+117.0,Kidney Disease
+118.0,Diabetes
+119.0,Hypertension
+120.0,Anemia
+121.0,Healthy
+122.0,Diabetes
+123.0,Diabetes
+124.0,Diabetes
+125.0,Diabetes
+126.0,Diabetes
+127.0,Diabetes
+128.0,Diabetes
+129.0,Diabetes
+130.0,Hypertension
+131.0,Diabetes
+132.0,Diabetes
+133.0,Anemia
+134.0,Diabetes
+135.0,Diabetes
+136.0,Diabetes
+137.0,Diabetes
+138.0,Anemia
+139.0,Diabetes
+140.0,Hypertension
+141.0,Diabetes
+142.0,Kidney Disease
+143.0,Hypertension
+144.0,Hypertension
+145.0,Anemia
+146.0,Diabetes
+147.0,Hypertension
+148.0,Diabetes
+149.0,Diabetes
+150.0,Diabetes
+151.0,Diabetes
+152.0,Diabetes
+153.0,Diabetes
+154.0,Diabetes
+155.0,Diabetes
+156.0,Hypertension
+157.0,Healthy
+158.0,Healthy
+159.0,Hypertension
+160.0,Diabetes
+161.0,Kidney Disease
+162.0,Hypertension
+163.0,Diabetes
+164.0,Diabetes
+165.0,Diabetes
+166.0,Diabetes
+167.0,Diabetes
+168.0,Diabetes
+169.0,Anemia
+170.0,Kidney Disease
+171.0,Hypertension
+172.0,Hypertension
+173.0,Diabetes
+174.0,Diabetes
+175.0,Hypertension
+176.0,Kidney Disease
+177.0,Kidney Disease
+178.0,Diabetes
+179.0,Hypertension
+180.0,Diabetes
+181.0,Anemia
+182.0,Hypertension
+183.0,Diabetes
+184.0,Diabetes
+185.0,Diabetes
+186.0,Hypertension
+187.0,Anemia
+188.0,Diabetes
+189.0,Hypertension
+190.0,Diabetes
+191.0,Diabetes
+192.0,Kidney Disease
+193.0,Healthy
+194.0,Diabetes
+195.0,Kidney Disease
+196.0,Diabetes
+197.0,Diabetes
+198.0,Diabetes
+199.0,Hypertension
+200.0,Healthy
+201.0,Hypertension
+202.0,Diabetes
+203.0,Healthy
+204.0,Anemia
+205.0,Hypertension
+206.0,Diabetes
+207.0,Kidney Disease
+208.0,Kidney Disease
+209.0,Healthy
+210.0,Kidney Disease
+211.0,Diabetes
+212.0,Hypertension
+213.0,Diabetes
+214.0,Hypertension
+215.0,Kidney Disease
+216.0,Diabetes
+217.0,Diabetes
+218.0,Healthy
+219.0,Hypertension
+220.0,Diabetes
+221.0,Diabetes
+222.0,Diabetes
+223.0,Healthy
+224.0,Diabetes
+225.0,Diabetes
+226.0,Diabetes
+227.0,Diabetes
+228.0,Diabetes
+229.0,Kidney Disease
+230.0,Healthy
+231.0,Diabetes
+232.0,Diabetes
+233.0,Diabetes
+234.0,Hypertension
+235.0,Diabetes
+236.0,Hypertension
+237.0,Diabetes
+238.0,Diabetes
+239.0,Hypertension
+240.0,Diabetes
+241.0,Diabetes
+242.0,Anemia
+243.0,Diabetes
+244.0,Hypertension
+245.0,Healthy
+246.0,Diabetes
+247.0,Diabetes
+248.0,Diabetes
+249.0,Diabetes
+250.0,Kidney Disease
+251.0,Diabetes
+252.0,Hypertension
+253.0,Hypertension
+254.0,Diabetes
+255.0,Hypertension
+256.0,Diabetes
+257.0,Hypertension
+258.0,Diabetes
+259.0,Healthy
+260.0,Diabetes
+261.0,Diabetes
+262.0,Hypertension
+263.0,Diabetes
+264.0,Kidney Disease
+265.0,Diabetes
+266.0,Diabetes
+267.0,Diabetes
+268.0,Diabetes
+269.0,Hypertension
+270.0,Hypertension
+271.0,Healthy
+272.0,Healthy
+273.0,Diabetes
+274.0,Diabetes
+275.0,Diabetes
+276.0,Diabetes
+277.0,Diabetes
+278.0,Healthy
+279.0,Diabetes
+280.0,Diabetes
+281.0,Healthy
+282.0,Diabetes
+283.0,Hypertension
+284.0,Healthy
+285.0,Kidney Disease
+286.0,Hypertension
+287.0,Healthy
+288.0,Hypertension
+289.0,Hypertension
+290.0,Healthy
+291.0,Hypertension
+292.0,Healthy
+293.0,Healthy
+294.0,Diabetes
+295.0,Diabetes
+296.0,Kidney Disease
+297.0,Hypertension
+298.0,Kidney Disease
+299.0,Diabetes
+300.0,Hypertension
+301.0,Hypertension
+302.0,Diabetes
+303.0,Diabetes
+304.0,Kidney Disease
+305.0,Hypertension
+306.0,Healthy
+307.0,Diabetes
+308.0,Diabetes
+309.0,Diabetes
+310.0,Hypertension
+311.0,Diabetes
+312.0,Healthy
+313.0,Diabetes
+314.0,Kidney Disease
+315.0,Healthy
+316.0,Diabetes
+317.0,Healthy
+318.0,Diabetes
+319.0,Diabetes
+320.0,Kidney Disease
+321.0,Healthy
+322.0,Diabetes
+323.0,Diabetes
+324.0,Diabetes
+325.0,Diabetes
+326.0,Diabetes
+327.0,Hypertension
+328.0,Diabetes
+329.0,Kidney Disease
+330.0,Diabetes
+331.0,Diabetes
+332.0,Healthy
+333.0,Hypertension
+334.0,Diabetes
+335.0,Anemia
+336.0,Healthy
+337.0,Hypertension
+338.0,Diabetes
+339.0,Hypertension
+340.0,Diabetes
+341.0,Diabetes
+342.0,Healthy
+343.0,Hypertension
+344.0,Kidney Disease
+345.0,Diabetes
+346.0,Diabetes
+347.0,Diabetes
+348.0,Hypertension
+349.0,Diabetes
+350.0,Diabetes
+351.0,Diabetes
+352.0,Hypertension
+353.0,Hypertension
+354.0,Anemia
+355.0,Diabetes
+356.0,Kidney Disease
+357.0,Diabetes
+358.0,Diabetes
+359.0,Kidney Disease
+360.0,Diabetes
+361.0,Kidney Disease
+362.0,Healthy
+363.0,Diabetes
+364.0,Diabetes
+365.0,Healthy
+366.0,Diabetes
+367.0,Hypertension
+368.0,Healthy
+369.0,Diabetes
+370.0,Diabetes
+371.0,Diabetes
+372.0,Kidney Disease
+373.0,Healthy
+374.0,Hypertension
+375.0,Hypertension
+376.0,Diabetes
+377.0,Hypertension
+378.0,Hypertension
+379.0,Hypertension
+380.0,Diabetes
+381.0,Kidney Disease
+382.0,Healthy
+383.0,Diabetes
+384.0,Hypertension
+385.0,Diabetes
+386.0,Healthy
+387.0,Diabetes
+388.0,Diabetes
+389.0,Hypertension
+390.0,Diabetes
+391.0,Hypertension
+392.0,Diabetes
+393.0,Diabetes
+394.0,Kidney Disease
+395.0,Healthy
+396.0,Kidney Disease
+397.0,Diabetes
+398.0,Diabetes
+399.0,Diabetes
+400.0,Diabetes
+401.0,Diabetes
+402.0,Hypertension
+403.0,Hypertension
+404.0,Anemia
+405.0,Hypertension
+406.0,Diabetes
+407.0,Diabetes
+408.0,Kidney Disease
+409.0,Diabetes
+410.0,Diabetes
+411.0,Hypertension
+412.0,Anemia
+413.0,Diabetes
+414.0,Diabetes
+415.0,Healthy
+416.0,Anemia
+417.0,Healthy
+418.0,Kidney Disease
+419.0,Diabetes
+420.0,Healthy
+421.0,Kidney Disease
+422.0,Diabetes
+423.0,Diabetes
+424.0,Kidney Disease
+425.0,Diabetes
+426.0,Diabetes
+427.0,Hypertension
+428.0,Diabetes
+429.0,Diabetes
+430.0,Hypertension
+431.0,Diabetes
+432.0,Hypertension
+433.0,Diabetes
+434.0,Diabetes
+435.0,Hypertension
+436.0,Diabetes
+437.0,Hypertension
+438.0,Diabetes
+439.0,Hypertension
+440.0,Hypertension
+441.0,Hypertension
+442.0,Diabetes
+443.0,Kidney Disease
+444.0,Diabetes
+445.0,Healthy
+446.0,Diabetes
+447.0,Hypertension
+448.0,Diabetes
+449.0,Kidney Disease
+450.0,Diabetes
+451.0,Healthy
+452.0,Kidney Disease
+453.0,Diabetes
+454.0,Diabetes
+455.0,Diabetes
+456.0,Diabetes
+457.0,Hypertension
+458.0,Diabetes
+459.0,Kidney Disease
+460.0,Kidney Disease
+461.0,Diabetes
+462.0,Diabetes
+463.0,Diabetes
+464.0,Hypertension
+465.0,Diabetes
+466.0,Diabetes
+467.0,Diabetes
+468.0,Healthy
+469.0,Hypertension
+470.0,Hypertension
+471.0,Hypertension
+472.0,Hypertension
+473.0,Diabetes
+474.0,Healthy
+475.0,Diabetes
+476.0,Kidney Disease
+477.0,Hypertension
+478.0,Hypertension
+479.0,Diabetes
+480.0,Diabetes
+481.0,Anemia
+482.0,Hypertension
+483.0,Hypertension
+484.0,Kidney Disease
+485.0,Diabetes
+486.0,Diabetes
+487.0,Diabetes
+488.0,Diabetes
+489.0,Diabetes
+490.0,Diabetes
+491.0,Hypertension
+492.0,Diabetes
+493.0,Hypertension
+494.0,Diabetes
+495.0,Diabetes
+496.0,Diabetes
+497.0,Hypertension
+498.0,Healthy
+499.0,Diabetes
+500.0,Kidney Disease
+501.0,Hypertension
+502.0,Diabetes
+503.0,Hypertension
+504.0,Hypertension
+505.0,Diabetes
+506.0,Diabetes
+507.0,Diabetes
+508.0,Hypertension
+509.0,Kidney Disease
+510.0,Diabetes
+511.0,Diabetes
+512.0,Healthy
+513.0,Diabetes
+514.0,Hypertension
+515.0,Hypertension
+516.0,Kidney Disease
+517.0,Diabetes
+518.0,Diabetes
+519.0,Diabetes
+520.0,Hypertension
+521.0,Diabetes
+522.0,Diabetes
+523.0,Diabetes
+524.0,Hypertension
+525.0,Diabetes
+526.0,Diabetes
+527.0,Hypertension
+528.0,Kidney Disease
+529.0,Diabetes
+530.0,Anemia
+531.0,Kidney Disease
+532.0,Diabetes
+533.0,Hypertension
+534.0,Diabetes
+535.0,Diabetes
+536.0,Diabetes
+537.0,Diabetes
+538.0,Diabetes
+539.0,Diabetes
+540.0,Hypertension
+541.0,Healthy
+542.0,Anemia
+543.0,Anemia
+544.0,Hypertension
+545.0,Hypertension
+546.0,Diabetes
+547.0,Hypertension
+548.0,Hypertension
+549.0,Anemia
+550.0,Diabetes
+551.0,Healthy
+552.0,Kidney Disease
+553.0,Kidney Disease
+554.0,Hypertension
+555.0,Diabetes
+556.0,Hypertension
+557.0,Anemia
+558.0,Diabetes
+559.0,Hypertension
+560.0,Diabetes
+561.0,Hypertension
+562.0,Diabetes
+563.0,Diabetes
+564.0,Anemia
+565.0,Diabetes
+566.0,Diabetes
+567.0,Hypertension
+568.0,Kidney Disease
+569.0,Hypertension
+570.0,Diabetes
+571.0,Diabetes
+572.0,Hypertension
+573.0,Diabetes
+574.0,Hypertension
+575.0,Diabetes
+576.0,Diabetes
+577.0,Diabetes
+578.0,Kidney Disease
+579.0,Hypertension
+580.0,Hypertension
+581.0,Diabetes
+582.0,Diabetes
+583.0,Healthy
+584.0,Diabetes
+585.0,Diabetes
+586.0,Diabetes
+587.0,Hypertension
+588.0,Kidney Disease
+589.0,Hypertension
+590.0,Diabetes
+591.0,Diabetes
+592.0,Anemia
+593.0,Hypertension
+594.0,Diabetes
+595.0,Diabetes
+596.0,Diabetes
+597.0,Diabetes
+598.0,Kidney Disease
+599.0,Hypertension
+600.0,Diabetes
+601.0,Diabetes
+602.0,Healthy
+603.0,Diabetes
+604.0,Diabetes
+605.0,Anemia
+606.0,Diabetes
+607.0,Hypertension
+608.0,Diabetes
+609.0,Kidney Disease
+610.0,Anemia
+611.0,Hypertension
+612.0,Diabetes
+613.0,Diabetes
+614.0,Diabetes
+615.0,Hypertension
+616.0,Kidney Disease
+617.0,Healthy
+618.0,Kidney Disease
+619.0,Diabetes
+620.0,Healthy
+621.0,Anemia
+622.0,Diabetes
+623.0,Diabetes
+624.0,Healthy
+625.0,Hypertension
+626.0,Diabetes
+627.0,Hypertension
+628.0,Healthy
+629.0,Diabetes
+630.0,Hypertension
+631.0,Diabetes
+632.0,Diabetes
+633.0,Kidney Disease
+634.0,Diabetes
+635.0,Diabetes
+636.0,Hypertension
+637.0,Kidney Disease
+638.0,Hypertension
+639.0,Diabetes
+640.0,Anemia
+641.0,Diabetes
+642.0,Hypertension
+643.0,Hypertension
+644.0,Healthy
+645.0,Hypertension
+646.0,Diabetes
+647.0,Diabetes
+648.0,Diabetes
+649.0,Diabetes
+650.0,Diabetes
+651.0,Healthy
+652.0,Healthy
+653.0,Diabetes
+654.0,Diabetes
+655.0,Diabetes
+656.0,Hypertension
+657.0,Diabetes
+658.0,Diabetes
+659.0,Diabetes
+660.0,Diabetes
+661.0,Diabetes
+662.0,Diabetes
+663.0,Diabetes
+664.0,Healthy
+665.0,Diabetes
+666.0,Diabetes
+667.0,Diabetes
+668.0,Diabetes
+669.0,Diabetes
+670.0,Healthy
+671.0,Diabetes
+672.0,Diabetes
+673.0,Hypertension
+674.0,Hypertension
+675.0,Anemia
+676.0,Healthy
+677.0,Diabetes
+678.0,Kidney Disease
+679.0,Diabetes
+680.0,Hypertension
+681.0,Hypertension
+682.0,Kidney Disease
+683.0,Healthy
+684.0,Kidney Disease
+685.0,Diabetes
+686.0,Diabetes
+687.0,Healthy
+688.0,Hypertension
+689.0,Hypertension
+690.0,Hypertension
+691.0,Hypertension
+692.0,Kidney Disease
+693.0,Diabetes
+694.0,Kidney Disease
+695.0,Healthy
+696.0,Diabetes
+697.0,Diabetes
+698.0,Diabetes
+699.0,Diabetes
+700.0,Kidney Disease
+701.0,Diabetes
+702.0,Diabetes
+703.0,Diabetes
+704.0,Diabetes
+705.0,Diabetes
+706.0,Diabetes
+707.0,Diabetes
+708.0,Diabetes
+709.0,Diabetes
+710.0,Diabetes
+711.0,Diabetes
+712.0,Diabetes
+713.0,Healthy
+714.0,Healthy
+715.0,Hypertension
+716.0,Diabetes
+717.0,Diabetes
+718.0,Kidney Disease
+719.0,Diabetes
+720.0,Kidney Disease
+721.0,Diabetes
+722.0,Anemia
+723.0,Diabetes
+724.0,Kidney Disease
+725.0,Diabetes
+726.0,Kidney Disease
+727.0,Hypertension
+728.0,Diabetes
+729.0,Diabetes
+730.0,Healthy
+731.0,Hypertension
+732.0,Diabetes
+733.0,Diabetes
+734.0,Diabetes
+735.0,Healthy
+736.0,Healthy
+737.0,Diabetes
+738.0,Anemia
+739.0,Anemia
+740.0,Diabetes
+741.0,Healthy
+742.0,Diabetes
+743.0,Healthy
+744.0,Hypertension
+745.0,Diabetes
+746.0,Anemia
+747.0,Diabetes
+748.0,Diabetes
+749.0,Anemia
+750.0,Hypertension
+751.0,Healthy
+752.0,Healthy
+753.0,Healthy
+754.0,Diabetes
+755.0,Diabetes
+756.0,Diabetes
+757.0,Kidney Disease
+758.0,Hypertension
+759.0,Diabetes
+760.0,Healthy
+761.0,Healthy
+762.0,Diabetes
+763.0,Diabetes
+764.0,Diabetes
+765.0,Diabetes
+766.0,Healthy
+767.0,Diabetes
+768.0,Kidney Disease
+769.0,Diabetes
+770.0,Healthy
+771.0,Hypertension
+772.0,Diabetes
+773.0,Anemia
+774.0,Hypertension
+775.0,Hypertension
+776.0,Hypertension
+777.0,Hypertension
+778.0,Diabetes
+779.0,Hypertension
+780.0,Kidney Disease
+781.0,Diabetes
+782.0,Hypertension
+783.0,Hypertension
+784.0,Diabetes
+785.0,Diabetes
+786.0,Diabetes
+787.0,Diabetes
+788.0,Anemia
+789.0,Diabetes
+790.0,Kidney Disease
+791.0,Diabetes
+792.0,Diabetes
+793.0,Kidney Disease
+794.0,Healthy
+795.0,Diabetes
+796.0,Diabetes
+797.0,Hypertension
+798.0,Diabetes
+799.0,Hypertension
+800.0,Diabetes
+801.0,Diabetes
+802.0,Hypertension
+803.0,Anemia
+804.0,Diabetes
+805.0,Diabetes
+806.0,Kidney Disease
+807.0,Diabetes
+808.0,Diabetes
+809.0,Diabetes
+810.0,Anemia
+811.0,Diabetes
+812.0,Diabetes
+813.0,Kidney Disease
+814.0,Hypertension
+815.0,Healthy
+816.0,Healthy
+817.0,Hypertension
+818.0,Anemia
+819.0,Healthy
+820.0,Diabetes
+821.0,Healthy
+822.0,Diabetes
+823.0,Diabetes
+824.0,Diabetes
+825.0,Diabetes
+826.0,Diabetes
+827.0,Hypertension
+828.0,Hypertension
+829.0,Diabetes
+830.0,Hypertension
+831.0,Hypertension
+832.0,Hypertension
+833.0,Kidney Disease
+834.0,Diabetes
+835.0,Diabetes
+836.0,Diabetes
+837.0,Hypertension
+838.0,Hypertension
+839.0,Diabetes
+840.0,Kidney Disease
+841.0,Anemia
+842.0,Healthy
+843.0,Anemia
+844.0,Kidney Disease
+845.0,Diabetes
+846.0,Hypertension
+847.0,Kidney Disease
+848.0,Diabetes
+849.0,Kidney Disease
+850.0,Diabetes
+851.0,Kidney Disease
+852.0,Diabetes
+853.0,Hypertension
+854.0,Diabetes
+855.0,Diabetes
+856.0,Kidney Disease
+857.0,Diabetes
+858.0,Diabetes
+859.0,Diabetes
+860.0,Healthy
+861.0,Kidney Disease
+862.0,Diabetes
+863.0,Diabetes
+864.0,Healthy
+865.0,Hypertension
+866.0,Diabetes
+867.0,Diabetes
+868.0,Diabetes
+869.0,Kidney Disease
+870.0,Diabetes
+871.0,Hypertension
+872.0,Diabetes
+873.0,Hypertension
+874.0,Diabetes
+875.0,Diabetes
+876.0,Diabetes
+877.0,Diabetes
+878.0,Diabetes
+879.0,Anemia
+880.0,Diabetes
+881.0,Diabetes
+882.0,Diabetes
+883.0,Kidney Disease
+884.0,Hypertension
+885.0,Diabetes
+886.0,Healthy
+887.0,Diabetes
+888.0,Diabetes
+889.0,Hypertension
+890.0,Diabetes
+891.0,Diabetes
+892.0,Diabetes
+893.0,Kidney Disease
+894.0,Hypertension
+895.0,Diabetes
+896.0,Diabetes
+897.0,Diabetes
+898.0,Diabetes
+899.0,Diabetes
+900.0,Kidney Disease
+901.0,Diabetes
+902.0,Diabetes
+903.0,Diabetes
+904.0,Hypertension
+905.0,Anemia
+906.0,Diabetes
+907.0,Diabetes
+908.0,Healthy
+909.0,Kidney Disease
+910.0,Hypertension
+911.0,Diabetes
+912.0,Diabetes
+913.0,Diabetes
+914.0,Healthy
+915.0,Anemia
+916.0,Hypertension
+917.0,Diabetes
+918.0,Anemia
+919.0,Hypertension
+920.0,Diabetes
+921.0,Kidney Disease
+922.0,Diabetes
+923.0,Diabetes
+924.0,Anemia
+925.0,Kidney Disease
+926.0,Diabetes
+927.0,Diabetes
+928.0,Hypertension
+929.0,Diabetes
+930.0,Diabetes
+931.0,Diabetes
+932.0,Healthy
+933.0,Kidney Disease
+934.0,Diabetes
+935.0,Diabetes
+936.0,Anemia
+937.0,Hypertension
+938.0,Diabetes
+939.0,Hypertension
+940.0,Diabetes
+941.0,Diabetes
+942.0,Diabetes
+943.0,Healthy
+944.0,Healthy
+945.0,Diabetes
+946.0,Diabetes
+947.0,Diabetes
+948.0,Anemia
+949.0,Healthy
+950.0,Diabetes
+951.0,Hypertension
+952.0,Diabetes
+953.0,Diabetes
+954.0,Diabetes
+955.0,Diabetes
+956.0,Diabetes
+957.0,Hypertension
+958.0,Hypertension
+959.0,Diabetes
+960.0,Diabetes
+961.0,Hypertension
+962.0,Hypertension
+963.0,Diabetes
+964.0,Anemia
+965.0,Healthy
+966.0,Diabetes
+967.0,Hypertension
+968.0,Diabetes
+969.0,Hypertension
+970.0,Healthy
+971.0,Diabetes
+972.0,Diabetes
+973.0,Diabetes
+974.0,Hypertension
+975.0,Diabetes
+976.0,Diabetes
+977.0,Diabetes
+978.0,Diabetes
+979.0,Diabetes
+980.0,Hypertension
+981.0,Diabetes
+982.0,Diabetes
+983.0,Diabetes
+984.0,Hypertension
+985.0,Diabetes
+986.0,Healthy
+987.0,Diabetes
+988.0,Diabetes
+989.0,Kidney Disease
+990.0,Diabetes
+991.0,Diabetes
+992.0,Hypertension
+993.0,Hypertension
+994.0,Kidney Disease
+995.0,Kidney Disease
+996.0,Diabetes
+997.0,Diabetes
+998.0,Diabetes
+999.0,Diabetes
+1000.0,Hypertension

@@ -1,0 +1,2049 @@
+patient_id,condition
+1,Diabetes
+1,Thyroid Disorder
+2,Asthma
+2,Thyroid Disorder
+3,None
+3,Liver Disease
+3,Hypertension
+4,Thyroid Disorder
+4,Kidney Disease
+4,None
+5,Diabetes
+5,Liver Disease
+5,Kidney Disease
+6,Hypertension
+7,Heart Disease
+7,Kidney Disease
+8,Liver Disease
+8,Diabetes
+8,None
+9,Thyroid Disorder
+9,Kidney Disease
+10,None
+10,Kidney Disease
+10,Diabetes
+11,Kidney Disease
+12,Thyroid Disorder
+13,Hypertension
+13,Diabetes
+14,Thyroid Disorder
+14,Asthma
+15,Liver Disease
+15,None
+16,Heart Disease
+16,Hypertension
+17,None
+17,Diabetes
+18,Heart Disease
+18,Liver Disease
+19,Asthma
+19,Liver Disease
+20,None
+20,Kidney Disease
+20,Hypertension
+21,Thyroid Disorder
+21,Heart Disease
+22,Heart Disease
+22,None
+22,Hypertension
+23,Thyroid Disorder
+23,Diabetes
+24,Hypertension
+25,None
+25,Liver Disease
+26,Asthma
+26,Hypertension
+27,Thyroid Disorder
+28,Diabetes
+28,Hypertension
+28,Liver Disease
+29,None
+30,Heart Disease
+31,Hypertension
+32,Liver Disease
+32,None
+32,Heart Disease
+33,Thyroid Disorder
+34,Diabetes
+35,Diabetes
+36,None
+36,Asthma
+36,Thyroid Disorder
+37,Liver Disease
+38,Diabetes
+39,Diabetes
+40,None
+40,Thyroid Disorder
+40,Diabetes
+41,Hypertension
+42,None
+43,Liver Disease
+43,Diabetes
+44,Liver Disease
+45,Heart Disease
+45,None
+46,Hypertension
+47,Thyroid Disorder
+47,Hypertension
+48,Kidney Disease
+49,Heart Disease
+50,Thyroid Disorder
+50,Asthma
+51,None
+51,Kidney Disease
+51,Heart Disease
+52,Asthma
+52,Diabetes
+53,Hypertension
+53,None
+53,Thyroid Disorder
+54,Heart Disease
+55,Kidney Disease
+55,Diabetes
+55,Hypertension
+56,Liver Disease
+56,Hypertension
+56,Thyroid Disorder
+57,Kidney Disease
+58,None
+58,Liver Disease
+58,Hypertension
+59,Diabetes
+59,Kidney Disease
+60,Liver Disease
+60,Kidney Disease
+60,None
+61,Hypertension
+61,Liver Disease
+61,Heart Disease
+62,None
+63,Asthma
+63,Diabetes
+63,None
+64,Asthma
+64,Diabetes
+64,Kidney Disease
+65,Diabetes
+65,Hypertension
+66,Asthma
+66,Kidney Disease
+66,Liver Disease
+67,Heart Disease
+67,None
+67,Kidney Disease
+68,None
+68,Asthma
+69,Diabetes
+69,Liver Disease
+70,Diabetes
+70,Asthma
+71,Heart Disease
+71,Kidney Disease
+72,Heart Disease
+73,Liver Disease
+74,Thyroid Disorder
+74,None
+75,Hypertension
+75,Liver Disease
+76,Asthma
+76,Liver Disease
+77,Asthma
+78,Hypertension
+79,Thyroid Disorder
+79,None
+79,Asthma
+80,Hypertension
+81,Kidney Disease
+82,Thyroid Disorder
+83,Liver Disease
+83,Diabetes
+83,None
+84,Heart Disease
+84,None
+85,Kidney Disease
+86,Liver Disease
+86,Hypertension
+87,Diabetes
+87,Heart Disease
+88,Kidney Disease
+88,Hypertension
+89,Hypertension
+89,Thyroid Disorder
+90,Hypertension
+90,Liver Disease
+90,None
+91,Thyroid Disorder
+92,Liver Disease
+92,Heart Disease
+93,Heart Disease
+93,Thyroid Disorder
+94,Thyroid Disorder
+94,None
+94,Diabetes
+95,Heart Disease
+95,Diabetes
+96,Asthma
+97,Kidney Disease
+97,Thyroid Disorder
+97,None
+98,Heart Disease
+99,Thyroid Disorder
+99,Hypertension
+99,Liver Disease
+100,Diabetes
+101,Liver Disease
+101,Hypertension
+102,None
+102,Liver Disease
+102,Hypertension
+103,Hypertension
+104,Kidney Disease
+105,Kidney Disease
+105,None
+106,Thyroid Disorder
+107,Diabetes
+107,Hypertension
+107,Asthma
+108,Diabetes
+109,Liver Disease
+109,Hypertension
+109,Asthma
+110,Kidney Disease
+111,Kidney Disease
+111,Liver Disease
+111,Heart Disease
+112,Heart Disease
+112,Thyroid Disorder
+112,Kidney Disease
+113,Hypertension
+113,Thyroid Disorder
+114,None
+114,Kidney Disease
+114,Hypertension
+115,Asthma
+115,Thyroid Disorder
+115,None
+116,Asthma
+116,Liver Disease
+116,Heart Disease
+117,Kidney Disease
+117,Thyroid Disorder
+117,Heart Disease
+118,Kidney Disease
+118,Heart Disease
+118,Hypertension
+119,Thyroid Disorder
+119,Diabetes
+120,Heart Disease
+120,Kidney Disease
+120,Liver Disease
+121,Heart Disease
+121,Hypertension
+121,Asthma
+122,Asthma
+122,Diabetes
+122,Liver Disease
+123,Asthma
+123,Heart Disease
+124,Heart Disease
+124,Liver Disease
+125,Thyroid Disorder
+125,None
+126,Kidney Disease
+126,None
+127,Hypertension
+127,Liver Disease
+127,None
+128,None
+129,Liver Disease
+130,Thyroid Disorder
+130,Liver Disease
+131,Hypertension
+131,Thyroid Disorder
+131,Heart Disease
+132,Hypertension
+132,Liver Disease
+133,None
+133,Kidney Disease
+133,Thyroid Disorder
+134,Liver Disease
+134,Hypertension
+134,Kidney Disease
+135,Thyroid Disorder
+136,Kidney Disease
+136,Thyroid Disorder
+137,Kidney Disease
+137,None
+137,Hypertension
+138,Kidney Disease
+139,None
+139,Liver Disease
+140,Asthma
+140,Heart Disease
+140,Diabetes
+141,Heart Disease
+141,Hypertension
+142,Kidney Disease
+142,Heart Disease
+143,Liver Disease
+144,Asthma
+144,Liver Disease
+144,Diabetes
+145,Hypertension
+145,Diabetes
+145,Asthma
+146,None
+146,Heart Disease
+146,Kidney Disease
+147,Diabetes
+147,Asthma
+148,Asthma
+148,Hypertension
+149,Liver Disease
+150,Kidney Disease
+150,Heart Disease
+151,Asthma
+151,Thyroid Disorder
+152,Heart Disease
+153,Hypertension
+153,Liver Disease
+154,Diabetes
+155,Heart Disease
+155,None
+155,Thyroid Disorder
+156,Kidney Disease
+156,Heart Disease
+156,Asthma
+157,Hypertension
+158,None
+158,Diabetes
+159,Diabetes
+160,Liver Disease
+160,Thyroid Disorder
+160,Kidney Disease
+161,Heart Disease
+162,Hypertension
+162,Heart Disease
+163,Liver Disease
+164,None
+164,Asthma
+164,Liver Disease
+165,Heart Disease
+165,Hypertension
+165,Asthma
+166,Kidney Disease
+166,Hypertension
+166,Asthma
+167,None
+167,Thyroid Disorder
+167,Diabetes
+168,Asthma
+168,Liver Disease
+169,Heart Disease
+169,Thyroid Disorder
+170,Hypertension
+170,Thyroid Disorder
+171,Hypertension
+172,None
+172,Thyroid Disorder
+173,Hypertension
+173,Thyroid Disorder
+174,Asthma
+174,None
+175,Thyroid Disorder
+175,Hypertension
+176,None
+176,Hypertension
+176,Diabetes
+177,Asthma
+178,None
+179,Thyroid Disorder
+179,Hypertension
+180,Thyroid Disorder
+181,Kidney Disease
+182,Heart Disease
+183,Diabetes
+183,Kidney Disease
+184,Kidney Disease
+184,Diabetes
+184,None
+185,Liver Disease
+185,Heart Disease
+185,Asthma
+186,Diabetes
+187,Diabetes
+188,Hypertension
+188,Heart Disease
+188,Diabetes
+189,Thyroid Disorder
+189,Hypertension
+189,Heart Disease
+190,None
+191,Diabetes
+191,Asthma
+191,Kidney Disease
+192,Hypertension
+193,None
+194,Thyroid Disorder
+195,Hypertension
+195,Liver Disease
+196,Heart Disease
+196,Kidney Disease
+197,Liver Disease
+197,Asthma
+197,Thyroid Disorder
+198,Diabetes
+198,Kidney Disease
+198,Liver Disease
+199,None
+200,None
+200,Diabetes
+200,Liver Disease
+201,Thyroid Disorder
+201,Asthma
+202,Liver Disease
+202,Heart Disease
+203,None
+203,Thyroid Disorder
+203,Kidney Disease
+204,Asthma
+204,Liver Disease
+205,Liver Disease
+205,Hypertension
+206,Hypertension
+207,None
+208,Kidney Disease
+208,Diabetes
+209,Liver Disease
+209,Heart Disease
+210,Kidney Disease
+210,Thyroid Disorder
+210,Heart Disease
+211,Thyroid Disorder
+211,Asthma
+211,Kidney Disease
+212,Asthma
+213,Liver Disease
+213,Hypertension
+213,Thyroid Disorder
+214,None
+214,Thyroid Disorder
+214,Diabetes
+215,Hypertension
+216,Liver Disease
+217,Diabetes
+217,Liver Disease
+218,Heart Disease
+218,Thyroid Disorder
+218,Diabetes
+219,Heart Disease
+220,Hypertension
+220,Thyroid Disorder
+221,Liver Disease
+221,Thyroid Disorder
+222,Hypertension
+222,Liver Disease
+223,Heart Disease
+224,Thyroid Disorder
+225,Hypertension
+226,None
+226,Thyroid Disorder
+226,Diabetes
+227,None
+227,Thyroid Disorder
+228,Liver Disease
+229,Liver Disease
+230,Thyroid Disorder
+231,Liver Disease
+231,Thyroid Disorder
+232,Diabetes
+232,Liver Disease
+233,Thyroid Disorder
+233,Diabetes
+234,Kidney Disease
+234,Thyroid Disorder
+235,Liver Disease
+235,Heart Disease
+236,Hypertension
+236,Thyroid Disorder
+236,Asthma
+237,Heart Disease
+237,Asthma
+237,Thyroid Disorder
+238,Kidney Disease
+238,None
+239,None
+239,Kidney Disease
+239,Asthma
+240,Heart Disease
+241,Diabetes
+241,Liver Disease
+241,Asthma
+242,Hypertension
+242,Heart Disease
+243,None
+244,Hypertension
+244,None
+245,Thyroid Disorder
+245,Asthma
+245,Heart Disease
+246,Kidney Disease
+247,None
+247,Kidney Disease
+247,Liver Disease
+248,Kidney Disease
+248,Heart Disease
+249,None
+249,Thyroid Disorder
+250,Asthma
+251,Kidney Disease
+251,None
+252,Hypertension
+252,Diabetes
+252,Asthma
+253,Diabetes
+253,None
+254,Liver Disease
+254,Kidney Disease
+254,Diabetes
+255,Thyroid Disorder
+255,Asthma
+256,Kidney Disease
+256,Thyroid Disorder
+256,Asthma
+257,Heart Disease
+257,Kidney Disease
+258,Liver Disease
+258,Asthma
+259,Hypertension
+259,Liver Disease
+259,Diabetes
+260,Asthma
+261,Thyroid Disorder
+261,Hypertension
+262,Liver Disease
+262,Heart Disease
+262,Asthma
+263,None
+264,None
+264,Asthma
+265,Kidney Disease
+265,Thyroid Disorder
+266,Liver Disease
+266,None
+266,Thyroid Disorder
+267,Heart Disease
+267,Kidney Disease
+268,Liver Disease
+269,Asthma
+269,Heart Disease
+270,Thyroid Disorder
+270,Kidney Disease
+270,Asthma
+271,Liver Disease
+271,Diabetes
+271,None
+272,Asthma
+272,Thyroid Disorder
+272,Kidney Disease
+273,Thyroid Disorder
+273,Diabetes
+273,Kidney Disease
+274,Heart Disease
+275,Kidney Disease
+275,None
+275,Diabetes
+276,Heart Disease
+276,Asthma
+277,Asthma
+277,Heart Disease
+277,Liver Disease
+278,None
+278,Hypertension
+279,Diabetes
+279,Thyroid Disorder
+280,Asthma
+281,Asthma
+281,Hypertension
+281,Heart Disease
+282,Kidney Disease
+282,Asthma
+283,Thyroid Disorder
+284,Diabetes
+284,Heart Disease
+284,Kidney Disease
+285,None
+285,Hypertension
+286,Hypertension
+287,None
+287,Diabetes
+287,Asthma
+288,Asthma
+288,None
+289,Heart Disease
+290,Liver Disease
+290,Thyroid Disorder
+290,None
+291,Hypertension
+292,Thyroid Disorder
+293,Liver Disease
+294,Asthma
+294,None
+294,Hypertension
+295,Thyroid Disorder
+296,Liver Disease
+296,Heart Disease
+297,Diabetes
+298,Diabetes
+298,Hypertension
+298,Liver Disease
+299,Liver Disease
+299,Diabetes
+299,Thyroid Disorder
+300,Diabetes
+300,None
+300,Kidney Disease
+301,Kidney Disease
+302,Kidney Disease
+303,Asthma
+304,None
+304,Thyroid Disorder
+304,Heart Disease
+305,Kidney Disease
+305,None
+306,Hypertension
+306,Kidney Disease
+306,Asthma
+307,Liver Disease
+307,Diabetes
+308,Diabetes
+308,Liver Disease
+309,Kidney Disease
+310,Hypertension
+310,Asthma
+310,Heart Disease
+311,Liver Disease
+311,Kidney Disease
+312,Thyroid Disorder
+312,Hypertension
+313,Hypertension
+314,None
+314,Kidney Disease
+314,Thyroid Disorder
+315,Liver Disease
+316,None
+316,Asthma
+316,Heart Disease
+317,Kidney Disease
+317,Heart Disease
+318,Asthma
+319,None
+319,Heart Disease
+319,Diabetes
+320,Asthma
+320,Hypertension
+321,Heart Disease
+322,Hypertension
+322,Heart Disease
+323,Heart Disease
+323,Hypertension
+324,Hypertension
+324,Asthma
+324,None
+325,Asthma
+325,None
+326,None
+326,Liver Disease
+327,Liver Disease
+328,Asthma
+328,Hypertension
+328,Heart Disease
+329,Heart Disease
+329,None
+329,Liver Disease
+330,Kidney Disease
+330,Liver Disease
+330,Thyroid Disorder
+331,Heart Disease
+331,None
+331,Thyroid Disorder
+332,Diabetes
+332,Asthma
+332,None
+333,Diabetes
+333,Thyroid Disorder
+333,Kidney Disease
+334,Diabetes
+335,Asthma
+335,Diabetes
+336,Heart Disease
+337,None
+337,Hypertension
+338,Asthma
+338,Diabetes
+339,Heart Disease
+340,Kidney Disease
+340,Diabetes
+341,Liver Disease
+342,Thyroid Disorder
+342,Asthma
+342,Diabetes
+343,Asthma
+343,Thyroid Disorder
+343,Liver Disease
+344,Liver Disease
+345,Liver Disease
+345,Hypertension
+345,Heart Disease
+346,Hypertension
+347,Kidney Disease
+347,Heart Disease
+347,Diabetes
+348,Kidney Disease
+348,Heart Disease
+348,Liver Disease
+349,Heart Disease
+349,None
+349,Asthma
+350,Diabetes
+350,Heart Disease
+350,Kidney Disease
+351,Diabetes
+352,Thyroid Disorder
+352,Diabetes
+352,Liver Disease
+353,None
+354,Diabetes
+354,Hypertension
+354,Asthma
+355,Hypertension
+355,Diabetes
+356,Kidney Disease
+357,Thyroid Disorder
+357,Kidney Disease
+357,Heart Disease
+358,Heart Disease
+358,Hypertension
+359,None
+359,Thyroid Disorder
+360,Thyroid Disorder
+360,Liver Disease
+361,Heart Disease
+361,Hypertension
+361,Thyroid Disorder
+362,Liver Disease
+362,Asthma
+363,Kidney Disease
+363,Heart Disease
+364,Diabetes
+365,Diabetes
+366,None
+366,Heart Disease
+366,Kidney Disease
+367,Kidney Disease
+367,Asthma
+367,Diabetes
+368,Hypertension
+368,Asthma
+369,Kidney Disease
+369,None
+369,Diabetes
+370,Diabetes
+370,Hypertension
+371,None
+372,Asthma
+372,Kidney Disease
+373,None
+373,Diabetes
+374,Heart Disease
+374,Asthma
+375,Diabetes
+375,None
+376,Kidney Disease
+376,Liver Disease
+377,Thyroid Disorder
+378,None
+379,Asthma
+379,Kidney Disease
+379,None
+380,Asthma
+380,Kidney Disease
+381,Heart Disease
+382,Heart Disease
+382,None
+382,Liver Disease
+383,Asthma
+384,Thyroid Disorder
+384,Heart Disease
+384,Asthma
+385,Kidney Disease
+386,Liver Disease
+386,Hypertension
+387,Hypertension
+388,Asthma
+389,Kidney Disease
+389,Liver Disease
+390,Heart Disease
+390,Thyroid Disorder
+391,Diabetes
+391,Kidney Disease
+391,Liver Disease
+392,Asthma
+392,Heart Disease
+393,Hypertension
+393,Diabetes
+393,Thyroid Disorder
+394,Heart Disease
+395,Asthma
+396,Heart Disease
+396,Diabetes
+397,Diabetes
+397,Heart Disease
+397,Hypertension
+398,Heart Disease
+398,Asthma
+399,Hypertension
+400,Liver Disease
+401,Asthma
+401,Liver Disease
+402,Liver Disease
+402,Diabetes
+402,Kidney Disease
+403,Kidney Disease
+404,Heart Disease
+405,Diabetes
+406,Diabetes
+406,Asthma
+406,Hypertension
+407,Hypertension
+407,Asthma
+407,Heart Disease
+408,Heart Disease
+409,Heart Disease
+410,Thyroid Disorder
+410,None
+411,Kidney Disease
+411,Hypertension
+412,Heart Disease
+412,Liver Disease
+413,Hypertension
+414,Hypertension
+414,Diabetes
+414,None
+415,Thyroid Disorder
+416,Asthma
+417,Asthma
+417,Diabetes
+418,Heart Disease
+418,Asthma
+418,Diabetes
+419,Heart Disease
+419,Hypertension
+419,Thyroid Disorder
+420,Liver Disease
+420,None
+421,Hypertension
+421,Diabetes
+421,Heart Disease
+422,Asthma
+422,Heart Disease
+422,Thyroid Disorder
+423,Hypertension
+423,Liver Disease
+424,Liver Disease
+424,Asthma
+424,None
+425,Heart Disease
+426,Diabetes
+426,Hypertension
+427,Hypertension
+427,Diabetes
+427,Liver Disease
+428,None
+428,Diabetes
+429,Kidney Disease
+429,Heart Disease
+429,Liver Disease
+430,Hypertension
+431,Hypertension
+432,Asthma
+433,Kidney Disease
+433,Hypertension
+433,Liver Disease
+434,Kidney Disease
+434,Hypertension
+434,Diabetes
+435,Thyroid Disorder
+436,Thyroid Disorder
+437,Hypertension
+437,Kidney Disease
+437,Diabetes
+438,Kidney Disease
+439,Thyroid Disorder
+439,None
+439,Hypertension
+440,Diabetes
+440,Thyroid Disorder
+440,Kidney Disease
+441,None
+442,None
+443,Liver Disease
+443,Thyroid Disorder
+443,Diabetes
+444,Liver Disease
+444,Kidney Disease
+444,None
+445,Diabetes
+446,Heart Disease
+447,Asthma
+447,Hypertension
+448,Thyroid Disorder
+448,Heart Disease
+448,None
+449,Heart Disease
+449,Thyroid Disorder
+449,Diabetes
+450,Liver Disease
+451,Diabetes
+451,None
+452,Thyroid Disorder
+452,Asthma
+452,Diabetes
+453,Heart Disease
+453,Hypertension
+454,Hypertension
+454,Liver Disease
+455,Liver Disease
+455,Heart Disease
+456,Liver Disease
+457,Liver Disease
+457,Hypertension
+457,Thyroid Disorder
+458,Thyroid Disorder
+459,Kidney Disease
+460,Thyroid Disorder
+460,Hypertension
+460,Asthma
+461,Kidney Disease
+461,Asthma
+461,Thyroid Disorder
+462,Liver Disease
+462,Heart Disease
+462,Thyroid Disorder
+463,Heart Disease
+463,Diabetes
+464,None
+465,Heart Disease
+466,None
+466,Hypertension
+466,Kidney Disease
+467,None
+467,Heart Disease
+467,Thyroid Disorder
+468,None
+469,Heart Disease
+469,Kidney Disease
+470,None
+470,Kidney Disease
+471,Hypertension
+472,Asthma
+473,Thyroid Disorder
+473,Asthma
+473,Heart Disease
+474,Heart Disease
+474,Hypertension
+475,None
+475,Liver Disease
+476,Asthma
+477,None
+477,Heart Disease
+478,Thyroid Disorder
+479,Asthma
+479,Diabetes
+480,Diabetes
+480,Asthma
+480,None
+481,Liver Disease
+482,Liver Disease
+482,Thyroid Disorder
+482,None
+483,Heart Disease
+483,Hypertension
+484,Heart Disease
+485,Liver Disease
+485,Asthma
+485,Hypertension
+486,Heart Disease
+486,None
+486,Diabetes
+487,None
+487,Thyroid Disorder
+487,Liver Disease
+488,Kidney Disease
+488,Thyroid Disorder
+489,Diabetes
+490,Hypertension
+491,None
+491,Heart Disease
+491,Hypertension
+492,Liver Disease
+492,Diabetes
+493,Diabetes
+493,None
+494,Thyroid Disorder
+494,Hypertension
+495,Kidney Disease
+495,Hypertension
+495,Liver Disease
+496,Heart Disease
+496,Diabetes
+497,Hypertension
+497,Thyroid Disorder
+497,None
+498,Liver Disease
+499,Kidney Disease
+499,Liver Disease
+499,Heart Disease
+500,Liver Disease
+501,None
+501,Hypertension
+502,Asthma
+502,Diabetes
+502,Heart Disease
+503,Asthma
+503,Hypertension
+504,Liver Disease
+505,None
+505,Heart Disease
+505,Hypertension
+506,None
+506,Liver Disease
+507,Hypertension
+507,Thyroid Disorder
+507,Liver Disease
+508,Asthma
+509,Hypertension
+509,Liver Disease
+509,Heart Disease
+510,Kidney Disease
+510,Asthma
+511,None
+512,Kidney Disease
+512,Diabetes
+513,Asthma
+513,Liver Disease
+513,Kidney Disease
+514,Liver Disease
+514,Hypertension
+515,Asthma
+516,Liver Disease
+516,Thyroid Disorder
+517,Heart Disease
+518,Thyroid Disorder
+518,Heart Disease
+518,Asthma
+519,Thyroid Disorder
+519,Liver Disease
+520,Asthma
+520,Diabetes
+520,Liver Disease
+521,Thyroid Disorder
+522,Heart Disease
+522,Liver Disease
+522,Kidney Disease
+523,Kidney Disease
+524,Diabetes
+524,Liver Disease
+524,Hypertension
+525,Hypertension
+526,Asthma
+526,Kidney Disease
+526,Heart Disease
+527,Heart Disease
+527,Thyroid Disorder
+528,Hypertension
+528,None
+529,Hypertension
+529,Heart Disease
+530,Thyroid Disorder
+531,Heart Disease
+531,Diabetes
+531,Hypertension
+532,Liver Disease
+532,Diabetes
+532,Asthma
+533,Liver Disease
+533,Thyroid Disorder
+534,Thyroid Disorder
+534,Liver Disease
+534,Asthma
+535,Kidney Disease
+535,Thyroid Disorder
+536,Diabetes
+536,Thyroid Disorder
+537,Thyroid Disorder
+537,Heart Disease
+537,Hypertension
+538,Heart Disease
+538,Asthma
+538,Diabetes
+539,Asthma
+540,Asthma
+540,Liver Disease
+540,Kidney Disease
+541,Hypertension
+542,Asthma
+543,None
+543,Liver Disease
+544,Heart Disease
+545,Heart Disease
+545,Asthma
+545,Liver Disease
+546,Diabetes
+547,None
+548,Kidney Disease
+548,Heart Disease
+548,None
+549,Hypertension
+550,Asthma
+551,None
+551,Heart Disease
+552,None
+552,Heart Disease
+553,Asthma
+553,Diabetes
+554,Kidney Disease
+555,Asthma
+556,Asthma
+556,Liver Disease
+556,Hypertension
+557,Hypertension
+557,Diabetes
+557,Kidney Disease
+558,Diabetes
+558,None
+558,Liver Disease
+559,Thyroid Disorder
+559,Asthma
+560,Asthma
+561,Thyroid Disorder
+561,Hypertension
+561,Liver Disease
+562,Kidney Disease
+562,Thyroid Disorder
+562,None
+563,Kidney Disease
+563,Diabetes
+564,Thyroid Disorder
+564,Diabetes
+564,Hypertension
+565,Heart Disease
+565,Thyroid Disorder
+566,Liver Disease
+567,Diabetes
+567,Thyroid Disorder
+567,Heart Disease
+568,Thyroid Disorder
+568,Kidney Disease
+569,Hypertension
+570,Hypertension
+570,Liver Disease
+571,Liver Disease
+571,Heart Disease
+571,Thyroid Disorder
+572,Diabetes
+572,Asthma
+573,Liver Disease
+573,None
+573,Kidney Disease
+574,Hypertension
+575,Thyroid Disorder
+575,Kidney Disease
+575,Heart Disease
+576,None
+576,Hypertension
+577,Asthma
+578,Kidney Disease
+578,Hypertension
+578,Diabetes
+579,Heart Disease
+579,Diabetes
+580,Hypertension
+580,Heart Disease
+580,Liver Disease
+581,Hypertension
+582,Hypertension
+582,None
+583,Kidney Disease
+583,Heart Disease
+583,Diabetes
+584,Diabetes
+584,Heart Disease
+584,Liver Disease
+585,Diabetes
+585,Heart Disease
+585,Thyroid Disorder
+586,Heart Disease
+586,Kidney Disease
+587,Heart Disease
+587,Liver Disease
+587,Asthma
+588,Kidney Disease
+588,Heart Disease
+589,Diabetes
+589,None
+590,Asthma
+590,Diabetes
+591,Thyroid Disorder
+591,Asthma
+591,Diabetes
+592,Asthma
+592,Heart Disease
+593,Kidney Disease
+593,None
+593,Liver Disease
+594,Hypertension
+594,Thyroid Disorder
+595,Diabetes
+595,Hypertension
+596,Hypertension
+596,Liver Disease
+596,Kidney Disease
+597,Hypertension
+597,Thyroid Disorder
+597,Asthma
+598,Asthma
+599,None
+599,Hypertension
+599,Kidney Disease
+600,None
+600,Hypertension
+601,None
+601,Thyroid Disorder
+602,Kidney Disease
+603,Kidney Disease
+603,None
+604,Asthma
+604,Liver Disease
+604,Hypertension
+605,Hypertension
+606,Thyroid Disorder
+606,Hypertension
+607,Thyroid Disorder
+607,Diabetes
+607,Liver Disease
+608,None
+609,Thyroid Disorder
+609,Asthma
+610,Diabetes
+610,Heart Disease
+610,Asthma
+611,Kidney Disease
+611,None
+612,Kidney Disease
+613,Diabetes
+614,None
+615,Thyroid Disorder
+615,Liver Disease
+616,Diabetes
+617,Diabetes
+617,Heart Disease
+618,Thyroid Disorder
+618,Hypertension
+619,Diabetes
+619,Liver Disease
+619,None
+620,Diabetes
+620,Kidney Disease
+621,Liver Disease
+621,Asthma
+622,Asthma
+622,Hypertension
+622,Kidney Disease
+623,Heart Disease
+623,Thyroid Disorder
+624,Asthma
+625,Asthma
+625,Kidney Disease
+626,Kidney Disease
+627,Asthma
+628,Heart Disease
+628,Hypertension
+629,Thyroid Disorder
+629,Kidney Disease
+630,Hypertension
+630,None
+630,Diabetes
+631,Asthma
+632,Asthma
+632,None
+632,Thyroid Disorder
+633,Liver Disease
+633,Asthma
+634,None
+635,Thyroid Disorder
+635,Liver Disease
+635,None
+636,Diabetes
+636,Heart Disease
+637,Kidney Disease
+638,Thyroid Disorder
+638,Asthma
+639,Hypertension
+639,None
+640,Thyroid Disorder
+641,None
+641,Heart Disease
+642,Asthma
+643,Liver Disease
+643,Thyroid Disorder
+643,Hypertension
+644,Thyroid Disorder
+644,Hypertension
+644,Kidney Disease
+645,Heart Disease
+645,Liver Disease
+645,Thyroid Disorder
+646,Thyroid Disorder
+646,Asthma
+647,Kidney Disease
+647,None
+647,Diabetes
+648,Asthma
+649,Thyroid Disorder
+649,Liver Disease
+650,Liver Disease
+651,Diabetes
+651,Kidney Disease
+652,Heart Disease
+652,Asthma
+653,Kidney Disease
+653,Liver Disease
+654,Liver Disease
+654,Asthma
+654,Kidney Disease
+655,Diabetes
+656,Diabetes
+657,Thyroid Disorder
+657,Hypertension
+658,Heart Disease
+659,Hypertension
+659,Diabetes
+659,Thyroid Disorder
+660,Thyroid Disorder
+660,None
+661,None
+661,Liver Disease
+661,Kidney Disease
+662,Thyroid Disorder
+662,Heart Disease
+662,Diabetes
+663,Hypertension
+663,Kidney Disease
+663,Diabetes
+664,Hypertension
+665,Heart Disease
+665,Asthma
+666,Thyroid Disorder
+666,Kidney Disease
+666,Liver Disease
+667,Diabetes
+667,Hypertension
+668,Heart Disease
+668,Liver Disease
+669,Thyroid Disorder
+669,Heart Disease
+669,Hypertension
+670,Asthma
+671,Thyroid Disorder
+671,Diabetes
+671,Heart Disease
+672,Heart Disease
+672,Diabetes
+673,Thyroid Disorder
+673,Liver Disease
+673,Asthma
+674,None
+674,Kidney Disease
+675,Diabetes
+675,Thyroid Disorder
+675,Liver Disease
+676,None
+677,None
+677,Kidney Disease
+678,None
+678,Hypertension
+678,Heart Disease
+679,Asthma
+679,Diabetes
+679,Liver Disease
+680,Asthma
+680,Diabetes
+681,Liver Disease
+682,Liver Disease
+683,Heart Disease
+684,None
+684,Asthma
+684,Diabetes
+685,Heart Disease
+685,Kidney Disease
+686,Asthma
+686,Thyroid Disorder
+687,Thyroid Disorder
+687,Asthma
+687,Hypertension
+688,Thyroid Disorder
+689,Heart Disease
+690,Heart Disease
+691,Asthma
+691,Thyroid Disorder
+691,Diabetes
+692,Kidney Disease
+692,Thyroid Disorder
+693,Diabetes
+693,Liver Disease
+693,Heart Disease
+694,Kidney Disease
+695,Thyroid Disorder
+696,Thyroid Disorder
+696,Asthma
+697,Hypertension
+697,Diabetes
+697,Kidney Disease
+698,None
+698,Heart Disease
+698,Asthma
+699,Asthma
+699,Hypertension
+699,None
+700,None
+700,Liver Disease
+701,Kidney Disease
+701,Asthma
+701,Heart Disease
+702,Heart Disease
+702,Thyroid Disorder
+703,Diabetes
+704,Asthma
+704,Diabetes
+704,Hypertension
+705,Diabetes
+706,Heart Disease
+706,Diabetes
+706,Hypertension
+707,Liver Disease
+708,None
+708,Kidney Disease
+708,Thyroid Disorder
+709,None
+709,Hypertension
+709,Heart Disease
+710,None
+710,Heart Disease
+711,Asthma
+711,Heart Disease
+711,Thyroid Disorder
+712,Kidney Disease
+712,Asthma
+713,Heart Disease
+713,Thyroid Disorder
+714,Heart Disease
+715,Heart Disease
+716,None
+716,Kidney Disease
+716,Heart Disease
+717,Diabetes
+717,Kidney Disease
+717,Heart Disease
+718,Liver Disease
+719,Kidney Disease
+719,Hypertension
+719,Heart Disease
+720,None
+720,Thyroid Disorder
+721,Hypertension
+721,Liver Disease
+721,Asthma
+722,Hypertension
+722,Kidney Disease
+722,Diabetes
+723,None
+724,Kidney Disease
+724,Heart Disease
+725,Thyroid Disorder
+725,Kidney Disease
+725,None
+726,Diabetes
+726,Hypertension
+727,Liver Disease
+727,Asthma
+728,Liver Disease
+728,Heart Disease
+729,Hypertension
+730,Hypertension
+730,Liver Disease
+731,Liver Disease
+731,Hypertension
+732,Heart Disease
+732,Kidney Disease
+732,None
+733,Hypertension
+733,Kidney Disease
+733,None
+734,Kidney Disease
+734,None
+735,Kidney Disease
+735,Thyroid Disorder
+735,Liver Disease
+736,Hypertension
+736,Liver Disease
+737,None
+737,Diabetes
+738,Kidney Disease
+738,None
+738,Asthma
+739,Diabetes
+739,Thyroid Disorder
+739,Hypertension
+740,Kidney Disease
+740,Thyroid Disorder
+741,Thyroid Disorder
+741,Hypertension
+741,Liver Disease
+742,Asthma
+743,Heart Disease
+743,Thyroid Disorder
+743,Hypertension
+744,Heart Disease
+744,Diabetes
+744,Asthma
+745,None
+745,Hypertension
+745,Asthma
+746,Diabetes
+746,Asthma
+746,Hypertension
+747,Kidney Disease
+747,Hypertension
+748,Liver Disease
+749,Kidney Disease
+749,None
+749,Thyroid Disorder
+750,Heart Disease
+750,Liver Disease
+750,Diabetes
+751,None
+752,Hypertension
+752,None
+753,None
+753,Kidney Disease
+754,None
+754,Hypertension
+754,Thyroid Disorder
+755,Kidney Disease
+755,Thyroid Disorder
+756,Hypertension
+757,Thyroid Disorder
+758,Thyroid Disorder
+758,Diabetes
+759,Liver Disease
+759,Kidney Disease
+760,Hypertension
+760,Thyroid Disorder
+761,Hypertension
+762,Kidney Disease
+763,None
+763,Diabetes
+763,Hypertension
+764,Kidney Disease
+764,Diabetes
+765,Asthma
+765,Liver Disease
+765,Thyroid Disorder
+766,None
+766,Kidney Disease
+766,Hypertension
+767,Hypertension
+767,Heart Disease
+768,Kidney Disease
+768,Thyroid Disorder
+768,Hypertension
+769,Kidney Disease
+769,Asthma
+769,Hypertension
+770,Kidney Disease
+770,Asthma
+771,Hypertension
+771,Liver Disease
+772,Liver Disease
+773,None
+774,Thyroid Disorder
+775,Heart Disease
+775,None
+775,Thyroid Disorder
+776,Thyroid Disorder
+777,Heart Disease
+777,Kidney Disease
+777,Thyroid Disorder
+778,None
+778,Asthma
+778,Liver Disease
+779,Asthma
+779,Thyroid Disorder
+779,None
+780,Thyroid Disorder
+780,Kidney Disease
+781,None
+781,Liver Disease
+781,Heart Disease
+782,None
+782,Diabetes
+783,Hypertension
+783,Asthma
+783,Diabetes
+784,Diabetes
+785,Hypertension
+786,Hypertension
+786,Kidney Disease
+787,None
+788,Kidney Disease
+788,Hypertension
+789,Hypertension
+789,Heart Disease
+789,None
+790,Thyroid Disorder
+790,None
+790,Kidney Disease
+791,Hypertension
+792,Thyroid Disorder
+793,Liver Disease
+793,Heart Disease
+793,Hypertension
+794,Liver Disease
+794,None
+794,Kidney Disease
+795,Heart Disease
+795,Thyroid Disorder
+795,Diabetes
+796,Thyroid Disorder
+796,None
+796,Diabetes
+797,Diabetes
+797,Kidney Disease
+798,Asthma
+798,Heart Disease
+798,Thyroid Disorder
+799,Thyroid Disorder
+800,Thyroid Disorder
+801,Diabetes
+802,Kidney Disease
+802,Asthma
+803,None
+804,Hypertension
+805,Kidney Disease
+806,Asthma
+806,Diabetes
+806,Thyroid Disorder
+807,None
+807,Asthma
+808,Liver Disease
+808,Diabetes
+808,Asthma
+809,Heart Disease
+809,Thyroid Disorder
+810,Diabetes
+810,Heart Disease
+811,Liver Disease
+811,Diabetes
+812,Asthma
+813,Kidney Disease
+813,Heart Disease
+813,Diabetes
+814,Liver Disease
+814,None
+814,Thyroid Disorder
+815,Thyroid Disorder
+815,Asthma
+816,Diabetes
+816,None
+816,Hypertension
+817,None
+818,Diabetes
+819,Diabetes
+819,Hypertension
+819,None
+820,Diabetes
+820,None
+820,Thyroid Disorder
+821,Asthma
+821,Diabetes
+821,Kidney Disease
+822,None
+823,Asthma
+823,Liver Disease
+824,Diabetes
+825,Diabetes
+825,Kidney Disease
+825,Liver Disease
+826,Kidney Disease
+826,Diabetes
+826,Hypertension
+827,Liver Disease
+827,Thyroid Disorder
+828,Hypertension
+829,Hypertension
+830,Diabetes
+830,Kidney Disease
+831,Thyroid Disorder
+831,None
+832,Hypertension
+832,Heart Disease
+833,Diabetes
+833,None
+834,Hypertension
+834,Diabetes
+834,None
+835,Thyroid Disorder
+835,Liver Disease
+835,Heart Disease
+836,Kidney Disease
+836,Hypertension
+836,Liver Disease
+837,Diabetes
+837,Liver Disease
+837,Thyroid Disorder
+838,Hypertension
+838,Diabetes
+838,Thyroid Disorder
+839,Liver Disease
+839,Thyroid Disorder
+840,Kidney Disease
+841,Asthma
+842,Kidney Disease
+842,Hypertension
+843,Kidney Disease
+843,Liver Disease
+844,None
+844,Kidney Disease
+845,Hypertension
+846,Asthma
+846,Diabetes
+846,Kidney Disease
+847,Thyroid Disorder
+848,Hypertension
+848,Kidney Disease
+848,None
+849,Hypertension
+849,Asthma
+849,Diabetes
+850,Kidney Disease
+850,None
+850,Thyroid Disorder
+851,Diabetes
+851,Thyroid Disorder
+851,Asthma
+852,Asthma
+853,Asthma
+853,Diabetes
+854,Thyroid Disorder
+854,Kidney Disease
+854,Hypertension
+855,Asthma
+855,Thyroid Disorder
+855,Heart Disease
+856,None
+857,Thyroid Disorder
+857,Kidney Disease
+857,Asthma
+858,Asthma
+859,Diabetes
+859,None
+860,None
+860,Heart Disease
+860,Liver Disease
+861,Kidney Disease
+861,Thyroid Disorder
+862,Heart Disease
+862,Asthma
+862,Kidney Disease
+863,Liver Disease
+864,Hypertension
+865,Thyroid Disorder
+865,Heart Disease
+866,Kidney Disease
+866,Hypertension
+866,Heart Disease
+867,Liver Disease
+868,Kidney Disease
+868,Thyroid Disorder
+869,Diabetes
+869,Heart Disease
+869,Kidney Disease
+870,Heart Disease
+871,Liver Disease
+871,Asthma
+871,Hypertension
+872,Hypertension
+873,Asthma
+873,Hypertension
+873,Liver Disease
+874,Diabetes
+875,Thyroid Disorder
+875,Kidney Disease
+876,Hypertension
+876,Thyroid Disorder
+876,Heart Disease
+877,Thyroid Disorder
+878,Thyroid Disorder
+878,None
+879,Diabetes
+879,Kidney Disease
+879,Asthma
+880,Thyroid Disorder
+880,None
+881,Heart Disease
+882,Kidney Disease
+882,None
+882,Liver Disease
+883,Heart Disease
+884,Asthma
+884,Hypertension
+885,Kidney Disease
+885,Hypertension
+885,Liver Disease
+886,Hypertension
+886,Kidney Disease
+887,Hypertension
+888,None
+888,Kidney Disease
+888,Liver Disease
+889,Thyroid Disorder
+889,Hypertension
+889,Heart Disease
+890,Asthma
+890,Kidney Disease
+891,Hypertension
+892,Liver Disease
+892,Diabetes
+893,Liver Disease
+893,Asthma
+893,Thyroid Disorder
+894,None
+895,None
+896,Thyroid Disorder
+896,None
+897,Kidney Disease
+897,Diabetes
+897,Thyroid Disorder
+898,Heart Disease
+899,Heart Disease
+899,Asthma
+899,Diabetes
+900,None
+900,Liver Disease
+901,None
+901,Heart Disease
+902,None
+902,Liver Disease
+902,Hypertension
+903,Diabetes
+903,Asthma
+903,Kidney Disease
+904,Hypertension
+904,Kidney Disease
+905,None
+905,Asthma
+905,Diabetes
+906,Asthma
+906,Thyroid Disorder
+907,Kidney Disease
+907,Thyroid Disorder
+908,Diabetes
+908,Kidney Disease
+908,Liver Disease
+909,Liver Disease
+909,Heart Disease
+910,Kidney Disease
+910,Thyroid Disorder
+910,Asthma
+911,Liver Disease
+912,None
+912,Kidney Disease
+913,Thyroid Disorder
+914,Hypertension
+914,Asthma
+914,Heart Disease
+915,Heart Disease
+915,None
+915,Diabetes
+916,Liver Disease
+916,Hypertension
+917,None
+917,Heart Disease
+918,Asthma
+918,Liver Disease
+919,Diabetes
+919,Hypertension
+920,Kidney Disease
+920,None
+921,Asthma
+921,Liver Disease
+922,Diabetes
+922,Liver Disease
+922,None
+923,Hypertension
+923,Asthma
+924,Diabetes
+924,Thyroid Disorder
+925,Kidney Disease
+925,None
+926,Diabetes
+926,Thyroid Disorder
+927,Liver Disease
+927,Asthma
+928,Hypertension
+928,Thyroid Disorder
+928,Diabetes
+929,Hypertension
+929,Thyroid Disorder
+930,Kidney Disease
+931,None
+932,Thyroid Disorder
+932,Liver Disease
+933,Asthma
+934,Kidney Disease
+935,Diabetes
+936,Asthma
+937,Kidney Disease
+937,Asthma
+938,Kidney Disease
+938,Thyroid Disorder
+938,Asthma
+939,Diabetes
+940,Diabetes
+940,Liver Disease
+940,Asthma
+941,Thyroid Disorder
+941,Hypertension
+941,None
+942,Kidney Disease
+942,Hypertension
+942,Asthma
+943,Hypertension
+943,Liver Disease
+943,None
+944,Asthma
+944,Liver Disease
+944,None
+945,Diabetes
+946,Diabetes
+947,Asthma
+947,Kidney Disease
+948,Diabetes
+949,Hypertension
+949,Asthma
+949,Diabetes
+950,Heart Disease
+950,Hypertension
+950,Liver Disease
+951,Thyroid Disorder
+951,Diabetes
+952,Thyroid Disorder
+953,Thyroid Disorder
+953,Hypertension
+954,Asthma
+954,Thyroid Disorder
+955,Thyroid Disorder
+955,Kidney Disease
+955,Diabetes
+956,Hypertension
+957,Heart Disease
+958,Thyroid Disorder
+958,Liver Disease
+958,Asthma
+959,Thyroid Disorder
+959,Kidney Disease
+960,Asthma
+960,None
+961,Kidney Disease
+961,Asthma
+962,Hypertension
+963,Diabetes
+963,Hypertension
+963,Asthma
+964,Asthma
+964,Liver Disease
+964,Hypertension
+965,None
+966,Hypertension
+967,Liver Disease
+967,Kidney Disease
+968,Diabetes
+969,Liver Disease
+969,None
+970,Heart Disease
+970,Kidney Disease
+971,Heart Disease
+971,Asthma
+971,Diabetes
+972,Heart Disease
+973,Asthma
+973,Kidney Disease
+973,Heart Disease
+974,Heart Disease
+974,None
+974,Asthma
+975,Diabetes
+975,Liver Disease
+976,None
+976,Heart Disease
+976,Hypertension
+977,Diabetes
+977,Hypertension
+977,Thyroid Disorder
+978,Kidney Disease
+979,Asthma
+980,Heart Disease
+980,Kidney Disease
+980,Hypertension
+981,Thyroid Disorder
+981,Asthma
+981,Liver Disease
+982,Heart Disease
+982,Kidney Disease
+983,Asthma
+984,Kidney Disease
+984,Diabetes
+985,Kidney Disease
+985,Asthma
+986,Diabetes
+987,Kidney Disease
+987,Hypertension
+987,Heart Disease
+988,None
+988,Asthma
+989,Hypertension
+989,Liver Disease
+989,Kidney Disease
+990,Thyroid Disorder
+990,Heart Disease
+991,Thyroid Disorder
+991,None
+992,None
+993,Asthma
+993,Diabetes
+993,Kidney Disease
+994,Kidney Disease
+994,Liver Disease
+995,Heart Disease
+996,Thyroid Disorder
+996,Hypertension
+997,Asthma
+997,Liver Disease
+998,Liver Disease
+999,Heart Disease
+999,None
+1000,Diabetes
+1000,Asthma
+1000,Heart Disease
