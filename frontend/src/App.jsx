@@ -55,6 +55,14 @@ function App() {
                 }
               />
               <Route
+                path="/dashboard"
+                element={
+                  <ProtectedRoute>
+                    <Dashboard />
+                  </ProtectedRoute>
+                }
+              />
+              <Route
                 path="/patients"
                 element={
                   <ProtectedRoute>
@@ -72,6 +80,14 @@ function App() {
               />
               <Route
                 path="/ai-chat"
+                element={
+                  <ProtectedRoute>
+                    <AIChat />
+                  </ProtectedRoute>
+                }
+              />
+              <Route
+                path="/aichat"
                 element={
                   <ProtectedRoute>
                     <AIChat />
